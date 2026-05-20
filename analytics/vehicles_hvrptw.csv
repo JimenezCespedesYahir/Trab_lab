@@ -1,0 +1,5 @@
+vehicle_id,vehicle_name,capacity_ton,capacity_kg,refrigeration,cold_chain_compatible,cost_per_km,fixed_cost,speed_kmh,autonomy_km,quantity
+V1_FUSO_CANTER,FUSO Canter 6T,6.0,6000.0,No,No,2.5,150.0,60.0,400.0,2
+V2_FIAT_DUCATO,Fiat Ducato Refrigerada,3.0,3000.0,Yes,Yes,3.0,200.0,50.0,350.0,1
+V3_NLR_35T,NLR 3.5 TON,3.5,3500.0,No,No,2.2,120.0,55.0,380.0,2
+V4_TOYOTA_HILUX,Toyota Hilux,1.0,1000.0,No,No,1.8,80.0,70.0,500.0,2
