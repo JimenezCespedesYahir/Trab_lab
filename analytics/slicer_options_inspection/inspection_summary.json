@@ -1,0 +1,10 @@
+{
+    "slicer_found": true,
+    "search_detected": true,
+    "checkbox_detected": false,
+    "multiselect_detected": false,
+    "virtualization_detected": true,
+    "hierarchical_detected": false,
+    "sullana_detected": false,
+    "luciano_detected": false
+}

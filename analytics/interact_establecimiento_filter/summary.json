@@ -1,0 +1,15 @@
+{
+    "dashboard_loaded": true,
+    "establecimiento_detected": true,
+    "filter_clicked": true,
+    "dropdown_opened": false,
+    "target_found": false,
+    "target_clicked": false,
+    "rerender_triggered": false,
+    "payload_after_detected": false,
+    "territorial_where_detected": false,
+    "contains_lcc_after": false,
+    "contains_sullana_after": false,
+    "payloads_before": 8,
+    "payloads_after": 0
+}

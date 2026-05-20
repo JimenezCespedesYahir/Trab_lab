@@ -1,0 +1,2 @@
+﻿entity_name,semantic_role,fact_score,dimension_score,total_properties,numeric_fields,temporal_fields_count,product_fields_count,eess_fields_count,jurisdiction_fields_count,consumption_fields_count,temporal_fields,product_fields,eess_fields,jurisdiction_fields,consumption_fields,timestamp
+CATALOGO_IPRESS_AEMS,DIMENSION,0.0,8.0,29,0,0,0,1,6,0,,,tipo_ipress_2,cdisa; Departamento; Provincia; Distrito; Red; micro_red,,2026-05-16T14:48:06.572850

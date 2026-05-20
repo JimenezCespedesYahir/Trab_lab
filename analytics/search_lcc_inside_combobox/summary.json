@@ -1,0 +1,14 @@
+{
+    "dashboard_loaded": true,
+    "filter_detected": true,
+    "filter_clicked": true,
+    "dropdown_detected": true,
+    "searchable_input_detected": true,
+    "search_text_written": false,
+    "filtered_option_detected": false,
+    "filtered_option_clicked": false,
+    "rerender_detected": false,
+    "payload_after_detected": false,
+    "contains_lcc_after": false,
+    "territorial_where_detected": false
+}

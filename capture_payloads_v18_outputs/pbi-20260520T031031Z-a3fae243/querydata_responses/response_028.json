@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "timestamp": "2026-05-20T03:12:13.881Z",
+    "session_id": "pbi-20260520T031031Z-a3fae243",
+    "filters_applied": {
+      "MACROREGION": "NORTE",
+      "INSTITUCION": "GOBIERNO REGIONAL"
+    },
+    "active_action": {
+      "action": "apply_filter",
+      "label": "Unidad ejecutora",
+      "target": "SALUD LUCIANO CASTILLO COLONNA",
+      "search": "LUCIANO",
+      "attempt": 1,
+      "phase": "select_option"
+    },
+    "correlation_id": "pbi-20260520T031031Z-a3fae243-querydata-0030",
+    "request_key": "request@e7391c31bd54bd47640f26c7ed62f29a",
+    "request_counter": 30,
+    "response_counter": 28,
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event_counter": 60,
+    "elapsed_ms": 1250.0,
+    "correlation_status": "matched",
+    "request_payload_sha256": "780d66f79689fcd098ab5bc5901ee665d3f67de71a432c2414039889056af2d9",
+    "response_payload_sha256": "5a5237f5dfe8f531db7d4031f7138b2ab367ecfb87dba4788551ae13d7f431be"
+  },
+  "payload": {
+    "jobIds": [
+      "1b4e93ba-bf57-4c93-b8fc-d6470c3fd8dd"
+    ],
+    "results": [
+      {
+        "jobId": "1b4e93ba-bf57-4c93-b8fc-d6470c3fd8dd",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T02:57:47.039Z",
+            "rootActivityId": "5c0ff8ae-b100-458f-8e08-7a164a4f4d67",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 2,
+                  "Value": "M0",
+                  "Name": "Min(data_historica_dispo12_consumo.mesano)"
+                }
+              ],
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "183680be-5c72-4fd4-a5f0-1868bd92d41a",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T02:57:47.0396976Z",
+                  "End": "2026-05-20T02:57:48.1365222Z"
+                },
+                {
+                  "Id": "00edb667-3981-4e1f-a0b1-eb05ed0e469c",
+                  "ParentId": "183680be-5c72-4fd4-a5f0-1868bd92d41a",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T02:57:47.0549876Z",
+                  "End": "2026-05-20T02:57:48.1365222Z",
+                  "Metrics": {
+                    "RowCount": 1
+                  }
+                },
+                {
+                  "Id": "AF3A4583-AB61-4590-A3DC-13CD5116768D",
+                  "ParentId": "00edb667-3981-4e1f-a0b1-eb05ed0e469c",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T02:57:47.27Z",
+                  "End": "2026-05-20T02:57:47.687Z"
+                },
+                {
+                  "Id": "0771137A-DE93-47EE-BAE7-49627D23FA63",
+                  "ParentId": "AF3A4583-AB61-4590-A3DC-13CD5116768D",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T02:57:47.687Z",
+                  "End": "2026-05-20T02:57:47.687Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "M0",
+                              "T": 1
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,15 @@
+{
+    "timestamp": "2026-05-16T06:52:20.009223",
+    "method": "GET",
+    "url": "https://pbivisuals.powerbi.com/textFilter25A4896A83E0487089E2B90C9AE57C8A.2.2.9.0.a3b7a70753c74f92a7c43a04a3e5ada65094768a959ff5d7dc6ce3fb6418a27c.pbiviz.json",
+    "resource_type": "xhr",
+    "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://app.powerbi.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+}

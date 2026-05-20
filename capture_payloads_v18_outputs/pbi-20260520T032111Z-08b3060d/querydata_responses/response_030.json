@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "timestamp": "2026-05-20T03:22:18.148Z",
+    "session_id": "pbi-20260520T032111Z-08b3060d",
+    "filters_applied": {
+      "MACROREGION": "NORTE",
+      "INSTITUCION": "GOBIERNO REGIONAL"
+    },
+    "active_action": {
+      "action": "apply_filter",
+      "label": "Unidad ejecutora",
+      "target": "SALUD LUCIANO CASTILLO COLONNA",
+      "search": "LUCIANO",
+      "attempt": 1,
+      "phase": "select_option"
+    },
+    "correlation_id": "pbi-20260520T032111Z-08b3060d-querydata-0029",
+    "request_key": "request@a2c38c3965575ea227c68057f61f2689",
+    "request_counter": 29,
+    "response_counter": 30,
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event_counter": 62,
+    "elapsed_ms": 797.0,
+    "correlation_status": "matched",
+    "request_payload_sha256": "4618c33b591191cb745fc3bce27d39fc8f7b424ffbf82dfad67642c13f0da337",
+    "response_payload_sha256": "badb593f73112c6d16167b299163aa02eed314525f19c26959f682828322d227"
+  },
+  "payload": {
+    "jobIds": [
+      "09075831-072f-41e1-a09a-2d4118cff976"
+    ],
+    "results": [
+      {
+        "jobId": "09075831-072f-41e1-a09a-2d4118cff976",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T03:22:17.736Z",
+            "rootActivityId": "96c2e920-72e8-42dd-a330-52fef1e775ce",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 1,
+                  "Depth": 0,
+                  "Value": "G0",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "medicame",
+                        "Property": "Cod_nombre2"
+                      },
+                      "Calc": "G0",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "medicame.Cod_nombre2"
+                },
+                {
+                  "Kind": 2,
+                  "Value": "M0",
+                  "Format": "#,0",
+                  "Name": "Sum(data_historica_dispo12_consumo.M01_tot)"
+                },
+                {
+                  "Kind": 1,
+                  "SecondaryDepth": 0,
+                  "Value": "G1",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "CATALOGO_IPRESS_AEMS",
+                        "Property": "tipo_completo"
+                      },
+                      "Calc": "G1",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "CATALOGO_IPRESS_AEMS.tipo_completo"
+                }
+              ],
+              "Expressions": {
+                "Primary": {
+                  "Groupings": [
+                    {
+                      "Keys": [
+                        {
+                          "Source": {
+                            "Entity": "medicame",
+                            "Property": "Cod_nombre2"
+                          },
+                          "Select": 0
+                        }
+                      ],
+                      "Member": "DM0"
+                    }
+                  ]
+                },
+                "Secondary": {
+                  "Groupings": [
+                    {
+                      "Keys": [
+                        {
+                          "Source": {
+                            "Entity": "CATALOGO_IPRESS_AEMS",
+                            "Property": "tipo_completo"
+                          },
+                          "Select": 2
+                        }
+                      ],
+                      "Member": "DM1"
+                    }
+                  ]
+                }
+              },
+              "Limits": {
+                "Secondary": {
+                  "Id": "L0",
+                  "Top": {
+                    "Count": 60
+                  }
+                }
+              },
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "14350ac0-9bf5-4226-b9fe-a9273ec56413",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:22:17.73627Z",
+                  "End": "2026-05-20T03:22:17.798646Z"
+                },
+                {
+                  "Id": "67092b38-97e6-4e23-aa8a-ffe105ea4994",
+                  "ParentId": "14350ac0-9bf5-4226-b9fe-a9273ec56413",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:22:17.73627Z",
+                  "End": "2026-05-20T03:22:17.798646Z",
+                  "Metrics": {
+                    "RowCount": 0
+                  }
+                },
+                {
+                  "Id": "BA9E0FCA-77E5-4420-A7CF-338A8D66B0B7",
+                  "ParentId": "67092b38-97e6-4e23-aa8a-ffe105ea4994",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:22:17.783Z",
+                  "End": "2026-05-20T03:22:17.793Z"
+                },
+                {
+                  "Id": "EF8A8390-E983-4EEB-931A-3FE727EE8A5C",
+                  "ParentId": "BA9E0FCA-77E5-4420-A7CF-338A8D66B0B7",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:22:17.793Z",
+                  "End": "2026-05-20T03:22:17.793Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "SH": [
+                    {
+                      "DM1": []
+                    }
+                  ],
+                  "PH": [
+                    {
+                      "DM0": []
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

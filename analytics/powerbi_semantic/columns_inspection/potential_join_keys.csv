@@ -1,0 +1,10 @@
+﻿entity_name,property_name,data_type,stable_name,format_string,is_temporal,is_product,is_eess,is_jurisdiction,is_join_candidate,is_surrogate_candidate,timestamp
+data_historica_dispo12_consumo,codigo_pre,1,3a6834a6-50f2-4cda-8f8f-14f61a9530b3,,False,True,False,False,True,True,2026-05-16T14:50:56.236793
+data_historica_dispo12_consumo,codigo_med,1,930683ad-6fe9-47e3-b5d5-1496405028b5,,False,True,False,False,True,True,2026-05-16T14:50:56.236793
+CATALOGO-DISAS,DISA (CODIGO),1,2f66b7ec-7c65-4e36-b06a-4776c44d8b52,,False,False,False,True,True,True,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,Codigo_UE,1,5653976b-1f86-4012-8bd5-2db255b70f56,,False,False,True,False,True,True,2026-05-16T14:50:56.238801
+medicame,CODIGO_MED,1,8bea891e-fd02-4271-9d69-3c27403f9a88,,False,True,False,False,True,True,2026-05-16T14:50:56.238801
+medicame,CODIGO_SIG,1,27731abe-ec73-4079-a7ed-bd06c4ba784b,,False,False,False,False,True,True,2026-05-16T14:50:56.238801
+Tb_listado_atc,CODIGO_MED,1,2039f980-70c9-4d35-b123-046f11ac827d,,False,True,False,False,True,True,2026-05-16T14:50:56.238801
+Tb_listado_atc,Agrupacion Sugerida,1,35bd9321-ef1f-4fc8-9c75-450f55a83bb1,,False,True,False,False,True,True,2026-05-16T14:50:56.238801
+Lista_diario,CODIGO_MED,1,58cda82f-d8a5-4ba6-9bf6-309b3df8aca7,,False,True,False,False,True,True,2026-05-16T14:50:56.238801

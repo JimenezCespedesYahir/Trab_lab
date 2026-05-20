@@ -1,0 +1,1667 @@
+{
+    "buildDate": "2024-02-23T16:18:07.682Z",
+    "visualsMP": {
+        "PBI_CV_EB3A4088_75C5_4746_9D8B_255A7B7ECD6D": {
+            "version": "1.6.0.1"
+        },
+        "Multi_target_KPI": {
+            "version": "1.3.1.4"
+        },
+        "lipstickcolumnproAB273B43B8753CDD9BF5F94FAC9CCE10": {
+            "version": "1.2.1.0"
+        },
+        "calendarProByOKVIZ359F68153F3C4C1B84994D4D62ED4EAC": {
+            "version": "1.0.5.3"
+        },
+        "InforiverCharts582F6C55AB6442EF8FA129089285CB47": {
+            "version": "3.5.0.0"
+        },
+        "verticalText7CDBD87C36014D9E9DBFD9FC129DFA25": {
+            "version": "2.0.0.0"
+        },
+        "swPowerSlicer_sharewinfo_612350D75BB94427B2E530403CFB0292_vusial": {
+            "version": "1.5.1.2"
+        },
+        "customGantt3E4C07C6049F43778D09D3DD5677C29C": {
+            "version": "1.2.2.2"
+        },
+        "selectionSlicer75918E1108FD45E0B85F2A29F491BBA8": {
+            "version": "2.4.3.0"
+        },
+        "scvationGanttBasicC5993D93B1E74FF0B5EDB3ECF70154DF": {
+            "version": "1.1.3.11"
+        },
+        "KGdev3DBI69f2181a7e5a44a9a709014959414bf0": {
+            "version": "3.1.1558.0"
+        },
+        "SuperTables_1": {
+            "version": "1.0.1.6"
+        },
+        "CalendarByDatanau": {
+            "version": "1.0.0.1"
+        },
+        "textSearchSlicerF85E2E78BE4A4D7D9F99ED75B5D71C85": {
+            "version": "1.1.0.0"
+        },
+        "lipstickbarpro090809DCB6544EFCA14DF7EC7E6748C2": {
+            "version": "1.1.0.0"
+        },
+        "circleCard89937ABCC5E04C55BCD36C1FA960B10E": {
+            "version": "1.0.0.1"
+        },
+        "ZebraBITablesBAE31B370F254F808553548EFB35BFA5": {
+            "version": "6.7.0.0"
+        },
+        "wFPlotly93968360BC8A478B8194D49B9BAD9237": {
+            "version": "1.0.0.0"
+        },
+        "tppowerbiCFDB7C45166B4A6483AB7646BA6D0029": {
+            "version": "2.0.0.21"
+        },
+        "kpifreeapi51D0292A0438427096AC459B59FEF2DE": {
+            "version": "5.0.3.0"
+        },
+        "clusteredstackedcolumnchartA3BF4C5A66422DC09283C291A3EA7904": {
+            "version": "5.2.0.0"
+        },
+        "clusteredstackedbarchartD7E8EB32AA6123328E6B1A41203575BE": {
+            "version": "5.2.1.0"
+        },
+        "chartexposankeydiagramD70B8BC1836C4420A7BFCE36F48EE4BE": {
+            "version": "1.0.1.0"
+        },
+        "tileGridMap4ADB0BB099364EC1BD025992D6A7BAD5": {
+            "version": "1.0.0.3"
+        },
+        "ImageCarouselByMAQSoftware1448688110701": {
+            "version": "3.0.0.0"
+        },
+        "DjeeniGrowthRateChart_10300020A6CA2A4124B79C0FF6A4D9EE59": {
+            "version": "1.3.0.0"
+        },
+        "ClusteredStackedChart39ECD6FE5G0": {
+            "version": "1.0.5.3"
+        },
+        "inforiverAppEnterprise2B7A5FD2992D434DAE0B149479307B7B": {
+            "version": "2.8.0.0"
+        },
+        "radarChart": {
+            "version": "1.4.3.0"
+        },
+        "powerBIGanttChartCertificationEDB15A648FAA4257A190BB4E1117FD58": {
+            "version": "2.0.0.0"
+        },
+        "planningGridA86B787D407F4AE99B016A8E5AC0A27E": {
+            "version": "23.12.20.0"
+        },
+        "swOrgChart17FBD5343987489AA69DE2FEC21F2AD9": {
+            "version": "1.3.0.0"
+        },
+        "colorMapEB4BA673A8872296B0669A67E5D2ACC5": {
+            "version": "1.0.3.0"
+        },
+        "colorMapA62CDE518BD14121B7B1AEFBD3B996A8": {
+            "version": "1.0.4.0"
+        },
+        "overlappingbarchart2851F5AA9C44C52A62706813427A51D5": {
+            "version": "5.2.0.0"
+        },
+        "horizontalbullechart174B6169C26AD2E17C7ECE5DC5DCDFBB": {
+            "version": "5.2.0.0"
+        },
+        "dualyaxiscombo12906DF13887C2CC660838C5ABDCC630": {
+            "version": "5.2.0.0"
+        },
+        "dualxaxiscombo075079EF706BD74C481B7C113A021BA2": {
+            "version": "5.2.0.0"
+        },
+        "mergedbarchartA4B50B148BA8BEB765A6D146EE4450D5": {
+            "version": "5.3.0.0"
+        },
+        "verticalbulletchartC92E3A05AD53C0B564B0C0333489BCC9": {
+            "version": "5.2.0.0"
+        },
+        "verticallinechart5209E4E7CCEFAE766DB5CE0997A7AA9A": {
+            "version": "5.2.0.0"
+        },
+        "excalibur1F99946CC703412691297B496E25070C": {
+            "version": "1.0.1.0"
+        },
+        "populationpyramidDC1509F6C26AC5E67951F13AEFE20003": {
+            "version": "5.2.0.0"
+        },
+        "lollipopcolumn216FD8C19B9DC0D953B3FAE4C3997742": {
+            "version": "5.2.0.0"
+        },
+        "stackedbardiagram65644A82C514E21AA5C39603C83AC366": {
+            "version": "1.0.2.0"
+        },
+        "lollipopbar3906E14BA17BC92E464868265E6264D9": {
+            "version": "5.2.0.0"
+        },
+        "dualyaxiscolumnchartE8D16826545CC37F7A51C03377889A31": {
+            "version": "5.2.0.0"
+        },
+        "fullclusteredstackedcolumnchartC9F3B2389C01A11245F82B467CAADAB8": {
+            "version": "5.2.0.0"
+        },
+        "linechartE963BF7F5E38A01A5A51F3576A050B47": {
+            "version": "5.3.0.0"
+        },
+        "dualxaxisbarchartD64AF2C12336D4FA6B3D0B2A0766634F": {
+            "version": "5.2.0.0"
+        },
+        "overlappingcolumnchart294CA4C4E467CD956C919E26EF459300": {
+            "version": "5.2.0.0"
+        },
+        "piechartwithcustomlabelsEB3D94A177AFCD63490D3D02285260B5": {
+            "version": "5.1.1.0"
+        },
+        "bubblechartwithcategoricaldataE6E959BDCBA9A68B55064F67F80EFA5E": {
+            "version": "5.2.0.0"
+        },
+        "likertscaleA9F4946DD459C8126FB624C218E13331": {
+            "version": "4.2.0.1"
+        },
+        "fullclusteredstackedbarchart8E3A5B25AB30E330682718E14ABECDEE": {
+            "version": "5.2.1.0"
+        },
+        "APMatrixGen2A2CB25DE561642C29913615B889C57EA": {
+            "version": "5.2.1.9"
+        },
+        "PictureThis": {
+            "version": "1.0.19.0"
+        },
+        "boxPlot1BD4BBC509584BD4D776E276526E7C48": {
+            "version": "1.0.2.0"
+        },
+        "uniaxialScatterPlot94A5341DD7B15B09DEFAA3D3D91F91C7": {
+            "version": "1.0.1.0"
+        },
+        "ZoomChartsDrillDownPiePin44BB3B013FB049ABB7E8DDAA6A478B1B": {
+            "version": "1.11.11.0"
+        },
+        "multipleaxeschart8FA05F3A22F3B6F9461DBF16BCD0D925": {
+            "version": "5.2.0.0"
+        },
+        "stratadatimelineProDB508FD14E2E41D2B5A5522CC05312AELAPIsss": {
+            "version": "3.22.0.0"
+        },
+        "violinPlotE9D8F40178B24B089983CF53D41F6EC7": {
+            "version": "3.0.0.1"
+        },
+        "lollipopbar802A5F771F003EC2AAC6A6C54D799B26": {
+            "version": "5.2.1.2"
+        },
+        "mergedbarchart98372E5F75024E3992B6A6310936AF2A": {
+            "version": "5.3.0.3"
+        },
+        "lollipopcolumnB06D82DDC69D27E084F5921C81B988BD": {
+            "version": "5.2.1.1"
+        },
+        "overlappingcolumnchart3929FB81B55125BDA8C73A31B6536CFF": {
+            "version": "5.2.1.1"
+        },
+        "verticallinechart0178C5C777121F46BC25DA8234205565": {
+            "version": "5.2.1.2"
+        },
+        "doubleYaxis4E8AA8C8152643CA8308FE2A54A98523": {
+            "version": "1.2.0.1"
+        },
+        "basicMap39C8299B0A0C482899994F9D5E807155": {
+            "version": "1.2.0.1"
+        },
+        "beeswarm50DB3783432B40A69C0B91926CE74CD9": {
+            "version": "1.0.1.9"
+        },
+        "bubblechartwithcategoricaldataE827E738ED8C5A16A0737FA72B5905A1": {
+            "version": "5.2.0.3"
+        },
+        "cumulative9EAB132644C740428D91E93D3A4F173E": {
+            "version": "1.0.1.0"
+        },
+        "linechart604A0A20A6222F01A39F80FE43FFF4B8": {
+            "version": "5.3.1.3"
+        },
+        "piechartwithcustomlabels79D5B41810001E15B7E461C3180E9F4A": {
+            "version": "5.1.1.1"
+        },
+        "dualxaxisbarchart14B2B64B924230ED99F2C20A20B99CB0": {
+            "version": "5.2.0.3"
+        },
+        "fullclusteredstackedbarchart1BE6A7DD9A431DC9A1517065523F3211": {
+            "version": "5.0.2.0"
+        },
+        "fullclusteredstackedcolumnchartE356E9FEA9BE32148929D63A6F982547": {
+            "version": "5.0.2.0"
+        },
+        "overlappingbarchart67295BA86F9B3257B8D040976F94AE2A": {
+            "version": "5.2.1.2"
+        },
+        "powerBiVisualsGanttDF45C9AD71594918A1FE8463F5F57380": {
+            "version": "2.0.4.1"
+        },
+        "populationpyramidEF37C50BA50D2BE196C37F91C5FEFFFC": {
+            "version": "5.2.1.2"
+        },
+        "clusteredstackedbarchartCB4C0B9065D84A15A18D71C876798677": {
+            "version": "5.2.1.2"
+        },
+        "likertscaleD4D2A3E96357258C93E92B5DA877CCCE": {
+            "version": "4.2.0.2"
+        },
+        "sankeydiagramD70935A24E3C0300DDB750D5E06D1745": {
+            "version": "1.0.3.0"
+        },
+        "bac49510ab1d3fa4399887df4f629646fbf": {
+            "version": "1.2.2.0"
+        },
+        "banzae_dashboard_6857E8E7D4D24913A06D40CC001EE24B": {
+            "version": "1.0.0.3"
+        },
+        "dualyaxiscombo92D85C43BD0F18E4B5B7D2841A9439CF": {
+            "version": "5.2.0.1"
+        },
+        "taskboard7A11309AC21042A28A78716F6638A2B0ms01x": {
+            "version": "1.0.1.6"
+        },
+        "dualxaxiscombo144EA2D4DEFA15C2A907B86DDE86E45D": {
+            "version": "5.2.0.1"
+        },
+        "WritebackGridCB53C00E8C1446A1B7BFC56530280A14": {
+            "version": "1.0.1.1"
+        },
+        "verticalbulletchartD04B6B542D02418C8D14A17761414336": {
+            "version": "5.2.1.4"
+        },
+        "horizontalbullechartAD848DB2E71C1BBC88C027512FD82044": {
+            "version": "5.2.1.2"
+        },
+        "accoPLANNING_4DAA52ABFBF441E2A7898A79384CAFA0": {
+            "version": "1.0.64.6"
+        },
+        "clusteredstackedcolumnchart12C4F6FB782E5E0DAB5E7D4D600BB13B": {
+            "version": "5.2.1.1"
+        },
+        "dualyaxiscolumnchart8A090877D46925388248A755EC9565CE": {
+            "version": "5.0.3.2"
+        },
+        "multistackedcharts3A8101158FC14988B45B304F265A2202": {
+            "version": "2.1.2.0"
+        },
+        "hierarchyChartDD06406DD55C47CCBB412EFE9A671D14": {
+            "version": "4.0.1.0"
+        },
+        "PBI_CV_9894B302_1DFF_4A96_ABFE_BF858819711436": {
+            "version": "3.1.0.1"
+        },
+        "table0BE43E73ABB3C3DD77B959AD0A3625B0": {
+            "version": "1.0.4.0"
+        },
+        "barOfPieChartEF91E48C78A2807BCA25C2765": {
+            "version": "1.0.0.0"
+        },
+        "esriVisual": {
+            "version": "2023.2.187.0"
+        },
+        "weWriteService1FE7F37473194F838E3D3E5F99AC1808": {
+            "version": "1.0.1.0"
+        },
+        "multiLineChartA7F3AE9EF91E48C78A2807BCA25C2765": {
+            "version": "1.0.0.8"
+        },
+        "floorPlanVisualizationA490C0576F6341F78AFFF9E2E83E7396": {
+            "version": "1.0.2.0"
+        },
+        "SunburstVizA96234ADB8D143D1837FEC426BB34781": {
+            "version": "1.0.0.7"
+        },
+        "gantt66E410741E374A90AF58EE8951297585": {
+            "version": "1.1.4.0"
+        },
+        "AdvancedLinearGaugeDA0D695483C84EDAA6A55149E2DS37": {
+            "version": "4.0.1.0"
+        },
+        "InnofallsDeltaCharts": {
+            "version": "1.1.39.0"
+        },
+        "bubblechartbordersonlyE8051B51DB625145BB3F92C5FB7868BC": {
+            "version": "5.2.0.0"
+        },
+        "LikertScaleChartPowerBI3216FBCE8C764D4E9A921234575A381": {
+            "version": "1.0.0.5"
+        },
+        "stackedcolumnwithpercentandtotalinlabel579C085E89C7586893D6B973CE9B7AF6": {
+            "version": "5.1.0.0"
+        },
+        "categoryBarChartA7F3AE9EF91E48C78A2807BCA25C3412": {
+            "version": "1.0.0.1"
+        },
+        "dualaxisscatter28D7CE5AE21DCB6E52F70233538A93EE": {
+            "version": "6.1.0.0"
+        },
+        "stackcolumnlabelvalue6EB582BBADBBD9847D2A59E6558A8AB9": {
+            "version": "5.1.0.0"
+        },
+        "stackedlipstickcolumnchartC53D807BD349E658661B918C1A24532E": {
+            "version": "5.1.0.0"
+        },
+        "stackedlipstickbarchart066A58E5FCB7578F8A046DB674742696": {
+            "version": "5.1.0.0"
+        },
+        "htmlContent443BE3AD55E043BF878BED274D3A6865": {
+            "version": "1.4.1.0"
+        },
+        "lipstickcolumnchartA0919059F5DBE50C75F3D8D6A166710D": {
+            "version": "5.2.0.0"
+        },
+        "lipstickbarchartDA18F9F8D011E24E65EA8247F1488703": {
+            "version": "5.2.0.0"
+        },
+        "Waterfall2023Pbi552BC2DB21894DA5B40D0FE0FE33D590": {
+            "version": "1.0.5.0"
+        },
+        "scorecard0DF89A0FEDBC47A5B8873BBCB619D35B": {
+            "version": "1.0.0.3"
+        },
+        "reactRadialChartF56816441CDA4609A764E20CE1E2AE56": {
+            "version": "1.0.0.0"
+        },
+        "reactLineAreaComposedChart7A4D7E2D4C0F45CDA735A1DFABC1A283": {
+            "version": "1.0.0.0"
+        },
+        "timeline067F12826E684F83B734273E464AE6A3": {
+            "version": "1.3.0.0"
+        },
+        "GaligeoPowerBI": {
+            "version": "1.0.8.4"
+        },
+        "BusinessFlowF39DAE8D57A743EF89F5C3809DEE2B67": {
+            "version": "1.2.1.0"
+        },
+        "triangleBarChartD61DC3131B7C4F41853BA7BCC511BC96": {
+            "version": "1.1.0.0"
+        },
+        "tableGridA86B787D407F4AE99B016A8E5AC0A27E": {
+            "version": "23.12.14.0"
+        },
+        "boxPloty6C987A9E682A4A859272BFEC966AF372": {
+            "version": "1.0.0.0"
+        },
+        "markdownViewerF1B44923E60343B18373D3DF3EA1E9D4": {
+            "version": "1.0.0.4"
+        },
+        "devBubbleVisualF72A389895DF4554959F8C945072A1D1": {
+            "version": "1.2.0.0"
+        },
+        "PackedBubbleChart": {
+            "version": "1.0.0.6"
+        },
+        "aPDimEditorTestPilot": {
+            "version": "1.0.0.7"
+        },
+        "WordCloud5550983e166911eebe560242ac120002": {
+            "version": "1.0.0.2"
+        },
+        "BarChartwithDynamicRangeCreation": {
+            "version": "1.0.0.2"
+        },
+        "BarChartwithExportDataFeature": {
+            "version": "1.0.0.2"
+        },
+        "Datepicker_1687358625": {
+            "version": "1.0.0.4"
+        },
+        "FunnelChartA96234ADB8D143D1837FEC426BB34781": {
+            "version": "1.0.0.5"
+        },
+        "numberline067F12826E684F83B734273E464AE8FA": {
+            "version": "1.0.3.0"
+        },
+        "bridgerD8CB416F36CC423C89869CE1EED51EFB": {
+            "version": "1.0.3.0"
+        },
+        "ActivityGaugeA96234ADB8D143D1837fdfsFECd426BB34781": {
+            "version": "1.0.0.3"
+        },
+        "dotChart6B967E5FFF8E4679BF7C4102B3F6171F": {
+            "version": "1.0.4.1"
+        },
+        "milestoneTrend49987C6ADF4E454FB460B0464FDB5598": {
+            "version": "1.1.1.0"
+        },
+        "circleCard68ECC0CB90BE47B3962072B48765978B": {
+            "version": "1.0.0.0"
+        },
+        "changeChart63B1E8C33CBE4BC6913014096224EE2C": {
+            "version": "1.0.5.1"
+        },
+        "RidgeLineChartEC035784AF61453AB27C2E272A3BC5FE": {
+            "version": "1.0.0.0"
+        },
+        "storageExplorer07DE7AC324AD4D1FA25A8B0B27524885": {
+            "version": "1.0.0.2"
+        },
+        "stepFilter37ED63A0147043948E45A0646DF3214F": {
+            "version": "1.1.0.1"
+        },
+        "valuefilter067F5282FE684A43B734273E444AE8EB": {
+            "version": "1.7.0.3"
+        },
+        "jvizRoadmapDFB2490D27A84740B9D9C9D2EE484740": {
+            "version": "1.0.0.2"
+        },
+        "ganttA5AD7B4D800549099E9DA8A15E9BC102": {
+            "version": "1.0.0.2"
+        },
+        "strategicRoadmap6BDF690C18BB4780BA45B434FD75F2D9": {
+            "version": "1.0.0.2"
+        },
+        "histogramF963F133BA02A0B35D286F09F80E9C78": {
+            "version": "5.0.0.1"
+        },
+        "bubbleComparisonChartDA4D587B1FEA424BB7D48276602F8798": {
+            "version": "1.0.0.0"
+        },
+        "variantDNAEE4E02B949754395AD0F88751FCB5864": {
+            "version": "1.0.20231009.2"
+        },
+        "processMapEE4E02B949754395AD0F88751FCB5864": {
+            "version": "1.0.20231009.2"
+        },
+        "BarChartRunTimeConvertibleScatterPlot": {
+            "version": "1.0.0.2"
+        },
+        "dotMatrix592CF89E15734FD2AB4FAF9F13C8665A": {
+            "version": "1.0.0.0"
+        },
+        "acterysReportingxPnA": {
+            "version": "2.5.18.6"
+        },
+        "videoPlayer9439BF571F794C09AE8B97BD2199A94C": {
+            "version": "1.0.2.0"
+        },
+        "LLMChatbot97B4263EBE40424AB606A5673E8EFE27": {
+            "version": "1.0.0.4"
+        },
+        "weWriteService1FE7F37473194F1273HIUH192321": {
+            "version": "1.1.0.0"
+        },
+        "aILensEA6F1EB9ACB04175ADC575D450915999": {
+            "version": "4.0.0.3"
+        },
+        "RoseDonutPiechart762B562BE2774F939Fvdsfdsf1FfasfD1F32D91sdw": {
+            "version": "1.0.0.5"
+        },
+        "weWriteMatrix3B61E90280E14C7ABB4F5A846544520B": {
+            "version": "1.2.2.0"
+        },
+        "PBISPC": {
+            "version": "1.4.1.2"
+        },
+        "ComparisonBarChart3452210C48904866919150C8787E05EF": {
+            "version": "1.0.0.3"
+        },
+        "PBIFUN": {
+            "version": "1.5.0.2"
+        },
+        "kpigaugeE1C1F2D818584821B802A6B2EE9891B6": {
+            "version": "2.2.2.0"
+        },
+        "riskgraph1AA528CA24EA4627960AA1C296C1BC21": {
+            "version": "1.0.0.1"
+        },
+        "tabulatorCustomVisual9E23E5BE3C3F45178EF73EA2FDFCDE97": {
+            "version": "1.0.0.3"
+        },
+        "pbitrack9D9E18DCA2D64B1CA3581F42407D0AF7": {
+            "version": "1.1.6.0"
+        },
+        "linearSchedule27A2A081AE854B10B4C365613DA434C5": {
+            "version": "1.1.9.0"
+        },
+        "tCardA89FF4DFB8224D269ECAE6467FD02019": {
+            "version": "1.1.0.1"
+        },
+        "ChartExpoMultiAxisLineChart5B71160C48904866919150C8787E05EF": {
+            "version": "1.0.0.1"
+        },
+        "iconsbyqueryon2ED14D8B4AED4D3384A40EAC399CE95F": {
+            "version": "1.0.0.3"
+        },
+        "powerbiMTA032303747171485AA7602E8612CD6B31": {
+            "version": "1.0.0.0"
+        },
+        "textfromval067F5682FE6D4A43B334273EA44AE0EB": {
+            "version": "1.1.0.0"
+        },
+        "ZoomChartsDrillDownMapPinEAA0DBE2B88D406C8E580DB09E61EAF2": {
+            "version": "1.10.26.0"
+        },
+        "powerBIEditorVisual": {
+            "version": "1.0.4.0"
+        },
+        "dev2prodVarianceHero": {
+            "version": "1.0.5.6"
+        },
+        "ZoomChartsDrillDownWaterfallPin164F74D0F7D04063A469A1BF10366D3B": {
+            "version": "1.10.25.0"
+        },
+        "ZoomChartsDrillDownComboBarPin97DBCD4437824A7F9FD60ECD8939CE31": {
+            "version": "1.10.36.0"
+        },
+        "tagList592CF89E15734FD2AB4FAF9F13C8665A": {
+            "version": "1.0.0.0"
+        },
+        "ZoomChartsDrillDownTimelinePinEA7D61C6F1F240CFAAA75EE2EB1D3D6D": {
+            "version": "1.10.29.0"
+        },
+        "charticulatorVisualCommunity_VIEW": {
+            "version": "1.0.5.0"
+        },
+        "horizonChartB188A04B57084E6DA13F3C7E341F020E": {
+            "version": "1.0.0.1"
+        },
+        "msdynxPnAVariance_f9544bd4d1c14210aaba7c7802ae191e": {
+            "version": "1.2.2596.3"
+        },
+        "msdynxPnACopy_e752d978c5334590aacf10aa7e2717d8": {
+            "version": "1.2.2575.1"
+        },
+        "msdynxPnAComment_c1b0431e724a4fb6b34c449ff0431a4f": {
+            "version": "1.2.2596.3"
+        },
+        "ZoomChartsDrillDownComboPin33C9F325D337408C98D4E1D4E1EAD704": {
+            "version": "1.10.35.0"
+        },
+        "ZoomChartsDrillDownGraphPin079E4B3185B74670AA0F89C998285CC2": {
+            "version": "1.10.28.0"
+        },
+        "msdynxPnAReportingDev_c95947939075419987e99768a4090001": {
+            "version": "1.2.2596.3"
+        },
+        "msdynxPnAVisualPlanning_0361ca99cfca4abf98f32300584ae294": {
+            "version": "1.2.2596.3"
+        },
+        "msdynxPnADimEditor_46a64748937f429fa9793cb689599b11": {
+            "version": "1.2.2561.3"
+        },
+        "msdynxPnAMatrixCloud_0106a54fd1364e47a0afd26102ef77a3": {
+            "version": "1.2.2596.3"
+        },
+        "MapBySquillion": {
+            "version": "1.0.0.2"
+        },
+        "ZoomChartsDrillDownTimeSeriesPin33C9F325D337408C98D4E1D4E1EAD705": {
+            "version": "1.10.27.0"
+        },
+        "vaadcustomvisual749903E64ED446A1A3F82B54242EE133": {
+            "version": "1.0.0.5"
+        },
+        "histogram7D0E580F1FEB4DDA901A6D8146EA6387": {
+            "version": "5.0.0.2"
+        },
+        "fanTail2A78A07F2F3E421E9BB61C0CD7D005C0": {
+            "version": "1.0.0.7"
+        },
+        "processifierGraphVisual3419764C6E114268863C03CC744BEE58": {
+            "version": "1.5.2.4"
+        },
+        "waterfall2B5BF088815E42539E2C8CDAD646DB43": {
+            "version": "3.2.1.3"
+        },
+        "dualaxisscatter0A19D52AB7155101A17FA0EE71026C11": {
+            "version": "6.1.0.1"
+        },
+        "valqPlanPremiumVE46830E3931A4F4B9D3BBBCDAD02EFD1": {
+            "version": "3.5.0.0"
+        },
+        "dumbbellbarchart42FB6F346CBCCA437DA2E705B288BA74": {
+            "version": "5.0.0.0"
+        },
+        "dumbbellcolumnchartF0D6CE8D5CEEC89770B757921389A469": {
+            "version": "5.0.0.0"
+        },
+        "StackedInsightsBI0F5F9D068B57455EB47C1F1664F829F6": {
+            "version": "1.0.0.4"
+        },
+        "multiLevelHeatMap847C7566C3104776AB0F4EEDFCBF00D1": {
+            "version": "1.0.0.2"
+        },
+        "StackedBarLineC23CD878BA764C3B84E5261BC83BC537": {
+            "version": "3.0.0.4"
+        },
+        "DataMaLightCompareWaterfall": {
+            "version": "1.0.1.0"
+        },
+        "textBoxComponent499426C21716406C81A1D2CA8F4BC6D8": {
+            "version": "1.1.0.0"
+        },
+        "imageD085F8B064414127B7A319584AF3576E": {
+            "version": "3.0.0.1"
+        },
+        "stackedverticalfunnelB41D28FF99E2A12556D4C6B1065332F9": {
+            "version": "5.0.0.0"
+        },
+        "stackedhorizontalfunnelEC4E2CF18990EF8267C380787C9A6BC9": {
+            "version": "5.0.0.0"
+        },
+        "SPCCharte052449909264a3487139638376f9e72": {
+            "version": "1.1.0.0"
+        },
+        "donut2F78F20E2D01E463883DD711125F9D186": {
+            "version": "1.0.0.8"
+        },
+        "OrcaViz_Externally_Licenced_Visualisation_Enterprise_v2_1_0_0": {
+            "version": "2.2.1.0"
+        },
+        "candlestick95C27C147643B5E840B1D29AC39783F7": {
+            "version": "5.0.0.0"
+        },
+        "OrcaViz_PowerBI_Licenced_Visualisation_Pro_v2_1_0_0": {
+            "version": "2.3.0.0"
+        },
+        "weWriteTableB9D21BABB05F45D6B3CD2DD68EF0DCBC": {
+            "version": "1.3.2.0"
+        },
+        "PDFUploaderAndViewerByPBICraft": {
+            "version": "1.0.2.0"
+        },
+        "ZoomChartsDrillDownNetworkProA2D748C23BD44BE2BB019402882BCA19": {
+            "version": "1.11.13.0"
+        },
+        "enlightenstorytellerE5CA73CE1C2C43878E5C0EBB4652BDD5": {
+            "version": "1.0.0.0"
+        },
+        "PulseChart1459209850231": {
+            "version": "3.3.6.0"
+        },
+        "ForceGraph1449359463895": {
+            "version": "2.0.2.0"
+        },
+        "RadarChart1446119667547": {
+            "version": "2.0.2.0"
+        },
+        "powerKPIMatrixEB2381CC88A8425FBEB1B07FF57784E6": {
+            "version": "3.1.1.0"
+        },
+        "EnhancedScatterChart1443994985041": {
+            "version": "3.0.9.0"
+        },
+        "StreamGraph1446659696222": {
+            "version": "3.0.3.0"
+        },
+        "powerKPI462CE5C2666F4EC8A8BDD7E5587320A3": {
+            "version": "2.0.0.0"
+        },
+        "SandDance201929976D117A654D0BAB8E96507442D80B": {
+            "version": "4.1.2.0"
+        },
+        "textFilter25A4896A83E0487089E2B90C9AE57C8A": {
+            "version": "2.2.9.0"
+        },
+        "PBI_CV_73744D90_4DC9_4F18_8BA5_EE8FA5C98035": {
+            "version": "1.9.700.0"
+        },
+        "Visio_PBI_CV_D7C10B1A_506B_4123_878E_39E8698FD30A": {
+            "version": "3.3.14.0"
+        },
+        "LineDotChart1460463831201": {
+            "version": "2.0.3.0"
+        },
+        "NetworkNavigator1550434005853": {
+            "version": "2.0.2.0"
+        },
+        "choropleth4C77906D867C4C09AFE83BA5E2AA106A": {
+            "version": "1.0.2.0"
+        },
+        "ChicletSlicer1448559807354": {
+            "version": "2.1.10.0"
+        },
+        "multiKpiEA8DA325489E436991F0E411F2D85FF3": {
+            "version": "2.2.1.0"
+        },
+        "sankey02300D1BE6F5427989F3DE31CCA9E0F32020": {
+            "version": "3.1.4.0"
+        },
+        "MekkoChart1449744733038": {
+            "version": "3.2.1.0"
+        },
+        "TableSorter1450434005853": {
+            "version": "2.0.1.0"
+        },
+        "Timeline1447991079100": {
+            "version": "2.4.0.0"
+        },
+        "CardBrowser8D7CFFDA2E7E400C9474F41B9EDBBA58": {
+            "version": "2.0.0.0"
+        },
+        "PBI_CV_3C80B1F2_09AF_4123_8E99_C3CBC46B23E0": {
+            "version": "2.0.5.0"
+        },
+        "Sunburst1445472000808": {
+            "version": "2.2.3.0"
+        },
+        "DotPlot1442374105856": {
+            "version": "2.0.1.0"
+        },
+        "AttributeSlicer1652434005853": {
+            "version": "2.1.2.0"
+        },
+        "Gantt1448688115699": {
+            "version": "2.2.3.0"
+        },
+        "GlobeMap1447669447625": {
+            "version": "3.0.0.0"
+        },
+        "countdownFA24FE5944D34ADD929D0DAE6EE57D70": {
+            "version": "1.0.0.0"
+        },
+        "charticulator58556A88422D44A99D9BF0052B958F87": {
+            "version": "1.5.0.0"
+        },
+        "ChordChart1444757060245": {
+            "version": "2.2.0.0"
+        },
+        "WordCloud1447959067750": {
+            "version": "2.2.0.0"
+        },
+        "BulletChart1443347686880": {
+            "version": "2.2.0.0"
+        },
+        "TableHeatMap1443716069308": {
+            "version": "3.5.0.0"
+        },
+        "TornadoChart1452517688218": {
+            "version": "2.1.0.0"
+        },
+        "TimeBrush1450434005853": {
+            "version": "2.0.0.0"
+        },
+        "AsterPlot1443303142064": {
+            "version": "1.4.0.0"
+        },
+        "sCADAvisA1696DB7096B4CBBA3B7595D70A805AF": {
+            "version": "1.0.2.0"
+        },
+        "processMiningD4BFA18191D74FA5AEEEB307FC3EAED1": {
+            "version": "2022.1.0.0"
+        },
+        "HeatmapBCEC51EC91F1405B85E51E91E7111FD8": {
+            "version": "1.1.1.0"
+        },
+        "socialNetworkGraph99E9F31DDFD7429BACA50118466E4D11": {
+            "version": "1.0.0.0"
+        },
+        "pdfViewer392A657C115F4015AD64793E71199A8B": {
+            "version": "1.2.2.6"
+        },
+        "LegendMap20210307135200": {
+            "version": "1.0.0.0"
+        },
+        "CalendarVisualA45056645E4E428B9D26EF971839A6B5": {
+            "version": "2.0.2.0"
+        },
+        "barraceDB8728D9BD7B48618F2369A4ACDC23B6": {
+            "version": "1.2.1.0"
+        },
+        "treeviz2DC46116C4554E20B59DD525EA4DC972": {
+            "version": "1.0.2.0"
+        },
+        "texthighlightingAEE72038AFFF45189939681109193A03": {
+            "version": "1.0.0.0"
+        },
+        "D3JsTree2F7A67F154D04FA3A4CA3E01DE5AE54B": {
+            "version": "1.0.8.0"
+        },
+        "paretoEDD8E69761BA4B7BB3AA6D813990D7BF": {
+            "version": "7.12.0.10"
+        },
+        "comparisonChartByMogular": {
+            "version": "1.0.9.0"
+        },
+        "simpleImageEBC4593F96F1425FB3D84C5BF02B5075": {
+            "version": "1.0.2.0"
+        },
+        "Tachometer1474636471549": {
+            "version": "3.0.1.0"
+        },
+        "scatterRect2FFFA6D3D86C431BA7B5CD5618FBDA70": {
+            "version": "1.1.7.0"
+        },
+        "SimpleWaterfall": {
+            "version": "2.0.10.4"
+        },
+        "cartography6439711748644562B5895D8406A5421D": {
+            "version": "1.0.3.0"
+        },
+        "RadialBarChartD328C9F173C834B45BF51F03A3D724E99": {
+            "version": "3.0.0.2"
+        },
+        "multiInfoCards9D184BB3D4E44A139DA08142D76EFD36": {
+            "version": "1.2.9.2"
+        },
+        "vitarachartsMicrochart0A1B0D2B8A234CE5923234CD03573361": {
+            "version": "1.0.2.0"
+        },
+        "WaffleChart1453776852267": {
+            "version": "2.2.0.0"
+        },
+        "dg5AAA90EFEFE747CB9357C4FC19B85A58": {
+            "version": "3.1.4.0"
+        },
+        "bciCalendarCC0FA2BFE4B54EE1ACCFE383B9B1DE61": {
+            "version": "1.2.0.0"
+        },
+        "payPalKPIDonutChart55A431AB15A540ED924ACD72ED8D259F": {
+            "version": "1.0.0.0"
+        },
+        "bepbivisuaflyinbrick7C7753617B304283991BA05E2644857E": {
+            "version": "1.0.5.0"
+        },
+        "AnimImageChart5E0D9DE3474D954378960E4FBF598986": {
+            "version": "1.0.2.0"
+        },
+        "barChartE8732569753A41D083926C75A5E14DB1": {
+            "version": "1.0.1.0"
+        },
+        "psProcessAnalyzerFree": {
+            "version": "2.1.0.6"
+        },
+        "eaTachometer6616D82ED23A4C048E1D3CD4604742ED": {
+            "version": "3.6.0.0"
+        },
+        "SilvonStratumURL5B92FF65D6364D26B9994FF1E152159A": {
+            "version": "1.0.2.0"
+        },
+        "te10180DAFCC6814BA88D4853A092161FF3": {
+            "version": "3.0.0.0"
+        },
+        "FloorPlanVisualBySimpsonAssociatesEA727C8881A74751956CB5CBC71BB4E9": {
+            "version": "1.0.0.0"
+        },
+        "threejsE0E480FFE18F46FE90AD2FA3A0D80C5F": {
+            "version": "1.6.0.0"
+        },
+        "databarKPIB8060E2B144244C5A38807466893C9F5": {
+            "version": "1.0.0.0"
+        },
+        "BBED0A4D4D8D44CE93CF2DAFADEE466C": {
+            "version": "3.3.1.0"
+        },
+        "F5ABBE45C204DE0A9928A7114DF4B37": {
+            "version": "1.1.2.0"
+        },
+        "trueChart4PBI530397A454264B59BCC98231C7453345": {
+            "version": "1.4.3.0"
+        },
+        "RaceBarChart828E7F9A76D539488CE6C92657D234CF": {
+            "version": "1.0.2.0"
+        },
+        "hexbinScatter70A7F14565444FAA99F786FAD6EA5AE1": {
+            "version": "1.1.0.1"
+        },
+        "annotatedBarByQueryOn10945130E24B4D6AAD5741C12ECB533D": {
+            "version": "1.0.7.0"
+        },
+        "violinPlot4D46EB9EB3A141D9BA2289793175D971": {
+            "version": "1.3.0.4"
+        },
+        "routemap863828C4992A473C9A5FB6A6B0EDF5DC": {
+            "version": "1.3.3.0"
+        },
+        "timelineByQueryon2DD9A171C1CB4B148AA3DD23CEF5B2F9": {
+            "version": "1.0.6.0"
+        },
+        "kPImg0051F6D5AD8348148E01E9E4B31C9F41": {
+            "version": "1.0.3.0"
+        },
+        "paraTaskCardBDD1DA3D7B8F41D0B27B48063F14B8FA": {
+            "version": "3.4.0.0"
+        },
+        "chartAccentBarChart582BFCBCF5E545239A7755E2C967C656": {
+            "version": "1.0.2.0"
+        },
+        "swOrgChart2A3BCE7191B5491FBB82F771A169702D": {
+            "version": "1.1.0.0"
+        },
+        "swDataTextBox142233AC1451461DB2DC3DAACF6A119C": {
+            "version": "1.2.0.0"
+        },
+        "smallMultipleLineChart6FA6C19AAE3840AFB9CD11A23CA7D7C7": {
+            "version": "2.3.0.134"
+        },
+        "flowmap30CFDD5B92F848C88242B1E81C8C33C7": {
+            "version": "1.4.4.0"
+        },
+        "D3JSVisual_PBI_CV_CDD143DEC3A145E7A507B562AF6CF490": {
+            "version": "1.2.0.0"
+        },
+        "testTooltip4696B540F3494FE5BA002362825DDE7D": {
+            "version": "1.0.3.0"
+        },
+        "BoxWhiskerChart1455240051538": {
+            "version": "2.5.3.0"
+        },
+        "chartAccentLineChart53011494391B42469A4BC46D195C59F3": {
+            "version": "1.0.2.0"
+        },
+        "wishyoulizationtassels": {
+            "version": "1.0.0.0"
+        },
+        "wishyoulizationwalkers": {
+            "version": "1.0.2.0"
+        },
+        "colorMapFE43D2D02D3D4329995B15E94EDC9279": {
+            "version": "1.3.0.0"
+        },
+        "datamap8FEE960E90FB4AF6BD5F829E8460D340": {
+            "version": "1.0.0.0"
+        },
+        "adaptiveCards1267F9A0298D434386A9E71CED194547": {
+            "version": "1.0.6.0"
+        },
+        "HierarchySlicer1458836712039": {
+            "version": "2.2.2.0"
+        },
+        "paraDateline9C512AAFFAD845FD99CC8BFC8EFF3952": {
+            "version": "3.5.0.0"
+        },
+        "flowFE43D2D02D3D4329995B15E94EDC9279": {
+            "version": "1.1.0.0"
+        },
+        "PBI_CV_0B9C9FBA_15A2_4A94_8AE4_8F778869B200": {
+            "version": "1.0.1.0"
+        },
+        "heatmapF244EA9EE1F34E828A80CF19B41976F8": {
+            "version": "1.1.9.0"
+        },
+        "PBI_3AGSystems_0B9C9FBA_15A2_4A94_8AE4_8F778869B191": {
+            "version": "1.0.1.0"
+        },
+        "htmlContent443BE3AD55E043BF878BED274D3A6855": {
+            "version": "1.4.1.0"
+        },
+        "wishyoulizationbarchartrace": {
+            "version": "1.0.0.0"
+        },
+        "heatFE43D2D02D3D4329995B15E94EDC9279": {
+            "version": "1.0.0.0"
+        },
+        "paraHTMLViewerC2AD224EF75E443AB988740A34F595EE": {
+            "version": "1.5.0.0"
+        },
+        "ScrollingTextVisual1448795304508": {
+            "version": "2.0.3.0"
+        },
+        "scatterFE43D2D02D3D4329995B15E94EDC9279": {
+            "version": "1.1.0.0"
+        },
+        "swYChartFF863BFF67A045F09815915209BEA33A": {
+            "version": "1.3.0.0"
+        },
+        "ImageGrid_FC5183B9_926C_45E0_B5F7_0CE9EAF1DA9B": {
+            "version": "1.0.1.0"
+        },
+        "swPowerSlicer612350D75BB94427B2E530403CFB0292": {
+            "version": "1.3.0.0"
+        },
+        "KPIStatusWithHistory1446562283967": {
+            "version": "2.0.7.0"
+        },
+        "PBI_CV_FFFE680D_D220_4F62_B16C_C7B5C5732654": {
+            "version": "4.0.5.0"
+        },
+        "enlightenLegend0ED91DCE508743998CF5A23E37414AD6": {
+            "version": "1.0.1.0"
+        },
+        "rotatingChart1823AN39DB23210918ADF752ECB2A251": {
+            "version": "4.0.1.0"
+        },
+        "PBI_3AGSystems_0B9C9FBA_15A2_4A94_8AE4_8F778869B999": {
+            "version": "1.0.1.0"
+        },
+        "PBI_3AGSystems_0B9C9FBA_15A2_4A94_8AE4_8F778869B190": {
+            "version": "1.0.2.0"
+        },
+        "PBI_CV_0B9C9FBA_15A2_4A94_8AE4_8F778869B190": {
+            "version": "1.0.2.0"
+        },
+        "OEEDashboardC5D851AEA90A435C929FA6EBDC442CA7": {
+            "version": "1.0.1.0"
+        },
+        "journeyGraph1859AB39DB23421488ADF752BCB05167": {
+            "version": "4.0.0.0"
+        },
+        "PBI_CV_0B9C9FBA_15A2_4A94_8AE4_8F7788699999": {
+            "version": "1.0.1.0"
+        },
+        "KPIGrid39FBAB0336346DBB68AB522063E7241": {
+            "version": "4.0.0.0"
+        },
+        "CircularGauge1458053128559": {
+            "version": "4.0.0.0"
+        },
+        "histogramXY6E3D5691159E41859A007A262D4B0E9E": {
+            "version": "4.0.0.0"
+        },
+        "PBI_3AGSystems_0B9C9FBA_15A2_4A94_8AE4_8F778869B192": {
+            "version": "1.0.1.0"
+        },
+        "vennDiagram8527AJ74DB74562488PCR752UTY9465": {
+            "version": "4.0.0.0"
+        },
+        "PBI_CV_9053509D_D461_463A_B485_CE9F6AB0F13D": {
+            "version": "4.0.0.0"
+        },
+        "DotPlotByMAQ1823AB39DB234AB522063E728AD": {
+            "version": "4.0.0.0"
+        },
+        "radarChart5F59D098BB90499F8C33EBEBCEE4FEBF": {
+            "version": "4.2.0.0"
+        },
+        "forecastTools93EB212B02C44467B120F2563F68A7F6": {
+            "version": "3.0.1.0"
+        },
+        "rotatingTile1859AB39DB23400988ADF752BCB9C967": {
+            "version": "4.0.1.0"
+        },
+        "dataInsightsEC19A7A1FF1C44B784A13A27E1A145AB": {
+            "version": "3.2.0.0"
+        },
+        "PBI_CV_16948668_E17D_454B_8664_2F2C470EA8C1": {
+            "version": "1.1.7.0"
+        },
+        "quadrantChart1257AB39DB23121488AEB752BCB06127": {
+            "version": "4.0.0.0"
+        },
+        "GanttChartByMAQSoftware1448688115701": {
+            "version": "4.0.3.2"
+        },
+        "TextEnhancerByMAQ46ASG0293G65JY43S89DKJ9": {
+            "version": "4.0.3.0"
+        },
+        "LinearGauge1450736844786": {
+            "version": "4.0.2.0"
+        },
+        "StockChart1464746768122": {
+            "version": "4.0.0.0"
+        },
+        "BoxandWhiskerByMAQ1823AD39DT234AB532063E128AX": {
+            "version": "4.0.0.0"
+        },
+        "ForecastUsingNeuralNetworkC3FF19A2F6084F9DB72C16B27773958": {
+            "version": "3.0.6.0"
+        },
+        "dynamicTooltip1859AB39DB23051788ADF752BCB90749": {
+            "version": "4.0.0.0"
+        },
+        "PBI_CV_309E6B47_39A5_4681_808F_132AFB230872": {
+            "version": "4.0.0.0"
+        },
+        "funnelwithsource1823AB39DB234AB522063E728AD51": {
+            "version": "4.0.0.0"
+        },
+        "workforce7D37FF992D854E88AFF323AEE9CBCD90": {
+            "version": "1.1.0.0"
+        },
+        "BrickChart1454871868044": {
+            "version": "4.0.1.0"
+        },
+        "ClusteringUsingOPTICSCAD9384DAA1042E78771F55A0BD811D8": {
+            "version": "3.0.5.0"
+        },
+        "ColumnChartWithUpperandLowerBoundsBF61B285CAD84241BA581341AF4D3CB9": {
+            "version": "1.0.0.0"
+        },
+        "timelineD7EACB3A04E64A5FA9D86F6E035F3523": {
+            "version": "1.1.0.0"
+        },
+        "HorizontalFunnel1449177164235": {
+            "version": "4.0.0.0"
+        },
+        "comicgen1058F16C30B888F41E2AE146D059FD5ACEE": {
+            "version": "2.0.0.0"
+        },
+        "candlestick95A09604B9D14884B6622C3C64130FA5": {
+            "version": "1.0.0.0"
+        },
+        "pipelineVariation2F63E952B62F640B082C360CB29E75360": {
+            "version": "1.0.4.0"
+        },
+        "globalLaunchEstimatesC8C997C958BD4E22BB25D5639F3366A1": {
+            "version": "1.0.6.0"
+        },
+        "enlightenSlicerB18DC0CE4A1F4BA79CE49FBE40F3965F": {
+            "version": "2.1.0.0"
+        },
+        "timelineVariation1D7EACB3A04E64A5FA9D86F6E035F3529": {
+            "version": "1.1.6.0"
+        },
+        "advanceCardE03760C5AB684758B56AA29F9E6C257B": {
+            "version": "2.1.1.0"
+        },
+        "dlpbicolviz9DB36676E8424E35AC5F57458A84BACBX": {
+            "version": "1.3.1.0"
+        },
+        "BowtieChart1465021618681": {
+            "version": "4.0.1.0"
+        },
+        "summaryTableEBA1E7D9C77B47D0914D7D98B4D120DC": {
+            "version": "3.1.0.0"
+        },
+        "organizationChartDD06406DD55C47CCBB412EFE9A671D14": {
+            "version": "4.3.0.0"
+        },
+        "DonutChartGMO1461469098694": {
+            "version": "4.6.2.0"
+        },
+        "enlightenWaffleChartC94C0BDE416B413A8071A92B5E75A718": {
+            "version": "2.0.0.0"
+        },
+        "enlightenWorldFlagsE887F52F76244B1C927F80CF9724AEF6": {
+            "version": "2.1.1.0"
+        },
+        "treemapbarchart333E076637E345EDB9829C52846D5A31": {
+            "version": "4.0.0.0"
+        },
+        "Aquarium1442671919391": {
+            "version": "4.0.3.1"
+        },
+        "PBI_CV_309E6B47_39A5_4681_808F_132AFB230860": {
+            "version": "4.1.1.0"
+        },
+        "KPIColumn1823AB39DB23410928ADF752BCB2A457": {
+            "version": "4.0.0.0"
+        },
+        "enlightenBubbleStack13709305C6AD4E59B8F78FFEA36FB62E": {
+            "version": "1.0.0.0"
+        },
+        "kpiTicker492C9305B9464241B52382527F977DE1": {
+            "version": "4.0.4.0"
+        },
+        "calendarVisual74934D05B71F4C31B0F79D925EE89638": {
+            "version": "4.2.0.1"
+        },
+        "hourglassByMAQSoftware726F8878F79F4EF39D5005F1D06A8F1F": {
+            "version": "4.0.0.0"
+        },
+        "cylindricalGauge73A12A442345453EB69B593649C3A341": {
+            "version": "4.0.4.0"
+        },
+        "DumbbellChartB13A88DFEE724350B46BCF0EFA5B6E321": {
+            "version": "3.0.5.0"
+        },
+        "SlopeChartRHTMLA849C818E46E4556B53BF9C8E9E82798": {
+            "version": "3.0.3.0"
+        },
+        "financialreportingmatrixD8A502553641450F8EAEB9BA40B2166E": {
+            "version": "7.2.0.6"
+        },
+        "accoPLANNING_4DAA52ABFBF441E2A7898A79384CAFA9": {
+            "version": "1.0.64.6"
+        },
+        "upSetJSVenn61F43BDFCA024B13B6AC5BA73C9427B2": {
+            "version": "1.10.10.0"
+        },
+        "cdControlChart52F830844F134A04A4F0FC09DBEE5576": {
+            "version": "2.0.1.0"
+        },
+        "PBI_CV_9272D058_BEA0_476A_B090_A712545F92FA": {
+            "version": "2.3.2.6"
+        },
+        "cdTimelinesA399BDD5831D40CD8E83DCCD13A986BE": {
+            "version": "1.0.1.0"
+        },
+        "pureVizInfographicC9801BF222134D2D83FA9C41861F3482": {
+            "version": "2.0.3.0"
+        },
+        "PBI_CV_815282F9_27F5_4950_9430_E910E0A8DB6A": {
+            "version": "1.5.0.0"
+        },
+        "ArriaNLG796e95864265477b96ca1e51852ddddd": {
+            "version": "3.4.7.0"
+        },
+        "variance8E4BB1B41A8942A7B897C7014A6E1F56": {
+            "version": "5.4.0.0"
+        },
+        "LaconicCardFreeC4A74023FBD644529F9068B327CF4BF9": {
+            "version": "1.2.5.0"
+        },
+        "easyTerritoryTerritoryVisualB76516E7EB374091BC4E1AF5914B1F41": {
+            "version": "5.11.19.0"
+        },
+        "laconicCardPROE18E068CED834B9CAAD18017E634489A": {
+            "version": "1.0.5.0"
+        },
+        "sparklines50DB3783432B40A69C0B91926CE74CD9": {
+            "version": "48.0.0.0"
+        },
+        "adwiseVisual73804AE4264848C8BCD67A31A0791911": {
+            "version": "3.1.3.0"
+        },
+        "PBI_CV_7B952816_A48F_49B4_9E13_15E3BB2C0337": {
+            "version": "1.6.8.0"
+        },
+        "textStylerD577C9FF21FB4883A1CE1335C340B54F": {
+            "version": "2.3.2.1"
+        },
+        "waterfall6C9ED82ABD1F44C4A0D590CE01EB5EE7": {
+            "version": "7.0.1.0"
+        },
+        "graphomatecharts": {
+            "version": "2023.3.3.0"
+        },
+        "Slicer1448559807355": {
+            "version": "1.1.0.0"
+        },
+        "graphomatepictograms": {
+            "version": "2023.1.21.0"
+        },
+        "ultimateWaterfall9712E1351D4E4FA89077ED4D9351DC71": {
+            "version": "4.8.9.1"
+        },
+        "graphomatematrix": {
+            "version": "2023.3.5.0"
+        },
+        "balanceSheet8B88E06A989E4034A7DF29F3D75E6T69": {
+            "version": "1.2.6.1"
+        },
+        "cdRegressionChartFEDFE3FECE5F4724A9EAF1D1F0D509A3": {
+            "version": "1.1.1.0"
+        },
+        "ultimateStackedFreeD3C49B76E0454F4BB21E7F1E3E346BB6": {
+            "version": "4.8.2.2"
+        },
+        "ultimateVariance9712E1351D4E4FA89077ED4D9351DC71": {
+            "version": "4.9.5.0"
+        },
+        "powerslider": {
+            "version": "1.0.0.0"
+        },
+        "hierarchy50DB3783432B40A69C0B91926CE74CD9": {
+            "version": "15.0.0.0"
+        },
+        "graphomate_bubbles": {
+            "version": "2023.1.15.0"
+        },
+        "scatterLinePlot04AE08B82AB143129DBC0AEA4FD479EA": {
+            "version": "1.2.0.0"
+        },
+        "kpifree51D0292A0438427096AC459B59FEF2DE": {
+            "version": "4.8.6.6"
+        },
+        "PBI_CV_25997FEB_F466_44FA_B562_AC4063283C4C": {
+            "version": "1.1.3.0"
+        },
+        "ratingsvisual001": {
+            "version": "1.2.1.0"
+        },
+        "dotPlotByOKViz24930F8B0456488F85D4AF007BF0F855": {
+            "version": "1.0.0.0"
+        },
+        "xbarrange42E8DF98F1244DB799B2A8A65DBCB226": {
+            "version": "1.1.303.1"
+        },
+        "xbar42E8DF98F1244DB799B2A8A65DBCB226": {
+            "version": "1.1.303.1"
+        },
+        "SmartFilterBySQLBI1458262140625": {
+            "version": "1.2.8.0"
+        },
+        "PBI_CV_886A053E_9DFD_4EA0_A47D_CCAEB89AF969": {
+            "version": "1.0.4.0"
+        },
+        "multigroupindividuals42E8DF98F1244DB799B2A8A65DBCB226": {
+            "version": "1.1.303.1"
+        },
+        "individualsmovingrange42E8DF98F1244DB799B2A8A65DBCB226": {
+            "version": "1.1.325.1"
+        },
+        "uchart42E8DF98F1244DB799B2A8A65DBCB226": {
+            "version": "1.1.325.1"
+        },
+        "pchart42E8DF98F1244DB799B2A8A65DBCB226": {
+            "version": "1.1.303.1"
+        },
+        "APMatrixCloud4B291F0FACAE43E38940A86C88AEC5CD": {
+            "version": "4.2.0.0"
+        },
+        "ApVisualPlanningEDF3672CF7684FD5B74AE14B22896E31": {
+            "version": "3.0.1.0"
+        },
+        "aPGantt2DC486E54199414B99CB7E9D403FD90C": {
+            "version": "1.1.8.3"
+        },
+        "apVariance49271b11d4eb4cc3939520617ffd114d": {
+            "version": "3.0.5.0"
+        },
+        "PBI_CV_32852E50B30D4D70ACC1C55C87F71ED0": {
+            "version": "1.0.2.0"
+        },
+        "UChartEE3E86DF52C845F5B4CD9F45D6075E7B": {
+            "version": "1.3.0.0"
+        },
+        "clusteredColumnChartByAkvelonBE487DE8B8674A59A098B9B16C950BA1": {
+            "version": "2.0.1.0"
+        },
+        "enlightenStackShuffle33EDB050C2424C618953642FFC0B291A": {
+            "version": "2.1.1.0"
+        },
+        "PercentStackedColumnChartByAkvelonF99290E0E9AE4CA6B8D5284FC0723FE1": {
+            "version": "2.0.1.0"
+        },
+        "tChartEE3E86DF52C845F5B4CD9F45D6075E7B": {
+            "version": "1.3.0.0"
+        },
+        "clusteredBarChartByAkvelon77BB704116614231891ABD5C195D3DC6": {
+            "version": "2.0.1.0"
+        },
+        "PBILineChartByAkvelon555E1FCA110843C7A6E66458BA0A3FAD": {
+            "version": "2.0.1.0"
+        },
+        "stackedColumnChartByAkvelonCC88FD95630A41AC8562F09033A48946": {
+            "version": "2.0.2.0"
+        },
+        "stackedBarChartByAkvelonA90827240A9942A3B5F760DFAFF0EF08": {
+            "version": "2.0.1.0"
+        },
+        "mergedBarChart7A702E6E03084979A73CC897E0D7E2EB": {
+            "version": "2.2.0.0"
+        },
+        "PercentStackedBarChartByAkvelonFF31FCEB97BB434E8117D153042574E8": {
+            "version": "2.0.1.0"
+        },
+        "controlChart472594076712483CA839CF8D0F61F2F1": {
+            "version": "1.3.2.0"
+        },
+        "kpiTable2FA7B4711C7C41C08129D5AB7A72D537": {
+            "version": "2.3.1.0"
+        },
+        "stripPlotA5B9A107E9884EBD885C3FE5B203C176": {
+            "version": "2.3.1.0"
+        },
+        "lipstickBarChartE21A0099A7144D059EF990A91F820F57": {
+            "version": "2.3.0.0"
+        },
+        "hierarchyChartByAkvelon6F792A8745784877BCD8F4ACA5AD4207": {
+            "version": "1.0.1.0"
+        },
+        "scatterChartByAkvelon6CFB0DAB29E746BE850B6DFD1E2789FD": {
+            "version": "2.0.5.0"
+        },
+        "dumbbellColumnChartF759696C45654EDBAEEAB1C120CB7B76": {
+            "version": "2.3.0.0"
+        },
+        "cyclePlot34E176548A2043298447486F8D4C383D": {
+            "version": "2.2.0.0"
+        },
+        "dumbbellBarChart92D0D8832E2E4DDE9545D1DAC8CE0EA8": {
+            "version": "2.3.0.0"
+        },
+        "htmlViewerA9520C4C697347CDB4EA10E418B1A6E7": {
+            "version": "2.1.5.0"
+        },
+        "lollipopBarChart29115F0ADEDB437DBCDF8E8A3E66E088": {
+            "version": "2.3.0.0"
+        },
+        "ZoomChartsPieChartFree33C9F325D337408C98D4E1D4E1EAD703": {
+            "version": "1.11.11.0"
+        },
+        "lipstickColumnChartC7A87C40887A4B7E8C1B4EA86CB5D2E4": {
+            "version": "2.3.1.0"
+        },
+        "ZoomChartsDrillDownGraphProA2C55E4B59078FDD51C4CD1C4D4E6623V8N8": {
+            "version": "1.11.12.0"
+        },
+        "googleMapsPbiVisual2982D2C8868A4D07BE77AE3D0F9F87C3": {
+            "version": "1.3.6.0"
+        },
+        "bubbleChartEEDCDFA388784AEEAB47972BC1626196": {
+            "version": "2.2.2.0"
+        },
+        "ZoomChartsPieChartPaidE77E4ED357DC402ABA005987437CF500": {
+            "version": "1.11.12.0"
+        },
+        "Process_and_Task_Mining": {
+            "version": "2.0.0.2"
+        },
+        "advancedGauge97290A2225EA4EB5BC5C8D85F9ACA7DA": {
+            "version": "3.0.1.0"
+        },
+        "ZoomChartsDrillDownPieProC062D62DA5CE45ECB95B7B1D0E5DA558": {
+            "version": "1.11.10.0"
+        },
+        "HierarchicalTreeF39DAE8D57A743EF89F5C3809DEE2B67": {
+            "version": "3.0.1.0"
+        },
+        "upSetJS61F43BDFCA024B13B6AC5BA73C9427B2": {
+            "version": "1.10.10.0"
+        },
+        "ZoomChartsDrillDownNetworkProA1D59E3B59078E6D50A4CB1C3D4E2129C500": {
+            "version": "1.11.9.0"
+        },
+        "ZoomChartsDrillDownComboBarProE77E4ED357DC402ABA005987437CF800": {
+            "version": "1.11.14.0"
+        },
+        "ZoomChartsDrillDownMapPro6AFEEB10499543F282BD06EF315D5EAA": {
+            "version": "1.11.12.0"
+        },
+        "ZoomChartsAdvancedWaterfallE77E4ED357DC402ABA005987437CF900": {
+            "version": "1.11.10.0"
+        },
+        "multipleAxesChartBC35C88E1D1A49DFA5A9240AFBB4E3BC": {
+            "version": "3.0.2.2"
+        },
+        "advancedtoggleswitch": {
+            "version": "2.0.0.0"
+        },
+        "marimekkoChart4BDC01ABDC504D0EBFEF87854E8BED01": {
+            "version": "3.0.2.1"
+        },
+        "radarChartE89D21F3E4E64221B79113B5015EA81B": {
+            "version": "3.0.2.0"
+        },
+        "packedBubble563FBEFA65CC43A48496B6BB533D9890": {
+            "version": "3.0.1.0"
+        },
+        "GanttChart4C3653EFFFEB4E7DA5A699CE198391E2": {
+            "version": "3.1.1.0"
+        },
+        "advancedPieDonut812F760774854B428BA58A87279F6AF6": {
+            "version": "3.0.1.0"
+        },
+        "histogram42E8DF98F1244DB799B2A8A65DBCB226": {
+            "version": "1.1.322.1"
+        },
+        "CommentView70D93FB2E7284C00A3235FF8E05BFACC": {
+            "version": "4.1.3.0"
+        },
+        "aPDimEditor3160F611456D4E0AB3292CE5CB7EA3B8": {
+            "version": "2.1.8.0"
+        },
+        "performanceBubbleChartFBAAA829CB604E5CAB4F21729F233294": {
+            "version": "3.0.1.1"
+        },
+        "waterfallChart2AF2CCB0A5A6404AB2A02ACCE7BC300C": {
+            "version": "3.0.2.0"
+        },
+        "advancedtrellis163981222CE34D3F9717598C8FBF6ECC": {
+            "version": "1.1.4.0"
+        },
+        "funnelDrilldownD423170ED341443BBDECDD3BA5FB49D2": {
+            "version": "3.0.1.0"
+        },
+        "BulletChart832EC06300814F26921DEFC2DE8606BE": {
+            "version": "3.0.2.0"
+        },
+        "linearGauge2EBA8C0A99F94BF297BCCB1CF5427E68": {
+            "version": "3.0.1.0"
+        },
+        "taskboard7A11309AC21042A28A78716F6638A2B0": {
+            "version": "1.0.0.0"
+        },
+        "kPI0A9FD39FD55944609DA4A968BE175489": {
+            "version": "1.1.0.0"
+        },
+        "calendarVisual5E37BB8CB2CB427ABE4F9EAAE66C5223": {
+            "version": "2.0.1.0"
+        },
+        "individuals42E8DF98F1244DB799B2A8A65DBCB226": {
+            "version": "1.1.325.1"
+        },
+        "processMiningGraphVisual7200A41BF02F4407848D84A0BC6EDD6D": {
+            "version": "1.3.3.1"
+        },
+        "HierarchicalFilterF39DAE8D57A743EF89F5C3809DEE2B67": {
+            "version": "3.0.1.1"
+        },
+        "multicardkpis": {
+            "version": "1.1.0.0"
+        },
+        "lollipopColumnChart0D874BBC87DE40189C387BBA89739F6C": {
+            "version": "2.3.0.0"
+        },
+        "processChampion136745E546B94C03AEE4E144D2DEC49F": {
+            "version": "1.0.1.0"
+        },
+        "timelineVariation3D7EACB3A04E64A5FA9D86F6E035F3524": {
+            "version": "1.0.5.0"
+        },
+        "controlChartXmRA59AC4AAE43A4F0086A0A8F797DEC983": {
+            "version": "2.4.0.0"
+        },
+        "lineStackedColumnMatrixADACEA3309644A92B1A6D50A68C81088": {
+            "version": "2.1.0.0"
+        },
+        "enlightenDataStoryDDFB78A6143E42CFAFBC50CCF18D978D": {
+            "version": "1.4.7.0"
+        },
+        "PBI_CV_9894B302_1DFF_4A96_ABFE_BF8588197714412": {
+            "version": "1.1.1.0"
+        },
+        "ZoomChartsFacetChartPaidE77E4ED357DC402ABA005987437CF500": {
+            "version": "1.11.14.0"
+        },
+        "acterysReporting": {
+            "version": "2.5.16.0"
+        },
+        "treeImageFreeE1148639291D450198F892FA45A672BC": {
+            "version": "4.0.1.0"
+        },
+        "SmartFilterProByOKViz00000000000000000000000000000000": {
+            "version": "2.3.1.1"
+        },
+        "lollipop709CDF8A8EF3461D87415B29FB50116E": {
+            "version": "1.7.0.0"
+        },
+        "ZoomChartsTimeChartPaidE77E4ED357DC402ABA005987437CF500": {
+            "version": "1.11.10.0"
+        },
+        "SunburstDD4B4E19938B4CDD9D3EFC2221D4DCF7": {
+            "version": "4.0.2.1"
+        },
+        "iconpack": {
+            "version": "1.1.1.1"
+        },
+        "TrafficLight2D3CDE2AC13D4EA29E02FC4F5D359996": {
+            "version": "1.0.1.1"
+        },
+        "deneb7E15AEF80B9E4D4F8E12924291ECE89A": {
+            "version": "1.6.2.1"
+        },
+        "htmlViewerD577C9FF21FB4883A1CE1335C340B541": {
+            "version": "2.0.0.2"
+        },
+        "dualCardBEB94A6387034DB489DAE31904884099": {
+            "version": "1.0.5.1"
+        },
+        "InfoCard20C2BF75F48447AC938F5C499D100557": {
+            "version": "1.0.4.1"
+        },
+        "zebraBiCards2C860CFAA9944091B75F0DBD117F20FA": {
+            "version": "1.7.0.0"
+        },
+        "impactBubbleChart9F474F4C9D2243D7A6BB693D25F75740": {
+            "version": "1.0.20.0"
+        },
+        "plotlyJSVisualEEDDFAAB4619388784AE7972BC162ECDFAAB46196": {
+            "version": "1.7.6.0"
+        },
+        "vpservice_store": {
+            "version": "1.0.0.1"
+        },
+        "LineBubbleChart": {
+            "version": "1.0.0.3"
+        },
+        "BarChartWithTopN": {
+            "version": "1.0.0.2"
+        },
+        "iconMapV34089C0EB522B416294AA926F71B4FDBB": {
+            "version": "3.2.0.0"
+        },
+        "CustomSlicer": {
+            "version": "1.0.0.3"
+        },
+        "TreeBarChart": {
+            "version": "1.0.0.2"
+        },
+        "FilterByList507A2DBEC31244C8AAABDE9BA541F723": {
+            "version": "2.0.9.6"
+        },
+        "eventViewer0D4E4EFE0AEC4A0A9CB3C14B04685C64": {
+            "version": "1.2.0.0"
+        },
+        "inforiverAppPremium2B7A5FD2992D434DAE0B149479307B7B": {
+            "version": "2.7.1.0"
+        },
+        "swPowerSlicer_sharewinfo_612350D75BB94427B2E530403CFB0292_danfosi": {
+            "version": "1.4.0.0"
+        },
+        "inovistaAnimatorEC2A9950893B4CDD9F9E98FE60770E82": {
+            "version": "1.0.3.2"
+        },
+        "powerGANTTchart76BDD9F52FA14ADEB68823A07759D182": {
+            "version": "2.4.0.0"
+        },
+        "RiskHeatmapA1E4D7191E504BBA9F44FE76C254B319": {
+            "version": "1.0.1.8"
+        },
+        "Razor1DD61834CFEF472393619573EEAA2649": {
+            "version": "1.0.1.0"
+        },
+        "PreselectedSlicer9302176388541": {
+            "version": "1.0.0.2"
+        },
+        "StackedBarChatWithTopN": {
+            "version": "1.0.0.1"
+        },
+        "massFilter2E7137AC1174403C8CF3456F3EB0B7D7": {
+            "version": "2.2.7.1"
+        },
+        "dataRefresherEEB0C62C0D8349A0A5C24BC5744B3C8D": {
+            "version": "1.0.6.3"
+        },
+        "tMap8E0FD0EA52A241AAB7312149B2333625": {
+            "version": "2.1.1.3"
+        },
+        "ZoomChartsDrillDownTimelinePro7F6C01BA1C534E9AB4A6BCCB44F591D6": {
+            "version": "1.11.14.0"
+        },
+        "bluedotRecentNews56C8EEC8933543F8A2C7E2A8B0592DF9": {
+            "version": "1.0.0.2"
+        },
+        "EasySPCDE42F70C50C949188EB25DBC41F561DA": {
+            "version": "1.0.1.7"
+        },
+        "TwoWriteBack25320C54F4184F8EA42E7B7D8A4A928F": {
+            "version": "2.1.5.0"
+        },
+        "scvationFlowBasic0A96D390481D4F8AB06B8214A21EC2F0": {
+            "version": "1.1.29.10"
+        },
+        "milestoneTrendAnalysisChart84A70462CF724538AA5043A4EED9B93F": {
+            "version": "2.2.0.0"
+        }
+    }
+}

@@ -1,0 +1,106 @@
+{
+  "meta": {
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event": 32
+  },
+  "payload": {
+    "jobIds": [
+      "a88dde00-1615-4c66-a6cd-7757b4718572"
+    ],
+    "results": [
+      {
+        "jobId": "a88dde00-1615-4c66-a6cd-7757b4718572",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T03:31:05.507Z",
+            "rootActivityId": "efb46b89-829b-4dac-ba07-e4db966711db",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 2,
+                  "Value": "M0",
+                  "Name": "data_historica_dispo12_consumo.num_reg"
+                }
+              ],
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "f6fc9d92-a42e-4fad-998e-f58cd06affb2",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:31:05.5075084Z",
+                  "End": "2026-05-20T03:31:05.5856885Z"
+                },
+                {
+                  "Id": "640c646c-d72d-41e2-a852-7865c5f14566",
+                  "ParentId": "f6fc9d92-a42e-4fad-998e-f58cd06affb2",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:31:05.5231821Z",
+                  "End": "2026-05-20T03:31:05.5856885Z",
+                  "Metrics": {
+                    "RowCount": 1
+                  }
+                },
+                {
+                  "Id": "600C8482-47BE-470F-B9E4-C163C6FB0010",
+                  "ParentId": "640c646c-d72d-41e2-a852-7865c5f14566",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:31:05.553Z",
+                  "End": "2026-05-20T03:31:05.577Z"
+                },
+                {
+                  "Id": "9CFDD129-7C40-443F-A024-F8C116E0AC12",
+                  "ParentId": "600C8482-47BE-470F-B9E4-C163C6FB0010",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:31:05.577Z",
+                  "End": "2026-05-20T03:31:05.577Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "M0",
+                              "T": 1
+                            }
+                          ],
+                          "M0": "Núm. de registros declarados 1.692"
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true,
+                  "Msg": [
+                    {
+                      "Code": "IgnoredDataReductionAlgorithm",
+                      "Severity": "Warning",
+                      "Message": "A data reduction algorithm was specified but the corresponding grouping does not exist. The data reduction will be ignored for primary, secondary, intersection and scoped."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

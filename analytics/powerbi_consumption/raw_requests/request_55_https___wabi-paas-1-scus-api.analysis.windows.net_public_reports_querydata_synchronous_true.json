@@ -1,0 +1,19 @@
+{
+    "timestamp": "2026-05-16T06:52:20.106739",
+    "method": "POST",
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "resource_type": "xhr",
+    "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://app.powerbi.com/",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0",
+        "x-powerbi-resourcekey": "8d8ebd1d-6969-4fc4-aa0e-0e2566e678a4",
+        "requestid": "11996e29-2abf-4619-23ed-5c40c47a8413",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json;charset=UTF-8",
+        "activityid": "15c517fb-25de-f474-9f68-e26208cfc577"
+    },
+    "post_data": "{\"version\":\"1.0.0\",\"queries\":[{\"Query\":{\"Commands\":[{\"SemanticQueryDataShapeCommand\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"p\",\"Entity\":\"Periodo_variable\",\"Type\":0}],\"Select\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"},\"Name\":\"Periodo_variable.Periodo_variable Campos\"},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable\"},\"Name\":\"Periodo_variable.Periodo_variable\"}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'''data_historica_dispo12_consumo''[mesano]'\"}}]]}}}]},\"Binding\":{\"Primary\":{\"Groupings\":[{\"Projections\":[0,1]}]},\"DataReduction\":{\"DataVolume\":3,\"Primary\":{\"Top\":{\"Count\":150}}},\"Version\":1},\"ExecutionMetricsKind\":1}}]},\"QueryId\":\"\",\"ApplicationContext\":{\"DatasetId\":\"dd42ab15-58f6-4dfe-a3da-548bff899ff2\",\"Sources\":[{\"ReportId\":\"7aca1416-be15-4e26-ba9a-948125778b3e\",\"VisualId\":\"bc1c8e3d04c0193705e3\"}]}}],\"cancelQueries\":[],\"modelId\":2201295}"
+}

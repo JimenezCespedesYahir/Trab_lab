@@ -1,0 +1,18 @@
+{
+    "timestamp": "2026-05-16T06:52:19.976235",
+    "method": "GET",
+    "url": "https://app.powerbi.com/13.0.28500.557/sharedresources/BaseThemes/CY22SU03.json",
+    "resource_type": "xhr",
+    "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://app.powerbi.com/view?r=eyJrIjoiOGQ4ZWJkMWQtNjk2OS00ZmM0LWFhMGUtMGUyNTY2ZTY3OGE0IiwidCI6IjExMzgxOTYwLWVkYWMtNGRkNC1hZTQ0LWViZGRmNGE3OTVjYyJ9&pageName=ReportSection",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0",
+        "x-powerbi-resourcekey": "8d8ebd1d-6969-4fc4-aa0e-0e2566e678a4",
+        "requestid": "dcb0e976-4535-3444-9c72-40d7f7bd7b7d",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "activityid": "15c517fb-25de-f474-9f68-e26208cfc577"
+    },
+    "post_data": null
+}

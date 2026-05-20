@@ -1,0 +1,12796 @@
+﻿selector,text,role,aria_label
+[role='option'],CENTRO,option,CENTRO
+[role='option'],FARMACIA INST…,option,FARMACIA INSTITUCIONAL
+[role='option'],HOSPITAL,option,HOSPITAL
+[role='option'],INSTITUTO,option,INSTITUTO
+[role='option'],PUESTO,option,PUESTO
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+label,Seleccionar fila,,
+li,Permite mostrar los métodos abreviados de teclado.,,
+li,Mostrar consejos para el lector de pantalla,,
+li,Pasar al contenido principal,,
+div,"Permite mostrar los métodos abreviados de teclado.
+Mostrar consejos para el lector de pantalla
+Pasar al contenido principal
+Informe de Power BI
+
+CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS
+
+Establecimiento
+Todas
+Periodo más antiguo
+
+202110
+
+Periodo más reciente
+
+202110
+
+Años
+Meses
+Filtros
+Tabla 1 (país)
+Tabla det. 2 (DISA)
+Tabla det. 3 (EESS)
+Tabla det. 4 (UE)
+Gráfico acum.
+Gráfico por cód
+Gráfico Disp.
+Descargar
+Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ 
+Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)
+Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO
+Núm. de registros declarados 6
+
+GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA
+
+-
++
+76 %
+Microsoft Power BI",,
+div,"Permite mostrar los métodos abreviados de teclado.
+Mostrar consejos para el lector de pantalla
+Pasar al contenido principal
+Informe de Power BI
+
+CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS
+
+Establecimiento
+Todas
+Periodo más antiguo
+
+202110
+
+Periodo más reciente
+
+202110
+
+Años
+Meses
+Filtros
+Tabla 1 (país)
+Tabla det. 2 (DISA)
+Tabla det. 3 (EESS)
+Tabla det. 4 (UE)
+Gráfico acum.
+Gráfico por cód
+Gráfico Disp.
+Descargar
+Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ 
+Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)
+Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO
+Núm. de registros declarados 6
+
+GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA
+
+-
++
+76 %
+Microsoft Power BI",,
+div,"Permite mostrar los métodos abreviados de teclado.
+Mostrar consejos para el lector de pantalla
+Pasar al contenido principal
+Informe de Power BI
+
+CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS
+
+Establecimiento
+Todas
+Periodo más antiguo
+
+202110
+
+Periodo más reciente
+
+202110
+
+Años
+Meses
+Filtros
+Tabla 1 (país)
+Tabla det. 2 (DISA)
+Tabla det. 3 (EESS)
+Tabla det. 4 (UE)
+Gráfico acum.
+Gráfico por cód
+Gráfico Disp.
+Descargar
+Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ 
+Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)
+Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO
+Núm. de registros declarados 6
+
+GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA
+
+-
++
+76 %",,
+div,"Permite mostrar los métodos abreviados de teclado.
+Mostrar consejos para el lector de pantalla
+Pasar al contenido principal
+Informe de Power BI
+
+CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS
+
+Establecimiento
+Todas
+Periodo más antiguo
+
+202110
+
+Periodo más reciente
+
+202110
+
+Años
+Meses
+Filtros
+Tabla 1 (país)
+Tabla det. 2 (DISA)
+Tabla det. 3 (EESS)
+Tabla det. 4 (UE)
+Gráfico acum.
+Gráfico por cód
+Gráfico Disp.
+Descargar
+Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ 
+Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)
+Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO
+Núm. de registros declarados 6
+
+GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA
+
+-
++
+76 %",,
+div,"Permite mostrar los métodos abreviados de teclado.
+Mostrar consejos para el lector de pantalla
+Pasar al contenido principal
+Informe de Power BI
+
+CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS
+
+Establecimiento
+Todas
+Periodo más antiguo
+
+202110
+
+Periodo más reciente
+
+202110
+
+Años
+Meses
+Filtros
+Tabla 1 (país)
+Tabla det. 2 (DISA)
+Tabla det. 3 (EESS)
+Tabla det. 4 (UE)
+Gráfico acum.
+Gráfico por cód
+Gráfico Disp.
+Descargar
+Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ 
+Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)
+Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO
+Núm. de registros declarados 6
+
+GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA
+
+-
++
+76 %",,
+div,"Permite mostrar los métodos abreviados de teclado.
+Mostrar consejos para el lector de pantalla
+Pasar al contenido principal
+Informe de Power BI
+
+CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS
+
+Establecimiento
+Todas
+Periodo más antiguo
+
+202110
+
+Periodo más reciente
+
+202110
+
+Años
+Meses
+Filtros
+Tabla 1 (país)
+Tabla det. 2 (DISA)
+Tabla det. 3 (EESS)
+Tabla det. 4 (UE)
+Gráfico acum.
+Gráfico por cód
+Gráfico Disp.
+Descargar
+Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ 
+Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)
+Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO
+Núm. de registros declarados 6
+
+GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA
+
+-
++
+76 %",,
+div,"Permite mostrar los métodos abreviados de teclado.
+Mostrar consejos para el lector de pantalla
+Pasar al contenido principal
+Informe de Power BI
+
+CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS
+
+Establecimiento
+Todas
+Periodo más antiguo
+
+202110
+
+Periodo más reciente
+
+202110
+
+Años
+Meses
+Filtros
+Tabla 1 (país)
+Tabla det. 2 (DISA)
+Tabla det. 3 (EESS)
+Tabla det. 4 (UE)
+Gráfico acum.
+Gráfico por cód
+Gráfico Disp.
+Descargar
+Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ 
+Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)
+Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO
+Núm. de registros declarados 6
+
+GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA
+
+-
++
+76 %",,
+div,"Permite mostrar los métodos abreviados de teclado.
+Mostrar consejos para el lector de pantalla
+Pasar al contenido principal
+Informe de Power BI
+
+CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS
+
+Establecimiento
+Todas
+Periodo más antiguo
+
+202110
+
+Periodo más reciente
+
+202110
+
+Años
+Meses
+Filtros
+Tabla 1 (país)
+Tabla det. 2 (DISA)
+Tabla det. 3 (EESS)
+Tabla det. 4 (UE)
+Gráfico acum.
+Gráfico por cód
+Gráfico Disp.
+Descargar
+Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ 
+Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)
+Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO
+Núm. de registros declarados 6
+
+GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA
+
+-
++
+76 %",,
+div,"Permite mostrar los métodos abreviados de teclado.
+Mostrar consejos para el lector de pantalla
+Pasar al contenido principal
+Informe de Power BI
+
+CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS
+
+Establecimiento
+Todas
+Periodo más antiguo
+
+202110
+
+Periodo más reciente
+
+202110
+
+Años
+Meses
+Filtros
+Tabla 1 (país)
+Tabla det. 2 (DISA)
+Tabla det. 3 (EESS)
+Tabla det. 4 (UE)
+Gráfico acum.
+Gráfico por cód
+Gráfico Disp.
+Descargar
+Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ 
+Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)
+Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO
+Núm. de registros declarados 6
+
+GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA",,
+div,"Permite mostrar los métodos abreviados de teclado.
+Mostrar consejos para el lector de pantalla
+Pasar al contenido principal
+Informe de Power BI
+
+CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS
+
+Establecimiento
+Todas
+Periodo más antiguo
+
+202110
+
+Periodo más reciente
+
+202110
+
+Años
+Meses
+Filtros
+Tabla 1 (país)
+Tabla det. 2 (DISA)
+Tabla det. 3 (EESS)
+Tabla det. 4 (UE)
+Gráfico acum.
+Gráfico por cód
+Gráfico Disp.
+Descargar
+Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ 
+Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)
+Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO
+Núm. de registros declarados 6
+
+GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA",,
+div,"Permite mostrar los métodos abreviados de teclado.
+Mostrar consejos para el lector de pantalla
+Pasar al contenido principal
+Informe de Power BI
+
+CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS
+
+Establecimiento
+Todas
+Periodo más antiguo
+
+202110
+
+Periodo más reciente
+
+202110
+
+Años
+Meses
+Filtros
+Tabla 1 (país)
+Tabla det. 2 (DISA)
+Tabla det. 3 (EESS)
+Tabla det. 4 (UE)
+Gráfico acum.
+Gráfico por cód
+Gráfico Disp.
+Descargar
+Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ 
+Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)
+Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO
+Núm. de registros declarados 6
+
+GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA",,
+div,"Permite mostrar los métodos abreviados de teclado.
+Mostrar consejos para el lector de pantalla
+Pasar al contenido principal
+Informe de Power BI
+
+CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS
+
+Establecimiento
+Todas
+Periodo más antiguo
+
+202110
+
+Periodo más reciente
+
+202110
+
+Años
+Meses
+Filtros
+Tabla 1 (país)
+Tabla det. 2 (DISA)
+Tabla det. 3 (EESS)
+Tabla det. 4 (UE)
+Gráfico acum.
+Gráfico por cód
+Gráfico Disp.
+Descargar
+Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ 
+Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)
+Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO
+Núm. de registros declarados 6
+
+GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA",,
+div,"Permite mostrar los métodos abreviados de teclado.
+Mostrar consejos para el lector de pantalla
+Pasar al contenido principal
+Informe de Power BI
+
+CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS
+
+Establecimiento
+Todas
+Periodo más antiguo
+
+202110
+
+Periodo más reciente
+
+202110
+
+Años
+Meses
+Filtros
+Tabla 1 (país)
+Tabla det. 2 (DISA)
+Tabla det. 3 (EESS)
+Tabla det. 4 (UE)
+Gráfico acum.
+Gráfico por cód
+Gráfico Disp.
+Descargar
+Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ 
+Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)
+Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO
+Núm. de registros declarados 6
+
+GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA",,
+div,"Permite mostrar los métodos abreviados de teclado.
+Mostrar consejos para el lector de pantalla
+Pasar al contenido principal
+Informe de Power BI
+
+CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS
+
+Establecimiento
+Todas
+Periodo más antiguo
+
+202110
+
+Periodo más reciente
+
+202110
+
+Años
+Meses
+Filtros
+Tabla 1 (país)
+Tabla det. 2 (DISA)
+Tabla det. 3 (EESS)
+Tabla det. 4 (UE)
+Gráfico acum.
+Gráfico por cód
+Gráfico Disp.
+Descargar
+Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ 
+Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)
+Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO
+Núm. de registros declarados 6
+
+GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA",application,
+div,"Permite mostrar los métodos abreviados de teclado.
+Mostrar consejos para el lector de pantalla
+Pasar al contenido principal",,
+div,"Informe de Power BI
+
+CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS
+
+Establecimiento
+Todas
+Periodo más antiguo
+
+202110
+
+Periodo más reciente
+
+202110
+
+Años
+Meses
+Filtros
+Tabla 1 (país)
+Tabla det. 2 (DISA)
+Tabla det. 3 (EESS)
+Tabla det. 4 (UE)
+Gráfico acum.
+Gráfico por cód
+Gráfico Disp.
+Descargar
+Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ 
+Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)
+Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO
+Núm. de registros declarados 6
+
+GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA",,
+div,"Informe de Power BI
+
+CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS
+
+Establecimiento
+Todas
+Periodo más antiguo
+
+202110
+
+Periodo más reciente
+
+202110
+
+Años
+Meses
+Filtros
+Tabla 1 (país)
+Tabla det. 2 (DISA)
+Tabla det. 3 (EESS)
+Tabla det. 4 (UE)
+Gráfico acum.
+Gráfico por cód
+Gráfico Disp.
+Descargar
+Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ 
+Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)
+Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO
+Núm. de registros declarados 6
+
+GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA",,
+div,"Informe de Power BI
+
+CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS
+
+Establecimiento
+Todas
+Periodo más antiguo
+
+202110
+
+Periodo más reciente
+
+202110
+
+Años
+Meses
+Filtros
+Tabla 1 (país)
+Tabla det. 2 (DISA)
+Tabla det. 3 (EESS)
+Tabla det. 4 (UE)
+Gráfico acum.
+Gráfico por cód
+Gráfico Disp.
+Descargar
+Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ 
+Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)
+Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO
+Núm. de registros declarados 6
+
+GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA",,
+div,"Informe de Power BI
+
+CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS
+
+Establecimiento
+Todas
+Periodo más antiguo
+
+202110
+
+Periodo más reciente
+
+202110
+
+Años
+Meses
+Filtros
+Tabla 1 (país)
+Tabla det. 2 (DISA)
+Tabla det. 3 (EESS)
+Tabla det. 4 (UE)
+Gráfico acum.
+Gráfico por cód
+Gráfico Disp.
+Descargar
+Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ 
+Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)
+Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO
+Núm. de registros declarados 6
+
+GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA",,
+div,"Informe de Power BI
+
+CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS
+
+Establecimiento
+Todas
+Periodo más antiguo
+
+202110
+
+Periodo más reciente
+
+202110
+
+Años
+Meses
+Filtros
+Tabla 1 (país)
+Tabla det. 2 (DISA)
+Tabla det. 3 (EESS)
+Tabla det. 4 (UE)
+Gráfico acum.
+Gráfico por cód
+Gráfico Disp.
+Descargar
+Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ 
+Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)
+Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO
+Núm. de registros declarados 6
+
+GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA",region,Informe de Power BI
+div,"CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS",group,4 elementos
+div,"CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS",,
+div,"CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS",group,
+div,"CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS",,
+div,"CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS",,
+div,"CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS",,
+div,"CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS",document,
+div,"CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS",,
+div,"Establecimiento
+Todas",group,Establecimiento 
+div,"Establecimiento
+Todas",,
+div,"Establecimiento
+Todas",,
+div,Establecimiento,,
+div,Establecimiento,,
+div,Establecimiento,,
+div,Establecimiento,,
+div,Todas,,
+div,Todas,,
+div,Todas,,
+div,Todas,combobox,"DESCRIP, codpre_"
+div,Todas,,
+div,"Periodo más antiguo
+
+202110
+
+Periodo más reciente
+
+202110",group,2 elementos
+div,"Periodo más antiguo
+
+202110
+
+Periodo más reciente
+
+202110",,
+div,"Periodo más antiguo
+
+202110",group,
+div,"Periodo más antiguo
+
+202110",,
+div,"Periodo más antiguo
+
+202110",,
+div,"Periodo más antiguo
+
+202110",region,Tarjeta
+div,"Periodo más antiguo
+
+202110",,
+div,"Periodo más antiguo
+
+202110",,
+div,"Periodo más antiguo
+
+202110",grid,
+div,"Periodo más antiguo
+
+202110",none,
+div,"Periodo más antiguo
+
+202110",none,
+div,"Periodo más antiguo
+
+202110",none,
+div,"Periodo más antiguo
+
+202110",none,
+div,"Periodo más antiguo
+
+202110",none,
+div,"Periodo más antiguo
+
+202110",row,
+div,"Periodo más antiguo
+
+202110",gridcell,
+div,"Periodo más antiguo
+
+202110",button,"Periodo más antiguo, 202110 tarjeta"
+div,"Periodo más antiguo
+
+202110",,
+div,"Periodo más antiguo
+
+202110",,
+div,"Periodo más antiguo
+
+202110",,
+div,"Periodo más antiguo
+
+202110",,
+div,"Periodo más antiguo
+
+202110",,
+div,"Periodo más antiguo
+
+202110",,
+div,"Periodo más antiguo
+
+202110",,
+div,"Periodo más antiguo
+
+202110",,
+div,"Periodo más reciente
+
+202110",group,
+div,"Periodo más reciente
+
+202110",,
+div,"Periodo más reciente
+
+202110",,
+div,"Periodo más reciente
+
+202110",region,Tarjeta
+div,"Periodo más reciente
+
+202110",,
+div,"Periodo más reciente
+
+202110",,
+div,"Periodo más reciente
+
+202110",grid,
+div,"Periodo más reciente
+
+202110",none,
+div,"Periodo más reciente
+
+202110",none,
+div,"Periodo más reciente
+
+202110",none,
+div,"Periodo más reciente
+
+202110",none,
+div,"Periodo más reciente
+
+202110",none,
+div,"Periodo más reciente
+
+202110",row,
+div,"Periodo más reciente
+
+202110",gridcell,
+div,"Periodo más reciente
+
+202110",button,"Periodo más reciente, 202110 tarjeta"
+div,"Periodo más reciente
+
+202110",,
+div,"Periodo más reciente
+
+202110",,
+div,"Periodo más reciente
+
+202110",,
+div,"Periodo más reciente
+
+202110",,
+div,"Periodo más reciente
+
+202110",,
+div,"Periodo más reciente
+
+202110",,
+div,"Periodo más reciente
+
+202110",,
+div,"Periodo más reciente
+
+202110",,
+div,"Años
+Meses",group,
+div,"Años
+Meses",,
+div,"Años
+Meses",,
+div,"Años
+Meses",,
+div,"Años
+Meses",,
+div,"Años
+Meses",,
+div,"Años
+Meses",,
+div,"Años
+Meses",grid,
+div,"Años
+Meses",none,
+div,"Años
+Meses",none,
+div,"Años
+Meses",none,
+div,"Años
+Meses",none,
+div,"Años
+Meses",none,
+div,"Años
+Meses",row,
+div,Años,gridcell,
+div,Años,button,
+div,Años,,
+div,Años,,
+div,Años,,
+div,Años,,
+div,Años,,
+div,Años,,
+div,Años,,
+div,Años,,
+div,Años,,
+div,Meses,gridcell,
+div,Meses,button,
+div,Meses,,
+div,Meses,,
+div,Meses,,
+div,Meses,,
+div,Meses,,
+div,Meses,,
+div,Meses,,
+div,Meses,,
+div,Meses,,
+div,"Filtros
+Tabla 1 (país)
+Tabla det. 2 (DISA)
+Tabla det. 3 (EESS)
+Tabla det. 4 (UE)
+Gráfico acum.
+Gráfico por cód
+Gráfico Disp.",group,9 elementos
+div,"Filtros
+Tabla 1 (país)
+Tabla det. 2 (DISA)
+Tabla det. 3 (EESS)
+Tabla det. 4 (UE)
+Gráfico acum.
+Gráfico por cód
+Gráfico Disp.",,
+div,Filtros,link,Marcador . Mostrar Panel de filtros
+div,Filtros,,
+div,Filtros,,
+div,Filtros,,
+div,Filtros,,
+div,Filtros,,
+div,Filtros,,
+div,Filtros,,
+div,Filtros,,
+div,Tabla 1 (país),link,Marcador . Mostrar tabla
+div,Tabla 1 (país),,
+div,Tabla 1 (país),,
+div,Tabla 1 (país),,
+div,Tabla 1 (país),,
+div,Tabla 1 (país),,
+div,Tabla 1 (país),,
+div,Tabla 1 (país),,
+div,Tabla 1 (país),,
+div,Tabla det. 2 (DISA),link,Marcador . Mostrar tabla
+div,Tabla det. 2 (DISA),,
+div,Tabla det. 2 (DISA),,
+div,Tabla det. 2 (DISA),,
+div,Tabla det. 2 (DISA),,
+div,Tabla det. 2 (DISA),,
+div,Tabla det. 2 (DISA),,
+div,Tabla det. 2 (DISA),,
+div,Tabla det. 2 (DISA),,
+div,Tabla det. 3 (EESS),link,Marcador . Mostrar tabla
+div,Tabla det. 3 (EESS),,
+div,Tabla det. 3 (EESS),,
+div,Tabla det. 3 (EESS),,
+div,Tabla det. 3 (EESS),,
+div,Tabla det. 3 (EESS),,
+div,Tabla det. 3 (EESS),,
+div,Tabla det. 3 (EESS),,
+div,Tabla det. 3 (EESS),,
+div,Tabla det. 4 (UE),link,Marcador . Mostrar tabla
+div,Tabla det. 4 (UE),,
+div,Tabla det. 4 (UE),,
+div,Tabla det. 4 (UE),,
+div,Tabla det. 4 (UE),,
+div,Tabla det. 4 (UE),,
+div,Tabla det. 4 (UE),,
+div,Tabla det. 4 (UE),,
+div,Tabla det. 4 (UE),,
+div,Gráfico acum.,link,Marcador . Mostrar gráfico
+div,Gráfico acum.,,
+div,Gráfico acum.,,
+div,Gráfico acum.,,
+div,Gráfico acum.,,
+div,Gráfico acum.,,
+div,Gráfico acum.,,
+div,Gráfico acum.,,
+div,Gráfico acum.,,
+div,Gráfico por cód,link,Marcador . Mostrar gráfico
+div,Gráfico por cód,,
+div,Gráfico por cód,,
+div,Gráfico por cód,,
+div,Gráfico por cód,,
+div,Gráfico por cód,,
+div,Gráfico por cód,,
+div,Gráfico por cód,,
+div,Gráfico por cód,,
+div,Gráfico Disp.,link,Marcador . Mostrar gráfico
+div,Gráfico Disp.,,
+div,Gráfico Disp.,,
+div,Gráfico Disp.,,
+div,Gráfico Disp.,,
+div,Gráfico Disp.,,
+div,Gráfico Disp.,,
+div,Gráfico Disp.,,
+div,Gráfico Disp.,,
+div,"Descargar
+Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ 
+Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)
+Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO",group,4 elementos
+div,"Descargar
+Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ 
+Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)
+Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO",,
+div,Descargar,link,Marcador . Abrir descarga
+div,Descargar,,
+div,Descargar,,
+div,Descargar,,
+div,Descargar,,
+div,Descargar,,
+div,Descargar,,
+div,Descargar,,
+div,Descargar,,
+div,"Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ ",group,
+div,"Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ ",,
+div,"Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ ",,
+div,"Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ ",,
+div,"Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ ",,
+div,"Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ ",document,
+div,"Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ ",grid,
+div,"Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan",presentation,
+div,"Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan",row,
+div,"Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan",presentation,
+div,"Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan",presentation,
+div,Selección de fila,columnheader,
+div,Tipo Reportante,columnheader,
+div,Codigo_med,columnheader,
+div,"Producto
+ ",columnheader,
+div,Tipsum,columnheader,
+div,Meses,columnheader,
+div,Stock.,columnheader,
+div,Consumo,columnheader,
+div,Precio ICI,columnheader,
+div,Consumo_venta,columnheader,
+div,Consumo_sis,columnheader,
+div,Consumo_intersan,columnheader,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ ",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,D,gridcell,
+div,202105,gridcell,
+div,0,gridcell,
+div,60,gridcell,
+div,"0,0",gridcell,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ ",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,D,gridcell,
+div,202106,gridcell,
+div,0,gridcell,
+div,0,gridcell,
+div,"0,0",gridcell,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ ",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,D,gridcell,
+div,202107,gridcell,
+div,0,gridcell,
+div,0,gridcell,
+div,"0,0",gridcell,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ ",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,D,gridcell,
+div,202108,gridcell,
+div,0,gridcell,
+div,0,gridcell,
+div,"0,0",gridcell,
+div,"Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ ",row,
+div,"Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ ",presentation,
+div,"Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,HOSPITAL,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,D,gridcell,
+div,202303,gridcell,
+div,26,gridcell,
+div,0,gridcell,
+div,"0,1",gridcell,
+div,"Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ ",row,
+div,"Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ ",presentation,
+div,"Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,HOSPITAL,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,D,gridcell,
+div,202304,gridcell,
+div,0,gridcell,
+div,26,gridcell,
+div,"0,0",gridcell,
+div,"Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ ",row,
+div,"Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ ",presentation,
+div,"Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+ 
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,HOSPITAL,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,D,gridcell,
+div,202305,gridcell,
+div,0,gridcell,
+div,0,gridcell,
+div,"0,0",gridcell,
+div,"Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ ",row,
+div,"Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ ",presentation,
+div,"Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202306
+0
+0
+0,0
+ 
+ 
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,HOSPITAL,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,D,gridcell,
+div,202306,gridcell,
+div,0,gridcell,
+div,0,gridcell,
+div,"0,0",gridcell,
+div,"Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ ",row,
+div,"Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ ",presentation,
+div,"Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202307
+0
+0
+0,0
+ 
+ 
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,HOSPITAL,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,D,gridcell,
+div,202307,gridcell,
+div,0,gridcell,
+div,0,gridcell,
+div,"0,0",gridcell,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ ",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202104
+582
+250
+0,2
+ 
+250
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,S,gridcell,
+div,202104,gridcell,
+div,582,gridcell,
+div,250,gridcell,
+div,"0,2",gridcell,
+div,250,gridcell,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ ",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202105
+530
+52
+0,2
+ 
+52
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,S,gridcell,
+div,202105,gridcell,
+div,530,gridcell,
+div,52,gridcell,
+div,"0,2",gridcell,
+div,52,gridcell,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ ",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202106
+939
+91
+0,2
+ 
+91
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,S,gridcell,
+div,202106,gridcell,
+div,939,gridcell,
+div,91,gridcell,
+div,"0,2",gridcell,
+div,91,gridcell,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ ",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202107
+639
+0
+0,2
+ 
+ 
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,S,gridcell,
+div,202107,gridcell,
+div,639,gridcell,
+div,0,gridcell,
+div,"0,2",gridcell,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ ",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202108
+612
+127
+0,2
+ 
+127
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,S,gridcell,
+div,202108,gridcell,
+div,612,gridcell,
+div,127,gridcell,
+div,"0,2",gridcell,
+div,127,gridcell,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ ",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202109
+637
+175
+0,2
+8
+167
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,S,gridcell,
+div,202109,gridcell,
+div,637,gridcell,
+div,175,gridcell,
+div,"0,2",gridcell,
+div,8,gridcell,
+div,167,gridcell,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ ",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202110
+658
+9
+0,2
+ 
+9
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,CENTRO,,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,S,gridcell,
+div,202110,gridcell,
+div,658,gridcell,
+div,9,gridcell,
+div,"0,2",gridcell,
+div,9,gridcell,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ ",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202111
+1.268
+140
+0,4
+ 
+140
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,S,gridcell,
+div,202111,gridcell,
+div,1.268,gridcell,
+div,140,gridcell,
+div,"0,4",gridcell,
+div,140,gridcell,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ ",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202112
+2.886
+82
+0,3
+ 
+82
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,S,gridcell,
+div,202112,gridcell,
+div,2.886,gridcell,
+div,82,gridcell,
+div,"0,3",gridcell,
+div,82,gridcell,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ ",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202201
+2.769
+117
+0,4
+29
+88
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,S,gridcell,
+div,202201,gridcell,
+div,2.769,gridcell,
+div,117,gridcell,
+div,"0,4",gridcell,
+div,29,gridcell,
+div,88,gridcell,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ ",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202202
+2.814
+55
+0,4
+ 
+55
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,S,gridcell,
+div,202202,gridcell,
+div,2.814,gridcell,
+div,55,gridcell,
+div,"0,4",gridcell,
+div,55,gridcell,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ ",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202203
+3.136
+226
+0,4
+40
+186
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,S,gridcell,
+div,202203,gridcell,
+div,3.136,gridcell,
+div,226,gridcell,
+div,"0,4",gridcell,
+div,40,gridcell,
+div,186,gridcell,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ ",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202204
+2.630
+206
+0,4
+ 
+206
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,S,gridcell,
+div,202204,gridcell,
+div,2.630,gridcell,
+div,206,gridcell,
+div,"0,4",gridcell,
+div,206,gridcell,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ ",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202205
+1.447
+213
+0,3
+ 
+213
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,S,gridcell,
+div,202205,gridcell,
+div,1.447,gridcell,
+div,213,gridcell,
+div,"0,3",gridcell,
+div,213,gridcell,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202206
+930
+399
+0,3
+ 
+83
+316",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,S,gridcell,
+div,202206,gridcell,
+div,930,gridcell,
+div,399,gridcell,
+div,"0,3",gridcell,
+div,83,gridcell,
+div,316,gridcell,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ ",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202207
+1.181
+149
+0,4
+ 
+149
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,S,gridcell,
+div,202207,gridcell,
+div,1.181,gridcell,
+div,149,gridcell,
+div,"0,4",gridcell,
+div,149,gridcell,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ ",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202208
+1.086
+295
+0,4
+1
+294
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,S,gridcell,
+div,202208,gridcell,
+div,1.086,gridcell,
+div,295,gridcell,
+div,"0,4",gridcell,
+div,1,gridcell,
+div,294,gridcell,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ ",row,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ ",presentation,
+div,"Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+S
+202209
+1.096
+190
+0,4
+2
+188
+ ",presentation,
+div,Seleccionar fila,gridcell,
+div,CENTRO,gridcell,
+div,04764,gridcell,
+div,METOTREXATO 2.5 mg TABLETA,gridcell,
+div,S,gridcell,
+div,202209,gridcell,
+div,1.096,gridcell,
+div,190,gridcell,
+div,"0,4",gridcell,
+div,2,gridcell,
+div,188,gridcell,
+div,"Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)",group,Consumo Acumulado por tipo 
+div,"Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)",,
+div,"Consumo Acumulado por tipo
+Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)",,
+div,Consumo Acumulado por tipo,,
+div,Consumo Acumulado por tipo,,
+div,Consumo Acumulado por tipo,,
+div,Consumo Acumulado por tipo,,
+div,"Ventas (0,0%)
+SIS 9 (0,0%)
+InterSan (0,0%)",,
+div,"Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO",group,Consumo Acumulado por tipo EESS 
+div,"Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO",,
+div,"Consumo Acumulado por tipo EESS
+9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO",,
+div,Consumo Acumulado por tipo EESS,,
+div,Consumo Acumulado por tipo EESS,,
+div,Consumo Acumulado por tipo EESS,,
+div,Consumo Acumulado por tipo EESS,,
+div,"9
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO",,
+div,"CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO",region,Leyenda
+div,"CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO",listbox,Leyenda
+div,CENTRO,option,CENTRO
+div,FARMACIA INST…,option,FARMACIA INSTITUCIONAL
+div,HOSPITAL,option,HOSPITAL
+div,INSTITUTO,option,INSTITUTO
+div,PUESTO,option,PUESTO
+div,"Núm. de registros declarados 6
+
+GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA",group,3 elementos
+div,"Núm. de registros declarados 6
+
+GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA",,
+div,Núm. de registros declarados 6,group,
+div,Núm. de registros declarados 6,,
+div,Núm. de registros declarados 6,,
+div,Núm. de registros declarados 6,,
+div,GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA,group,
+div,GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA,,
+div,GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA,,
+div,GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA,,
+div,GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA,document,
+div,GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA,,
+div,"-
++
+76 %",,
+div,"-
++
+76 %",,
+div,"-
++",,
+div,Microsoft Power BI,,
+div,Microsoft Power BI,,
+div,Informe ampliado a 76 %,alert,
+div,fila seleccionada,,
+span,Permite mostrar los métodos abreviados de teclado.,button,Permite mostrar los métodos abreviados de teclado.
+span,Pasar al contenido principal,button,Pasar al contenido principal
+span,"CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS",,
+span,GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA,,
+span,Microsoft Power BI,,

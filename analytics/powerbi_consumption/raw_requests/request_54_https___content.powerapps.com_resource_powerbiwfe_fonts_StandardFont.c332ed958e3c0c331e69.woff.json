@@ -1,0 +1,15 @@
+{
+    "timestamp": "2026-05-16T06:52:20.106739",
+    "method": "GET",
+    "url": "https://content.powerapps.com/resource/powerbiwfe/fonts/StandardFont.c332ed958e3c0c331e69.woff",
+    "resource_type": "font",
+    "headers": {
+        "origin": "https://app.powerbi.com",
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://content.powerapps.com/resource/powerbiwfe/styles/reportembed.bundle.min.789411cac1cf96992919.css",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+}

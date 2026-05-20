@@ -1,0 +1,152 @@
+{
+  "meta": {
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event": 63
+  },
+  "payload": {
+    "jobIds": [
+      "846d206b-18b8-4e97-9e03-65310b148332"
+    ],
+    "results": [
+      {
+        "jobId": "846d206b-18b8-4e97-9e03-65310b148332",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T03:32:00.716Z",
+            "rootActivityId": "f4962b96-6e91-45a5-9721-bf2ba6d7aeea",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 1,
+                  "Depth": 0,
+                  "Value": "G0",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "Periodo_variable",
+                        "Property": "Periodo_variable Campos"
+                      },
+                      "Calc": "K0"
+                    }
+                  ],
+                  "Name": "Periodo_variable.Periodo_variable"
+                }
+              ],
+              "Expressions": {
+                "Primary": {
+                  "Groupings": [
+                    {
+                      "Keys": [
+                        {
+                          "Source": {
+                            "Entity": "Periodo_variable",
+                            "Property": "Periodo_variable Campos"
+                          },
+                          "Calc": "K0"
+                        }
+                      ],
+                      "Member": "DM0"
+                    }
+                  ]
+                }
+              },
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "d73322c5-b21b-4ec4-8bf5-1000d47476fe",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:32:00.7164779Z",
+                  "End": "2026-05-20T03:32:00.7633081Z"
+                },
+                {
+                  "Id": "44620336-640e-4edc-84da-c44bbb40dc85",
+                  "ParentId": "d73322c5-b21b-4ec4-8bf5-1000d47476fe",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:32:00.7320024Z",
+                  "End": "2026-05-20T03:32:00.7633081Z",
+                  "Metrics": {
+                    "RowCount": 2
+                  }
+                },
+                {
+                  "Id": "87E80CFC-BB1D-4053-A46C-A39D90C342C2",
+                  "ParentId": "44620336-640e-4edc-84da-c44bbb40dc85",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:32:00.753Z",
+                  "End": "2026-05-20T03:32:00.76Z"
+                },
+                {
+                  "Id": "2DF8EE39-02F3-4329-B74B-566317D8D642",
+                  "ParentId": "87E80CFC-BB1D-4053-A46C-A39D90C342C2",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:32:00.757Z",
+                  "End": "2026-05-20T03:32:00.76Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "K0",
+                              "T": 1,
+                              "DN": "D0"
+                            },
+                            {
+                              "N": "G0",
+                              "T": 1,
+                              "DN": "D1"
+                            }
+                          ],
+                          "C": [
+                            0,
+                            0
+                          ]
+                        },
+                        {
+                          "C": [
+                            1,
+                            1
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true,
+                  "ValueDicts": {
+                    "D0": [
+                      "'data_historica_dispo12_consumo'[anno]",
+                      "'data_historica_dispo12_consumo'[mesano]"
+                    ],
+                    "D1": [
+                      "Años",
+                      "Meses"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

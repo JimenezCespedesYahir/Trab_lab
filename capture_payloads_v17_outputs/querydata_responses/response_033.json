@@ -1,0 +1,429 @@
+{
+  "meta": {
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event": 66
+  },
+  "payload": {
+    "jobIds": [
+      "c393ed08-0d0d-4b02-a08f-7853de20dc7b"
+    ],
+    "results": [
+      {
+        "jobId": "c393ed08-0d0d-4b02-a08f-7853de20dc7b",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T02:58:02.579Z",
+            "rootActivityId": "65711140-8de9-40d2-8ad9-a87b9db953b7",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 1,
+                  "Depth": 0,
+                  "Value": "G0",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "medicame",
+                        "Property": "Cod_nombre2"
+                      },
+                      "Calc": "G0",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "medicame.Cod_nombre2"
+                }
+              ],
+              "Expressions": {
+                "Primary": {
+                  "Groupings": [
+                    {
+                      "Keys": [
+                        {
+                          "Source": {
+                            "Entity": "medicame",
+                            "Property": "Cod_nombre2"
+                          },
+                          "Select": 0
+                        }
+                      ],
+                      "Member": "DM0"
+                    }
+                  ]
+                }
+              },
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "83525e76-e68a-49db-a457-68ad37090fd0",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T02:58:02.5792933Z",
+                  "End": "2026-05-20T02:58:02.6418273Z"
+                },
+                {
+                  "Id": "cf617112-4204-4a04-bf82-2b27591b7d08",
+                  "ParentId": "83525e76-e68a-49db-a457-68ad37090fd0",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T02:58:02.5792933Z",
+                  "End": "2026-05-20T02:58:02.6261947Z",
+                  "Metrics": {
+                    "RowCount": 101
+                  }
+                },
+                {
+                  "Id": "ADA41936-FDA9-4A71-BB35-8EF56E876555",
+                  "ParentId": "cf617112-4204-4a04-bf82-2b27591b7d08",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T02:58:02.617Z",
+                  "End": "2026-05-20T02:58:02.63Z"
+                },
+                {
+                  "Id": "A227E4F0-6B80-4CCF-898B-738615BF166A",
+                  "ParentId": "ADA41936-FDA9-4A71-BB35-8EF56E876555",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T02:58:02.63Z",
+                  "End": "2026-05-20T02:58:02.63Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "G0",
+                              "T": 1
+                            }
+                          ],
+                          "G0": "(00001) 2H-1-BENZOPIRAN-2-ONA  15 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00002) ABACAVIR (COMO SULFATO) + LAMIVUDINA + ZIDOVUDINA  300 mg + 150 mg + 300 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00003) ABACAVIR (COMO SULFATO) 240 mL 100 mg/5 mL SOLUCION"
+                        },
+                        {
+                          "G0": "(00004) ABACAVIR (COMO SULFATO)  300 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00056) ACETAZOLAMIDA  250 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00058) ACIDO ACETICO + SALICILICO ACIDO + TIMOL 120 mL 850 mg + 200 mg + 300 mg/100 mL SOLUCION"
+                        },
+                        {
+                          "G0": "(00066) ACIDO ACETICO(SOLUCION OFTALMICA) 10 mL 20 mg/mL SOLUCION"
+                        },
+                        {
+                          "G0": "(00070) ACETILCISTEINA 1 g 100 mg GRANULOS"
+                        },
+                        {
+                          "G0": "(00071) ACETILCISTEINA 1 g 200 mg GRANULOS"
+                        },
+                        {
+                          "G0": "(00072) ACETILCISTEINA 3 mL 300 mg INYECTABLE"
+                        },
+                        {
+                          "G0": "(00074) ACETILCISTEINA 40 g 100 mg/5 mL GRANULOS"
+                        },
+                        {
+                          "G0": "(00075) ACETILCISTEINA 60 g 100 mg/5 mL GRANULOS"
+                        },
+                        {
+                          "G0": "(00076) ACETILCISTEINA  600 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00081) ACIDO ACETILSALICILICO + CAFEINA + CODEINA  400 mg + 50 mg + 9.6 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00086) ACIDO ACETILSALICILICO + CAFEINA  500 mg + 30 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00090) ACIDO ACETILSALICILICO + MOROXIDINA  250 mg + 100 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00091) ACIDO ACETILSALICILICO  100 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00092) ACIDO ACETILSALICILICO  150 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00095) ACIDO ACETILSALICILICO  500 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00096) ACIDO ACETILSALICILICO  81 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00110) ACETONIDO DE FLUOCINOLONA 60 g 25 mg/100 g CREMA"
+                        },
+                        {
+                          "G0": "(00111) ACICLOVIR (UNGÜENTO OFTALMICO) 3.5 g 3 g/100 g (3 %) UNGÜENTO"
+                        },
+                        {
+                          "G0": "(00113) ACICLOVIR (UNGÜENTO OFTALMICO) 4.5 g 3 g/100 g (3 %) UNGÜENTO"
+                        },
+                        {
+                          "G0": "(00114) ACICLOVIR (UNGÜENTO OFTALMICO) 5 g 3 g/100 g (3 %) UNGÜENTO"
+                        },
+                        {
+                          "G0": "(00118) ACICLOVIR 10 g 5 g/100 g CREMA"
+                        },
+                        {
+                          "G0": "(00119) ACICLOVIR 15 g 5 g/100 g CREMA"
+                        },
+                        {
+                          "G0": "(00122) ACICLOVIR 5 g 5 g/100 g CREMA"
+                        },
+                        {
+                          "G0": "(00132) ACICLOVIR (COMO SAL SODICA) 10 mL 250 mg INYECTABLE"
+                        },
+                        {
+                          "G0": "(00141) ACICLOVIR (COMO SAL SODICA) 90 mL 200 mg/5 mL SUSPENSION"
+                        },
+                        {
+                          "G0": "(00143) ACICLOVIR  200 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00145) ACICLOVIR  400 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00146) ACICLOVIR  800 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00147) ACETILSALICILICO ACIDO, COMBINACIONES EXCL. PSICOLEPTICOS   TABLETA"
+                        },
+                        {
+                          "G0": "(00148) ACIDO ASCORBICO + ACIDO FOLICO + FERROSO SULFATO HEPTAHIDRATO  500 mg + 500 µg + 500 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00149) ACIDO ASCORBICO + ACIDO FOLICO + FERROSO SULFATO HEPTAHIDRATO  500 mg + 800 mg + 525 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00164) ACIDO ASCORBICO + RETINOL + VITAMINA D 15 mL 30 mg + 1500 UI + 400 UI/mL SOLUCION"
+                        },
+                        {
+                          "G0": "(00176) ACIDO ASCORBICO  500 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00199) ACIDO FOLICO + HIERRO POLIMALTOSA  350 µg + 330 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00200) ACIDO FOLICO  500 µg (0.5 mg) TABLETA"
+                        },
+                        {
+                          "G0": "(00202) ACIDO FUSIDICO 15 g 2 g/100 g (2 %) CREMA"
+                        },
+                        {
+                          "G0": "(00213) ACIDO NALIDIXICO  1 g TABLETA"
+                        },
+                        {
+                          "G0": "(00218) ACIDO PAMIDRONICO (PAMIDRONATO DISODICO)  90 mg INYECTABLE"
+                        },
+                        {
+                          "G0": "(00223) ACIDO TRANEXAMICO 10 mL 1 g INYECTABLE"
+                        },
+                        {
+                          "G0": "(00224) ACIDO TRANEXAMICO 2.5 mL 250 mg INYECTABLE"
+                        },
+                        {
+                          "G0": "(00225) ACIDO TRANEXAMICO  250 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00226) ACIDO URSODESOXICOLICO  250 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00227) ACIDO VALPROICO 120 mL 250 mg/5 mL JARABE"
+                        },
+                        {
+                          "G0": "(00228) ACIDO VALPROICO 240 mL 250 mg/5 mL JARABE"
+                        },
+                        {
+                          "G0": "(00229) ACIDO VALPROICO 60 mL 250 mg/5 mL JARABE"
+                        },
+                        {
+                          "G0": "(00231) ACITRETINA  25 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00233) ADAPALENO 30 g 100 mg/100 g CREMA"
+                        },
+                        {
+                          "G0": "(00234) ADENOSINA 2 mL 6 mg/2 mL INYECTABLE"
+                        },
+                        {
+                          "G0": "(00254) ALBENDAZOL 10 mL 100 mg/5 mL SUSPENSION"
+                        },
+                        {
+                          "G0": "(00257) ALBENDAZOL 150 mL 100 mg/5 mL SUSPENSION"
+                        },
+                        {
+                          "G0": "(00258) ALBENDAZOL 180 mL 100 mg/5 mL SUSPENSION"
+                        },
+                        {
+                          "G0": "(00259) ALBENDAZOL 20 mL 100 mg/5 mL SUSPENSION"
+                        },
+                        {
+                          "G0": "(00260) ALBENDAZOL 30 mL 100 mg/5 mL SUSPENSION"
+                        },
+                        {
+                          "G0": "(00265) ALBENDAZOL 10 mL 200 mg/5 mL SUSPENSION"
+                        },
+                        {
+                          "G0": "(00269) ALBENDAZOL  200 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00270) ALBENDAZOL  400 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00274) ALBUMINA HUMANA 50 mL 20 g/100 mL INYECTABLE"
+                        },
+                        {
+                          "G0": "(00276) ALBUMINA HUMANA 100 mL 25 g/100 mL INYECTABLE"
+                        },
+                        {
+                          "G0": "(00279) ALBUMINA HUMANA 50 mL 25 g/100 mL INYECTABLE"
+                        },
+                        {
+                          "G0": "(00294) ALCANFOR + EUCALIPTOL + MENTOL 20 g 2.5 g + 1.2 g + 5 g/100 g CREMA"
+                        },
+                        {
+                          "G0": "(00297) ALCANFOR + EUCALIPTOL + MENTOL 100 g 5 g + 1.2 g + 3 g/100 g CREMA"
+                        },
+                        {
+                          "G0": "(00350) ALCOHOL POLIVINILICO (SOLUCION OFTALMICA) 15 mL 14 mg/mL SOLUCION"
+                        },
+                        {
+                          "G0": "(00356) ACIDO ALENDRONICO (COMO ALENDRONATO SODICO)  70 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00364) ALFA TOCOFEROL + PANTENOL + RETINOL 30 g 10 UI + 50 mg + 50 UI/100 g CREMA"
+                        },
+                        {
+                          "G0": "(00389) ALOPURINOL  100 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00390) ALOPURINOL  300 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00391) ALPRAZOLAM 10 mL 500 µg/mL SOLUCION"
+                        },
+                        {
+                          "G0": "(00392) ALPRAZOLAM  250 µg TABLETA"
+                        },
+                        {
+                          "G0": "(00393) ALPRAZOLAM  500 µg (0.5 mg) TABLETA"
+                        },
+                        {
+                          "G0": "(00396) ALPROSTADIL 1 mL 500 µg/mL INYECTABLE"
+                        },
+                        {
+                          "G0": "(00397) ALPROSTADIL  10 µg/mL INYECTABLE"
+                        },
+                        {
+                          "G0": "(00408) ALTEPLASA (ACTIVADOR DE PLASMINOGENO TISULAR)  50 mg INYECTABLE"
+                        },
+                        {
+                          "G0": "(00474) ALUMINIO HIDROXIDO + MAGNESIO TRISILICATO + SIMETICONA 60 mL 400 mg + 400 mg + 40 mg/5 mL SUSPENSION"
+                        },
+                        {
+                          "G0": "(00476) SIMETICONA  80 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00491) ALUMINIO HIDROXIDO + MAGNESIO HIDROXIDO 120 mL 200 mg + 200 mg/5 mL SUSPENSION"
+                        },
+                        {
+                          "G0": "(00496) ALUMINIO HIDROXIDO + MAGNESIO HIDROXIDO 120 mL 300 - 400 mg/5 mL SUSPENSION"
+                        },
+                        {
+                          "G0": "(00497) ALUMINIO HIDROXIDO + MAGNESIO HIDROXIDO 150 mL 300 - 400 mg/5 mL SUSPENSION"
+                        },
+                        {
+                          "G0": "(00498) ALUMINIO HIDROXIDO + MAGNESIO HIDROXIDO 180 mL 300 - 400 mg/5 mL SUSPENSION"
+                        },
+                        {
+                          "G0": "(00500) ALUMINIO HIDROXIDO + MAGNESIO HIDROXIDO 240 mL 300 - 400 mg/5 mL SUSPENSION"
+                        },
+                        {
+                          "G0": "(00509) ALUMINIO HIDROXIDO 250 mL 300 mg/5 mL SUSPENSION"
+                        },
+                        {
+                          "G0": "(00524) AMBROXOL + AMOXICILINA 100 mL 15 mg + 750 mg/5 mL SUSPENSION"
+                        },
+                        {
+                          "G0": "(00546) AMBROXOL + CEFALEXINA  30 mg + 500 mg TABLETA"
+                        },
+                        {
+                          "G0": "(00549) AMBROXOL + CLENBUTEROL 120 mL 7.5 mg + 5 ug/5 mL JARABE"
+                        },
+                        {
+                          "G0": "(00575) AMBROXOL 120 mL 15 mg/5 mL JARABE"
+                        },
+                        {
+                          "G0": "(00592) AMBROXOL 120 mL 30 mg/5 mL JARABE"
+                        },
+                        {
+                          "G0": "(00603) AMBROXOL 20 mL 7.5 mg/mL SOLUCION"
+                        },
+                        {
+                          "G0": "(00607) AMBROXOL 15 mL 7.5 mg/mL SOLUCION"
+                        },
+                        {
+                          "G0": "(00620) AMFOTERICINA B 10 mL 50 mg INYECTABLE"
+                        },
+                        {
+                          "G0": "(00624) AMIKACINA (COMO SULFATO) 4 mL 1 g INYECTABLE"
+                        },
+                        {
+                          "G0": "(00625) AMIKACINA (COMO SULFATO) 2 mL 50 mg/mL INYECTABLE"
+                        },
+                        {
+                          "G0": "(00626) AMIKACINA (COMO SULFATO) 2 mL 125 mg/mL INYECTABLE"
+                        },
+                        {
+                          "G0": "(00627) AMIKACINA (COMO SULFATO) 2 mL 250 mg/mL INYECTABLE"
+                        },
+                        {
+                          "G0": "(00632) AMINOACIDOS Y DERIVADOS   TABLETA"
+                        },
+                        {
+                          "G0": "(00635) AMINOACIDOS C/ ELECTROLITOS 500 mL 10 % INYECTABLE"
+                        },
+                        {
+                          "G0": "(00638) AMINOACIDOS 250 mL 10 % INYECTABLE"
+                        },
+                        {
+                          "G0": "(00639) AMINOACIDOS 500 mL 10 % INYECTABLE"
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": false,
+                  "RT": [
+                    [
+                      "'(00639) AMINOACIDOS 500 mL 10 % INYECTABLE'"
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

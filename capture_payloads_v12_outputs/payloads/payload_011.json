@@ -1,0 +1,217 @@
+{
+  "jobIds": [
+    "40cfa859-9385-462a-a02b-9ccea6a66c61"
+  ],
+  "results": [
+    {
+      "jobId": "40cfa859-9385-462a-a02b-9ccea6a66c61",
+      "result": {
+        "data": {
+          "timestamp": "2026-05-20T01:49:22.189Z",
+          "rootActivityId": "d617bc76-71d9-46e3-863f-1065095ed913",
+          "descriptor": {
+            "Select": [
+              {
+                "Kind": 1,
+                "Depth": 0,
+                "Value": "G0",
+                "GroupKeys": [
+                  {
+                    "Source": {
+                      "Entity": "medicame",
+                      "Property": "Cod_nombre2"
+                    },
+                    "Calc": "G0",
+                    "IsSameAsSelect": true
+                  }
+                ],
+                "Name": "medicame.Cod_nombre2"
+              },
+              {
+                "Kind": 2,
+                "Value": "M0",
+                "Format": "#,0",
+                "Name": "Sum(data_historica_dispo12_consumo.M01_tot)"
+              },
+              {
+                "Kind": 1,
+                "SecondaryDepth": 0,
+                "Value": "G1",
+                "GroupKeys": [
+                  {
+                    "Source": {
+                      "Entity": "CATALOGO_IPRESS_AEMS",
+                      "Property": "tipo_completo"
+                    },
+                    "Calc": "G1",
+                    "IsSameAsSelect": true
+                  }
+                ],
+                "Name": "CATALOGO_IPRESS_AEMS.tipo_completo"
+              }
+            ],
+            "Expressions": {
+              "Primary": {
+                "Groupings": [
+                  {
+                    "Keys": [
+                      {
+                        "Source": {
+                          "Entity": "medicame",
+                          "Property": "Cod_nombre2"
+                        },
+                        "Select": 0
+                      }
+                    ],
+                    "Member": "DM0"
+                  }
+                ]
+              },
+              "Secondary": {
+                "Groupings": [
+                  {
+                    "Keys": [
+                      {
+                        "Source": {
+                          "Entity": "CATALOGO_IPRESS_AEMS",
+                          "Property": "tipo_completo"
+                        },
+                        "Select": 2
+                      }
+                    ],
+                    "Member": "DM1"
+                  }
+                ]
+              }
+            },
+            "Limits": {
+              "Secondary": {
+                "Id": "L0",
+                "Top": {
+                  "Count": 60
+                }
+              }
+            },
+            "Version": 2
+          },
+          "metrics": {
+            "Version": "1.0.0",
+            "Events": [
+              {
+                "Id": "7c8e66ce-dc21-41f5-9b77-da42a23801ca",
+                "Name": "Execute Semantic Query",
+                "Component": "DSE",
+                "Start": "2026-05-20T01:49:22.1893067Z",
+                "End": "2026-05-20T01:49:25.3932444Z"
+              },
+              {
+                "Id": "6c9ca14f-ec2e-4f0b-9bd4-4c1ab052c8a0",
+                "ParentId": "7c8e66ce-dc21-41f5-9b77-da42a23801ca",
+                "Name": "Execute DAX Query",
+                "Component": "DSE",
+                "Start": "2026-05-20T01:49:22.1893067Z",
+                "End": "2026-05-20T01:49:25.3932444Z",
+                "Metrics": {
+                  "RowCount": 10
+                }
+              },
+              {
+                "Id": "03035E37-8930-41EF-B9A6-C2309862EB0D",
+                "ParentId": "6c9ca14f-ec2e-4f0b-9bd4-4c1ab052c8a0",
+                "Name": "Execute Query",
+                "Component": "AS",
+                "Start": "2026-05-20T01:49:22.927Z",
+                "End": "2026-05-20T01:49:25.317Z"
+              },
+              {
+                "Id": "1475C4D1-33B8-4E81-B2C4-9AEA2898E666",
+                "ParentId": "03035E37-8930-41EF-B9A6-C2309862EB0D",
+                "Name": "Serialize Rowset",
+                "Component": "AS",
+                "Start": "2026-05-20T01:49:25.317Z",
+                "End": "2026-05-20T01:49:25.317Z"
+              }
+            ]
+          },
+          "fromCache": false,
+          "dsr": {
+            "Version": 2,
+            "MinorVersion": 1,
+            "DS": [
+              {
+                "N": "DS0",
+                "SH": [
+                  {
+                    "DM1": [
+                      {
+                        "S": [
+                          {
+                            "N": "G1",
+                            "T": 1
+                          }
+                        ],
+                        "G1": "CENTRO"
+                      },
+                      {
+                        "G1": "FARMACIA INSTITUCIONAL"
+                      },
+                      {
+                        "G1": "HOSPITAL"
+                      },
+                      {
+                        "G1": "INSTITUTO"
+                      },
+                      {
+                        "G1": "PUESTO"
+                      }
+                    ]
+                  }
+                ],
+                "PH": [
+                  {
+                    "DM0": [
+                      {
+                        "S": [
+                          {
+                            "N": "G0",
+                            "T": 1
+                          }
+                        ],
+                        "G0": "(04764) METOTREXATO  2.5 mg TABLETA",
+                        "X": [
+                          {
+                            "S": [
+                              {
+                                "N": "M0",
+                                "T": 4
+                              }
+                            ],
+                            "M0": 23480
+                          },
+                          {
+                            "M0": 924
+                          },
+                          {
+                            "M0": 1129124
+                          },
+                          {
+                            "M0": 25
+                          },
+                          {
+                            "M0": 1318
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "IC": true,
+                "HAD": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

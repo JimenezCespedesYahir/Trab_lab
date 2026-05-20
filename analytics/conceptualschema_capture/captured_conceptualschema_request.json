@@ -1,0 +1,74 @@
+{
+    "capture_timestamp": "2026-05-16T14:29:40.545316",
+    "request": {
+        "method": "POST",
+        "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/conceptualschema",
+        "headers": {
+            "sec-ch-ua-platform": "\"Windows\"",
+            "referer": "https://app.powerbi.com/",
+            "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+            "sec-ch-ua-mobile": "?0",
+            "x-powerbi-resourcekey": "8d8ebd1d-6969-4fc4-aa0e-0e2566e678a4",
+            "requestid": "1b7f0009-1469-8ae5-3fe7-8601334cb16d",
+            "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+            "accept": "application/json, text/plain, */*",
+            "content-type": "application/json;charset=UTF-8",
+            "activityid": "d9a6cb5f-1f5b-4902-9629-312ca6adba05"
+        },
+        "post_data": "{\"modelIds\":[2201295]}"
+    },
+    "cookies": [
+        {
+            "name": "WFESessionId",
+            "value": "92b55bfa-7f6a-46be-94c4-80635be8a897",
+            "domain": "app.powerbi.com",
+            "path": "/",
+            "expires": -1,
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "None",
+            "partitionKey": "https://powerbi.com",
+            "_crHasCrossSiteAncestor": false
+        },
+        {
+            "name": "ARRAffinity",
+            "value": "fefe764be46af22b219770b9f088f606ad9d5c2c0064c96c2066f3f96d461a98",
+            "domain": ".app.powerbi.com",
+            "path": "/",
+            "expires": -1,
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "Lax"
+        },
+        {
+            "name": "ARRAffinitySameSite",
+            "value": "fefe764be46af22b219770b9f088f606ad9d5c2c0064c96c2066f3f96d461a98",
+            "domain": ".app.powerbi.com",
+            "path": "/",
+            "expires": -1,
+            "httpOnly": true,
+            "secure": true,
+            "sameSite": "None"
+        },
+        {
+            "name": "ai_user",
+            "value": "3ZUjMz38oNSa4aYmrPQFq3|2026-05-16T14:29:00.833Z",
+            "domain": "app.powerbi.com",
+            "path": "/",
+            "expires": 1810477740.833317,
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "None"
+        },
+        {
+            "name": "ai_session",
+            "value": "afTNc3VSEzxslwWruUsjpY|1778941740838|1778941740838",
+            "domain": "app.powerbi.com",
+            "path": "/",
+            "expires": 1778943540.839269,
+            "httpOnly": false,
+            "secure": true,
+            "sameSite": "None"
+        }
+    ]
+}

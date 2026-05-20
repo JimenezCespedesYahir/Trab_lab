@@ -1,0 +1,559 @@
+{
+  "meta": {
+    "timestamp": "2026-05-20T03:10:44.222Z",
+    "session_id": "pbi-20260520T031031Z-a3fae243",
+    "filters_applied": {},
+    "active_action": {},
+    "correlation_id": "pbi-20260520T031031Z-a3fae243-querydata-0007",
+    "request_key": "request@e78ab119b8397ba75e06c888945f6f62",
+    "request_counter": 7,
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "method": "POST",
+    "resource_type": "xhr",
+    "event_counter": 7,
+    "payload_sha256": "4ff8597a319c258e296b030870294f5b49bdb5e17cf2d990376bedec2504010a"
+  },
+  "payload": {
+    "version": "1.0.0",
+    "queries": [
+      {
+        "Query": {
+          "Commands": [
+            {
+              "SemanticQueryDataShapeCommand": {
+                "Query": {
+                  "Version": 2,
+                  "From": [
+                    {
+                      "Name": "d",
+                      "Entity": "data_historica_dispo12_consumo",
+                      "Type": 0
+                    },
+                    {
+                      "Name": "p",
+                      "Entity": "Periodo_variable",
+                      "Type": 0
+                    },
+                    {
+                      "Name": "s",
+                      "Entity": "Switch_4",
+                      "Type": 0
+                    },
+                    {
+                      "Name": "s1",
+                      "Entity": "Switch_3",
+                      "Type": 0
+                    },
+                    {
+                      "Name": "s2",
+                      "Entity": "Switch_22",
+                      "Type": 0
+                    },
+                    {
+                      "Name": "s3",
+                      "Entity": "Switch_21",
+                      "Type": 0
+                    },
+                    {
+                      "Name": "s4",
+                      "Entity": "Switch_1",
+                      "Type": 0
+                    },
+                    {
+                      "Name": "m",
+                      "Entity": "medicame",
+                      "Type": 0
+                    },
+                    {
+                      "Name": "m1",
+                      "Entity": "metricas",
+                      "Type": 0
+                    },
+                    {
+                      "Name": "c",
+                      "Entity": "CATALOGO-DISAS",
+                      "Type": 0
+                    },
+                    {
+                      "Name": "c1",
+                      "Entity": "CATALOGO_IPRESS_AEMS",
+                      "Type": 0
+                    }
+                  ],
+                  "Select": [
+                    {
+                      "Measure": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "d"
+                          }
+                        },
+                        "Property": "m_consumo_vta"
+                      },
+                      "Name": "data_historica_dispo12_consumo.m_consumo_vta",
+                      "NativeReferenceName": "Ventas"
+                    },
+                    {
+                      "Measure": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "d"
+                          }
+                        },
+                        "Property": "m_consumo_sis"
+                      },
+                      "Name": "data_historica_dispo12_consumo.m_consumo_sis",
+                      "NativeReferenceName": "SIS"
+                    },
+                    {
+                      "Measure": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "d"
+                          }
+                        },
+                        "Property": "m_consumo_intersan"
+                      },
+                      "Name": "data_historica_dispo12_consumo.m_consumo_intersan",
+                      "NativeReferenceName": "InterSan"
+                    }
+                  ],
+                  "Where": [
+                    {
+                      "Condition": {
+                        "In": {
+                          "Expressions": [
+                            {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Source": "p"
+                                  }
+                                },
+                                "Property": "Periodo_variable Campos"
+                              }
+                            }
+                          ],
+                          "Values": [
+                            [
+                              {
+                                "Literal": {
+                                  "Value": "'''data_historica_dispo12_consumo''[mesano]'"
+                                }
+                              }
+                            ]
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "Comparison": {
+                          "ComparisonKind": 0,
+                          "Left": {
+                            "Column": {
+                              "Expression": {
+                                "SourceRef": {
+                                  "Source": "s"
+                                }
+                              },
+                              "Property": "Switch_4"
+                            }
+                          },
+                          "Right": {
+                            "Literal": {
+                              "Value": "2D"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "Comparison": {
+                          "ComparisonKind": 0,
+                          "Left": {
+                            "Column": {
+                              "Expression": {
+                                "SourceRef": {
+                                  "Source": "s1"
+                                }
+                              },
+                              "Property": "Switch_3"
+                            }
+                          },
+                          "Right": {
+                            "Literal": {
+                              "Value": "2D"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "Comparison": {
+                          "ComparisonKind": 0,
+                          "Left": {
+                            "Column": {
+                              "Expression": {
+                                "SourceRef": {
+                                  "Source": "s2"
+                                }
+                              },
+                              "Property": "Switch_22"
+                            }
+                          },
+                          "Right": {
+                            "Literal": {
+                              "Value": "1D"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "Comparison": {
+                          "ComparisonKind": 0,
+                          "Left": {
+                            "Column": {
+                              "Expression": {
+                                "SourceRef": {
+                                  "Source": "s3"
+                                }
+                              },
+                              "Property": "Switch_21"
+                            }
+                          },
+                          "Right": {
+                            "Literal": {
+                              "Value": "1D"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "Comparison": {
+                          "ComparisonKind": 0,
+                          "Left": {
+                            "Column": {
+                              "Expression": {
+                                "SourceRef": {
+                                  "Source": "s4"
+                                }
+                              },
+                              "Property": "Switch_1"
+                            }
+                          },
+                          "Right": {
+                            "Literal": {
+                              "Value": "1D"
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "In": {
+                          "Expressions": [
+                            {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Source": "m"
+                                  }
+                                },
+                                "Property": "Cod_nombre2"
+                              }
+                            }
+                          ],
+                          "Values": [
+                            [
+                              {
+                                "Literal": {
+                                  "Value": "'(04764) METOTREXATO  2.5 mg TABLETA'"
+                                }
+                              }
+                            ]
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "In": {
+                          "Expressions": [
+                            {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Source": "m1"
+                                  }
+                                },
+                                "Property": "metricas Campos"
+                              }
+                            }
+                          ],
+                          "Values": [
+                            [
+                              {
+                                "Literal": {
+                                  "Value": "'''data_historica_dispo12_consumo''[m_consumo]'"
+                                }
+                              }
+                            ]
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "Not": {
+                          "Expression": {
+                            "In": {
+                              "Expressions": [
+                                {
+                                  "Column": {
+                                    "Expression": {
+                                      "SourceRef": {
+                                        "Source": "m"
+                                      }
+                                    },
+                                    "Property": "separador1.1"
+                                  }
+                                }
+                              ],
+                              "Values": [
+                                [
+                                  {
+                                    "Literal": {
+                                      "Value": "null"
+                                    }
+                                  }
+                                ]
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "Not": {
+                          "Expression": {
+                            "In": {
+                              "Expressions": [
+                                {
+                                  "Column": {
+                                    "Expression": {
+                                      "SourceRef": {
+                                        "Source": "c"
+                                      }
+                                    },
+                                    "Property": "DISA"
+                                  }
+                                }
+                              ],
+                              "Values": [
+                                [
+                                  {
+                                    "Literal": {
+                                      "Value": "null"
+                                    }
+                                  }
+                                ]
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "And": {
+                          "Left": {
+                            "Not": {
+                              "Expression": {
+                                "Comparison": {
+                                  "ComparisonKind": 0,
+                                  "Left": {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Source": "c1"
+                                        }
+                                      },
+                                      "Property": "DESCRIP"
+                                    }
+                                  },
+                                  "Right": {
+                                    "Literal": {
+                                      "Value": "''"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "Right": {
+                            "Not": {
+                              "Expression": {
+                                "Comparison": {
+                                  "ComparisonKind": 0,
+                                  "Left": {
+                                    "Column": {
+                                      "Expression": {
+                                        "SourceRef": {
+                                          "Source": "c1"
+                                        }
+                                      },
+                                      "Property": "DESCRIP"
+                                    }
+                                  },
+                                  "Right": {
+                                    "Literal": {
+                                      "Value": "null"
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "Not": {
+                          "Expression": {
+                            "In": {
+                              "Expressions": [
+                                {
+                                  "Column": {
+                                    "Expression": {
+                                      "SourceRef": {
+                                        "Source": "c1"
+                                      }
+                                    },
+                                    "Property": "tipo_completo"
+                                  }
+                                }
+                              ],
+                              "Values": [
+                                [
+                                  {
+                                    "Literal": {
+                                      "Value": "'ALM_LOG'"
+                                    }
+                                  }
+                                ],
+                                [
+                                  {
+                                    "Literal": {
+                                      "Value": "'ALMACEN'"
+                                    }
+                                  }
+                                ],
+                                [
+                                  {
+                                    "Literal": {
+                                      "Value": "'SUBALMACEN'"
+                                    }
+                                  }
+                                ],
+                                [
+                                  {
+                                    "Literal": {
+                                      "Value": "'X'"
+                                    }
+                                  }
+                                ]
+                              ]
+                            }
+                          }
+                        }
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "Not": {
+                          "Expression": {
+                            "Comparison": {
+                              "ComparisonKind": 0,
+                              "Left": {
+                                "Column": {
+                                  "Expression": {
+                                    "SourceRef": {
+                                      "Source": "m"
+                                    }
+                                  },
+                                  "Property": "existe_stock"
+                                }
+                              },
+                              "Right": {
+                                "Literal": {
+                                  "Value": "null"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  ],
+                  "OrderBy": [
+                    {
+                      "Direction": 2,
+                      "Expression": {
+                        "Measure": {
+                          "Expression": {
+                            "SourceRef": {
+                              "Source": "d"
+                            }
+                          },
+                          "Property": "m_consumo_vta"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "Binding": {
+                  "Primary": {
+                    "Groupings": [
+                      {
+                        "Projections": [
+                          0,
+                          1,
+                          2
+                        ]
+                      }
+                    ]
+                  },
+                  "Version": 1
+                },
+                "ExecutionMetricsKind": 1
+              }
+            }
+          ]
+        },
+        "CacheKey": "{\"Commands\":[{\"SemanticQueryDataShapeCommand\":{\"Query\":{\"Version\":2,\"From\":[{\"Name\":\"d\",\"Entity\":\"data_historica_dispo12_consumo\",\"Type\":0},{\"Name\":\"p\",\"Entity\":\"Periodo_variable\",\"Type\":0},{\"Name\":\"s\",\"Entity\":\"Switch_4\",\"Type\":0},{\"Name\":\"s1\",\"Entity\":\"Switch_3\",\"Type\":0},{\"Name\":\"s2\",\"Entity\":\"Switch_22\",\"Type\":0},{\"Name\":\"s3\",\"Entity\":\"Switch_21\",\"Type\":0},{\"Name\":\"s4\",\"Entity\":\"Switch_1\",\"Type\":0},{\"Name\":\"m\",\"Entity\":\"medicame\",\"Type\":0},{\"Name\":\"m1\",\"Entity\":\"metricas\",\"Type\":0},{\"Name\":\"c\",\"Entity\":\"CATALOGO-DISAS\",\"Type\":0},{\"Name\":\"c1\",\"Entity\":\"CATALOGO_IPRESS_AEMS\",\"Type\":0}],\"Select\":[{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"m_consumo_vta\"},\"Name\":\"data_historica_dispo12_consumo.m_consumo_vta\",\"NativeReferenceName\":\"Ventas\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"m_consumo_sis\"},\"Name\":\"data_historica_dispo12_consumo.m_consumo_sis\",\"NativeReferenceName\":\"SIS\"},{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"m_consumo_intersan\"},\"Name\":\"data_historica_dispo12_consumo.m_consumo_intersan\",\"NativeReferenceName\":\"InterSan\"}],\"Where\":[{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'''data_historica_dispo12_consumo''[mesano]'\"}}]]}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Switch_4\"}},\"Right\":{\"Literal\":{\"Value\":\"2D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s1\"}},\"Property\":\"Switch_3\"}},\"Right\":{\"Literal\":{\"Value\":\"2D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s2\"}},\"Property\":\"Switch_22\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s3\"}},\"Property\":\"Switch_21\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s4\"}},\"Property\":\"Switch_1\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Cod_nombre2\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'(04764) METOTREXATO  2.5 mg TABLETA'\"}}]]}}},{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m1\"}},\"Property\":\"metricas Campos\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'''data_historica_dispo12_consumo''[m_consumo]'\"}}]]}}},{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"separador1.1\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"null\"}}]]}}}}},{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"DISA\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"null\"}}]]}}}}},{\"Condition\":{\"And\":{\"Left\":{\"Not\":{\"Expression\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c1\"}},\"Property\":\"DESCRIP\"}},\"Right\":{\"Literal\":{\"Value\":\"''\"}}}}}},\"Right\":{\"Not\":{\"Expression\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c1\"}},\"Property\":\"DESCRIP\"}},\"Right\":{\"Literal\":{\"Value\":\"null\"}}}}}}}}},{\"Condition\":{\"Not\":{\"Expression\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c1\"}},\"Property\":\"tipo_completo\"}}],\"Values\":[[{\"Literal\":{\"Value\":\"'ALM_LOG'\"}}],[{\"Literal\":{\"Value\":\"'ALMACEN'\"}}],[{\"Literal\":{\"Value\":\"'SUBALMACEN'\"}}],[{\"Literal\":{\"Value\":\"'X'\"}}]]}}}}},{\"Condition\":{\"Not\":{\"Expression\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"existe_stock\"}},\"Right\":{\"Literal\":{\"Value\":\"null\"}}}}}}}],\"OrderBy\":[{\"Direction\":2,\"Expression\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"m_consumo_vta\"}}}]},\"Binding\":{\"Primary\":{\"Groupings\":[{\"Projections\":[0,1,2]}]},\"Version\":1},\"ExecutionMetricsKind\":1}}]}",
+        "QueryId": "",
+        "ApplicationContext": {
+          "DatasetId": "dd42ab15-58f6-4dfe-a3da-548bff899ff2",
+          "Sources": [
+            {
+              "ReportId": "7aca1416-be15-4e26-ba9a-948125778b3e",
+              "VisualId": "ae4be52c335c2071698a"
+            }
+          ]
+        }
+      }
+    ],
+    "cancelQueries": [],
+    "modelId": 2201295
+  }
+}

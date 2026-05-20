@@ -1,0 +1,23 @@
+﻿entity_name,property_name,data_type,stable_name,format_string,is_temporal,is_product,is_eess,is_jurisdiction,is_join_candidate,is_surrogate_candidate,timestamp
+CATALOGO-DISAS,coddisa,1,339f610c-6c28-413d-8c1c-bfd333c7d3e6,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,DEPARTAMENTO,1,ec81a17c-8da1-4421-bc91-9cb81c32b824,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,DISA,1,6677017b-0b94-478b-afb0-cd997c9fb846,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,DISA (CODIGO),1,2f66b7ec-7c65-4e36-b06a-4776c44d8b52,,False,False,False,True,True,True,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,MACROREGION,1,be0cfcf5-3a3f-4765-a803-d8d130237ffa,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,UBICACIÓN,1,9b94b11c-4dac-42a9-aefa-d8b4ae5d9520,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,UBICACIÓN_2,1,449d1be2-ed31-4e23-b2b4-a2c31fd7744f,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,Z1,1,9565e535-1856-40d0-a424-293ab78ad908,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,Z2,1,d325a533-73af-47bd-a5c6-4b8587071c4b,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,GORES,1,cc007ecb-f07f-4b55-b289-84daf76e0e72,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,Pais,1,40a98706-bedc-4ae5-ad06-05a889e5843c,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,UBICACIÓN_3,1,d36cee8a-96db-418c-b9f8-795808a0027a,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,UBICACION_4,1,107a564b-f58c-45e4-8060-e1204e275eee,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,norte,1,50e5b89a-0b1b-40bb-93e7-66ff6bd72d90,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,este,1,0d18495e-1b9f-49b7-bb1d-1366d9df89b0,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,UBICACION_3_B,1,8ad581d1-5650-45f6-bc9e-bd78ccdc33c3,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,cdisa,1,d28c3be1-7e2e-4c4a-916d-e4c1f4695c9c,,False,False,True,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,Departamento,1,f9737be8-2491-41e7-9485-97eb7edf14ac,,False,False,True,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,Provincia,1,60764bd3-7e04-4787-ba5a-0dbc4247cded,,False,False,True,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,Distrito,1,c87d3a39-7d1c-4006-9d6c-6c135426d574,,False,False,True,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,Red,1,6a5f6ced-fdce-4f4c-8c24-1fc6be4f92e0,,False,False,True,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,micro_red,1,ff1dfbec-aa18-4c92-8f57-727775e6f3ca,,False,False,True,True,False,False,2026-05-16T14:50:56.238801

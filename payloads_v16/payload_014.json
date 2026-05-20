@@ -1,0 +1,99 @@
+{
+  "jobIds": [
+    "f7639e98-7078-4c2c-bd92-565256906185"
+  ],
+  "results": [
+    {
+      "jobId": "f7639e98-7078-4c2c-bd92-565256906185",
+      "result": {
+        "data": {
+          "timestamp": "2026-05-20T01:26:41.835Z",
+          "rootActivityId": "c113b460-42cf-45e7-b208-951b5b89df5f",
+          "descriptor": {
+            "Select": [
+              {
+                "Kind": 2,
+                "Value": "M0",
+                "Name": "data_historica_dispo12_consumo.num_reg"
+              }
+            ],
+            "Version": 2
+          },
+          "metrics": {
+            "Version": "1.0.0",
+            "Events": [
+              {
+                "Id": "6e074f5d-bc34-4d53-9752-abb1b97e21e7",
+                "Name": "Execute Semantic Query",
+                "Component": "DSE",
+                "Start": "2026-05-20T01:26:41.8353582Z",
+                "End": "2026-05-20T01:26:42.1795999Z"
+              },
+              {
+                "Id": "be5a9026-83c0-4d30-a8ec-2428b64b60fb",
+                "ParentId": "6e074f5d-bc34-4d53-9752-abb1b97e21e7",
+                "Name": "Execute DAX Query",
+                "Component": "DSE",
+                "Start": "2026-05-20T01:26:41.8666142Z",
+                "End": "2026-05-20T01:26:42.1795999Z",
+                "Metrics": {
+                  "RowCount": 1
+                }
+              },
+              {
+                "Id": "4FE345F9-E6C6-4CC9-BFEA-6FBBB3484C9A",
+                "ParentId": "be5a9026-83c0-4d30-a8ec-2428b64b60fb",
+                "Name": "Execute Query",
+                "Component": "AS",
+                "Start": "2026-05-20T01:26:41.893Z",
+                "End": "2026-05-20T01:26:42.177Z"
+              },
+              {
+                "Id": "A007E92F-B0D0-4030-A99D-A6A752779BCE",
+                "ParentId": "4FE345F9-E6C6-4CC9-BFEA-6FBBB3484C9A",
+                "Name": "Serialize Rowset",
+                "Component": "AS",
+                "Start": "2026-05-20T01:26:42.177Z",
+                "End": "2026-05-20T01:26:42.177Z"
+              }
+            ]
+          },
+          "fromCache": false,
+          "dsr": {
+            "Version": 2,
+            "MinorVersion": 1,
+            "DS": [
+              {
+                "N": "DS0",
+                "PH": [
+                  {
+                    "DM0": [
+                      {
+                        "S": [
+                          {
+                            "N": "M0",
+                            "T": 1
+                          }
+                        ],
+                        "M0": "Núm. de registros declarados 4"
+                      }
+                    ]
+                  }
+                ],
+                "IC": true,
+                "HAD": true,
+                "Msg": [
+                  {
+                    "Code": "IgnoredDataReductionAlgorithm",
+                    "Severity": "Warning",
+                    "Message": "A data reduction algorithm was specified but the corresponding grouping does not exist. The data reduction will be ignored for primary, secondary, intersection and scoped."
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

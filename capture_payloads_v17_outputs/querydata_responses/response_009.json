@@ -1,0 +1,142 @@
+{
+  "meta": {
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event": 18
+  },
+  "payload": {
+    "jobIds": [
+      "6c3362e3-7910-4a02-a355-f69229e3e6d2"
+    ],
+    "results": [
+      {
+        "jobId": "6c3362e3-7910-4a02-a355-f69229e3e6d2",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T03:31:01.533Z",
+            "rootActivityId": "1383e9ef-cce2-47dc-8278-39c7cfa83959",
+            "descriptor": {
+              "Select": [
+                null,
+                null,
+                {
+                  "Kind": 1,
+                  "Depth": 0,
+                  "Value": "G0",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "CATALOGO-DISAS",
+                        "Property": "MACROREGION"
+                      },
+                      "Calc": "G0",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "CATALOGO-DISAS.MACROREGION"
+                }
+              ],
+              "Expressions": {
+                "Primary": {
+                  "Groupings": [
+                    {
+                      "Keys": [
+                        {
+                          "Source": {
+                            "Entity": "CATALOGO-DISAS",
+                            "Property": "MACROREGION"
+                          },
+                          "Select": 2
+                        }
+                      ],
+                      "Member": "DM0"
+                    }
+                  ]
+                }
+              },
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "c64122ce-a336-4622-b31a-80dff1cebac9",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:31:01.5334943Z",
+                  "End": "2026-05-20T03:31:01.8616375Z"
+                },
+                {
+                  "Id": "3491d2f5-3296-4122-98d8-b01b95b5aac7",
+                  "ParentId": "c64122ce-a336-4622-b31a-80dff1cebac9",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:31:01.5492228Z",
+                  "End": "2026-05-20T03:31:01.8616375Z",
+                  "Metrics": {
+                    "RowCount": 5
+                  }
+                },
+                {
+                  "Id": "82DBF30E-B44E-4740-8E9E-03FA289EA186",
+                  "ParentId": "3491d2f5-3296-4122-98d8-b01b95b5aac7",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:31:01.643Z",
+                  "End": "2026-05-20T03:31:01.65Z"
+                },
+                {
+                  "Id": "39AD6773-2042-4510-B04B-5AF21D29D66C",
+                  "ParentId": "82DBF30E-B44E-4740-8E9E-03FA289EA186",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:31:01.65Z",
+                  "End": "2026-05-20T03:31:01.65Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "G0",
+                              "T": 1
+                            }
+                          ],
+                          "G0": "CENTRO"
+                        },
+                        {
+                          "G0": "LIMA"
+                        },
+                        {
+                          "G0": "NORTE"
+                        },
+                        {
+                          "G0": "ORIENTE"
+                        },
+                        {
+                          "G0": "SUR"
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

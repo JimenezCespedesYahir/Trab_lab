@@ -1,0 +1,135 @@
+{
+  "jobIds": [
+    "4823fd38-b0dc-4397-b4ba-dbd8106aace7"
+  ],
+  "results": [
+    {
+      "jobId": "4823fd38-b0dc-4397-b4ba-dbd8106aace7",
+      "result": {
+        "data": {
+          "timestamp": "2026-05-20T02:05:24.226Z",
+          "rootActivityId": "2a6794a7-b275-4dbd-b627-0ee5224074fd",
+          "descriptor": {
+            "Select": [
+              null,
+              null,
+              {
+                "Kind": 1,
+                "Depth": 0,
+                "Value": "G0",
+                "GroupKeys": [
+                  {
+                    "Source": {
+                      "Entity": "CATALOGO-DISAS",
+                      "Property": "MACROREGION"
+                    },
+                    "Calc": "G0",
+                    "IsSameAsSelect": true
+                  }
+                ],
+                "Name": "CATALOGO-DISAS.MACROREGION"
+              }
+            ],
+            "Expressions": {
+              "Primary": {
+                "Groupings": [
+                  {
+                    "Keys": [
+                      {
+                        "Source": {
+                          "Entity": "CATALOGO-DISAS",
+                          "Property": "MACROREGION"
+                        },
+                        "Select": 2
+                      }
+                    ],
+                    "Member": "DM0"
+                  }
+                ]
+              }
+            },
+            "Version": 2
+          },
+          "metrics": {
+            "Version": "1.0.0",
+            "Events": [
+              {
+                "Id": "c5c237e1-7c8d-48c5-968f-590f0eff4aee",
+                "Name": "Execute Semantic Query",
+                "Component": "DSE",
+                "Start": "2026-05-20T02:05:24.2418399Z",
+                "End": "2026-05-20T02:05:24.2886565Z"
+              },
+              {
+                "Id": "a9977d39-e3e4-4a48-ba26-6e15b33f9bf0",
+                "ParentId": "c5c237e1-7c8d-48c5-968f-590f0eff4aee",
+                "Name": "Execute DAX Query",
+                "Component": "DSE",
+                "Start": "2026-05-20T02:05:24.2418399Z",
+                "End": "2026-05-20T02:05:24.2886565Z",
+                "Metrics": {
+                  "RowCount": 5
+                }
+              },
+              {
+                "Id": "21517D8D-CAC5-4B5D-8996-B71153E81091",
+                "ParentId": "a9977d39-e3e4-4a48-ba26-6e15b33f9bf0",
+                "Name": "Execute Query",
+                "Component": "AS",
+                "Start": "2026-05-20T02:05:24.27Z",
+                "End": "2026-05-20T02:05:24.277Z"
+              },
+              {
+                "Id": "35A72490-73AA-4B16-AF49-8D532DB42D98",
+                "ParentId": "21517D8D-CAC5-4B5D-8996-B71153E81091",
+                "Name": "Serialize Rowset",
+                "Component": "AS",
+                "Start": "2026-05-20T02:05:24.277Z",
+                "End": "2026-05-20T02:05:24.277Z"
+              }
+            ]
+          },
+          "fromCache": false,
+          "dsr": {
+            "Version": 2,
+            "MinorVersion": 1,
+            "DS": [
+              {
+                "N": "DS0",
+                "PH": [
+                  {
+                    "DM0": [
+                      {
+                        "S": [
+                          {
+                            "N": "G0",
+                            "T": 1
+                          }
+                        ],
+                        "G0": "CENTRO"
+                      },
+                      {
+                        "G0": "LIMA"
+                      },
+                      {
+                        "G0": "NORTE"
+                      },
+                      {
+                        "G0": "ORIENTE"
+                      },
+                      {
+                        "G0": "SUR"
+                      }
+                    ]
+                  }
+                ],
+                "IC": true,
+                "HAD": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

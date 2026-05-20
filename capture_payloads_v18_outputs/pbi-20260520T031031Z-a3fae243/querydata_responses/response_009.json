@@ -1,0 +1,161 @@
+{
+  "meta": {
+    "timestamp": "2026-05-20T03:11:08.602Z",
+    "session_id": "pbi-20260520T031031Z-a3fae243",
+    "filters_applied": {},
+    "active_action": {
+      "action": "apply_filter",
+      "label": "MACROREGION",
+      "target": "NORTE",
+      "search": "NORTE",
+      "attempt": 1,
+      "phase": "open_dropdown"
+    },
+    "correlation_id": "pbi-20260520T031031Z-a3fae243-querydata-0009",
+    "request_key": "request@d7c9c9d03442205989eaaa09426f466a",
+    "request_counter": 9,
+    "response_counter": 9,
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event_counter": 18,
+    "elapsed_ms": 468.0,
+    "correlation_status": "matched",
+    "request_payload_sha256": "6f6b17ff3a6b570f9008d8cbf235062fefb11ef1fd2817027c54d8314d1f50ba",
+    "response_payload_sha256": "6dab0f9bc37e54a23f16b93bbeea980171e7e4dbaad9a5f086e086f40ae91daa"
+  },
+  "payload": {
+    "jobIds": [
+      "03d07cf7-5e22-4ce1-9d4f-899735f0ee5f"
+    ],
+    "results": [
+      {
+        "jobId": "03d07cf7-5e22-4ce1-9d4f-899735f0ee5f",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T03:11:08.165Z",
+            "rootActivityId": "973248fd-8c09-4368-9f66-2ebf24cbf090",
+            "descriptor": {
+              "Select": [
+                null,
+                null,
+                {
+                  "Kind": 1,
+                  "Depth": 0,
+                  "Value": "G0",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "CATALOGO-DISAS",
+                        "Property": "MACROREGION"
+                      },
+                      "Calc": "G0",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "CATALOGO-DISAS.MACROREGION"
+                }
+              ],
+              "Expressions": {
+                "Primary": {
+                  "Groupings": [
+                    {
+                      "Keys": [
+                        {
+                          "Source": {
+                            "Entity": "CATALOGO-DISAS",
+                            "Property": "MACROREGION"
+                          },
+                          "Select": 2
+                        }
+                      ],
+                      "Member": "DM0"
+                    }
+                  ]
+                }
+              },
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "df90a600-aad1-4515-ac57-0626d2e66198",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:11:08.1654985Z",
+                  "End": "2026-05-20T03:11:08.1962511Z"
+                },
+                {
+                  "Id": "0d56eff6-1898-4d05-8a8e-717f0eafa87d",
+                  "ParentId": "df90a600-aad1-4515-ac57-0626d2e66198",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:11:08.1654985Z",
+                  "End": "2026-05-20T03:11:08.1962511Z",
+                  "Metrics": {
+                    "RowCount": 5
+                  }
+                },
+                {
+                  "Id": "18317E03-E519-4BC5-92C2-769A8A54193F",
+                  "ParentId": "0d56eff6-1898-4d05-8a8e-717f0eafa87d",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:11:08.197Z",
+                  "End": "2026-05-20T03:11:08.2Z"
+                },
+                {
+                  "Id": "7BAA6F73-673B-4E22-9D23-777A44D1E244",
+                  "ParentId": "18317E03-E519-4BC5-92C2-769A8A54193F",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:11:08.2Z",
+                  "End": "2026-05-20T03:11:08.2Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "G0",
+                              "T": 1
+                            }
+                          ],
+                          "G0": "CENTRO"
+                        },
+                        {
+                          "G0": "LIMA"
+                        },
+                        {
+                          "G0": "NORTE"
+                        },
+                        {
+                          "G0": "ORIENTE"
+                        },
+                        {
+                          "G0": "SUR"
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

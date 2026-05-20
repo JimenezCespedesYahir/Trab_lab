@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "timestamp": "2026-05-20T03:10:44.168Z",
+    "session_id": "pbi-20260520T031031Z-a3fae243",
+    "filters_applied": {},
+    "active_action": {},
+    "correlation_id": "pbi-20260520T031031Z-a3fae243-querydata-0001",
+    "request_key": "request@c3b7d8d311c2f9f08523f425f60c9e35",
+    "request_counter": 1,
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "method": "POST",
+    "resource_type": "xhr",
+    "event_counter": 1,
+    "payload_sha256": "4318a498233a2e5a138ddae23066c6a8b0ec6de5bf5fbb9a31cd49d29a78c8e2"
+  },
+  "payload": {
+    "version": "1.0.0",
+    "queries": [
+      {
+        "Query": {
+          "Commands": [
+            {
+              "SemanticQueryDataShapeCommand": {
+                "Query": {
+                  "Version": 2,
+                  "From": [
+                    {
+                      "Name": "p",
+                      "Entity": "Periodo_variable",
+                      "Type": 0
+                    }
+                  ],
+                  "Select": [
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "p"
+                          }
+                        },
+                        "Property": "Periodo_variable Campos"
+                      },
+                      "Name": "Periodo_variable.Periodo_variable Campos"
+                    },
+                    {
+                      "Column": {
+                        "Expression": {
+                          "SourceRef": {
+                            "Source": "p"
+                          }
+                        },
+                        "Property": "Periodo_variable"
+                      },
+                      "Name": "Periodo_variable.Periodo_variable"
+                    }
+                  ],
+                  "Where": [
+                    {
+                      "Condition": {
+                        "In": {
+                          "Expressions": [
+                            {
+                              "Column": {
+                                "Expression": {
+                                  "SourceRef": {
+                                    "Source": "p"
+                                  }
+                                },
+                                "Property": "Periodo_variable Campos"
+                              }
+                            }
+                          ],
+                          "Values": [
+                            [
+                              {
+                                "Literal": {
+                                  "Value": "'''data_historica_dispo12_consumo''[mesano]'"
+                                }
+                              }
+                            ]
+                          ]
+                        }
+                      }
+                    }
+                  ]
+                },
+                "Binding": {
+                  "Primary": {
+                    "Groupings": [
+                      {
+                        "Projections": [
+                          0,
+                          1
+                        ]
+                      }
+                    ]
+                  },
+                  "DataReduction": {
+                    "DataVolume": 3,
+                    "Primary": {
+                      "Top": {
+                        "Count": 150
+                      }
+                    }
+                  },
+                  "Version": 1
+                },
+                "ExecutionMetricsKind": 1
+              }
+            }
+          ]
+        },
+        "QueryId": "",
+        "ApplicationContext": {
+          "DatasetId": "dd42ab15-58f6-4dfe-a3da-548bff899ff2",
+          "Sources": [
+            {
+              "ReportId": "7aca1416-be15-4e26-ba9a-948125778b3e",
+              "VisualId": "bc1c8e3d04c0193705e3"
+            }
+          ]
+        }
+      }
+    ],
+    "cancelQueries": [],
+    "modelId": 2201295
+  }
+}

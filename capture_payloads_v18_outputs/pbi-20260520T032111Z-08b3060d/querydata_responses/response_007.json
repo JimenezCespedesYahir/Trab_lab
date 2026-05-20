@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "timestamp": "2026-05-20T03:21:21.325Z",
+    "session_id": "pbi-20260520T032111Z-08b3060d",
+    "filters_applied": {},
+    "active_action": {},
+    "correlation_id": "pbi-20260520T032111Z-08b3060d-querydata-0005",
+    "request_key": "request@dc5e6a559dc960853f11957faf82ec1b",
+    "request_counter": 5,
+    "response_counter": 7,
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event_counter": 15,
+    "elapsed_ms": 2344.0,
+    "correlation_status": "matched",
+    "request_payload_sha256": "86349bc3f16f8f482407de5f0bc07141c850d81981574831f6d27e9280c20d84",
+    "response_payload_sha256": "33f681919ca7ee136abd44831fac7c70f29fc07f23ce9d04c6746bd403ea7837"
+  },
+  "payload": {
+    "jobIds": [
+      "19b9ce81-dee6-4edb-80ac-a099b464dac0"
+    ],
+    "results": [
+      {
+        "jobId": "19b9ce81-dee6-4edb-80ac-a099b464dac0",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T03:21:19.49Z",
+            "rootActivityId": "854b3a9e-1315-4d12-948e-07ba99ba94ee",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 1,
+                  "Depth": 0,
+                  "Value": "G0",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "medicame",
+                        "Property": "Cod_nombre2"
+                      },
+                      "Calc": "G0",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "medicame.Cod_nombre2"
+                },
+                {
+                  "Kind": 2,
+                  "Value": "M0",
+                  "Format": "#,0",
+                  "Name": "Sum(data_historica_dispo12_consumo.M01_tot)"
+                },
+                {
+                  "Kind": 1,
+                  "SecondaryDepth": 0,
+                  "Value": "G1",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "CATALOGO_IPRESS_AEMS",
+                        "Property": "tipo_completo"
+                      },
+                      "Calc": "G1",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "CATALOGO_IPRESS_AEMS.tipo_completo"
+                }
+              ],
+              "Expressions": {
+                "Primary": {
+                  "Groupings": [
+                    {
+                      "Keys": [
+                        {
+                          "Source": {
+                            "Entity": "medicame",
+                            "Property": "Cod_nombre2"
+                          },
+                          "Select": 0
+                        }
+                      ],
+                      "Member": "DM0"
+                    }
+                  ]
+                },
+                "Secondary": {
+                  "Groupings": [
+                    {
+                      "Keys": [
+                        {
+                          "Source": {
+                            "Entity": "CATALOGO_IPRESS_AEMS",
+                            "Property": "tipo_completo"
+                          },
+                          "Select": 2
+                        }
+                      ],
+                      "Member": "DM1"
+                    }
+                  ]
+                }
+              },
+              "Limits": {
+                "Secondary": {
+                  "Id": "L0",
+                  "Top": {
+                    "Count": 60
+                  }
+                }
+              },
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "5e01ec0b-a360-4ec1-9f10-f230ab22f853",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:21:19.490154Z",
+                  "End": "2026-05-20T03:21:20.7720616Z"
+                },
+                {
+                  "Id": "4ff11084-0d3a-4b01-9854-142b774b0022",
+                  "ParentId": "5e01ec0b-a360-4ec1-9f10-f230ab22f853",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:21:19.490154Z",
+                  "End": "2026-05-20T03:21:20.7720616Z",
+                  "Metrics": {
+                    "RowCount": 10
+                  }
+                },
+                {
+                  "Id": "645AF625-2C43-412C-9415-8B7B83C1F75C",
+                  "ParentId": "4ff11084-0d3a-4b01-9854-142b774b0022",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:21:20.573Z",
+                  "End": "2026-05-20T03:21:20.613Z"
+                },
+                {
+                  "Id": "91475190-C46D-490D-8F62-02697655F440",
+                  "ParentId": "645AF625-2C43-412C-9415-8B7B83C1F75C",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:21:20.613Z",
+                  "End": "2026-05-20T03:21:20.613Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "SH": [
+                    {
+                      "DM1": [
+                        {
+                          "S": [
+                            {
+                              "N": "G1",
+                              "T": 1
+                            }
+                          ],
+                          "G1": "CENTRO"
+                        },
+                        {
+                          "G1": "FARMACIA INSTITUCIONAL"
+                        },
+                        {
+                          "G1": "HOSPITAL"
+                        },
+                        {
+                          "G1": "INSTITUTO"
+                        },
+                        {
+                          "G1": "PUESTO"
+                        }
+                      ]
+                    }
+                  ],
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "G0",
+                              "T": 1
+                            }
+                          ],
+                          "G0": "(04764) METOTREXATO  2.5 mg TABLETA",
+                          "X": [
+                            {
+                              "S": [
+                                {
+                                  "N": "M0",
+                                  "T": 4
+                                }
+                              ],
+                              "M0": 33827
+                            },
+                            {
+                              "M0": 61932
+                            },
+                            {
+                              "M0": 6559721
+                            },
+                            {
+                              "M0": 874693
+                            },
+                            {
+                              "M0": 1764
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

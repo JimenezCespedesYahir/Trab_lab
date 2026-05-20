@@ -1,0 +1,83 @@
+﻿selector,visible,text,role,aria_label,aria_checked,aria_selected,class,tabindex
+[role='option'],True,,option,"Ventas 385.619 (5,23%).",,,slice setFocusRing,0
+[role='option'],True,,option,"SIS 6.252.736 (84,75%).",,,slice setFocusRing,0
+[role='option'],True,,option,"InterSan 739.575 (10,02%).",,,slice setFocusRing,0
+[role='option'],True,,option,33827,,false,bar setFocusRing,0
+[role='option'],True,,option,61932,,false,bar setFocusRing,0
+[role='option'],True,,option,6559721,,false,bar setFocusRing,0
+[role='option'],True,,option,874693,,false,bar setFocusRing,0
+[role='option'],True,,option,1764,,false,bar setFocusRing,0
+[role='option'],True,CENTRO,option,CENTRO,,false,legend-item flex-justify-content-center flex-align-items-center,0
+[role='option'],True,FARMACIA INST…,option,FARMACIA INSTITUCIONAL,,false,legend-item flex-justify-content-center flex-align-items-center,0
+[role='option'],True,HOSPITAL,option,HOSPITAL,,false,legend-item flex-justify-content-center flex-align-items-center,0
+[role='option'],True,INSTITUTO,option,INSTITUTO,,false,legend-item flex-justify-content-center flex-align-items-center,0
+[role='option'],True,PUESTO,option,PUESTO,,false,legend-item flex-justify-content-center flex-align-items-center,0
+li,True,Permite mostrar los métodos abreviados de teclado.,,,,,,
+li,True,Mostrar consejos para el lector de pantalla,,,,,,
+li,True,Pasar al contenido principal,,,,,,
+li,False,Tabla,,,,,sectionItemHidden animated,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+label,True,Seleccionar fila,,,,,visually-hidden ,
+input,False,,,Buscar,,,searchInput,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,True,,,,,,,
+input,False,,,Buscar,,,searchInput,
+.visibleGroup,True,"Periodo más antiguo
+
+202110",none,,,,visibleGroup,
+.visibleGroup,True,"Periodo más reciente
+
+202110",none,,,,visibleGroup,
+.visibleGroup,True,"Años
+Meses",none,,,,visibleGroup,
+.visibleGroup,False,,none,,,,visibleGroup,

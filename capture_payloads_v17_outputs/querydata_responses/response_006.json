@@ -1,0 +1,131 @@
+{
+  "meta": {
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event": 15
+  },
+  "payload": {
+    "jobIds": [
+      "225ce135-ec00-4e63-8999-ef8f0b9f93b4"
+    ],
+    "results": [
+      {
+        "jobId": "225ce135-ec00-4e63-8999-ef8f0b9f93b4",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T03:26:38.963Z",
+            "rootActivityId": "56d402eb-9b49-481a-9ce2-679351a997a1",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 2,
+                  "Value": "M0",
+                  "Format": "#,0",
+                  "Name": "data_historica_dispo12_consumo.m_consumo_vta"
+                },
+                {
+                  "Kind": 2,
+                  "Value": "M1",
+                  "Format": "#,0",
+                  "Name": "data_historica_dispo12_consumo.m_consumo_sis"
+                },
+                {
+                  "Kind": 2,
+                  "Value": "M2",
+                  "Format": "#,0",
+                  "Name": "data_historica_dispo12_consumo.m_consumo_intersan"
+                }
+              ],
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "a4989070-5fa5-4253-b55d-64abd152f43f",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:26:38.9631856Z",
+                  "End": "2026-05-20T03:26:46.2992722Z"
+                },
+                {
+                  "Id": "ba12c2d2-eaac-484b-bbf7-d395a748b140",
+                  "ParentId": "a4989070-5fa5-4253-b55d-64abd152f43f",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:26:38.9631856Z",
+                  "End": "2026-05-20T03:26:46.2992722Z",
+                  "Metrics": {
+                    "RowCount": 1
+                  }
+                },
+                {
+                  "Id": "F5E9AC18-7838-46FC-89C7-10B36E93BB36",
+                  "ParentId": "ba12c2d2-eaac-484b-bbf7-d395a748b140",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:26:39.78Z",
+                  "End": "2026-05-20T03:26:46.3Z"
+                },
+                {
+                  "Id": "FD8A8BCE-ECE7-428D-89D3-E70C6FFD1C3C",
+                  "ParentId": "F5E9AC18-7838-46FC-89C7-10B36E93BB36",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:26:46.3Z",
+                  "End": "2026-05-20T03:26:46.3Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "M0",
+                              "T": 4
+                            },
+                            {
+                              "N": "M1",
+                              "T": 4
+                            },
+                            {
+                              "N": "M2",
+                              "T": 4
+                            }
+                          ],
+                          "C": [
+                            385619,
+                            6252736,
+                            739575
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true,
+                  "Msg": [
+                    {
+                      "Code": "IgnoredOrderBy",
+                      "Severity": "Warning",
+                      "Message": "The order by at index 0 is ignored. An order by needs to be a projected column or a measure and groups need to be present in the query."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

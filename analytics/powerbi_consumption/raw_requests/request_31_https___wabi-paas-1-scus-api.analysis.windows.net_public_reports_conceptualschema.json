@@ -1,0 +1,19 @@
+{
+    "timestamp": "2026-05-16T06:52:19.996775",
+    "method": "POST",
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/conceptualschema",
+    "resource_type": "xhr",
+    "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://app.powerbi.com/",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0",
+        "x-powerbi-resourcekey": "8d8ebd1d-6969-4fc4-aa0e-0e2566e678a4",
+        "requestid": "af223773-4a37-b48d-1cee-ee2045d63739",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "accept": "application/json, text/plain, */*",
+        "content-type": "application/json;charset=UTF-8",
+        "activityid": "c28ce81a-f7cb-457c-af18-37e6a2555d7b"
+    },
+    "post_data": "{\"modelIds\":[2201295]}"
+}

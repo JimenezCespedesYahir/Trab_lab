@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "timestamp": "2026-05-20T03:12:40.802Z",
+    "session_id": "pbi-20260520T031031Z-a3fae243",
+    "filters_applied": {
+      "MACROREGION": "NORTE",
+      "INSTITUCION": "GOBIERNO REGIONAL",
+      "UNIDAD EJECUTORA": "SALUD LUCIANO CASTILLO COLONNA"
+    },
+    "active_action": {
+      "action": "reset_filter",
+      "label": "Grupo Producto",
+      "target": "Seleccionar todo",
+      "search": "Seleccionar",
+      "attempt": 1,
+      "phase": "select_option"
+    },
+    "correlation_id": "pbi-20260520T031031Z-a3fae243-querydata-0040",
+    "request_key": "request@3678880c047b7e4fe8dcfc93f2769510",
+    "request_counter": 40,
+    "response_counter": 37,
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event_counter": 77,
+    "elapsed_ms": 797.0,
+    "correlation_status": "matched",
+    "request_payload_sha256": "1959d94cab231e833f9224af78a1df56404fe615d4963bd17525abc5b41ab0fe",
+    "response_payload_sha256": "c4dcb9e9e2af1a51034462189c8977d7c33d94e453e87592d62818b9902e5dbf"
+  },
+  "payload": {
+    "jobIds": [
+      "9cb8ec40-c630-459a-a9ab-d231f8289953"
+    ],
+    "results": [
+      {
+        "jobId": "9cb8ec40-c630-459a-a9ab-d231f8289953",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T03:01:08.786Z",
+            "rootActivityId": "675901b5-9843-4de6-b8ab-2f160c267d40",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 2,
+                  "Value": "M0",
+                  "Name": "data_historica_dispo12_consumo.num_reg"
+                }
+              ],
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "af5c1797-97a9-4098-b467-5bf2e7cc357c",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:01:08.7866147Z",
+                  "End": "2026-05-20T03:01:15.4623248Z"
+                },
+                {
+                  "Id": "62859099-437d-4053-aca0-70659455261b",
+                  "ParentId": "af5c1797-97a9-4098-b467-5bf2e7cc357c",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:01:08.7866147Z",
+                  "End": "2026-05-20T03:01:15.4623248Z",
+                  "Metrics": {
+                    "RowCount": 1
+                  }
+                },
+                {
+                  "Id": "EC3D35F8-8D2A-4BBA-9710-B69E3769A889",
+                  "ParentId": "62859099-437d-4053-aca0-70659455261b",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:01:09.227Z",
+                  "End": "2026-05-20T03:01:15.463Z"
+                },
+                {
+                  "Id": "1EE41025-4A13-4038-B5CE-923CB153AAC4",
+                  "ParentId": "EC3D35F8-8D2A-4BBA-9710-B69E3769A889",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:01:15.463Z",
+                  "End": "2026-05-20T03:01:15.463Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "M0",
+                              "T": 1
+                            }
+                          ],
+                          "M0": "Núm. de registros declarados 2.924.700"
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true,
+                  "Msg": [
+                    {
+                      "Code": "IgnoredDataReductionAlgorithm",
+                      "Severity": "Warning",
+                      "Message": "A data reduction algorithm was specified but the corresponding grouping does not exist. The data reduction will be ignored for primary, secondary, intersection and scoped."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,169 @@
+{
+  "meta": {
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event": 64
+  },
+  "payload": {
+    "jobIds": [
+      "64ce41ad-acc7-4b0f-887c-3df894a232b3"
+    ],
+    "results": [
+      {
+        "jobId": "64ce41ad-acc7-4b0f-887c-3df894a232b3",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T03:32:00.747Z",
+            "rootActivityId": "0293186c-e4e3-4bc4-bfdb-5019245fd313",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 1,
+                  "Depth": 0,
+                  "Value": "G0",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "medicame",
+                        "Property": "Cod_nombre2"
+                      },
+                      "Calc": "G0",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "medicame.Cod_nombre2"
+                },
+                {
+                  "Kind": 2,
+                  "Value": "M0",
+                  "Format": "#,0",
+                  "Name": "Sum(data_historica_dispo12_consumo.M01_tot)"
+                },
+                {
+                  "Kind": 1,
+                  "SecondaryDepth": 0,
+                  "Value": "G1",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "CATALOGO_IPRESS_AEMS",
+                        "Property": "tipo_completo"
+                      },
+                      "Calc": "G1",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "CATALOGO_IPRESS_AEMS.tipo_completo"
+                }
+              ],
+              "Expressions": {
+                "Primary": {
+                  "Groupings": [
+                    {
+                      "Keys": [
+                        {
+                          "Source": {
+                            "Entity": "medicame",
+                            "Property": "Cod_nombre2"
+                          },
+                          "Select": 0
+                        }
+                      ],
+                      "Member": "DM0"
+                    }
+                  ]
+                },
+                "Secondary": {
+                  "Groupings": [
+                    {
+                      "Keys": [
+                        {
+                          "Source": {
+                            "Entity": "CATALOGO_IPRESS_AEMS",
+                            "Property": "tipo_completo"
+                          },
+                          "Select": 2
+                        }
+                      ],
+                      "Member": "DM1"
+                    }
+                  ]
+                }
+              },
+              "Limits": {
+                "Secondary": {
+                  "Id": "L0",
+                  "Top": {
+                    "Count": 60
+                  }
+                }
+              },
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "1c4df7fd-9ae1-47d6-80ed-99b65a649da6",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:32:00.7476259Z",
+                  "End": "2026-05-20T03:32:00.7945038Z"
+                },
+                {
+                  "Id": "9c3341cf-bb6b-4444-943e-15603a7f4f8f",
+                  "ParentId": "1c4df7fd-9ae1-47d6-80ed-99b65a649da6",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:32:00.7476259Z",
+                  "End": "2026-05-20T03:32:00.7789836Z",
+                  "Metrics": {
+                    "RowCount": 0
+                  }
+                },
+                {
+                  "Id": "5171DB56-0AEC-454B-9B99-3730305432EA",
+                  "ParentId": "9c3341cf-bb6b-4444-943e-15603a7f4f8f",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:32:00.773Z",
+                  "End": "2026-05-20T03:32:00.787Z"
+                },
+                {
+                  "Id": "6ABA9043-4864-4293-9A5F-E1363AA574F5",
+                  "ParentId": "5171DB56-0AEC-454B-9B99-3730305432EA",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:32:00.787Z",
+                  "End": "2026-05-20T03:32:00.787Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "SH": [
+                    {
+                      "DM1": []
+                    }
+                  ],
+                  "PH": [
+                    {
+                      "DM0": []
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+    "timestamp": "2026-05-16T06:52:20.152258",
+    "method": "GET",
+    "url": "blob:https://app.powerbi.com/5921bb47-887c-488e-ad7c-6572e0ade457",
+    "resource_type": "image",
+    "headers": {
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "referer": ""
+    },
+    "post_data": null
+}

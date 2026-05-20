@@ -1,0 +1,111 @@
+{
+  "meta": {
+    "timestamp": "2026-05-20T03:10:47.868Z",
+    "session_id": "pbi-20260520T031031Z-a3fae243",
+    "filters_applied": {},
+    "active_action": {},
+    "correlation_id": "pbi-20260520T031031Z-a3fae243-querydata-0004",
+    "request_key": "request@e3fb837ec5fd66eaaae121521ea0b0d0",
+    "request_counter": 4,
+    "response_counter": 8,
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event_counter": 16,
+    "elapsed_ms": 2735.0,
+    "correlation_status": "matched",
+    "request_payload_sha256": "1a93488aaed7012c9cccdec9975c01f7645e4e5c5dcd05d5cfe5be22a1c59864",
+    "response_payload_sha256": "66f59f6879d670da874930690201b27aa732e418450d660d5f2f863e9e928018"
+  },
+  "payload": {
+    "jobIds": [
+      "ec8e78f1-ea11-4913-a373-46e806ffa54e"
+    ],
+    "results": [
+      {
+        "jobId": "ec8e78f1-ea11-4913-a373-46e806ffa54e",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T03:10:44.825Z",
+            "rootActivityId": "c90255f7-dfbc-4137-858e-27fc3a99c508",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 2,
+                  "Value": "M0",
+                  "Name": "Max(data_historica_dispo12_consumo.mesano)"
+                }
+              ],
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "73bd623d-4692-4c4d-9c27-c4720c1e5313",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:10:44.8256662Z",
+                  "End": "2026-05-20T03:10:46.2022762Z"
+                },
+                {
+                  "Id": "ba03091c-864d-4cba-bdb0-2e90f5f04042",
+                  "ParentId": "73bd623d-4692-4c4d-9c27-c4720c1e5313",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:10:44.8412991Z",
+                  "End": "2026-05-20T03:10:46.2022762Z",
+                  "Metrics": {
+                    "RowCount": 1
+                  }
+                },
+                {
+                  "Id": "16E2923F-A4E0-4223-8870-C1C7E37AA303",
+                  "ParentId": "ba03091c-864d-4cba-bdb0-2e90f5f04042",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:10:44.87Z",
+                  "End": "2026-05-20T03:10:46.207Z"
+                },
+                {
+                  "Id": "75562B60-4A71-4A2A-AAC1-77765A373978",
+                  "ParentId": "16E2923F-A4E0-4223-8870-C1C7E37AA303",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:10:46.207Z",
+                  "End": "2026-05-20T03:10:46.207Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "M0",
+                              "T": 1
+                            }
+                          ],
+                          "M0": "202604"
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

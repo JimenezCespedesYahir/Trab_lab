@@ -1,0 +1,120 @@
+{
+  "meta": {
+    "timestamp": "2026-05-20T03:21:57.216Z",
+    "session_id": "pbi-20260520T032111Z-08b3060d",
+    "filters_applied": {
+      "MACROREGION": "NORTE"
+    },
+    "active_action": {
+      "action": "apply_filter",
+      "label": "Institucion",
+      "target": "GOBIERNO REGIONAL",
+      "search": "GOBIERNO",
+      "attempt": 1,
+      "phase": "select_option"
+    },
+    "correlation_id": "pbi-20260520T032111Z-08b3060d-querydata-0019",
+    "request_key": "request@bcb1e4fdcb1a1cb89b47194a13ef76be",
+    "request_counter": 19,
+    "response_counter": 18,
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event_counter": 42,
+    "elapsed_ms": 750.0,
+    "correlation_status": "matched",
+    "request_payload_sha256": "2ae7f6391b3bc84e02b91dac004a7afdcd600f864387b02751cd16814e50440e",
+    "response_payload_sha256": "6d3dc368b4e3ccc602785ba27ebc703af663440c5a076173e05cd0a3bfa8e34e"
+  },
+  "payload": {
+    "jobIds": [
+      "22999598-4483-4f2c-bf2c-030dd289236b"
+    ],
+    "results": [
+      {
+        "jobId": "22999598-4483-4f2c-bf2c-030dd289236b",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T03:11:39.356Z",
+            "rootActivityId": "357ac39f-281a-4e95-81c6-91e21822bc57",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 2,
+                  "Value": "M0",
+                  "Name": "Max(data_historica_dispo12_consumo.mesano)"
+                }
+              ],
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "28ca8eca-a53a-4353-8c24-2a709eeca608",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:11:39.3563789Z",
+                  "End": "2026-05-20T03:11:42.4822153Z"
+                },
+                {
+                  "Id": "6798ee7f-d372-4edf-a707-487377003419",
+                  "ParentId": "28ca8eca-a53a-4353-8c24-2a709eeca608",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:11:39.3563789Z",
+                  "End": "2026-05-20T03:11:42.4822153Z",
+                  "Metrics": {
+                    "RowCount": 1
+                  }
+                },
+                {
+                  "Id": "69A83436-CF96-4D91-8126-8ECDCEC4BF6E",
+                  "ParentId": "6798ee7f-d372-4edf-a707-487377003419",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:11:39.39Z",
+                  "End": "2026-05-20T03:11:42.467Z"
+                },
+                {
+                  "Id": "2D0B4E24-5D43-4AE3-9AB7-094B84CD593C",
+                  "ParentId": "69A83436-CF96-4D91-8126-8ECDCEC4BF6E",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:11:42.463Z",
+                  "End": "2026-05-20T03:11:42.467Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "M0",
+                              "T": 1
+                            }
+                          ],
+                          "M0": "202604"
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

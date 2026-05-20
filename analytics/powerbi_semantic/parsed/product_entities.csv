@@ -1,0 +1,6 @@
+﻿entity_name,property_name
+data_historica_dispo12_consumo,codigo_pre
+data_historica_dispo12_consumo,codigo_med
+medicame,CODIGO_MED
+Tb_listado_atc,CODIGO_MED
+Lista_diario,CODIGO_MED

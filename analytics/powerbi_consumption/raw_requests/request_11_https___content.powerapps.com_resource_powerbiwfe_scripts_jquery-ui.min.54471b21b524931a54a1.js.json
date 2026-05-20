@@ -1,0 +1,14 @@
+{
+    "timestamp": "2026-05-16T06:51:49.682854",
+    "method": "GET",
+    "url": "https://content.powerapps.com/resource/powerbiwfe/scripts/jquery-ui.min.54471b21b524931a54a1.js",
+    "resource_type": "script",
+    "headers": {
+        "sec-ch-ua-platform": "\"Windows\"",
+        "referer": "https://app.powerbi.com/",
+        "user-agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/147.0.0.0 Safari/537.36",
+        "sec-ch-ua": "\"Chromium\";v=\"147\", \"Not.A/Brand\";v=\"8\"",
+        "sec-ch-ua-mobile": "?0"
+    },
+    "post_data": null
+}

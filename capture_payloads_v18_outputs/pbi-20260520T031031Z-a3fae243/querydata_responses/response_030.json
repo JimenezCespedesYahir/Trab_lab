@@ -1,0 +1,174 @@
+{
+  "meta": {
+    "timestamp": "2026-05-20T03:12:14.016Z",
+    "session_id": "pbi-20260520T031031Z-a3fae243",
+    "filters_applied": {
+      "MACROREGION": "NORTE",
+      "INSTITUCION": "GOBIERNO REGIONAL"
+    },
+    "active_action": {
+      "action": "apply_filter",
+      "label": "Unidad ejecutora",
+      "target": "SALUD LUCIANO CASTILLO COLONNA",
+      "search": "LUCIANO",
+      "attempt": 1,
+      "phase": "select_option"
+    },
+    "correlation_id": "pbi-20260520T031031Z-a3fae243-querydata-0028",
+    "request_key": "request@dcac6f6c586b9972131c18ed0df7085f",
+    "request_counter": 28,
+    "response_counter": 30,
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event_counter": 62,
+    "elapsed_ms": 1500.0,
+    "correlation_status": "matched",
+    "request_payload_sha256": "75593abf1793830b7474add2c4cbf6432c0cf6ee4eb0bbbccf57b99c942833b2",
+    "response_payload_sha256": "d8ca40c823482a41d7be9c6019fd4e96652a1559a309fdff4893a8878f6f285b"
+  },
+  "payload": {
+    "jobIds": [
+      "3f96a708-3e38-460f-b74b-211e9a7ec334"
+    ],
+    "results": [
+      {
+        "jobId": "3f96a708-3e38-460f-b74b-211e9a7ec334",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T03:12:11.988Z",
+            "rootActivityId": "3be97184-4a17-4685-8573-1fc2875201d4",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 1,
+                  "Depth": 0,
+                  "Value": "G0",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "Periodo_variable",
+                        "Property": "Periodo_variable Campos"
+                      },
+                      "Calc": "K0"
+                    }
+                  ],
+                  "Name": "Periodo_variable.Periodo_variable"
+                }
+              ],
+              "Expressions": {
+                "Primary": {
+                  "Groupings": [
+                    {
+                      "Keys": [
+                        {
+                          "Source": {
+                            "Entity": "Periodo_variable",
+                            "Property": "Periodo_variable Campos"
+                          },
+                          "Calc": "K0"
+                        }
+                      ],
+                      "Member": "DM0"
+                    }
+                  ]
+                }
+              },
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "bd485c60-7646-48b6-97cc-0e18b15c7731",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:12:11.988077Z",
+                  "End": "2026-05-20T03:12:12.0349674Z"
+                },
+                {
+                  "Id": "d6fc96e5-d211-4d13-9323-590ad6b36674",
+                  "ParentId": "bd485c60-7646-48b6-97cc-0e18b15c7731",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:12:11.988077Z",
+                  "End": "2026-05-20T03:12:12.0193357Z",
+                  "Metrics": {
+                    "RowCount": 2
+                  }
+                },
+                {
+                  "Id": "B043759D-D100-4D3B-BCB4-8A572F33DD07",
+                  "ParentId": "d6fc96e5-d211-4d13-9323-590ad6b36674",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:12:12.023Z",
+                  "End": "2026-05-20T03:12:12.027Z"
+                },
+                {
+                  "Id": "589FF91B-8892-4FF4-90CF-CFCD6BF04961",
+                  "ParentId": "B043759D-D100-4D3B-BCB4-8A572F33DD07",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:12:12.027Z",
+                  "End": "2026-05-20T03:12:12.027Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "K0",
+                              "T": 1,
+                              "DN": "D0"
+                            },
+                            {
+                              "N": "G0",
+                              "T": 1,
+                              "DN": "D1"
+                            }
+                          ],
+                          "C": [
+                            0,
+                            0
+                          ]
+                        },
+                        {
+                          "C": [
+                            1,
+                            1
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true,
+                  "ValueDicts": {
+                    "D0": [
+                      "'data_historica_dispo12_consumo'[anno]",
+                      "'data_historica_dispo12_consumo'[mesano]"
+                    ],
+                    "D1": [
+                      "Años",
+                      "Meses"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

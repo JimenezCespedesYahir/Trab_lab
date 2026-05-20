@@ -1,0 +1,74 @@
+[
+  {
+    "source_id": "SRC001",
+    "source_name": "REUNIS_MEDICAMENTOS",
+    "url": "https://www.minsa.gob.pe/reunis/?niv=5&op=3",
+    "source_type": "portal",
+    "domain": "medicamentos",
+    "access": "public",
+    "priority": "critical",
+    "refresh_frequency": "monthly",
+    "extraction_method": "html_navigation + powerbi_discovery",
+    "target_dataset": [
+      "nodes.csv",
+      "demand_aggregated.csv"
+    ]
+  },
+  {
+    "source_id": "SRC002",
+    "source_name": "DISPONIBILIDAD_EESS",
+    "url": "https://app.powerbi.com/view?r=eyJrIjoiMDZmZjE0OTctMDhhMy00NGEyLWFlYTktODExNDFjMDc0Yjc0IiwidCI6IjExMzgxOTYwLWVkYWMtNGRkNC1hZTQ0LWViZGRmNGE3OTVjYyJ9",
+    "source_type": "powerbi",
+    "domain": "availability",
+    "access": "public",
+    "priority": "critical",
+    "refresh_frequency": "monthly",
+    "extraction_method": "powerbi_json",
+    "target_dataset": [
+      "risk_indicators.csv",
+      "demand_aggregated.csv"
+    ]
+  },
+  {
+    "source_id": "SRC003",
+    "source_name": "CAPACIDAD_INSTALADA",
+    "url": "https://app.powerbi.com/view?pageName=ReportSection26e5329e6074b4a413a9&r=eyJrIjoiYzg3NzVmZDAtZjEyYy00ODZlLTkxMDQtZDRkODBhZmZkODQyIiwidCI6IjExMzgxOTYwLWVkYWMtNGRkNC1hZTQ0LWViZGRmNGE3OTVjYyJ9",
+    "source_type": "powerbi",
+    "domain": "capacity",
+    "access": "public",
+    "priority": "high",
+    "refresh_frequency": "monthly",
+    "extraction_method": "powerbi_json",
+    "target_dataset": [
+      "nodes.csv"
+    ]
+  },
+  {
+    "source_id": "SRC004",
+    "source_name": "CONSUMO_INTEGRADO_SISMED",
+    "url": "https://app.powerbi.com/view?r=eyJrIjoiY2NhYmY0OGUtNWM2OS00MWY2LWJjZjktZTc1Y2FkMTlhNjI4IiwidCI6IjA5MjQ1ZTYzLWNlZGEtNDNiYi05OTdlLTU2ODMzY2NhOWExMyIsImMiOjR9",
+    "source_type": "powerbi",
+    "domain": "consumption",
+    "access": "public",
+    "priority": "critical",
+    "refresh_frequency": "monthly",
+    "extraction_method": "powerbi_json",
+    "target_dataset": [
+      "demand_aggregated.csv"
+    ]
+  },
+  {
+    "source_id": "SRC005",
+    "source_name": "CATALOGO_SISMED",
+    "url": "https://www.digemid.minsa.gob.pe/catalogacionSismed/",
+    "source_type": "catalog",
+    "domain": "products",
+    "access": "public",
+    "priority": "critical",
+    "refresh_frequency": "manual/monthly",
+    "extraction_method": "html_table + pdf_support",
+    "target_dataset": [
+      "products.csv"
+    ]
+  }
+]

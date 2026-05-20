@@ -1,0 +1,2 @@
+﻿selector,visible,text,bbox,class,role
+.slicer-dropdown-menu,True,Todas,"{'x': 35.514286041259766, 'y': 67.5047607421875, 'width': 518.4666709899902, 'height': 22.552383422851562}",slicer-dropdown-menu,combobox

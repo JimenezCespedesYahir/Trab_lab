@@ -1,0 +1,163 @@
+﻿selector,text,href
+a,Menú,#
+a,¿QUÉ ES?,?op=5#quienes
+a,NORMATIVA,?op=6#normativa
+a,INFORMACIÓN DEMOGRÁFICA,?op=1#
+a,Mortalidad,?op=1&niv=1
+a,Defunciones Registradas,?op=1&niv=1&tbl=1
+a,Tasas de Mortalidad,?op=1&niv=1&tbl=2
+a,SINADEF,https://www.minsa.gob.pe/defunciones/
+a,Poblaciones Priorizadas,?op=1&niv=2
+a,Pueblos Indígenas u Originarios,https://www.minsa.gob.pe/rissalud/plataformapisalud/
+a,Natalidad,?op=1&niv=3
+a,Tablero CNV en Línea,?op=1&niv=3&tbl=1
+a,Registro CNV,https://www.minsa.gob.pe/cnv/
+a,Padrón Nominal,?op=1&niv=4
+a,Directorio,?op=1&niv=4&tbl=1
+a,Población Padrón Nominal,?op=1&niv=4&tbl=2
+a,Población,?op=1&niv=5
+a,Población Total Estimada 2026,?op=1&niv=5&tbl=1
+a,Población Asignada por EESS Minsa – 2025,?op=1&niv=5&tbl=4
+a,Población Total CENSO 2017 INEI,https://censos2017.inei.gob.pe/redatam/
+a,ESTRATEGIAS DE SALUD PÚBLICA,#
+a,Anemia,?op=2&niv=1
+a,Compromiso 1,?op=2&niv=1&tbl=9
+a,Cáncer,?op=2&niv=2
+a,Observatorio Nacional de Cáncer,?op=2&niv=2&tbl=2
+a,Observatorio de cáncer infantil,?op=2&niv=2&tbl=3
+a,Observatorio de Intervenciones,?op=2&niv=2&tbl=4
+a,Discapacidad,?op=2&niv=3
+a,Certificación de la Discapacidad,?op=2&niv=3&tbl=1
+a,Metales Pesados,?op=2&niv=11
+a,Tablero de Seguimiento,?op=2&niv=11&tbl=1#
+a,Enfermedades Metaxénicas,?op=2&niv=4
+a,Dengue,https://www.dge.gob.pe/portal/docs/vigilancia/sala/2025/SE35/dengue.pdf
+a,Malaria,https://www.dge.gob.pe/portal/docs/vigilancia/sala/2025/SE35/malaria.pdf
+a,Leishmaniasis,https://www.dge.gob.pe/portal/docs/vigilancia/sala/2025/SE35/leishmaniosis.pdf
+a,Enfermedad de Carrión,https://www.dge.gob.pe/portal/docs/vigilancia/sala/2025/SE35/carrion.pdf
+a,Chikungunya,https://www.dge.gob.pe/portal/docs/vigilancia/sala/2025/SE35/chikun.pdf
+a,Zika,https://www.dge.gob.pe/portal/docs/vigilancia/sala/2025/SE35/zika.pdf
+a,Enfermedad de Chagas,https://www.dge.gob.pe/portal/docs/vigilancia/sala/2025/SE35/chagas.pdf
+a,Fiebre Amarilla,https://www.dge.gob.pe/sala-fiebre-amarilla/tablero.html
+a,Enfermedades Zoonóticas,?op=2&niv=6
+a,Rabia,https://www.dge.gob.pe/portal/docs/vigilancia/sala/2025/SE35/rabia.pdf
+a,Carbunco,https://www.dge.gob.pe/portal/docs/vigilancia/sala/2025/SE35/carbunco.pdf
+a,Leptospirosis,https://www.dge.gob.pe/portal/docs/vigilancia/sala/2025/SE35/leptospirosis.pdf
+a,Ofidismo,https://www.dge.gob.pe/portal/docs/vigilancia/sala/2025/SE35/ofidismo.pdf
+a,Loxoscelismo,https://www.dge.gob.pe/portal/docs/vigilancia/sala/2025/SE35/loxoscelismo.pdf
+a,Peste,https://www.dge.gob.pe/portal/docs/vigilancia/sala/2025/SE35/peste.pdf
+a,Influenza Aviar,https://www.dge.gob.pe/portal/docs/vigilancia/sala/2025/SE35/influenza_aviar.pdf
+a,Estado Nutricional,?op=2&niv=8
+a,SIEN - HISMINSA,?op=2&niv=8&tbl=1
+a,Inmunizaciones,?op=2&niv=9
+a,Semana de Vacunación en las Américas 2026,?op=2&niv=9&tbl=12
+a,Esquema Regular,?op=2&niv=9&tbl=2
+a,Salud Mental,?op=2&niv=14
+a,Tablero de Seguimiento,?op=2&niv=14&tbl=1
+a,Observatorio Nacional de la Enfermedad de Alzheimer y otras Demencias,?op=2&niv=14&tbl=2
+a,Promoción de la Salud,?op=2&niv=12
+a,Indicadores de Promoción de la Salud,?op=2&niv=12&tbl=1
+a,Intervenciones por Curso de Vida,?op=2&niv=10
+a,Adolescente,?op=2&niv=10&tbl=2
+a,Joven,?op=2&niv=10&tbl=3
+a,Adulto,?op=2&niv=10&tbl=4
+a,Adulto Mayor,?op=2&niv=10&tbl=5
+a,Salud Bucal,?op=2&niv=13
+a,Tablero de Seguimiento,?op=2&niv=13&tbl=1
+a,Tuberculosis,?op=2&niv=15
+a,Tablero de Datos,http://www.tuberculosis.minsa.gob.pe/DashboardDPCTB/Dashboard.aspx
+a,Epidemiología,?op=2&niv=7
+a,Boletines Epidemiológicos,https://www.dge.gob.pe/portalnuevo/publicaciones/boletines-epidemiologicos/
+a,Dengue,https://www.dge.gob.pe/sala-situacional-dengue/#grafico01
+a,COVID-19 - Sala Situacional,https://www.dge.gob.pe/portalnuevo/salas-situacionales/enfermedades-transmisibles/covid-19/situacion-del-covid-19-en-el-peru/
+a,PRESTACIONES EN SALUD,#
+a,"Manuales y Códigos (CIE10, CPM)",?op=3&niv=1
+a,CIE-10 (OPS),https://www.minsa.gob.pe/reunis/data/volumen1-2018.pdf
+a,CIE-10 (MINSA – Excel),https://files.minsa.gob.pe/s/szimSEZTwFrQR25
+a,Manuales de Registro - HIS MINSA,https://files.minsa.gob.pe/s/74MZgRMddAx7mw2
+a,USO DE CODIGOS CIE-10 (RM 447-2024),https://files.minsa.gob.pe/s/KZfTNeDTx9fnSnM
+a,CESE DE USO DE CODIGOS CIE-10 (RM 447-2024),https://files.minsa.gob.pe/s/d5jcnbaoGRNfFcd
+a,CATÁLOGOS DE PROCEDIMIENTOS MÉDICOS Y SANITARIOS DEL SECTOR SALUD – CPMS,https://files.minsa.gob.pe/s/dKEnmyJcG5HXCHK
+a,COVID-19,?op=3&niv=2
+a,Laboratorios para Detección Molecular,?op=3&niv=2&tbl=1
+a,Emergencias y Hospitalización,?op=3&niv=3
+a,Monitoreo de Camas,?op=3&niv=3&tbl=1
+a,Emergencias Hospitalarias,?op=3&niv=3&tbl=3
+a,Egresos,?op=3&niv=3&tbl=4
+a,Medicamentos,?op=3&niv=5
+a,SISMED: Capacidad Instalada,https://app.powerbi.com/view?r=eyJrIjoiMWQwMDE0MTQtZGJjYy00ODhhLTlmYzUtYjY5ZDE2ZThjY2I3IiwidCI6IjExMzgxOTYwLWVkYWMtNGRkNC1hZTQ0LWViZGRmNGE3OTVjYyJ9
+a,Disponibilidad de Medicamentos por EESS,https://app.powerbi.com/view?r=eyJrIjoiMDZmZjE0OTctMDhhMy00NGEyLWFlYTktODExNDFjMDc0Yjc0IiwidCI6IjExMzgxOTYwLWVkYWMtNGRkNC1hZTQ0LWViZGRmNGE3OTVjYyJ9 
+a,Disponibilidad de Medicamentos – Ámbito Jurisdiccional,https://app.powerbi.com/view?r=eyJrIjoiN2FhNzI5MzYtZTcyOS00ZWM3LTllN2ItZTBmYWY3Y2ZmM2EzIiwidCI6IjExMzgxOTYwLWVkYWMtNGRkNC1hZTQ0LWViZGRmNGE3OTVjYyJ9 
+a,EESS con disponibilidad > 80%,https://app.powerbi.com/view?r=eyJrIjoiYjE3MWNmMTMtYTJmMi00N2ZlLTgxYjUtMzZiM2FmYWU0ODdjIiwidCI6IjExMzgxOTYwLWVkYWMtNGRkNC1hZTQ0LWViZGRmNGE3OTVjYyJ9 
+a,Tablero Diario de Monitoreo de Antimicrobianos,https://app.powerbi.com/view?r=eyJrIjoiMjJjZGM4N2UtZjdiMC00ODk4LWE2M2QtNzkxZDhjYWJjZjJlIiwidCI6IjExMzgxOTYwLWVkYWMtNGRkNC1hZTQ0LWViZGRmNGE3OTVjYyJ9
+a,Consumo Histórico,https://app.powerbi.com/view?r=eyJrIjoiOGQ4ZWJkMWQtNjk2OS00ZmM0LWFhMGUtMGUyNTY2ZTY3OGE0IiwidCI6IjExMzgxOTYwLWVkYWMtNGRkNC1hZTQ0LWViZGRmNGE3OTVjYyJ9&pageName=ReportSection 
+a,Portal SISMED,https://appsalud.minsa.gob.pe/portal_sismed/ 
+a,Indicadores CG 2026,https://app.powerbi.com/view?r=eyJrIjoiMTQwM2ZlNDAtMmY3Ny00NzY5LWFhZTQtYWM0YjllMTQ1MWZkIiwidCI6Ijc5MDVjMWZjLTkzM2MtNDUyYS04YjgzLWIyZTU2NDU1ZDE2YSIsImMiOjR9
+a,Indicadores CG 2025,https://app.powerbi.com/view?r=eyJrIjoiNzFjMmYyMWQtYjM2ZC00NjRmLWEwZTgtNjMwZGFhYWE1N2JjIiwidCI6Ijc5MDVjMWZjLTkzM2MtNDUyYS04YjgzLWIyZTU2NDU1ZDE2YSIsImMiOjR9
+a,Indicadores CG 2024,https://app.powerbi.com/view?r=eyJrIjoiMmNjNTBmOWItZWM3NS00YTgxLTk5M2ItOGNjNWEyOTU3ODczIiwidCI6IjM0ZjMyNDE5LTFjMDUtNDc1Ni04OTZlLTQ1ZDYzMzcyNjU5YiIsImMiOjR9
+a,Indicadores CG 2023,https://app.powerbi.com/view?r=eyJrIjoiMjgxN2U2NjgtZDcyZC00ZTIxLTgzMWEtOWUwYThkZGRhMGEyIiwidCI6IjM0ZjMyNDE5LTFjMDUtNDc1Ni04OTZlLTQ1ZDYzMzcyNjU5YiIsImMiOjR9
+a,Indicadores CG 2022,https://app.powerbi.com/view?r=eyJrIjoiYjJjNGFjNmItMWU2Ni00ZDBlLWEzNmItYTg1OWJlYjhhYWM0IiwidCI6IjM0ZjMyNDE5LTFjMDUtNDc1Ni04OTZlLTQ1ZDYzMzcyNjU5YiIsImMiOjR9
+a,Mundo CENARES,https://mundocenares.cenares.gob.pe/portal 
+a,Establecimientos de Salud,?op=3&niv=4
+a,Establecimientos y Centros de Apoyo,?op=3&niv=4&tbl=1
+a,Oxígeno,?op=3&niv=7
+a,RENOXI Perú,https://sw.minsa.gob.pe/renoxi/
+a,Datos Abiertos,https://drive.minsa.gob.pe/s/XfkSpp7aQYNTBWc
+a,Capacitaciones,https://files.minsa.gob.pe/s/MfR9rTbxEAatxgB
+a,Comunicados,https://files.minsa.gob.pe/s/zmq3yy6qX78mDMB
+a,Manuales,https://files.minsa.gob.pe/s/WmB9Yezw4nnjCrL
+a,Reportes Gerenciales,?op=3&niv=7&tbl=6
+a,Morbilidad,?op=3&niv=6
+a,Morbilidad General,?op=3&niv=6&tbl=1
+a,Atenciones de Consulta Externa,?op=3&niv=6&tbl=2
+a,Telemedicina,?op=3&niv=14
+a,Red Nacional de Telesalud (RNT),?op=3&niv=14&tbl=1
+a,Atenciones SAMU,?op=3&niv=14&tbl=2
+a,Orientaciones Central 113,?op=3&niv=14&tbl=3
+a,Recursos Humanos,?op=3&niv=9
+a,Registro Nacional del Personal de la Salud,https://digep.minsa.gob.pe/info_covid/ayuda_memoria_2023.html
+a,Profesionales en Consulta Externa,?op=3&niv=9&tbl=2
+a,Disponibilidad de recursos humanos en salud,https://app.powerbi.com/view?r=eyJrIjoiNjE1NDgyZDctZTM5MC00NzA2LTgyNTAtYzFjMmY5Yzk4MDRjIiwidCI6Ijc5MDVjMWZjLTkzM2MtNDUyYS04YjgzLWIyZTU2NDU1ZDE2YSIsImMiOjR9
+a,Densidad de recursos humanos en salud,https://app.powerbi.com/view?r=eyJrIjoiMTk3ZmZiOWUtN2Q1OS00NzdjLWFhZTAtNWZhYjAyNjExY2MwIiwidCI6Ijc5MDVjMWZjLTkzM2MtNDUyYS04YjgzLWIyZTU2NDU1ZDE2YSIsImMiOjR9
+a,Servicio Rural Urbano Marginal – SERUMS,https://app.powerbi.com/view?r=eyJrIjoiYjEwNjFjYmItYTFkMS00ZTAzLTg5ZmYtNDM3YTIwMjM1MDFmIiwidCI6Ijc5MDVjMWZjLTkzM2MtNDUyYS04YjgzLWIyZTU2NDU1ZDE2YSIsImMiOjR9
+a,Convenios de Gestión 2025 – ID 31,https://app.powerbi.com/view?r=eyJrIjoiMmUyZDkzZDMtNWM2YS00YTBjLWFkMTktMjc0MDJlZWZmOWJjIiwidCI6Ijc5MDVjMWZjLTkzM2MtNDUyYS04YjgzLWIyZTU2NDU1ZDE2YSIsImMiOjR9
+a,Convenios de Gestión 2024 – ID 32,https://app.powerbi.com/view?r=eyJrIjoiMTRiMTdhMDgtZTUxMy00ZWM5LWJhMjctNmQ5NjExMTkxOTg0IiwidCI6Ijc5MDVjMWZjLTkzM2MtNDUyYS04YjgzLWIyZTU2NDU1ZDE2YSIsImMiOjR9
+a,CCDS 2024-2025 – 14ta Clausula – Concordancia AIRHSP e INFORHUS,https://app.powerbi.com/view?r=eyJrIjoiYjI2ODcwYzAtY2E0NS00NWRmLTk5ZjMtMDdmNmY1OGMwOTFmIiwidCI6Ijc5MDVjMWZjLTkzM2MtNDUyYS04YjgzLWIyZTU2NDU1ZDE2YSIsImMiOjR9
+a,Implementación PLANDES,https://app.powerbi.com/view?r=eyJrIjoiZGYxMTY0YjgtMzBhOC00MTAyLWE2ZTktNTY2ZGQzNmI3MTk3IiwidCI6Ijc5MDVjMWZjLTkzM2MtNDUyYS04YjgzLWIyZTU2NDU1ZDE2YSIsImMiOjR9
+a,Implementación PDP 2025,https://app.powerbi.com/view?r=eyJrIjoiN2I5MTYzMjMtNTg1NC00ZjBhLWFkM2UtNTliOTk3ZTU2MTE4IiwidCI6Ijc5MDVjMWZjLTkzM2MtNDUyYS04YjgzLWIyZTU2NDU1ZDE2YSIsImMiOjR9
+a,Referencias y Contrarreferencias,?op=3&niv=10
+a,Tablero de Seguimiento,?op=3&niv=10&tbl=1
+a,Servicios de Salud,?op=3&niv=11
+a,GeoRIS,https://geominsa.minsa.gob.pe/geominsaportal/apps/webappviewer/index.html?id=7358ce1c142846e2bc5df45964303bcd
+a,Perfil Demográfico,https://georis.maps.arcgis.com/apps/dashboards/ced105c3de064592a4e395f1e91671e8
+a,INFORMACIÓN ADMINISTRATIVA,#
+a,Consejos de Salud,?op=4&niv=1
+a,Tablero SECCOR,?op=4&niv=1&tbl=1
+a,Presupuesto,?op=4&niv=2
+a,Meta Física y Financiera,?op=4&niv=2&tbl=1
+a,PPR: Indicadores de Desempeño,?op=4&niv=2&tbl=2
+a,PP 0104,?op=4&niv=2&tbl=3
+a,Cuentas de Salud (2002-2022),?op=4&niv=2&tbl=4
+a,Registro en Consulta Externa,?op=4&niv=3
+a,Monitoreo HISMINSA,?op=4&niv=3&tbl=2
+a,MARATÓN QUIRÚRGICA,https://www.minsa.gob.pe/reunis/?op=3&niv=3&tbl=6
+a,VER MÁS,https://www.minsa.gob.pe/reunis/?op=3&niv=3&tbl=6
+a,Consejos y Comites Distritales de Salud del Sistema Nacional de Salud,https://www.minsa.gob.pe/reunis/?op=3&niv=3&tbl=6
+a,VER MÁS,https://www.minsa.gob.pe/reunis/?op=4&niv=1&tbl=1
+a,VER MÁS,https://www.minsa.gob.pe/padronnominal/
+a,VER MÁS,https://www.minsa.gob.pe/cnv/
+a,Prestaciones en Salud,?op=3
+a,mesadepartesvirtual@minsa.gob.pe,mailto:mesadepartesvirtual@minsa.gob.pe
+a,¿Qué es?,?op=0#quienes
+a,Normativa,?op=0#normativa
+a,Información Demográfica,?op=1
+a,Estrategias de Salud Pública,?op=2
+a,Información Administrativa,?op=4
+button,Previous,
+button,Next,
+.nav-link,¿QUÉ ES?,?op=5#quienes
+.nav-link,NORMATIVA,?op=6#normativa
+.nav-link,INFORMACIÓN DEMOGRÁFICA,?op=1#
+.nav-link,ESTRATEGIAS DE SALUD PÚBLICA,#
+.nav-link,PRESTACIONES EN SALUD,#
+.nav-link,INFORMACIÓN ADMINISTRATIVA,#

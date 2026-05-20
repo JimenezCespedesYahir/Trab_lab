@@ -1,0 +1,14 @@
+{
+    "dashboard_loaded": true,
+    "visual_detected": true,
+    "visual_clicked": true,
+    "target_detected": false,
+    "target_clicked": false,
+    "rerender_triggered": false,
+    "payload_after_detected": false,
+    "territorial_where_detected": false,
+    "contains_lcc_after": false,
+    "contains_sullana_after": false,
+    "payloads_before": 8,
+    "payloads_after": 0
+}

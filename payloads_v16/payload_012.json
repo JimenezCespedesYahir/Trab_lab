@@ -1,0 +1,92 @@
+{
+  "jobIds": [
+    "eeb6cf52-3aa0-46b1-b951-c07c1e3d2923"
+  ],
+  "results": [
+    {
+      "jobId": "eeb6cf52-3aa0-46b1-b951-c07c1e3d2923",
+      "result": {
+        "data": {
+          "timestamp": "2026-05-20T01:26:41.757Z",
+          "rootActivityId": "d82fb0dd-b171-4143-b3c7-0ca530714a9e",
+          "descriptor": {
+            "Select": [
+              {
+                "Kind": 2,
+                "Value": "M0",
+                "Name": "Min(data_historica_dispo12_consumo.mesano)"
+              }
+            ],
+            "Version": 2
+          },
+          "metrics": {
+            "Version": "1.0.0",
+            "Events": [
+              {
+                "Id": "ddc677ae-7e53-4e21-aa0f-9b0910aa2880",
+                "Name": "Execute Semantic Query",
+                "Component": "DSE",
+                "Start": "2026-05-20T01:26:41.7572314Z",
+                "End": "2026-05-20T01:26:42.0228519Z"
+              },
+              {
+                "Id": "867205ab-1097-4474-ad73-72dcec5a4ba9",
+                "ParentId": "ddc677ae-7e53-4e21-aa0f-9b0910aa2880",
+                "Name": "Execute DAX Query",
+                "Component": "DSE",
+                "Start": "2026-05-20T01:26:41.77285Z",
+                "End": "2026-05-20T01:26:42.0228519Z",
+                "Metrics": {
+                  "RowCount": 1
+                }
+              },
+              {
+                "Id": "C4FC1CB6-83DB-4531-87A4-28A85343983C",
+                "ParentId": "867205ab-1097-4474-ad73-72dcec5a4ba9",
+                "Name": "Execute Query",
+                "Component": "AS",
+                "Start": "2026-05-20T01:26:41.877Z",
+                "End": "2026-05-20T01:26:42.017Z"
+              },
+              {
+                "Id": "93890EA1-CCAE-455A-8420-72B00EC84ABA",
+                "ParentId": "C4FC1CB6-83DB-4531-87A4-28A85343983C",
+                "Name": "Serialize Rowset",
+                "Component": "AS",
+                "Start": "2026-05-20T01:26:42.017Z",
+                "End": "2026-05-20T01:26:42.017Z"
+              }
+            ]
+          },
+          "fromCache": false,
+          "dsr": {
+            "Version": 2,
+            "MinorVersion": 1,
+            "DS": [
+              {
+                "N": "DS0",
+                "PH": [
+                  {
+                    "DM0": [
+                      {
+                        "S": [
+                          {
+                            "N": "M0",
+                            "T": 1
+                          }
+                        ],
+                        "M0": "202107"
+                      }
+                    ]
+                  }
+                ],
+                "IC": true,
+                "HAD": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

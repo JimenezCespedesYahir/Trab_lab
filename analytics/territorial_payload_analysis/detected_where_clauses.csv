@@ -1,0 +1,2 @@
+﻿file,where_id,where_text,territorial,contains_lcc,contains_sullana,contains_piura
+query_20260516_153654.json,0,"{""Condition"":{""In"":{""Expressions"":[{""Column"":{""Expression"":{""SourceRef"":{""Source"":""p""}},""Property"":""Periodo_variable Campos""}}",False,False,False,False

@@ -1,0 +1,2396 @@
+{
+  "meta": {
+    "timestamp": "2026-05-20T03:22:37.345Z",
+    "session_id": "pbi-20260520T032111Z-08b3060d",
+    "filters_applied": {
+      "MACROREGION": "NORTE",
+      "INSTITUCION": "GOBIERNO REGIONAL",
+      "UNIDAD EJECUTORA": "SALUD LUCIANO CASTILLO COLONNA"
+    },
+    "active_action": {
+      "action": "reset_filter",
+      "label": "Grupo Producto",
+      "target": "Seleccionar todo",
+      "search": "Seleccionar",
+      "attempt": 1,
+      "phase": "select_option"
+    },
+    "correlation_id": "pbi-20260520T032111Z-08b3060d-querydata-0037",
+    "request_key": "request@42ab7a93cb3471753c6fdf0eff50c1f5",
+    "request_counter": 37,
+    "response_counter": 37,
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event_counter": 77,
+    "elapsed_ms": 1453.0,
+    "correlation_status": "matched",
+    "request_payload_sha256": "984fe6a6431902f8650b5f79085ba0cbd3e819d0f60aecbe7df6fbdfb3c23736",
+    "response_payload_sha256": "6ba1f68788676fa58a5ff7a2b11a1db4e320f9a282fb827c86913d427b2d83c3"
+  },
+  "payload": {
+    "jobIds": [
+      "d3c31a20-2386-419d-bdbb-3273ed1eca08"
+    ],
+    "results": [
+      {
+        "jobId": "d3c31a20-2386-419d-bdbb-3273ed1eca08",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T03:01:07.895Z",
+            "rootActivityId": "e720d5f9-63fa-4e40-9df3-2b02298628d8",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 1,
+                  "Depth": 0,
+                  "Value": "G0",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "medicame",
+                        "Property": "Cod_nombre2"
+                      },
+                      "Calc": "G0",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "medicame.Cod_nombre2"
+                },
+                {
+                  "Kind": 2,
+                  "Value": "M0",
+                  "Format": "#,0",
+                  "Name": "Sum(data_historica_dispo12_consumo.M01_tot)"
+                },
+                {
+                  "Kind": 1,
+                  "SecondaryDepth": 0,
+                  "Value": "G1",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "CATALOGO_IPRESS_AEMS",
+                        "Property": "tipo_completo"
+                      },
+                      "Calc": "G1",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "CATALOGO_IPRESS_AEMS.tipo_completo"
+                }
+              ],
+              "Expressions": {
+                "Primary": {
+                  "Groupings": [
+                    {
+                      "Keys": [
+                        {
+                          "Source": {
+                            "Entity": "medicame",
+                            "Property": "Cod_nombre2"
+                          },
+                          "Select": 0
+                        }
+                      ],
+                      "Member": "DM0"
+                    }
+                  ]
+                },
+                "Secondary": {
+                  "Groupings": [
+                    {
+                      "Keys": [
+                        {
+                          "Source": {
+                            "Entity": "CATALOGO_IPRESS_AEMS",
+                            "Property": "tipo_completo"
+                          },
+                          "Select": 2
+                        }
+                      ],
+                      "Member": "DM1"
+                    }
+                  ]
+                }
+              },
+              "Limits": {
+                "Secondary": {
+                  "Id": "L0",
+                  "Top": {
+                    "Count": 60
+                  }
+                }
+              },
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "8084faec-82ff-44f3-8990-020dd9b35b66",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:01:07.8959313Z",
+                  "End": "2026-05-20T03:01:10.7088198Z"
+                },
+                {
+                  "Id": "50c1f760-23de-452c-90e0-8587a01ed0ab",
+                  "ParentId": "8084faec-82ff-44f3-8990-020dd9b35b66",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:01:07.9115418Z",
+                  "End": "2026-05-20T03:01:10.6931915Z",
+                  "Metrics": {
+                    "RowCount": 395
+                  }
+                },
+                {
+                  "Id": "8EAA5BB8-C012-4FE3-AD83-54064D6541B5",
+                  "ParentId": "50c1f760-23de-452c-90e0-8587a01ed0ab",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:01:07.96Z",
+                  "End": "2026-05-20T03:01:10.577Z"
+                },
+                {
+                  "Id": "C7FA88BF-BFF0-4A29-960D-2989EFB77CBC",
+                  "ParentId": "8EAA5BB8-C012-4FE3-AD83-54064D6541B5",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:01:10.577Z",
+                  "End": "2026-05-20T03:01:10.577Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "SH": [
+                    {
+                      "DM1": [
+                        {
+                          "S": [
+                            {
+                              "N": "G1",
+                              "T": 1
+                            }
+                          ],
+                          "G1": "CENTRO"
+                        },
+                        {
+                          "G1": "PUESTO"
+                        }
+                      ]
+                    }
+                  ],
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "G0",
+                              "T": 1
+                            }
+                          ],
+                          "G0": "(22291) OXIGENO MEDICINAL (GAS LIQUIDO) m3 99.5% GAS",
+                          "X": [
+                            {
+                              "S": [
+                                {
+                                  "N": "M0",
+                                  "T": 4
+                                }
+                              ],
+                              "M0": 41519210
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(04523) LOSARTAN POTASICO  50 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 6849902
+                            },
+                            {
+                              "M0": 3710647
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03513) ACIDO FOLICO + FERROSO SULFATO (Equiv. de Hierro elemental)  400 µg + 60 mg Fe TABLETA",
+                          "X": [
+                            {
+                              "M0": 5331956
+                            },
+                            {
+                              "M0": 3783938
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(08054) PRESERVATIVOS SIN NONOXINOL   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 5948813
+                            },
+                            {
+                              "M0": 2769070
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(04696) METFORMINA CLORHIDRATO  850 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 4903930
+                            },
+                            {
+                              "M0": 2387674
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(05335) PARACETAMOL  500 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 3971699
+                            },
+                            {
+                              "M0": 3140832
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(20635) CARBONATO DE CALCIO  1.25 g (Equiv. a 500 mg de Calcio) TABLETA",
+                          "X": [
+                            {
+                              "M0": 3082674
+                            },
+                            {
+                              "M0": 1314214
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(04982) NAPROXENO  500 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 1984282
+                            },
+                            {
+                              "M0": 1498356
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(04034) IBUPROFENO  400 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 1744548
+                            },
+                            {
+                              "M0": 1474211
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(00808) AMOXICILINA  500 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 1301495
+                            },
+                            {
+                              "M0": 1839967
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(00903) ATORVASTATINA (COMO SAL CALCICA)  20 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 2058942
+                            },
+                            {
+                              "M0": 945622
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(00091) ACIDO ACETILSALICILICO  100 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 2084310
+                            },
+                            {
+                              "M0": 869872
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03758) GLIBENCLAMIDA  5 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 1811926
+                            },
+                            {
+                              "M0": 1066205
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(23112) GUANTE PARA EXAMEN DESCARTABLE TALLA M   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 1980407
+                            },
+                            {
+                              "M0": 844176
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(00200) ACIDO FOLICO  500 µg (0.5 mg) TABLETA",
+                          "X": [
+                            {
+                              "M0": 1410072
+                            },
+                            {
+                              "M0": 973875
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(05876) SODIO CLORURO 2 mL 900 mg/100 mL (0.9 %) INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 2200261
+                            },
+                            {
+                              "M0": 3417
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(35040) OMEPRAZOL (TABLETA DE LIBERACION MODIFICADA)  20 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 1602461
+                            },
+                            {
+                              "M0": 593758
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(23127) MASCARILLA DESCARTABLE QUIRURGICA 3 PLIEGUES   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 1495456
+                            },
+                            {
+                              "M0": 620051
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(02149) CLORFENAMINA MALEATO  4 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 1014729
+                            },
+                            {
+                              "M0": 1084661
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(36271) JERINGA DESCARTABLE 1 mL CON AGUJA 25 G X 1\" RETRACTIL   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 1664476
+                            },
+                            {
+                              "M0": 293988
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(01532) CARBAMAZEPINA  200 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 1249399
+                            },
+                            {
+                              "M0": 491622
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03552) FERROSO SULFATO  300 mg (Equiv. 60 mg Fe) TABLETA",
+                          "X": [
+                            {
+                              "M0": 919744
+                            },
+                            {
+                              "M0": 771509
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(11370) JERINGA DESCARTABLE 5 mL CON AGUJA 21 G X 1 1/2\"   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 963554
+                            },
+                            {
+                              "M0": 439597
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(05694) RISPERIDONA  2 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 1359668
+                            },
+                            {
+                              "M0": 2
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(01636) CEFALEXINA  500 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 897529
+                            },
+                            {
+                              "M0": 457195
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(25009) GUANTE PARA EXAMEN DESCARTABLE TALLA L   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 985305
+                            },
+                            {
+                              "M0": 358347
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(20575) OTRAS COMBINACIONES DE MULTIVITAMINAS 1 g  POLVO",
+                          "X": [
+                            {
+                              "M0": 933730
+                            },
+                            {
+                              "M0": 362946
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(34010) GORRO QUIRURGICO DESCARTABLE CON ELASTICO   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 211918
+                            },
+                            {
+                              "M0": 1069393
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(01846) CIPROFLOXACINO (COMO CLORHIDRATO)  500 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 661787
+                            },
+                            {
+                              "M0": 595900
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(04805) METRONIDAZOL  500 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 713675
+                            },
+                            {
+                              "M0": 433145
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03078) ENALAPRIL MALEATO  10 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 616828
+                            },
+                            {
+                              "M0": 522190
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(00904) ATORVASTATINA (COMO SAL CALCICA)  40 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 859965
+                            },
+                            {
+                              "M0": 268235
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03735) GEMFIBROZILO  600 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 732707
+                            },
+                            {
+                              "M0": 308934
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03718) GABAPENTINA  300 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 1021860
+                            },
+                            {
+                              "M0": 17105
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(01522) CAPTOPRIL  25 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 431115
+                            },
+                            {
+                              "M0": 585815
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(16657) JERINGA DESCARTABLE 3 mL CON AGUJA 21 G X 1 1/2\"   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 626310
+                            },
+                            {
+                              "M0": 389763
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03080) ENALAPRIL MALEATO  20 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 497893
+                            },
+                            {
+                              "M0": 514190
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(02788) DICLOFENACO SODICO 3 mL 25 mg/mL INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 538628
+                            },
+                            {
+                              "M0": 343133
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(05807) SERTRALINA  50 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 859656
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(02836) DICLOXACILINA (COMO SAL SODICA)  500 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 434922
+                            },
+                            {
+                              "M0": 422381
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(41694) LANCETA DESCARTABLE RETRACTIL 23 G GRADUABLE X 1.3 mm, 1.8 mm , 2.3 mm   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 433369
+                            },
+                            {
+                              "M0": 400136
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(11368) JERINGA DESCARTABLE 10 mL CON AGUJA 21G X 1 1/2\"   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 556998
+                            },
+                            {
+                              "M0": 206742
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(05661) RANITIDINA (COMO CLORHIDRATO)  300 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 467260
+                            },
+                            {
+                              "M0": 270093
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(00673) AMLODIPINO (COMO BESILATO)  5 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 497760
+                            },
+                            {
+                              "M0": 238152
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(25008) GUANTE PARA EXAMEN DESCARTABLE TALLA S   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 455191
+                            },
+                            {
+                              "M0": 236043
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03215) ESCOPOLAMINA N-BUTILBROMURO  10 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 423181
+                            },
+                            {
+                              "M0": 243030
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(33481) MICROCUBETA DESCARTABLE PARA HEMOGLOBINOMETRO HEMOCONTROL   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 316113
+                            },
+                            {
+                              "M0": 337910
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(00750) AMOXICILINA + ACIDO CLAVULANICO (COMO SAL POTASICA)  500 mg + 125 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 545566
+                            },
+                            {
+                              "M0": 96826
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(01964) CLINDAMICINA (COMO CLORHIDRATO)  300 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 385739
+                            },
+                            {
+                              "M0": 187378
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(10326) BAJALENGUA DE MADERA PEDIATRICO   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 335295
+                            },
+                            {
+                              "M0": 235541
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(31385) LAMINA PORTA OBJETO 25 mm X 75 mm   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 483875
+                            },
+                            {
+                              "M0": 85675
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(11374) JERINGA DESCARTABLE 1 mL CON AGUJA 25 G X 1\" - - UNIDAD",
+                          "X": [
+                            {
+                              "M0": 420373
+                            },
+                            {
+                              "M0": 141086
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(20036) SALES DE REHIDRATACION ORAL 20.5 g/L  POLVO",
+                          "X": [
+                            {
+                              "M0": 340811
+                            },
+                            {
+                              "M0": 177454
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(20424) LAMINILLA CUBRE OBJETO 22 mm X 22 mm   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 469387
+                            },
+                            {
+                              "M0": 40427
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(23875) VACUNA CONTRA LA INFLUENZA ESTACIONARIA - ADULTO 1 DOSIS (0.5 mL)  INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 343733
+                            },
+                            {
+                              "M0": 164550
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03515) SULFAMETOXAZOL + TRIMETOPRIMA  800 mg + 160 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 195030
+                            },
+                            {
+                              "M0": 301215
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03624) FLUOXETINA (COMO CLORHIDRATO)  20 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 491363
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(24760) ORFENADRINA CITRATO(TABLETA LIBERACION MODIFICADA)  100 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 334346
+                            },
+                            {
+                              "M0": 152355
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03519) FERROSO SULFATO 180 mL 75 mg (equiv. 15 mg Fe)/5 mL JARABE",
+                          "X": [
+                            {
+                              "M0": 266625
+                            },
+                            {
+                              "M0": 209211
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(10325) BAJALENGUA DE MADERA ADULTO   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 331072
+                            },
+                            {
+                              "M0": 140123
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(02891) DIMENHIDRINATO  50 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 258158
+                            },
+                            {
+                              "M0": 195136
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(02003) CLONAZEPAM  500 µg (0.5 mg) TABLETA",
+                          "X": [
+                            {
+                              "M0": 446676
+                            },
+                            {
+                              "M0": 477
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(01243) BIPERIDENO CLORHIDRATO  2 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 441815
+                            },
+                            {
+                              "M0": 0
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(40803) VALPROATO SODICO (TABLETA DE LIBERACION MODIFICADA)  500 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 422801
+                            },
+                            {
+                              "M0": 290
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(02642) DEXAMETASONA FOSFATO (COMO SAL SODICA) 2 mL 4 mg/2 mL INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 260518
+                            },
+                            {
+                              "M0": 154496
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03191) ERITROMICINA  500 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 116967
+                            },
+                            {
+                              "M0": 285370
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(00627) AMIKACINA (COMO SULFATO) 2 mL 250 mg/mL INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 259823
+                            },
+                            {
+                              "M0": 142228
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(41842) DOLUTEGRAVIR + LAMIVUDINA + TENOFOVIR  50 mg + 300 mg + 300 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 398543
+                            },
+                            {
+                              "M0": 0
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03018) DOXICICLINA  100 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 199308
+                            },
+                            {
+                              "M0": 193916
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(04514) LORATADINA  10 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 252412
+                            },
+                            {
+                              "M0": 138934
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(18158) CEFTRIAXONA SODICA (COMO SAL SODICA) CON DILUYENTE  1 g INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 282030
+                            },
+                            {
+                              "M0": 74630
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(24189) TIRA REACTIVA PARA ORINA DE 11 PARAMETROS - - UNIDAD",
+                          "X": [
+                            {
+                              "M0": 219622
+                            },
+                            {
+                              "M0": 134805
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(31340) TUBO PARA EXTRACCION DE SANGRE CON SISTEMA DE VACIO DE POLIPROPILENO DE 3 mL CON EDTA DIPOTASICO   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 323584
+                            },
+                            {
+                              "M0": 29717
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03920) HIDROCLOROTIAZIDA  12.5 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 231836
+                            },
+                            {
+                              "M0": 115370
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(10437) TUBO CAPILAR PARA HEMATOCRITO SIN HEPARINA   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 320102
+                            },
+                            {
+                              "M0": 23433
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(11369) JERINGA DESCARTABLE 20 mL CON AGUJA 21 G X 1 1/2\"   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 264361
+                            },
+                            {
+                              "M0": 65714
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(04168) ISONIAZIDA  100 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 261212
+                            },
+                            {
+                              "M0": 65945
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(06127) TIAMINA CLORHIDRATO  100 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 317868
+                            },
+                            {
+                              "M0": 6170
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03234) ESTRADIOL CIPIONATO + MEDROXIPROGESTERONA ACETATO 0.5 mL 5 mg + 25 mg/0.5 mL INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 162740
+                            },
+                            {
+                              "M0": 160416
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(00947) AZITROMICINA  500 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 190512
+                            },
+                            {
+                              "M0": 125709
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(02004) CLONAZEPAM  2 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 315375
+                            },
+                            {
+                              "M0": 430
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(05103) NITROFURANTOINA  100 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 156753
+                            },
+                            {
+                              "M0": 155364
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(00671) AMLODIPINO (COMO BESILATO)  10 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 187812
+                            },
+                            {
+                              "M0": 122554
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(37326) GORRO DE CIRUGIA TIPO GUSANO PARA ENFERMERA   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 216987
+                            },
+                            {
+                              "M0": 85961
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03536) FERROSO SULFATO 30 mL 25 mg de Fe/mL SOLUCION",
+                          "X": [
+                            {
+                              "M0": 175435
+                            },
+                            {
+                              "M0": 121955
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(31100) PRUEBA RAPIDA PARA VIH 1-2 y SIFILIS 1 DET  KIT",
+                          "X": [
+                            {
+                              "M0": 200058
+                            },
+                            {
+                              "M0": 97166
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(04594) MEDROXIPROGESTERONA ACETATO 1 mL 150 mg/mL INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 160974
+                            },
+                            {
+                              "M0": 134553
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(05873) SODIO CLORURO 1 L 900 mg/100 mL (0.9 %) INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 245218
+                            },
+                            {
+                              "M0": 47462
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(10436) TUBO CAPILAR PARA HEMATOCRITO CON HEPARINA - - UNIDAD",
+                          "X": [
+                            {
+                              "M0": 269800
+                            },
+                            {
+                              "M0": 22054
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(00269) ALBENDAZOL  200 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 90717
+                            },
+                            {
+                              "M0": 197755
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(31858) JERINGA DESCARTABLE 1 mL CON AGUJA 25 G X 5/8\" RETRACTIL   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 225734
+                            },
+                            {
+                              "M0": 58660
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(05309) PARACETAMOL 60 mL 120 mg/5 mL JARABE",
+                          "X": [
+                            {
+                              "M0": 157013
+                            },
+                            {
+                              "M0": 125389
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(02657) DEXAMETASONA  4 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 85300
+                            },
+                            {
+                              "M0": 194131
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(38082) LAMINA PORTA OBJETO BISELADA 25 mm X 75 mm   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 243705
+                            },
+                            {
+                              "M0": 24985
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(02354) CLOTRIMAZOL  500 mg OVULO",
+                          "X": [
+                            {
+                              "M0": 129330
+                            },
+                            {
+                              "M0": 129989
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(16656) JERINGA DESCARTABLE 1 mL CON AGUJA 25 G X 5/8\"   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 169766
+                            },
+                            {
+                              "M0": 89164
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(16571) GUANTE QUIRURGICO ESTERIL DESCARTABLE Nº 7 1/2   PAR",
+                          "X": [
+                            {
+                              "M0": 191834
+                            },
+                            {
+                              "M0": 66099
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(10148) AGUJA HIPODERMICA DESCARTABLE N° 20 G X 1\"   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 208525
+                            },
+                            {
+                              "M0": 43380
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(18102) ETINILESTRADIOL + LEVONORGESTREL (BLISTER) 21 tab + 7 tab SIN EFEC 30 µg + 150 µg TABLETA",
+                          "X": [
+                            {
+                              "M0": 122717
+                            },
+                            {
+                              "M0": 121788
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(04677) METAMIZOL SODICO 2 mL 1 g INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 193521
+                            },
+                            {
+                              "M0": 50036
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(39992) PRUEBA RAPIDA PARA HEPATITIS B 1 DET  KIT",
+                          "X": [
+                            {
+                              "M0": 155683
+                            },
+                            {
+                              "M0": 82718
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(10151) AGUJA HIPODERMICA DESCARTABLE N° 21 G X 1 1/2\"   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 143963
+                            },
+                            {
+                              "M0": 93603
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(04024) IBUPROFENO 60 mL 100 mg/5 mL SUSPENSION",
+                          "X": [
+                            {
+                              "M0": 117287
+                            },
+                            {
+                              "M0": 107048
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(30978) VACUNA ANTINEUMOCOCICA CONJUGADA 13-VALENTE 1 DOSIS  INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 132486
+                            },
+                            {
+                              "M0": 91702
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(30818) AGUJA DENTAL TIPO CARPULE DESCARTABLE Nº 27 G X 1\"   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 218532
+                            },
+                            {
+                              "M0": 5339
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(10929) EQUIPO DE VENOCLISIS   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 185601
+                            },
+                            {
+                              "M0": 36998
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(01684) CEFTRIAXONA SODICA  1 g INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 188027
+                            },
+                            {
+                              "M0": 34011
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(35425) TUBO PARA EXTRACCION DE SANGRE CON SISTEMA DE VACIO DE POLIPROPILENO DE 5 mL CON GEL SEPARADOR   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 187008
+                            },
+                            {
+                              "M0": 25893
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(02361) CLOZAPINA  100 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 211093
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(33907) TUBO PARA EXTRACCION DE SANGRE CON SISTEMA DE VACIO DE POLIPROPILENO DE 6 mL SIN ADITIVO   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 185837
+                            },
+                            {
+                              "M0": 22853
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(02641) DEXAMETASONA FOSFATO (COMO SAL SODICA) 1 mL 4 mg/mL INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 140038
+                            },
+                            {
+                              "M0": 66579
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03708) FURAZOLIDONA  100 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 66744
+                            },
+                            {
+                              "M0": 139859
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(02724) DEXTROMETORFANO BROMHIDRATO 120 mL 15 mg/5 mL JARABE",
+                          "X": [
+                            {
+                              "M0": 101339
+                            },
+                            {
+                              "M0": 93098
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(12520) TIRA REACTIVA PARA GLUCOSA EN SANGRE 1 DET  UNIDAD",
+                          "X": [
+                            {
+                              "M0": 112189
+                            },
+                            {
+                              "M0": 79227
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(05589) PREDNISONA  5 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 101279
+                            },
+                            {
+                              "M0": 88216
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(05166) ORFENADRINA CITRATO 2 mL 30 mg/mL INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 138201
+                            },
+                            {
+                              "M0": 50327
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(45726) CRIOVIAL DE POLIPROPILENO 2.0 mL CON TAPA ROSCA FONDO PLANO GRADUADO   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 167145
+                            },
+                            {
+                              "M0": 15232
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(00807) AMOXICILINA  250 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 25532
+                            },
+                            {
+                              "M0": 152895
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(02132) CLORFENAMINA MALEATO 120 mL 2 mg/5 mL JARABE",
+                          "X": [
+                            {
+                              "M0": 88284
+                            },
+                            {
+                              "M0": 88708
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(17734) VACUNA DPT, HIB Y VHB (PENTAVALENTE) 1 DOSIS - INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 108046
+                            },
+                            {
+                              "M0": 68264
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03595) FLUCONAZOL  150 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 84064
+                            },
+                            {
+                              "M0": 90999
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(06396) VACUNA ANTIPOLIOMIELITICA 1 DOSIS 80 Lf/0.5 mL INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 108751
+                            },
+                            {
+                              "M0": 65647
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(04585) MEBENDAZOL  100 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 64749
+                            },
+                            {
+                              "M0": 109199
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(00393) ALPRAZOLAM  500 µg (0.5 mg) TABLETA",
+                          "X": [
+                            {
+                              "M0": 160869
+                            },
+                            {
+                              "M0": 10284
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(16570) GUANTE QUIRURGICO ESTERIL DESCARTABLE Nº 7   PAR",
+                          "X": [
+                            {
+                              "M0": 115171
+                            },
+                            {
+                              "M0": 50098
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(29976) PUNTERA AZUL 100 uL - 1000 uL   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 153187
+                            },
+                            {
+                              "M0": 11300
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(45221) PRUEBA RAPIDA CUALITATIVA DE ANTIGENO ESPECIFICO PARA SARS-CoV2 (COVID-19) INMUNOENSAYO CROMATOGRAFICO DETERMINACION - UNIDAD",
+                          "X": [
+                            {
+                              "M0": 143248
+                            },
+                            {
+                              "M0": 16933
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(10155) AGUJA HIPODERMICA DESCARTABLE N° 23 G X 1\"   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 101389
+                            },
+                            {
+                              "M0": 58326
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(17563) JERINGA DESCARTABLE 3 mL CON AGUJA 23 G X 1\" - - UNIDAD",
+                          "X": [
+                            {
+                              "M0": 138101
+                            },
+                            {
+                              "M0": 19769
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(11372) JERINGA DESCARTABLE 1 mL CON AGUJA 22 G X 1 1/2\"   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 149408
+                            },
+                            {
+                              "M0": 6448
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(32601) GLUCOSA ENZIMATICA 1 DET  KIT",
+                          "X": [
+                            {
+                              "M0": 133131
+                            },
+                            {
+                              "M0": 21462
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(35343) MANDIL DESCARTABLE NO ESTERIL TALLA \"L\"   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 109764
+                            },
+                            {
+                              "M0": 41421
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(00259) ALBENDAZOL 20 mL 100 mg/5 mL SUSPENSION",
+                          "X": [
+                            {
+                              "M0": 80881
+                            },
+                            {
+                              "M0": 70196
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(21624) COLESTEROL TOTAL ENZIMATICO 1 DET  KIT",
+                          "X": [
+                            {
+                              "M0": 124552
+                            },
+                            {
+                              "M0": 22570
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03213) ESCOPOLAMINA N-BUTILBROMURO 1 mL 20 mg/mL INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 115469
+                            },
+                            {
+                              "M0": 31042
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(06239) TRAMADOL CLORHIDRATO  50 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 108887
+                            },
+                            {
+                              "M0": 34480
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(05688) RIFAMPICINA  300 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 109463
+                            },
+                            {
+                              "M0": 32376
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(02128) CLORFENAMINA MALEATO 1 mL 10 mg/mL INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 79546
+                            },
+                            {
+                              "M0": 55863
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(04846) MIRTAZAPINA  30 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 135208
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(22405) ENVASE DE PLASTICO CON TAPA ROSCA PARA ESPUTO 60 mL   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 111308
+                            },
+                            {
+                              "M0": 23412
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(02884) DIMENHIDRINATO 5 mL 50 mg INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 108028
+                            },
+                            {
+                              "M0": 25267
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(29930) MASCARILLA DESCARTABLE EFICIENCIA DE FILTRADO 95%   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 116152
+                            },
+                            {
+                              "M0": 16041
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(00794) AMOXICILINA 60 mL 250 mg/5 mL SUSPENSION",
+                          "X": [
+                            {
+                              "M0": 54307
+                            },
+                            {
+                              "M0": 77047
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03713) FUROSEMIDA  40 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 92821
+                            },
+                            {
+                              "M0": 37105
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(02319) CLOTRIMAZOL 20 g 1 g/100 g (1 %) CREMA",
+                          "X": [
+                            {
+                              "M0": 64109
+                            },
+                            {
+                              "M0": 64895
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(04695) METFORMINA CLORHIDRATO  500 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 87259
+                            },
+                            {
+                              "M0": 36416
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(04586) MEBENDAZOL  500 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 76390
+                            },
+                            {
+                              "M0": 47267
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03921) HIDROCLOROTIAZIDA  25 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 74919
+                            },
+                            {
+                              "M0": 46937
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(22942) TUBO PARA EXTRACCION DE SANGRE CON SISTEMA DE VACIO DE POLIPROPILENO DE 4 mL CON EDTA DIPOTASICO   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 110528
+                            },
+                            {
+                              "M0": 10452
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(19491) MANDILON DESCARTABLE TALLA L - - UNIDAD",
+                          "X": [
+                            {
+                              "M0": 76529
+                            },
+                            {
+                              "M0": 43504
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(08153) RETINOL(COMO PALMITATO)  200000 UI TABLETA",
+                          "X": [
+                            {
+                              "M0": 84023
+                            },
+                            {
+                              "M0": 35271
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(06437) VACUNA ANTIPAROTIDITIS, RUBEOLA Y SARAMPION 1 DOSIS 700 DCI/0.5 mL INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 70148
+                            },
+                            {
+                              "M0": 48983
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(38955) MANDIL DESCARTABLE NO ESTERIL TALLA M   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 75334
+                            },
+                            {
+                              "M0": 43308
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(05491) PIRIDOXINA CLORHIDRATO  50 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 105373
+                            },
+                            {
+                              "M0": 12380
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(18331) VACUNA CONTRA EL ROTAVIRUS  PLV (SUSPENSION ORAL) 1 DOSIS  SUSPENSION",
+                          "X": [
+                            {
+                              "M0": 71103
+                            },
+                            {
+                              "M0": 44923
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(05588) PREDNISONA  20 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 77421
+                            },
+                            {
+                              "M0": 37009
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03302) ETAMBUTOL CLORHIDRATO  400 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 90654
+                            },
+                            {
+                              "M0": 22736
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(30588) FRASCO COLECTOR PARA MUESTRA DE ORINA CON TAPA 100 mL   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 83531
+                            },
+                            {
+                              "M0": 25859
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(19492) MANDILON DESCARTABLE TALLA M - - UNIDAD",
+                          "X": [
+                            {
+                              "M0": 78862
+                            },
+                            {
+                              "M0": 30497
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(05475) PIRAZINAMIDA  500 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 88461
+                            },
+                            {
+                              "M0": 20769
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03747) GENTAMICINA (COMO SULFATO) 2 mL 80 mg/mL INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 44086
+                            },
+                            {
+                              "M0": 65134
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(05872) SODIO CLORURO 100 mL 900 mg/100 mL (0.9 %) INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 88465
+                            },
+                            {
+                              "M0": 19976
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(18520) VACUNA RECOMBINANTE TETRAVALENTE CONTRA VIRUS DEL PAPILOMA HUMANO TIPO 6, 11, 16 Y 18 (VPH) 0.5 mL  INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 76001
+                            },
+                            {
+                              "M0": 31040
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(06387) VACUNA CONTRA LA HEPATITIS B ADULTO 1 DOSIS 20 ug/mL INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 56668
+                            },
+                            {
+                              "M0": 49474
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(29849) MASCARILLA DESCARTABLE TIPO N-95 - - UNIDAD",
+                          "X": [
+                            {
+                              "M0": 78252
+                            },
+                            {
+                              "M0": 26692
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03760) GLICEROL 5 g 1 g/100 g GEL",
+                          "X": [
+                            {
+                              "M0": 102955
+                            },
+                            {
+                              "M0": 1000
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(16737) LLAVE DE TRIPLE VIA DESCARTABLE   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 89679
+                            },
+                            {
+                              "M0": 13920
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(02654) DEXAMETASONA  500 µg (0.5 mg) TABLETA",
+                          "X": [
+                            {
+                              "M0": 30665
+                            },
+                            {
+                              "M0": 72283
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(04394) LIDOCAINA CLORHIDRATO + EPINEFRINA 1.8 mL 20 mg + 10 ug/mL INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 85540
+                            },
+                            {
+                              "M0": 16747
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(41488) GUANTE PARA EXAMEN DESCARTABLE DE NITRILO SIN POLVO TALLA M   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 96906
+                            },
+                            {
+                              "M0": 4310
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03451) FENITOINA SODICA  100 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 84430
+                            },
+                            {
+                              "M0": 14857
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(54097) VACUNA CONTRA EL DENGUE TETRAVALENTE ( SEROTIPOS 1,2,3 y 4) 1 DOSIS - INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 92784
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(06002) SULFAMETOXAZOL + TRIMETOPRIMA  400 mg + 80 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 15536
+                            },
+                            {
+                              "M0": 74307
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(00143) ACICLOVIR  200 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 48504
+                            },
+                            {
+                              "M0": 40515
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(04582) MEBENDAZOL 30 mL 100 mg/5 mL SUSPENSION",
+                          "X": [
+                            {
+                              "M0": 40396
+                            },
+                            {
+                              "M0": 47953
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(10384) BOTAS DESCARTABLES IMPERMEABLE   PAR",
+                          "X": [
+                            {
+                              "M0": 45185
+                            },
+                            {
+                              "M0": 43037
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(02055) CLORANFENICOL  500 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 17359
+                            },
+                            {
+                              "M0": 70385
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(00389) ALOPURINOL  100 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 82132
+                            },
+                            {
+                              "M0": 5603
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(38353) DILUYENTE PARA VACUNA ANTIVARICELA 1350 UFP/0.5 mL INY 0.7 mL   INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 32476
+                            },
+                            {
+                              "M0": 53451
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(45074) EFAVIRENZ + LAMIVUDINA + TENOFOVIR  400 mg + 300 mg + 300 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 85410
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(05281) PARACETAMOL 10 mL 100 mg/mL SOLUCION",
+                          "X": [
+                            {
+                              "M0": 44046
+                            },
+                            {
+                              "M0": 41041
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(28409) ISONIAZIDA + RIFAMPICINA  75 mg + 150 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 68753
+                            },
+                            {
+                              "M0": 16270
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(32251) VACUNA ANTIVARICELA 0.7 mL 1350 UFP/0.5 mL INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 47433
+                            },
+                            {
+                              "M0": 35914
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(38562) TRIGLICERIDOS ENZIMATICO DET  KIT",
+                          "X": [
+                            {
+                              "M0": 68999
+                            },
+                            {
+                              "M0": 12311
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(28408) ETAMBUTOL + ISONIAZIDA + PIRAZINAMIDA + RIFAMPICINA  275 mg  + 75 mg + 400 mg + 150 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 67563
+                            },
+                            {
+                              "M0": 12609
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(18091) ALUMINIO HIDROXIDO + MAGNESIO HIDROXIDO 150 mL 400 + 400 mg/5 mL SUSPENSION",
+                          "X": [
+                            {
+                              "M0": 46938
+                            },
+                            {
+                              "M0": 32606
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(46472) VACUNA CONTRA COVID-19 (ARNm) nucleosidos modificados, PFIZER, PHARMACIA & UPJOHN COMPANY LLC EEUU(COMIRNATY) VIAL 0.45 mL x 6 DOSIS 30 ug/ 0.3 mL INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 74586
+                            },
+                            {
+                              "M0": 2914
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(25983) DILUYENTE PARA VACUNA ANTIPAROTIDITIS, RUBEOLA Y SARAMPION (SPR) 1 DOSIS  INYECTABLE",
+                          "X": [
+                            {
+                              "M0": 54506
+                            },
+                            {
+                              "M0": 22091
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(06019) SULPIRIDA  200 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 74841
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(22736) PRUEBA RAPIDA DE HORMONA GONADOTROPINA CORIONICA (HCG) 1 DET  KIT",
+                          "X": [
+                            {
+                              "M0": 35523
+                            },
+                            {
+                              "M0": 37292
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(30741) HISOPO DE ALGODON CON MANGO DE MADERA ESTERIL 6\"   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 56026
+                            },
+                            {
+                              "M0": 14876
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(24919) GASA ESTERIL 5 cm X 5 cm X 5 UNIDADES   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 35761
+                            },
+                            {
+                              "M0": 33790
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(20395) AGUJA PARA EXTRACCION DE SANGRE AL VACIO 21 G X 1\"   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 64841
+                            },
+                            {
+                              "M0": 4395
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(46070) BOLSA DE POLIETILENO 50.8 µm X 50 cm X 70 cm COLOR ROJO   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 31379
+                            },
+                            {
+                              "M0": 37461
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(27586) AGUJA PARA EXTRACCION DE SANGRE AL VACIO 21 G X 1 1/2\"   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 65240
+                            },
+                            {
+                              "M0": 2642
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(17705) PRUEBA RAPIDA PARA VIH 1-2 1 DET - KIT",
+                          "X": [
+                            {
+                              "M0": 34190
+                            },
+                            {
+                              "M0": 33352
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(22030) PRESERVATIVO FEMENINO   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 33250
+                            },
+                            {
+                              "M0": 33123
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(23904) CITOCEPILLO PARA PAPANICOLAU - - UNIDAD",
+                          "X": [
+                            {
+                              "M0": 41072
+                            },
+                            {
+                              "M0": 21557
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(03882) HALOPERIDOL  5 mg TABLETA",
+                          "X": [
+                            {
+                              "M0": 62554
+                            }
+                          ]
+                        },
+                        {
+                          "G0": "(33891) MICROCUBETA DESCARTABLE PARA HEMOGLOBINOMETRO HEMOCUE HB 201   UNIDAD",
+                          "X": [
+                            {
+                              "M0": 36662
+                            },
+                            {
+                              "M0": 25606
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": false,
+                  "RT": [
+                    [
+                      "62268L",
+                      "'(33891) MICROCUBETA DESCARTABLE PARA HEMOGLOBINOMETRO HEMOCUE HB 201   UNIDAD'"
+                    ]
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

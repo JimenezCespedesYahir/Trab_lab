@@ -1,0 +1,3 @@
+﻿selector,visible,enabled,editable,role,aria_label,placeholder,class
+input,False,True,True,,Buscar,Buscar,searchInput
+input,True,True,True,,,,

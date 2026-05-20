@@ -1,0 +1,171 @@
+﻿index,x,y,width,height,comboboxes,text_preview
+0,0,0,1280,48,0,
+1,374,0,537,46,0,"CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS"
+2,1184,2,89,41,0,
+3,0,3,274,43,0,
+4,0,0,1280,548,0,
+5,1238,0,42,30,0,X
+6,762,50,282,53,1,"MACROREGION, DIRESA/GERESA/DIRIS, Red
+Todas"
+7,762,110,282,54,1,"Institución
+Todas"
+8,26,110,540,53,1,"Unidad ejecutora
+Todas"
+9,22,174,834,54,1,"Grupo Producto
+(04764) METOTREXATO 2.5 mg TABLETA"
+10,871,174,355,54,1,"Listado de Productos
+Todas"
+11,633,232,225,55,1,"Forma Farmacéutica
+Todas"
+12,22,233,592,53,1,"ATC
+Todas"
+13,601,420,172,55,1,"Tipo de Suministro
+Todas"
+14,790,420,171,54,1,"EE.SS. Ejecutoras
+Todas"
+15,41,421,171,53,1,"Petitorio
+Todas"
+16,222,421,171,55,1,"Periodo
+Todas"
+17,411,421,171,53,1,"Tipo EE.SS.
+Todas"
+18,110,484,1085,40,0,"Se recomienda seleccionar los datos por producto o por grupo de productos. Para seleccionar varios elementos, se debe mantener presionada la tecla ""Ctrl"" mientras se adiciona los ítems.
+
+* El precio ICI del reporte fue incluido al análisis desde Enero del 2019. ** en los gráficos se ha añadido los campos de consumo más significativos, por lo que puede que la suma de este detalle no sea siempre lo mismo que el consumo"
+19,25,48,539,53,1,"Establecimiento
+Todas"
+20,1036,50,115,53,0,"Periodo más antiguo
+
+202104"
+21,1154,50,114,53,0,"Periodo más reciente
+
+202604"
+22,12,100,127,36,0,"Años
+Meses"
+23,160,103,85,22,0,Filtros
+24,253,103,107,23,0,Tabla 1 (país)
+25,366,103,122,23,0,Tabla det. 2 (DISA)
+26,496,103,121,23,0,Tabla det. 3 (EESS)
+27,623,103,115,22,0,Tabla det. 4 (UE)
+28,757,104,102,22,0,Gráfico acum.
+29,866,104,107,22,0,Gráfico por cód
+30,982,104,103,22,0,Gráfico Disp.
+31,1074,138,77,22,0,Descargar
+32,40,138,918,378,0,"Desplazarse hacia arriba
+Desplazarse hacia abajo
+Desplazar a la izquierda
+Desplazar a la derecha
+Selección de fila
+Tipo Reportante
+Codigo_med
+Producto
+ 
+Tipsum
+Meses
+Stock.
+Consumo
+Precio ICI
+Consumo_venta
+Consumo_sis
+Consumo_intersan
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202105
+0
+60
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202106
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202107
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+CENTRO
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202108
+0
+0
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202303
+26
+0
+0,1
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202304
+0
+26
+0,0
+ 
+ 
+ 
+Seleccionar fila
+HOSPITAL
+04764
+METOTREXATO 2.5 mg TABLETA
+D
+202305
+0
+0
+0,0
+ 
+"
+33,966,167,307,158,0,"Consumo Acumulado por tipo
+Ventas 385.619 (5,2%)
+SIS 6.252.736 (84,7%)
+InterSan 739.575 (10,0%)"
+34,966,336,308,182,0,"Consumo Acumulado por tipo EESS
+33.827
+61.932
+6.559.721
+874.693
+1.764
+CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO"
+35,912,517,353,30,0,Núm. de registros declarados 6.700
+36,0,522,1280,26,0,
+37,15,523,383,22,0,GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA

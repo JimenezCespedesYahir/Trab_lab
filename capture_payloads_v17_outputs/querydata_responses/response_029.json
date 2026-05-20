@@ -1,0 +1,246 @@
+{
+  "meta": {
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event": 61
+  },
+  "payload": {
+    "jobIds": [
+      "3c81e5d5-fe08-47b6-9fcc-48546a010da7"
+    ],
+    "results": [
+      {
+        "jobId": "3c81e5d5-fe08-47b6-9fcc-48546a010da7",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T02:57:46.976Z",
+            "rootActivityId": "26d9520e-a234-4dc3-80e2-19512b9eb061",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 1,
+                  "Depth": 0,
+                  "Value": "G0",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "data_historica_dispo12_consumo",
+                        "Property": "codigo_med"
+                      },
+                      "Calc": "G0",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "data_historica_dispo12_consumo.codigo_med"
+                },
+                {
+                  "Kind": 1,
+                  "Depth": 0,
+                  "Value": "G1",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "data_historica_dispo12_consumo",
+                        "Property": "tipsum"
+                      },
+                      "Calc": "G1",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "data_historica_dispo12_consumo.tipsum"
+                },
+                {
+                  "Kind": 2,
+                  "Value": "M0",
+                  "Format": "#,0",
+                  "Name": "Sum(data_historica_dispo12_consumo.M01_tot)"
+                },
+                {
+                  "Kind": 2,
+                  "Value": "M1",
+                  "Format": "0.0",
+                  "Name": "Sum(data_historica_dispo12_consumo.precio)"
+                },
+                {
+                  "Kind": 1,
+                  "Depth": 0,
+                  "Value": "G2",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "medicame",
+                        "Property": "Cod_nombre"
+                      },
+                      "Calc": "G2",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "medicame.Cod_nombre"
+                },
+                {
+                  "Kind": 1,
+                  "Depth": 0,
+                  "Value": "G3",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "CATALOGO_IPRESS_AEMS",
+                        "Property": "tipo_completo"
+                      },
+                      "Calc": "G3",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "CATALOGO_IPRESS_AEMS.tipo_completo"
+                },
+                {
+                  "Kind": 2,
+                  "Value": "M2",
+                  "Format": "#,0",
+                  "Name": "data_historica_dispo12_consumo.m_consumo_vta"
+                },
+                {
+                  "Kind": 2,
+                  "Value": "M3",
+                  "Format": "#,0",
+                  "Name": "data_historica_dispo12_consumo.m_consumo_sis"
+                },
+                {
+                  "Kind": 2,
+                  "Value": "M4",
+                  "Format": "#,0",
+                  "Name": "data_historica_dispo12_consumo.m_consumo_intersan"
+                },
+                {
+                  "Kind": 2,
+                  "Value": "M5",
+                  "Format": "#,0",
+                  "Name": "data_historica_dispo12_consumo.n_stock2"
+                },
+                {
+                  "Kind": 1,
+                  "Depth": 0,
+                  "Value": "G4",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "data_historica_dispo12_consumo",
+                        "Property": "mesano"
+                      },
+                      "Calc": "G4",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "data_historica_dispo12_consumo.mesano"
+                }
+              ],
+              "Expressions": {
+                "Primary": {
+                  "Groupings": [
+                    {
+                      "Keys": [
+                        {
+                          "Source": {
+                            "Entity": "data_historica_dispo12_consumo",
+                            "Property": "codigo_med"
+                          },
+                          "Select": 0
+                        },
+                        {
+                          "Source": {
+                            "Entity": "data_historica_dispo12_consumo",
+                            "Property": "tipsum"
+                          },
+                          "Select": 1
+                        },
+                        {
+                          "Source": {
+                            "Entity": "medicame",
+                            "Property": "Cod_nombre"
+                          },
+                          "Select": 4
+                        },
+                        {
+                          "Source": {
+                            "Entity": "CATALOGO_IPRESS_AEMS",
+                            "Property": "tipo_completo"
+                          },
+                          "Select": 5
+                        },
+                        {
+                          "Source": {
+                            "Entity": "data_historica_dispo12_consumo",
+                            "Property": "mesano"
+                          },
+                          "Select": 10
+                        }
+                      ],
+                      "Member": "DM0"
+                    }
+                  ]
+                }
+              },
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "417ba6dd-ccfd-4317-8b78-3fa19ac8518c",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T02:57:46.97676Z",
+                  "End": "2026-05-20T02:57:48.1969524Z"
+                },
+                {
+                  "Id": "8dc0798e-c829-4f1b-b424-24d452267784",
+                  "ParentId": "417ba6dd-ccfd-4317-8b78-3fa19ac8518c",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T02:57:46.97676Z",
+                  "End": "2026-05-20T02:57:48.1969524Z",
+                  "Metrics": {
+                    "RowCount": 0
+                  }
+                },
+                {
+                  "Id": "075D3699-8D17-4CB2-8B8C-E2E92716CAB0",
+                  "ParentId": "8dc0798e-c829-4f1b-b424-24d452267784",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T02:57:47.283Z",
+                  "End": "2026-05-20T02:57:48.02Z"
+                },
+                {
+                  "Id": "50D03C7B-0520-4545-B1AD-A718377A3E48",
+                  "ParentId": "075D3699-8D17-4CB2-8B8C-E2E92716CAB0",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T02:57:48.02Z",
+                  "End": "2026-05-20T02:57:48.02Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "PH": [
+                    {
+                      "DM0": []
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

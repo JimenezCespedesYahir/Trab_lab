@@ -1,0 +1,122 @@
+{
+  "meta": {
+    "timestamp": "2026-05-20T03:12:41.711Z",
+    "session_id": "pbi-20260520T031031Z-a3fae243",
+    "filters_applied": {
+      "MACROREGION": "NORTE",
+      "INSTITUCION": "GOBIERNO REGIONAL",
+      "UNIDAD EJECUTORA": "SALUD LUCIANO CASTILLO COLONNA"
+    },
+    "active_action": {
+      "action": "reset_filter",
+      "label": "Grupo Producto",
+      "target": "Seleccionar todo",
+      "search": "Seleccionar",
+      "attempt": 1,
+      "phase": "select_option"
+    },
+    "correlation_id": "pbi-20260520T031031Z-a3fae243-querydata-0038",
+    "request_key": "request@2c3e6eb0ec14f68f9866d3b7a00c672a",
+    "request_counter": 38,
+    "response_counter": 39,
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event_counter": 79,
+    "elapsed_ms": 1703.0,
+    "correlation_status": "matched",
+    "request_payload_sha256": "224e46e5df92d5c9b1c731a05ba7339def0abd725c1e7da4c51cc0e1ba2dc33e",
+    "response_payload_sha256": "5ac0f79d188c01d569f9d149d29a039a3c2f2593a98f9d537698949b014fe7c1"
+  },
+  "payload": {
+    "jobIds": [
+      "070c943f-9064-4a32-af85-c5fe3963b1de"
+    ],
+    "results": [
+      {
+        "jobId": "070c943f-9064-4a32-af85-c5fe3963b1de",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T03:12:40.118Z",
+            "rootActivityId": "882e136f-34d9-4319-8ad7-60087832f38a",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 2,
+                  "Value": "M0",
+                  "Name": "Min(data_historica_dispo12_consumo.mesano)"
+                }
+              ],
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "8ecd66f8-d33f-43e2-9ad5-4a0dc0c0993b",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:12:40.1183784Z",
+                  "End": "2026-05-20T03:12:41.2917615Z"
+                },
+                {
+                  "Id": "5e6f28f1-3791-43c6-9a64-9f5b47fa8e72",
+                  "ParentId": "8ecd66f8-d33f-43e2-9ad5-4a0dc0c0993b",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:12:40.1183784Z",
+                  "End": "2026-05-20T03:12:41.2917615Z",
+                  "Metrics": {
+                    "RowCount": 1
+                  }
+                },
+                {
+                  "Id": "702F1111-7F58-4D71-919A-BC5EC7C20C2E",
+                  "ParentId": "5e6f28f1-3791-43c6-9a64-9f5b47fa8e72",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:12:40.56Z",
+                  "End": "2026-05-20T03:12:41.293Z"
+                },
+                {
+                  "Id": "6A70132D-0241-45B3-B7E9-8E81E1CA4AFB",
+                  "ParentId": "702F1111-7F58-4D71-919A-BC5EC7C20C2E",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:12:41.293Z",
+                  "End": "2026-05-20T03:12:41.293Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "M0",
+                              "T": 1
+                            }
+                          ],
+                          "M0": "202104"
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

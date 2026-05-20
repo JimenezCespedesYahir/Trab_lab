@@ -1,0 +1,243 @@
+{
+  "meta": {
+    "timestamp": "2026-05-20T03:11:11.545Z",
+    "session_id": "pbi-20260520T031031Z-a3fae243",
+    "filters_applied": {},
+    "active_action": {
+      "action": "apply_filter",
+      "label": "MACROREGION",
+      "target": "NORTE",
+      "search": "NORTE",
+      "attempt": 1,
+      "phase": "select_option"
+    },
+    "correlation_id": "pbi-20260520T031031Z-a3fae243-querydata-0013",
+    "request_key": "request@b7ed897647355a0acbce54403f9dd416",
+    "request_counter": 13,
+    "response_counter": 11,
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event_counter": 27,
+    "elapsed_ms": 656.0,
+    "correlation_status": "matched",
+    "request_payload_sha256": "4bb73dd93168a4df0ec15e14d30e2f5d15d95eb1d1294b0d937941dd9fa617ac",
+    "response_payload_sha256": "47b34e0469cba67e063b8fcaefe498f92d3daa304df5cb9c9ad877b0e21b310c"
+  },
+  "payload": {
+    "jobIds": [
+      "c5da8a15-6d61-4a7b-9d4e-74611cbb144c"
+    ],
+    "results": [
+      {
+        "jobId": "c5da8a15-6d61-4a7b-9d4e-74611cbb144c",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T02:53:05.456Z",
+            "rootActivityId": "6f74ff1f-a53f-4a69-8467-3160b6d0a845",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 1,
+                  "Depth": 0,
+                  "Value": "G0",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "medicame",
+                        "Property": "Cod_nombre2"
+                      },
+                      "Calc": "G0",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "medicame.Cod_nombre2"
+                },
+                {
+                  "Kind": 2,
+                  "Value": "M0",
+                  "Format": "#,0",
+                  "Name": "Sum(data_historica_dispo12_consumo.M01_tot)"
+                },
+                {
+                  "Kind": 1,
+                  "SecondaryDepth": 0,
+                  "Value": "G1",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "CATALOGO_IPRESS_AEMS",
+                        "Property": "tipo_completo"
+                      },
+                      "Calc": "G1",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "CATALOGO_IPRESS_AEMS.tipo_completo"
+                }
+              ],
+              "Expressions": {
+                "Primary": {
+                  "Groupings": [
+                    {
+                      "Keys": [
+                        {
+                          "Source": {
+                            "Entity": "medicame",
+                            "Property": "Cod_nombre2"
+                          },
+                          "Select": 0
+                        }
+                      ],
+                      "Member": "DM0"
+                    }
+                  ]
+                },
+                "Secondary": {
+                  "Groupings": [
+                    {
+                      "Keys": [
+                        {
+                          "Source": {
+                            "Entity": "CATALOGO_IPRESS_AEMS",
+                            "Property": "tipo_completo"
+                          },
+                          "Select": 2
+                        }
+                      ],
+                      "Member": "DM1"
+                    }
+                  ]
+                }
+              },
+              "Limits": {
+                "Secondary": {
+                  "Id": "L0",
+                  "Top": {
+                    "Count": 60
+                  }
+                }
+              },
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "6db12dc7-23d7-4f84-a33a-713c7e840e78",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T02:53:05.4569773Z",
+                  "End": "2026-05-20T02:53:13.1331833Z"
+                },
+                {
+                  "Id": "fae96306-61ed-40d4-a803-f515dbeda7ee",
+                  "ParentId": "6db12dc7-23d7-4f84-a33a-713c7e840e78",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T02:53:08.3961673Z",
+                  "End": "2026-05-20T02:53:13.1331833Z",
+                  "Metrics": {
+                    "RowCount": 10
+                  }
+                },
+                {
+                  "Id": "7FD7446C-D796-40E2-8A92-9C0EB2A059F7",
+                  "ParentId": "fae96306-61ed-40d4-a803-f515dbeda7ee",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T02:53:08.837Z",
+                  "End": "2026-05-20T02:53:13.133Z"
+                },
+                {
+                  "Id": "8E47CFCB-891E-4917-B364-9AD1EE56CAB7",
+                  "ParentId": "7FD7446C-D796-40E2-8A92-9C0EB2A059F7",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T02:53:13.133Z",
+                  "End": "2026-05-20T02:53:13.133Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "SH": [
+                    {
+                      "DM1": [
+                        {
+                          "S": [
+                            {
+                              "N": "G1",
+                              "T": 1
+                            }
+                          ],
+                          "G1": "CENTRO"
+                        },
+                        {
+                          "G1": "FARMACIA INSTITUCIONAL"
+                        },
+                        {
+                          "G1": "HOSPITAL"
+                        },
+                        {
+                          "G1": "INSTITUTO"
+                        },
+                        {
+                          "G1": "PUESTO"
+                        }
+                      ]
+                    }
+                  ],
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "G0",
+                              "T": 1
+                            }
+                          ],
+                          "G0": "(04764) METOTREXATO  2.5 mg TABLETA",
+                          "X": [
+                            {
+                              "S": [
+                                {
+                                  "N": "M0",
+                                  "T": 4
+                                }
+                              ],
+                              "M0": 23480
+                            },
+                            {
+                              "M0": 924
+                            },
+                            {
+                              "M0": 1129124
+                            },
+                            {
+                              "M0": 25
+                            },
+                            {
+                              "M0": 1318
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

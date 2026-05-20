@@ -1,0 +1,7 @@
+﻿entity_name,property_name,data_type,stable_name,format_string,is_temporal,is_product,is_eess,is_jurisdiction,is_join_candidate,is_surrogate_candidate,timestamp
+data_historica_dispo12_consumo,mesano,1,a7c685ce-d1c9-430e-8a03-a02acc63ac31,,True,False,False,False,False,False,2026-05-16T14:50:56.236793
+data_historica_dispo12_consumo,anno,1,a4cb7604-8860-47c8-afe2-74fd98f52c31,,True,False,False,False,False,False,2026-05-16T14:50:56.236793
+data_historica_dispo12_consumo,stock_fin_ult_periodo,4,73e32b1b-d022-470c-b822-0e7114ffa672,"#,0",True,False,False,False,False,False,2026-05-16T14:50:56.238801
+Periodo_variable,Periodo_variable,1,e4f43c53-58ae-4c9e-88f4-3029589f111d,,True,False,False,False,False,False,2026-05-16T14:50:56.238801
+Periodo_variable,Periodo_variable Campos,1,96104ef0-53a2-45e6-97e9-99b3be8975cb,,True,False,False,False,False,False,2026-05-16T14:50:56.238801
+Periodo_variable,Periodo_variable Orden,4,df89ab7e-492b-4848-b26d-148c59d00edb,0,True,False,False,False,False,False,2026-05-16T14:50:56.238801

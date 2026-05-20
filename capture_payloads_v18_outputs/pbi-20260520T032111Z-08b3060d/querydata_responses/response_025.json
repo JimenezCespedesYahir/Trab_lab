@@ -1,0 +1,307 @@
+{
+  "meta": {
+    "timestamp": "2026-05-20T03:22:15.521Z",
+    "session_id": "pbi-20260520T032111Z-08b3060d",
+    "filters_applied": {
+      "MACROREGION": "NORTE",
+      "INSTITUCION": "GOBIERNO REGIONAL"
+    },
+    "active_action": {
+      "action": "apply_filter",
+      "label": "Unidad ejecutora",
+      "target": "SALUD LUCIANO CASTILLO COLONNA",
+      "search": "LUCIANO",
+      "attempt": 1,
+      "phase": "open_dropdown"
+    },
+    "correlation_id": "pbi-20260520T032111Z-08b3060d-querydata-0025",
+    "request_key": "request@7293f6f765ebb4e0d200996f0b1e33ad",
+    "request_counter": 25,
+    "response_counter": 25,
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event_counter": 50,
+    "elapsed_ms": 422.0,
+    "correlation_status": "matched",
+    "request_payload_sha256": "5dad734424982b6f4f5eeeda913b25eaaed1ef667f6d786c0a7341263548657e",
+    "response_payload_sha256": "c7b463315c23879352043a4ab63740b2157b4ac130efdd2d58bb75e8bce165f5"
+  },
+  "payload": {
+    "jobIds": [
+      "aade78fa-045c-445f-a122-af8530c79c2d"
+    ],
+    "results": [
+      {
+        "jobId": "aade78fa-045c-445f-a122-af8530c79c2d",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T03:22:15.108Z",
+            "rootActivityId": "9f3bfb47-0308-4d0c-9551-daccc31e5cb7",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 1,
+                  "Depth": 0,
+                  "Value": "G0",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "CATALOGO_IPRESS_AEMS",
+                        "Property": "nom_ejecutora"
+                      },
+                      "Calc": "G0",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "CATALOGO_IPRESS_AEMS.nom_ejecutora"
+                },
+                null
+              ],
+              "Expressions": {
+                "Primary": {
+                  "Groupings": [
+                    {
+                      "Keys": [
+                        {
+                          "Source": {
+                            "Entity": "CATALOGO_IPRESS_AEMS",
+                            "Property": "nom_ejecutora"
+                          },
+                          "Select": 0
+                        }
+                      ],
+                      "Member": "DM0"
+                    }
+                  ]
+                }
+              },
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "75b7c471-5c10-4357-9878-67f1f0f7e7f8",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:22:15.1086816Z",
+                  "End": "2026-05-20T03:22:15.1554003Z"
+                },
+                {
+                  "Id": "397ed720-5e8a-43f7-aeae-eb186a4ec23a",
+                  "ParentId": "75b7c471-5c10-4357-9878-67f1f0f7e7f8",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:22:15.1086816Z",
+                  "End": "2026-05-20T03:22:15.1554003Z",
+                  "Metrics": {
+                    "RowCount": 53
+                  }
+                },
+                {
+                  "Id": "365DFB5D-6735-400D-AA02-15ED1905CF65",
+                  "ParentId": "397ed720-5e8a-43f7-aeae-eb186a4ec23a",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:22:15.15Z",
+                  "End": "2026-05-20T03:22:15.157Z"
+                },
+                {
+                  "Id": "BF4A4711-D3E9-4FFB-A416-1ECB79DC1885",
+                  "ParentId": "365DFB5D-6735-400D-AA02-15ED1905CF65",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:22:15.157Z",
+                  "End": "2026-05-20T03:22:15.157Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "G0",
+                              "T": 1
+                            }
+                          ],
+                          "G0": "GOB. REG. ANCASH - RED DE SALUD PACIFICO SUR"
+                        },
+                        {
+                          "G0": "GOB. REG. CAJAMARCA - SALUD CAJAMARCA - CAJAMARCA"
+                        },
+                        {
+                          "G0": "GOB. REG. CAJAMARCA - SALUD HUALGAYOC - BAMBAMARCA"
+                        },
+                        {
+                          "G0": "GOB. REG. CAJAMARCA - SALUD SANTA CRUZ"
+                        },
+                        {
+                          "G0": "GOB. REG. DE ANCASH - RED DE SALUD PACIFICO NORTE"
+                        },
+                        {
+                          "G0": "GOB. REG. DE CAJAMARCA - SALUD SAN IGNACIO"
+                        },
+                        {
+                          "G0": "GOB. REG. DE LA LIBERTAD - SALUD PATAZ"
+                        },
+                        {
+                          "G0": "HOSP.REGIONAL JOSE ALFREDO MENDOZA OLAVARRIA-JAMO II TUMBES"
+                        },
+                        {
+                          "G0": "HOSPITAL BELEN - LAMBAYEQUE"
+                        },
+                        {
+                          "G0": "HOSPITAL DE APOYO I CHULUCANAS"
+                        },
+                        {
+                          "G0": "HOSPITAL DE APOYO I NUESTRA SEÑORA DE LAS MERCEDES DE PAITA"
+                        },
+                        {
+                          "G0": "HOSPITAL DE APOYO I SANTA ROSA"
+                        },
+                        {
+                          "G0": "HOSPITAL DE APOYO III SULLANA"
+                        },
+                        {
+                          "G0": "HOSPITAL JOSE H. SOTO CADENILLAS - CHOTA"
+                        },
+                        {
+                          "G0": "HOSPITAL REGIONAL DE LAMBAYEQUE"
+                        },
+                        {
+                          "G0": "HOSPITAL REGIONAL DOCENTE LAS MERCEDES - CHICLAYO"
+                        },
+                        {
+                          "G0": "HOSPITAL SANTA MARIA DE CUTERVO"
+                        },
+                        {
+                          "G0": "INSTITUTO REGIONAL DE ENFERMEDADES NEOPLASICAS LUIS PINILLOS GANOZA - INREN-NORTE"
+                        },
+                        {
+                          "G0": "INSTITUTO REGIONAL DE OFTALMOLOGIA"
+                        },
+                        {
+                          "G0": "RED DE SALUD CAJABAMBA"
+                        },
+                        {
+                          "G0": "REGION ANCASH-SALUD ANCASH"
+                        },
+                        {
+                          "G0": "REGION ANCASH-SALUD CARAZ"
+                        },
+                        {
+                          "G0": "REGION ANCASH-SALUD ELEAZAR GUZMAN BARRON"
+                        },
+                        {
+                          "G0": "REGION ANCASH-SALUD HUARAZ"
+                        },
+                        {
+                          "G0": "REGION ANCASH-SALUD HUARI"
+                        },
+                        {
+                          "G0": "REGION ANCASH-SALUD LA CALETA"
+                        },
+                        {
+                          "G0": "REGION ANCASH-SALUD POMABAMBA"
+                        },
+                        {
+                          "G0": "REGION ANCASH-SALUD RECUAY CARHUAZ"
+                        },
+                        {
+                          "G0": "REGION CAJAMARCA-HOSPITAL CAJAMARCA"
+                        },
+                        {
+                          "G0": "REGION CAJAMARCA-HOSPITAL GENERAL DE JAEN"
+                        },
+                        {
+                          "G0": "REGION CAJAMARCA-SALUD CAJAMARCA"
+                        },
+                        {
+                          "G0": "REGION CAJAMARCA-SALUD CHOTA"
+                        },
+                        {
+                          "G0": "REGION CAJAMARCA-SALUD CUTERVO"
+                        },
+                        {
+                          "G0": "REGION CAJAMARCA-SALUD JAEN"
+                        },
+                        {
+                          "G0": "REGION PIURA-SALUD MORROPON-CHULUCANAS"
+                        },
+                        {
+                          "G0": "SALUD ASCOPE"
+                        },
+                        {
+                          "G0": "SALUD CHEPEN"
+                        },
+                        {
+                          "G0": "SALUD GRAN CHIMU"
+                        },
+                        {
+                          "G0": "SALUD JULCAN"
+                        },
+                        {
+                          "G0": "SALUD LA LIBERTAD"
+                        },
+                        {
+                          "G0": "SALUD LAMBAYEQUE"
+                        },
+                        {
+                          "G0": "SALUD LUCIANO CASTILLO COLONNA"
+                        },
+                        {
+                          "G0": "SALUD NORTE ASCOPE"
+                        },
+                        {
+                          "G0": "SALUD OTUZCO"
+                        },
+                        {
+                          "G0": "SALUD PACASMAYO"
+                        },
+                        {
+                          "G0": "SALUD PIURA"
+                        },
+                        {
+                          "G0": "SALUD SANCHEZ CARRION"
+                        },
+                        {
+                          "G0": "SALUD SANTIAGO DE CHUCO"
+                        },
+                        {
+                          "G0": "SALUD TRUJILLO ESTE"
+                        },
+                        {
+                          "G0": "SALUD TRUJILLO SUR OESTE"
+                        },
+                        {
+                          "G0": "SALUD TUMBES"
+                        },
+                        {
+                          "G0": "SALUD VIRU"
+                        },
+                        {
+                          "G0": "SIN_UE"
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

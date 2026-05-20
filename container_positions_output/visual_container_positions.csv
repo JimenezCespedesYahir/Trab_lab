@@ -1,0 +1,24 @@
+﻿index,x,y,width,height,text_preview
+0,0,0,1800,68,
+1,527,0,755,64,"CONSUMO HISTÓRICO DE PRODUCTOS FARMACÉUTICOS, DISPOSITIVOS MÉDICOS Y PRODUCTOS SANITARIOS"
+2,1665,3,125,58,
+3,0,5,386,59,
+4,35,68,758,74,Establecimiento Todas
+5,1457,70,161,75,Periodo más antiguo 202104
+6,1622,70,162,75,Periodo más reciente 202604
+7,17,140,178,51,Años Meses
+8,225,145,120,31,Filtros
+9,356,145,150,32,Tabla 1 (país)
+10,515,145,172,32,Tabla det. 2 (DISA)
+11,698,145,170,32,Tabla det. 3 (EESS)
+12,876,145,161,31,Tabla det. 4 (UE)
+13,1064,147,145,30,Gráfico acum.
+14,1218,147,150,31,Gráfico por cód
+15,1381,147,145,31,Gráfico Disp.
+16,1511,193,109,31,Descargar
+17,57,194,1291,531,Desplazarse hacia arriba Desplazarse hacia abajo Desplazar a la izquierda Desplazar a la derecha Selección de fila Tipo Reportante Codigo_med Producto Tipsum Meses Stock. Consumo Precio ICI Consumo_venta Consumo_sis Consumo_intersan Seleccionar fila 
+18,1359,233,432,224,"Consumo Acumulado por tipo Ventas 385.619 (5,2%) SIS 6.252.736 (84,7%) InterSan 739.575 (10,0%)"
+19,1359,472,433,255,Consumo Acumulado por tipo EESS 33.827 61.932 6.559.721 874.693 1.764 CENTRO FARMACIA INST… HOSPITAL INSTITUTO PUESTO
+20,1283,727,496,43,Núm. de registros declarados 6.700
+21,0,734,1800,37,
+22,21,736,538,30,GESTIÓN DE INFORMACIÓN SISMED- EAM/DFAU/DIGEMID/DVMSP/MINSA

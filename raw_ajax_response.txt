@@ -1,0 +1,1 @@
+{"error": "Sesión expirada o inválida"}

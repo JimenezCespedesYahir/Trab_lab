@@ -1,0 +1,154 @@
+{
+  "jobIds": [
+    "01eb6a00-e228-4ffd-911c-71993473613c"
+  ],
+  "results": [
+    {
+      "jobId": "01eb6a00-e228-4ffd-911c-71993473613c",
+      "result": {
+        "data": {
+          "timestamp": "2026-05-20T02:06:04.484Z",
+          "rootActivityId": "4944337f-6dcb-40e5-875d-99633d290a80",
+          "descriptor": {
+            "Select": [
+              {
+                "Kind": 1,
+                "Depth": 0,
+                "Value": "G0",
+                "GroupKeys": [
+                  {
+                    "Source": {
+                      "Entity": "CATALOGO_IPRESS_AEMS",
+                      "Property": "Institución"
+                    },
+                    "Calc": "G0",
+                    "IsSameAsSelect": true
+                  }
+                ],
+                "Name": "CATALOGO_IPRESS_AEMS.Institución"
+              }
+            ],
+            "Expressions": {
+              "Primary": {
+                "Groupings": [
+                  {
+                    "Keys": [
+                      {
+                        "Source": {
+                          "Entity": "CATALOGO_IPRESS_AEMS",
+                          "Property": "Institución"
+                        },
+                        "Select": 0
+                      }
+                    ],
+                    "Member": "DM0"
+                  }
+                ]
+              }
+            },
+            "Version": 2
+          },
+          "metrics": {
+            "Version": "1.0.0",
+            "Events": [
+              {
+                "Id": "fc7242fd-21c2-4d03-a144-8cd8a762a72f",
+                "Name": "Execute Semantic Query",
+                "Component": "DSE",
+                "Start": "2026-05-20T02:06:04.4848717Z",
+                "End": "2026-05-20T02:06:04.5319197Z"
+              },
+              {
+                "Id": "4c97e2f2-e175-43c6-b050-6e40d95a2cf2",
+                "ParentId": "fc7242fd-21c2-4d03-a144-8cd8a762a72f",
+                "Name": "Execute DAX Query",
+                "Component": "DSE",
+                "Start": "2026-05-20T02:06:04.4848717Z",
+                "End": "2026-05-20T02:06:04.5319197Z",
+                "Metrics": {
+                  "RowCount": 12
+                }
+              },
+              {
+                "Id": "BBC77B94-10E5-4594-8BC9-8367BF7521A3",
+                "ParentId": "4c97e2f2-e175-43c6-b050-6e40d95a2cf2",
+                "Name": "Execute Query",
+                "Component": "AS",
+                "Start": "2026-05-20T02:06:04.52Z",
+                "End": "2026-05-20T02:06:04.527Z"
+              },
+              {
+                "Id": "A54FED62-84DA-4629-AE0B-DF75767955A3",
+                "ParentId": "BBC77B94-10E5-4594-8BC9-8367BF7521A3",
+                "Name": "Serialize Rowset",
+                "Component": "AS",
+                "Start": "2026-05-20T02:06:04.527Z",
+                "End": "2026-05-20T02:06:04.527Z"
+              }
+            ]
+          },
+          "fromCache": false,
+          "dsr": {
+            "Version": 2,
+            "MinorVersion": 1,
+            "DS": [
+              {
+                "N": "DS0",
+                "PH": [
+                  {
+                    "DM0": [
+                      {
+                        "S": [
+                          {
+                            "N": "G0",
+                            "T": 1
+                          }
+                        ],
+                        "G0": "ESSALUD"
+                      },
+                      {
+                        "G0": "GOBIERNO REGIONAL"
+                      },
+                      {
+                        "G0": "INPE"
+                      },
+                      {
+                        "G0": "MINSA"
+                      },
+                      {
+                        "G0": "MUNICIPALIDAD DISTRITAL"
+                      },
+                      {
+                        "G0": "MUNICIPALIDAD PROVINCIAL"
+                      },
+                      {
+                        "G0": "PRIVADO"
+                      },
+                      {
+                        "G0": "SANIDAD DE LA FUERZA AEREA DEL PERU"
+                      },
+                      {
+                        "G0": "SANIDAD DE LA MARINA DE GUERRA DEL PERU"
+                      },
+                      {
+                        "G0": "SANIDAD DE LA POLICIA NACIONAL DEL PERU"
+                      },
+                      {
+                        "G0": "SANIDAD DEL EJERCITO DEL PERU"
+                      },
+                      {
+                        "G0": "SIN_INSTITUCIÓN"
+                      }
+                    ]
+                  }
+                ],
+                "IC": true,
+                "HAD": true
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

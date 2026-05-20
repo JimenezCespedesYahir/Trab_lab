@@ -1,0 +1,2 @@
+﻿stage,uid,selector,index,x,y,width,height,type,role,placeholder,aria,title,value,text,class
+AFTER,28,input,28,82.77,128.86,695.24,21.43,text,,Buscar,Buscar,,,,searchInput

@@ -1,0 +1,285 @@
+{
+  "meta": {
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event": 50
+  },
+  "payload": {
+    "jobIds": [
+      "d4fff40f-96bb-473e-89f4-4976b174ef07"
+    ],
+    "results": [
+      {
+        "jobId": "d4fff40f-96bb-473e-89f4-4976b174ef07",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T03:31:50.734Z",
+            "rootActivityId": "2a636d98-faca-4039-90f7-6ce5763b6400",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 1,
+                  "Depth": 0,
+                  "Value": "G0",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "CATALOGO_IPRESS_AEMS",
+                        "Property": "nom_ejecutora"
+                      },
+                      "Calc": "G0",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "CATALOGO_IPRESS_AEMS.nom_ejecutora"
+                },
+                null
+              ],
+              "Expressions": {
+                "Primary": {
+                  "Groupings": [
+                    {
+                      "Keys": [
+                        {
+                          "Source": {
+                            "Entity": "CATALOGO_IPRESS_AEMS",
+                            "Property": "nom_ejecutora"
+                          },
+                          "Select": 0
+                        }
+                      ],
+                      "Member": "DM0"
+                    }
+                  ]
+                }
+              },
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "5bcd9694-220e-4e60-8895-fac253f45e91",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:31:50.7340069Z",
+                  "End": "2026-05-20T03:31:50.7825459Z"
+                },
+                {
+                  "Id": "0178b821-887a-4fb6-954a-d65839864aaa",
+                  "ParentId": "5bcd9694-220e-4e60-8895-fac253f45e91",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:31:50.7340069Z",
+                  "End": "2026-05-20T03:31:50.7825459Z",
+                  "Metrics": {
+                    "RowCount": 53
+                  }
+                },
+                {
+                  "Id": "B9546580-8A49-49CE-B319-ECA5E1330CE3",
+                  "ParentId": "0178b821-887a-4fb6-954a-d65839864aaa",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:31:50.77Z",
+                  "End": "2026-05-20T03:31:50.777Z"
+                },
+                {
+                  "Id": "1E09D252-A99D-4273-B425-1E4BEF75D304",
+                  "ParentId": "B9546580-8A49-49CE-B319-ECA5E1330CE3",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:31:50.777Z",
+                  "End": "2026-05-20T03:31:50.777Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "G0",
+                              "T": 1
+                            }
+                          ],
+                          "G0": "GOB. REG. ANCASH - RED DE SALUD PACIFICO SUR"
+                        },
+                        {
+                          "G0": "GOB. REG. CAJAMARCA - SALUD CAJAMARCA - CAJAMARCA"
+                        },
+                        {
+                          "G0": "GOB. REG. CAJAMARCA - SALUD HUALGAYOC - BAMBAMARCA"
+                        },
+                        {
+                          "G0": "GOB. REG. CAJAMARCA - SALUD SANTA CRUZ"
+                        },
+                        {
+                          "G0": "GOB. REG. DE ANCASH - RED DE SALUD PACIFICO NORTE"
+                        },
+                        {
+                          "G0": "GOB. REG. DE CAJAMARCA - SALUD SAN IGNACIO"
+                        },
+                        {
+                          "G0": "GOB. REG. DE LA LIBERTAD - SALUD PATAZ"
+                        },
+                        {
+                          "G0": "HOSP.REGIONAL JOSE ALFREDO MENDOZA OLAVARRIA-JAMO II TUMBES"
+                        },
+                        {
+                          "G0": "HOSPITAL BELEN - LAMBAYEQUE"
+                        },
+                        {
+                          "G0": "HOSPITAL DE APOYO I CHULUCANAS"
+                        },
+                        {
+                          "G0": "HOSPITAL DE APOYO I NUESTRA SEÑORA DE LAS MERCEDES DE PAITA"
+                        },
+                        {
+                          "G0": "HOSPITAL DE APOYO I SANTA ROSA"
+                        },
+                        {
+                          "G0": "HOSPITAL DE APOYO III SULLANA"
+                        },
+                        {
+                          "G0": "HOSPITAL JOSE H. SOTO CADENILLAS - CHOTA"
+                        },
+                        {
+                          "G0": "HOSPITAL REGIONAL DE LAMBAYEQUE"
+                        },
+                        {
+                          "G0": "HOSPITAL REGIONAL DOCENTE LAS MERCEDES - CHICLAYO"
+                        },
+                        {
+                          "G0": "HOSPITAL SANTA MARIA DE CUTERVO"
+                        },
+                        {
+                          "G0": "INSTITUTO REGIONAL DE ENFERMEDADES NEOPLASICAS LUIS PINILLOS GANOZA - INREN-NORTE"
+                        },
+                        {
+                          "G0": "INSTITUTO REGIONAL DE OFTALMOLOGIA"
+                        },
+                        {
+                          "G0": "RED DE SALUD CAJABAMBA"
+                        },
+                        {
+                          "G0": "REGION ANCASH-SALUD ANCASH"
+                        },
+                        {
+                          "G0": "REGION ANCASH-SALUD CARAZ"
+                        },
+                        {
+                          "G0": "REGION ANCASH-SALUD ELEAZAR GUZMAN BARRON"
+                        },
+                        {
+                          "G0": "REGION ANCASH-SALUD HUARAZ"
+                        },
+                        {
+                          "G0": "REGION ANCASH-SALUD HUARI"
+                        },
+                        {
+                          "G0": "REGION ANCASH-SALUD LA CALETA"
+                        },
+                        {
+                          "G0": "REGION ANCASH-SALUD POMABAMBA"
+                        },
+                        {
+                          "G0": "REGION ANCASH-SALUD RECUAY CARHUAZ"
+                        },
+                        {
+                          "G0": "REGION CAJAMARCA-HOSPITAL CAJAMARCA"
+                        },
+                        {
+                          "G0": "REGION CAJAMARCA-HOSPITAL GENERAL DE JAEN"
+                        },
+                        {
+                          "G0": "REGION CAJAMARCA-SALUD CAJAMARCA"
+                        },
+                        {
+                          "G0": "REGION CAJAMARCA-SALUD CHOTA"
+                        },
+                        {
+                          "G0": "REGION CAJAMARCA-SALUD CUTERVO"
+                        },
+                        {
+                          "G0": "REGION CAJAMARCA-SALUD JAEN"
+                        },
+                        {
+                          "G0": "REGION PIURA-SALUD MORROPON-CHULUCANAS"
+                        },
+                        {
+                          "G0": "SALUD ASCOPE"
+                        },
+                        {
+                          "G0": "SALUD CHEPEN"
+                        },
+                        {
+                          "G0": "SALUD GRAN CHIMU"
+                        },
+                        {
+                          "G0": "SALUD JULCAN"
+                        },
+                        {
+                          "G0": "SALUD LA LIBERTAD"
+                        },
+                        {
+                          "G0": "SALUD LAMBAYEQUE"
+                        },
+                        {
+                          "G0": "SALUD LUCIANO CASTILLO COLONNA"
+                        },
+                        {
+                          "G0": "SALUD NORTE ASCOPE"
+                        },
+                        {
+                          "G0": "SALUD OTUZCO"
+                        },
+                        {
+                          "G0": "SALUD PACASMAYO"
+                        },
+                        {
+                          "G0": "SALUD PIURA"
+                        },
+                        {
+                          "G0": "SALUD SANCHEZ CARRION"
+                        },
+                        {
+                          "G0": "SALUD SANTIAGO DE CHUCO"
+                        },
+                        {
+                          "G0": "SALUD TRUJILLO ESTE"
+                        },
+                        {
+                          "G0": "SALUD TRUJILLO SUR OESTE"
+                        },
+                        {
+                          "G0": "SALUD TUMBES"
+                        },
+                        {
+                          "G0": "SALUD VIRU"
+                        },
+                        {
+                          "G0": "SIN_UE"
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

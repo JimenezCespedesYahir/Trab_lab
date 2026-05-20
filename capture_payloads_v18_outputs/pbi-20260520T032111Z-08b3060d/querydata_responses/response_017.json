@@ -1,0 +1,182 @@
+{
+  "meta": {
+    "timestamp": "2026-05-20T03:21:55.869Z",
+    "session_id": "pbi-20260520T032111Z-08b3060d",
+    "filters_applied": {
+      "MACROREGION": "NORTE"
+    },
+    "active_action": {
+      "action": "apply_filter",
+      "label": "Institucion",
+      "target": "GOBIERNO REGIONAL",
+      "search": "GOBIERNO",
+      "attempt": 1,
+      "phase": "open_dropdown"
+    },
+    "correlation_id": "pbi-20260520T032111Z-08b3060d-querydata-0017",
+    "request_key": "request@9c3d6dda3732d4b7f30f454063d938a9",
+    "request_counter": 17,
+    "response_counter": 17,
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event_counter": 34,
+    "elapsed_ms": 391.0,
+    "correlation_status": "matched",
+    "request_payload_sha256": "304c29f48649db435bf687935938475f7e8710aa86813333f01918156b48da3e",
+    "response_payload_sha256": "98e36aaf7701819b455cd0354db3ed279800de2a1a0620b15891274bdd6c0587"
+  },
+  "payload": {
+    "jobIds": [
+      "fd0054bc-c21f-43c0-aedc-16daaa3012c2"
+    ],
+    "results": [
+      {
+        "jobId": "fd0054bc-c21f-43c0-aedc-16daaa3012c2",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T03:21:55.458Z",
+            "rootActivityId": "2c589325-8430-456e-9597-b39a05ab8f61",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 1,
+                  "Depth": 0,
+                  "Value": "G0",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "CATALOGO_IPRESS_AEMS",
+                        "Property": "Institución"
+                      },
+                      "Calc": "G0",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "CATALOGO_IPRESS_AEMS.Institución"
+                }
+              ],
+              "Expressions": {
+                "Primary": {
+                  "Groupings": [
+                    {
+                      "Keys": [
+                        {
+                          "Source": {
+                            "Entity": "CATALOGO_IPRESS_AEMS",
+                            "Property": "Institución"
+                          },
+                          "Select": 0
+                        }
+                      ],
+                      "Member": "DM0"
+                    }
+                  ]
+                }
+              },
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "630c4afa-558f-4977-bedd-454bee852f4d",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:21:55.4585107Z",
+                  "End": "2026-05-20T03:21:55.5054581Z"
+                },
+                {
+                  "Id": "07ffe8e7-349c-4061-8329-c44df0f99872",
+                  "ParentId": "630c4afa-558f-4977-bedd-454bee852f4d",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:21:55.4742793Z",
+                  "End": "2026-05-20T03:21:55.5054581Z",
+                  "Metrics": {
+                    "RowCount": 12
+                  }
+                },
+                {
+                  "Id": "2EFE8C60-ED86-4F8F-A1F3-09A75FD9F5B2",
+                  "ParentId": "07ffe8e7-349c-4061-8329-c44df0f99872",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:21:55.503Z",
+                  "End": "2026-05-20T03:21:55.51Z"
+                },
+                {
+                  "Id": "31872BB5-7076-4567-94E9-BE67F35C7197",
+                  "ParentId": "2EFE8C60-ED86-4F8F-A1F3-09A75FD9F5B2",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:21:55.51Z",
+                  "End": "2026-05-20T03:21:55.51Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "G0",
+                              "T": 1
+                            }
+                          ],
+                          "G0": "ESSALUD"
+                        },
+                        {
+                          "G0": "GOBIERNO REGIONAL"
+                        },
+                        {
+                          "G0": "INPE"
+                        },
+                        {
+                          "G0": "MINSA"
+                        },
+                        {
+                          "G0": "MUNICIPALIDAD DISTRITAL"
+                        },
+                        {
+                          "G0": "MUNICIPALIDAD PROVINCIAL"
+                        },
+                        {
+                          "G0": "PRIVADO"
+                        },
+                        {
+                          "G0": "SANIDAD DE LA FUERZA AEREA DEL PERU"
+                        },
+                        {
+                          "G0": "SANIDAD DE LA MARINA DE GUERRA DEL PERU"
+                        },
+                        {
+                          "G0": "SANIDAD DE LA POLICIA NACIONAL DEL PERU"
+                        },
+                        {
+                          "G0": "SANIDAD DEL EJERCITO DEL PERU"
+                        },
+                        {
+                          "G0": "SIN_INSTITUCIÓN"
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

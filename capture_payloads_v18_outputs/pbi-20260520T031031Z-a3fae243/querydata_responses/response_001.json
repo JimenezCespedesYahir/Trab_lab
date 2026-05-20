@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "timestamp": "2026-05-20T03:10:45.023Z",
+    "session_id": "pbi-20260520T031031Z-a3fae243",
+    "filters_applied": {},
+    "active_action": {},
+    "correlation_id": "pbi-20260520T031031Z-a3fae243-querydata-0001",
+    "request_key": "request@c3b7d8d311c2f9f08523f425f60c9e35",
+    "request_counter": 1,
+    "response_counter": 1,
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event_counter": 8,
+    "elapsed_ms": 781.0,
+    "correlation_status": "matched",
+    "request_payload_sha256": "4318a498233a2e5a138ddae23066c6a8b0ec6de5bf5fbb9a31cd49d29a78c8e2",
+    "response_payload_sha256": "1d528e519f48f74210fc149c9cc1787e1b7288c43bc308b86f55601dfc5e8233"
+  },
+  "payload": {
+    "jobIds": [
+      "8ada7b75-672d-4651-8f6c-4d50bfcbd809"
+    ],
+    "results": [
+      {
+        "jobId": "8ada7b75-672d-4651-8f6c-4d50bfcbd809",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T02:23:48.322Z",
+            "rootActivityId": "4b43b9d3-8a6a-48b8-9a69-b045b0a7acb0",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 1,
+                  "Depth": 0,
+                  "Value": "G0",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "Periodo_variable",
+                        "Property": "Periodo_variable Campos"
+                      },
+                      "Calc": "G0",
+                      "IsSameAsSelect": true
+                    }
+                  ],
+                  "Name": "Periodo_variable.Periodo_variable Campos"
+                },
+                {
+                  "Kind": 1,
+                  "Depth": 0,
+                  "Value": "G1",
+                  "GroupKeys": [
+                    {
+                      "Source": {
+                        "Entity": "Periodo_variable",
+                        "Property": "Periodo_variable Campos"
+                      },
+                      "Calc": "G0"
+                    }
+                  ],
+                  "Name": "Periodo_variable.Periodo_variable"
+                }
+              ],
+              "Expressions": {
+                "Primary": {
+                  "Groupings": [
+                    {
+                      "Keys": [
+                        {
+                          "Source": {
+                            "Entity": "Periodo_variable",
+                            "Property": "Periodo_variable Campos"
+                          },
+                          "Select": 0
+                        }
+                      ],
+                      "Member": "DM0"
+                    }
+                  ]
+                }
+              },
+              "Limits": {
+                "Primary": {
+                  "Id": "L0",
+                  "Top": {
+                    "Count": 150
+                  }
+                }
+              },
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "af3acc6b-2693-451b-9fdb-ca05d7131c86",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T02:23:48.3220383Z",
+                  "End": "2026-05-20T02:23:48.3532981Z"
+                },
+                {
+                  "Id": "d57556e6-e902-4ab9-91c6-ce7e2eea8d5c",
+                  "ParentId": "af3acc6b-2693-451b-9fdb-ca05d7131c86",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T02:23:48.3220383Z",
+                  "End": "2026-05-20T02:23:48.3532981Z",
+                  "Metrics": {
+                    "RowCount": 1
+                  }
+                },
+                {
+                  "Id": "7F88BA7B-DD1E-4C3B-B1F5-94D1A2ADAEC3",
+                  "ParentId": "d57556e6-e902-4ab9-91c6-ce7e2eea8d5c",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T02:23:48.353Z",
+                  "End": "2026-05-20T02:23:48.357Z"
+                },
+                {
+                  "Id": "E566F345-EF9B-427D-A2CF-F38B45065CEB",
+                  "ParentId": "7F88BA7B-DD1E-4C3B-B1F5-94D1A2ADAEC3",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T02:23:48.357Z",
+                  "End": "2026-05-20T02:23:48.357Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "G0",
+                              "T": 1,
+                              "DN": "D0"
+                            },
+                            {
+                              "N": "G1",
+                              "T": 1,
+                              "DN": "D1"
+                            }
+                          ],
+                          "C": [
+                            0,
+                            0
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true,
+                  "ValueDicts": {
+                    "D0": [
+                      "'data_historica_dispo12_consumo'[mesano]"
+                    ],
+                    "D1": [
+                      "Meses"
+                    ]
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

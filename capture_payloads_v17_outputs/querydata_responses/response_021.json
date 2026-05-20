@@ -1,0 +1,99 @@
+{
+  "meta": {
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event": 48
+  },
+  "payload": {
+    "jobIds": [
+      "92de7241-d397-491b-ba95-babd18ef6e80"
+    ],
+    "results": [
+      {
+        "jobId": "92de7241-d397-491b-ba95-babd18ef6e80",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T03:11:40.122Z",
+            "rootActivityId": "0520c3c6-407e-4883-af09-ce531052e02b",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 2,
+                  "Value": "M0",
+                  "Name": "Min(data_historica_dispo12_consumo.mesano)"
+                }
+              ],
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "170e5762-b5e2-40df-aec0-8a235390a4e1",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:11:40.1224209Z",
+                  "End": "2026-05-20T03:11:44.1419421Z"
+                },
+                {
+                  "Id": "9fec604a-dcfb-46a0-afde-25df91016597",
+                  "ParentId": "170e5762-b5e2-40df-aec0-8a235390a4e1",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T03:11:40.1381061Z",
+                  "End": "2026-05-20T03:11:44.1419421Z",
+                  "Metrics": {
+                    "RowCount": 1
+                  }
+                },
+                {
+                  "Id": "C2AD376F-9D63-4C86-8CAA-5EF5A39733AF",
+                  "ParentId": "9fec604a-dcfb-46a0-afde-25df91016597",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:11:40.87Z",
+                  "End": "2026-05-20T03:11:43.84Z"
+                },
+                {
+                  "Id": "2A54EEA9-2F1B-4EAF-A84C-39611FB62556",
+                  "ParentId": "C2AD376F-9D63-4C86-8CAA-5EF5A39733AF",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T03:11:43.84Z",
+                  "End": "2026-05-20T03:11:43.84Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "M0",
+                              "T": 1
+                            }
+                          ],
+                          "M0": "202104"
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

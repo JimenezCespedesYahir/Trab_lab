@@ -1,0 +1,212 @@
+[
+    {
+        "timestamp": "20260516_145746",
+        "query_id": "query_20260516_145746",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145746",
+        "query_id": "query_20260516_145746",
+        "where_clause": "{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Switch_4\"}},\"Right\":{\"Literal\":{\"Value\":\"2D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s1\"}},\"Property\":\"Switch_3\"}},\"Right\":{\"Literal\":{\"Value\":\"2D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s2\"}},\"Property\":\"Switch_22\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s3\"}},\"Property\":\"Switch_21\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s4\"}},\"Property\":\"Switch_1\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Cod_nombre2\"}}"
+    },
+    {
+        "timestamp": "20260516_145746",
+        "query_id": "query_20260516_145746",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145746",
+        "query_id": "query_20260516_145746",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145746",
+        "query_id": "query_20260516_145746",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145746",
+        "query_id": "query_20260516_145746",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145746",
+        "query_id": "query_20260516_145746",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145746",
+        "query_id": "query_20260516_145746",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145747",
+        "query_id": "query_20260516_145747",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145747",
+        "query_id": "query_20260516_145747",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"codigo_med\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"tipsum\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Cod_nombre\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"tipo_completo\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"mesano\"}}"
+    },
+    {
+        "timestamp": "20260516_145747",
+        "query_id": "query_20260516_145747",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145747",
+        "query_id": "query_20260516_145747",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145747",
+        "query_id": "query_20260516_145747",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"codigo_med\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"tipsum\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Cod_nombre\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"tipo_completo\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"mesano\"}}"
+    },
+    {
+        "timestamp": "20260516_145747",
+        "query_id": "query_20260516_145747",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145747",
+        "query_id": "query_20260516_145747",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145747",
+        "query_id": "query_20260516_145747",
+        "where_clause": "{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Switch_4\"}},\"Right\":{\"Literal\":{\"Value\":\"2D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s1\"}},\"Property\":\"Switch_3\"}},\"Right\":{\"Literal\":{\"Value\":\"2D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s2\"}},\"Property\":\"Switch_22\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s3\"}},\"Property\":\"Switch_21\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s4\"}},\"Property\":\"Switch_1\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Cod_nombre2\"}}"
+    },
+    {
+        "timestamp": "20260516_145752",
+        "query_id": "query_20260516_145752",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145752",
+        "query_id": "query_20260516_145752",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"codigo_med\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"tipsum\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Cod_nombre\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"tipo_completo\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"mesano\"}}"
+    },
+    {
+        "timestamp": "20260516_145752",
+        "query_id": "query_20260516_145752",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145752",
+        "query_id": "query_20260516_145752",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145752",
+        "query_id": "query_20260516_145752",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"codigo_med\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"tipsum\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Cod_nombre\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"tipo_completo\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"mesano\"}}"
+    },
+    {
+        "timestamp": "20260516_145752",
+        "query_id": "query_20260516_145752",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145752",
+        "query_id": "query_20260516_145752",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145752",
+        "query_id": "query_20260516_145752",
+        "where_clause": "{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Switch_4\"}},\"Right\":{\"Literal\":{\"Value\":\"2D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s1\"}},\"Property\":\"Switch_3\"}},\"Right\":{\"Literal\":{\"Value\":\"2D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s2\"}},\"Property\":\"Switch_22\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s3\"}},\"Property\":\"Switch_21\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s4\"}},\"Property\":\"Switch_1\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Cod_nombre2\"}}"
+    },
+    {
+        "timestamp": "20260516_145758",
+        "query_id": "query_20260516_145758",
+        "where_clause": "{\"Condition\":{\"Comparison\":{\"ComparisonKind\":1,\"Left\":{\"Measure\":{\"Expression\":{\"SourceRef\":{\"Source\":\"d\"}},\"Property\":\"cc_items\"}},\"Right\":{\"Literal\":{\"Value\":\"0L\"}}}},\"Target\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"DESCRIP\"}},{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"c\"}},\"Property\":\"codpre_\"}}"
+    },
+    {
+        "timestamp": "20260516_145809",
+        "query_id": "query_20260516_145809",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145814",
+        "query_id": "query_20260516_145814",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145814",
+        "query_id": "query_20260516_145814",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145814",
+        "query_id": "query_20260516_145814",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145814",
+        "query_id": "query_20260516_145814",
+        "where_clause": "{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Switch_4\"}},\"Right\":{\"Literal\":{\"Value\":\"2D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s1\"}},\"Property\":\"Switch_3\"}},\"Right\":{\"Literal\":{\"Value\":\"2D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s2\"}},\"Property\":\"Switch_22\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s3\"}},\"Property\":\"Switch_21\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s4\"}},\"Property\":\"Switch_1\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Cod_nombre2\"}}"
+    },
+    {
+        "timestamp": "20260516_145845",
+        "query_id": "query_20260516_145845",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145845",
+        "query_id": "query_20260516_145845",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145845",
+        "query_id": "query_20260516_145845",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145845",
+        "query_id": "query_20260516_145845",
+        "where_clause": "{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Switch_4\"}},\"Right\":{\"Literal\":{\"Value\":\"2D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s1\"}},\"Property\":\"Switch_3\"}},\"Right\":{\"Literal\":{\"Value\":\"2D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s2\"}},\"Property\":\"Switch_22\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s3\"}},\"Property\":\"Switch_21\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s4\"}},\"Property\":\"Switch_1\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Cod_nombre2\"}}"
+    },
+    {
+        "timestamp": "20260516_145917",
+        "query_id": "query_20260516_145917",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145917",
+        "query_id": "query_20260516_145917",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145917",
+        "query_id": "query_20260516_145917",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_145917",
+        "query_id": "query_20260516_145917",
+        "where_clause": "{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Switch_4\"}},\"Right\":{\"Literal\":{\"Value\":\"2D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s1\"}},\"Property\":\"Switch_3\"}},\"Right\":{\"Literal\":{\"Value\":\"2D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s2\"}},\"Property\":\"Switch_22\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s3\"}},\"Property\":\"Switch_21\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s4\"}},\"Property\":\"Switch_1\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Cod_nombre2\"}}"
+    },
+    {
+        "timestamp": "20260516_150056",
+        "query_id": "query_20260516_150056",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_150056",
+        "query_id": "query_20260516_150056",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_150056",
+        "query_id": "query_20260516_150056",
+        "where_clause": "{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"p\"}},\"Property\":\"Periodo_variable Campos\"}}"
+    },
+    {
+        "timestamp": "20260516_150056",
+        "query_id": "query_20260516_150056",
+        "where_clause": "{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s\"}},\"Property\":\"Switch_4\"}},\"Right\":{\"Literal\":{\"Value\":\"2D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s1\"}},\"Property\":\"Switch_3\"}},\"Right\":{\"Literal\":{\"Value\":\"2D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s2\"}},\"Property\":\"Switch_22\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s3\"}},\"Property\":\"Switch_21\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"Comparison\":{\"ComparisonKind\":0,\"Left\":{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"s4\"}},\"Property\":\"Switch_1\"}},\"Right\":{\"Literal\":{\"Value\":\"1D\"}}}}},{\"Condition\":{\"In\":{\"Expressions\":[{\"Column\":{\"Expression\":{\"SourceRef\":{\"Source\":\"m\"}},\"Property\":\"Cod_nombre2\"}}"
+    }
+]

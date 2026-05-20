@@ -1,0 +1,30 @@
+﻿selector,visible,enabled,editable,inside_dropdown,text,type,role,aria_label,placeholder,class,id,tabindex,bbox,zindex,display,visibility,opacity,position
+input,False,True,True,False,,text,,Buscar,Buscar,searchInput,,,None,auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 167.25714111328125, 'width': 9.90475845336914, 'height': 9.904769897460938}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 180.2095184326172, 'width': 9.90475845336914, 'height': 9.904769897460938}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 193.1619110107422, 'width': 9.90475845336914, 'height': 9.904769897460938}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 206.11428833007812, 'width': 9.90475845336914, 'height': 9.904754638671875}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 219.06668090820312, 'width': 9.90475845336914, 'height': 9.904754638671875}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 232.01904296875, 'width': 9.90475845336914, 'height': 9.90478515625}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 244.971435546875, 'width': 9.90475845336914, 'height': 9.904769897460938}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 257.923828125, 'width': 9.90475845336914, 'height': 9.904754638671875}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 270.8761901855469, 'width': 9.90475845336914, 'height': 9.90478515625}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 283.8285827636719, 'width': 9.90475845336914, 'height': 9.90478515625}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 296.7809753417969, 'width': 9.90475845336914, 'height': 9.904754638671875}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 309.7333679199219, 'width': 9.90475845336914, 'height': 9.90472412109375}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 322.68572998046875, 'width': 9.90475845336914, 'height': 9.904754638671875}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 335.6380920410156, 'width': 9.90475845336914, 'height': 9.90478515625}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 348.5904846191406, 'width': 9.90475845336914, 'height': 9.904754638671875}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 361.5428771972656, 'width': 9.90475845336914, 'height': 9.904754638671875}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 374.4952392578125, 'width': 9.90475845336914, 'height': 9.904754638671875}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 387.4476318359375, 'width': 9.90475845336914, 'height': 9.904754638671875}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 400.3999938964844, 'width': 9.90475845336914, 'height': 9.90478515625}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 413.3523864746094, 'width': 9.90475845336914, 'height': 9.904754638671875}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 426.3047790527344, 'width': 9.90475845336914, 'height': 9.904754638671875}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 439.25714111328125, 'width': 9.90475845336914, 'height': 9.90478515625}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 452.20953369140625, 'width': 9.90475845336914, 'height': 9.90472412109375}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 465.16192626953125, 'width': 9.90475845336914, 'height': 9.90478515625}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 478.1142578125, 'width': 9.90475845336914, 'height': 9.90478515625}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 491.06671142578125, 'width': 9.90475845336914, 'height': 9.90472412109375}",auto,inline-block,visible,1,static
+input,True,True,True,False,,checkbox,,,,,,,"{'x': 47.466670989990234, 'y': 504.01904296875, 'width': 9.90475845336914, 'height': 9.90478515625}",auto,inline-block,visible,1,static
+input,False,True,True,False,,text,,Buscar,Buscar,searchInput,,,None,auto,inline-block,visible,1,static

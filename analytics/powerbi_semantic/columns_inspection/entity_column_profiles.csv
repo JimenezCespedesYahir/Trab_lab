@@ -1,0 +1,144 @@
+﻿entity_name,property_name,data_type,stable_name,format_string,is_temporal,is_product,is_eess,is_jurisdiction,is_join_candidate,is_surrogate_candidate,timestamp
+data_historica_dispo12_consumo,codigo_pre,1,3a6834a6-50f2-4cda-8f8f-14f61a9530b3,,False,True,False,False,True,True,2026-05-16T14:50:56.236793
+data_historica_dispo12_consumo,codigo_med,1,930683ad-6fe9-47e3-b5d5-1496405028b5,,False,True,False,False,True,True,2026-05-16T14:50:56.236793
+data_historica_dispo12_consumo,mesano,1,a7c685ce-d1c9-430e-8a03-a02acc63ac31,,True,False,False,False,False,False,2026-05-16T14:50:56.236793
+data_historica_dispo12_consumo,tipsum,1,bfcd0d03-6e40-4e4b-a100-8f902c850b70,,False,False,False,False,False,False,2026-05-16T14:50:56.236793
+data_historica_dispo12_consumo,stock,4,2b91d07a-0e59-4062-b127-9e1ab098d437,"#,0",False,False,False,False,False,False,2026-05-16T14:50:56.236793
+data_historica_dispo12_consumo,M01_tot,4,53d3618d-ba15-4ab2-83e3-371d27cdc763,"#,0",False,False,False,False,False,False,2026-05-16T14:50:56.236793
+data_historica_dispo12_consumo,precio,2,8883c15c-9a6e-4bce-afff-e6234725cdf5,0.0,False,False,False,False,False,False,2026-05-16T14:50:56.236793
+data_historica_dispo12_consumo,M01_vta,4,643508cc-6503-473f-ba5f-617f2a0c0a38,"#,0",False,False,False,False,False,False,2026-05-16T14:50:56.236793
+data_historica_dispo12_consumo,M01_sis,4,71648ebb-1ea3-4b40-814f-49b257177966,"#,0",False,False,False,False,False,False,2026-05-16T14:50:56.236793
+data_historica_dispo12_consumo,M01_int,4,c5596191-cedb-4bd6-b154-115a90e6a0a8,"#,0",False,False,False,False,False,False,2026-05-16T14:50:56.236793
+data_historica_dispo12_consumo,anno,1,a4cb7604-8860-47c8-afe2-74fd98f52c31,,True,False,False,False,False,False,2026-05-16T14:50:56.236793
+data_historica_dispo12_consumo,indicador,4,692865d4-74b0-4dc7-907c-a52898217b5d,0,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,indicador_n2,4,ec081c98-5554-42f1-84ad-1d15fc800c97,0,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,orden,4,304d2606-78be-4879-978d-80456662a86e,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,M01_don,4,c267758e-bf06-4012-a36f-7e259b920860,0,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,cc_items,4,0927fd9b-8841-4a50-a646-8cf1eb22f9f2,0,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,num_reg,1,9f710a5d-27d9-4f38-a599-5e0d7c1ee363,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,n_num,4,c7816427-8d0e-4eca-b152-351ca2e1f14f,"#,0",False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,n_den,4,91ec5908-a928-4a14-a268-cd11794e8b08,"#,0",False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,n_bin,3,e4f7f4c4-406c-4052-bd19-23d464c074be,0.00\ %;-0.00\ %;0.00\ %,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,texto_den,1,c25eb586-10d1-4822-aec9-c59abbcb9fe0,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,texto_num,1,237fa634-488c-4796-91e8-a062e8764eeb,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,m_desab_selector,1,69e3bbad-7909-4a8a-82b1-5d6dfed570ff,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,m_substock_I_selector,1,b08c74ce-dfa4-4be4-8ddf-19388b69b55c,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,m_substock_II_selector,1,303af76b-71db-432d-b653-5b2b87cc9620,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,m_normostock_selector,1,3dfa51b3-bbed-4f08-bab8-013cc8d7908d,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,m_sobrestock_selector,1,e8707472-dad4-4de6-844c-0defb2fc6738,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,m_consumo,4,7760476c-59f3-41aa-a272-eb8184a4ca3c,"#,0",False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,m_consumo_vta,4,d517f6d9-a842-41ee-9d42-8fa29f087efa,"#,0",False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,m_consumo_sis,4,2c2663eb-5871-44ef-aea4-0ca42b7bd97b,"#,0",False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,m_consumo_intersan,4,05278413-4ed7-4232-9557-b5805856cf90,"#,0",False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,m_consumo_demas,4,218d2274-1fdc-467e-b984-54e7ace7b674,"#,0",False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,m_precio,2,6a9609c0-7381-423e-beef-9276674d6962,0.00,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,stock_fin_ult_periodo,4,73e32b1b-d022-470c-b822-0e7114ffa672,"#,0",True,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,n_stock,4,fa8c9584-c253-4680-87e7-1bc507164b50,"#,0",False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,n_consumo,4,28895fed-976e-49be-a84f-d0bca2933fe1,"#,0",False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,n_prom_precio,2,ff698d90-d988-40e6-9208-0d0eb613f254,"""S/""\ #,0.0;-""S/""\ #,0.0;""S/""\ #,0.0",False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,m_consumo_donacion,4,7bfd10ca-695f-4201-a2f9-cbfef869d68a,"#,0",False,False,False,False,False,False,2026-05-16T14:50:56.238801
+data_historica_dispo12_consumo,n_stock2,4,8f42da23-0f8d-48d1-8179-1f221f5fad20,"#,0",False,False,False,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,coddisa,1,339f610c-6c28-413d-8c1c-bfd333c7d3e6,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,DEPARTAMENTO,1,ec81a17c-8da1-4421-bc91-9cb81c32b824,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,DISA,1,6677017b-0b94-478b-afb0-cd997c9fb846,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,DISA (CODIGO),1,2f66b7ec-7c65-4e36-b06a-4776c44d8b52,,False,False,False,True,True,True,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,MACROREGION,1,be0cfcf5-3a3f-4765-a803-d8d130237ffa,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,UBICACIÓN,1,9b94b11c-4dac-42a9-aefa-d8b4ae5d9520,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,UBICACIÓN_2,1,449d1be2-ed31-4e23-b2b4-a2c31fd7744f,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,Z1,1,9565e535-1856-40d0-a424-293ab78ad908,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,Z2,1,d325a533-73af-47bd-a5c6-4b8587071c4b,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,GORES,1,cc007ecb-f07f-4b55-b289-84daf76e0e72,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,Pais,1,40a98706-bedc-4ae5-ad06-05a889e5843c,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,UBICACIÓN_3,1,d36cee8a-96db-418c-b9f8-795808a0027a,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,UBICACION_4,1,107a564b-f58c-45e4-8060-e1204e275eee,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,norte,1,50e5b89a-0b1b-40bb-93e7-66ff6bd72d90,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,este,1,0d18495e-1b9f-49b7-bb1d-1366d9df89b0,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO-DISAS,UBICACION_3_B,1,8ad581d1-5650-45f6-bc9e-bd78ccdc33c3,,False,False,False,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,codpre_,1,c6413596-5676-4fea-971b-3cf9465ca912,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,DESCRIP,1,0e02f261-84fb-4a67-8374-16e636996ba5,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,tipo_,1,835957d7-50b1-4e05-bb33-d4392b90e0a1,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,tipo_completo,1,ebbc380a-f06b-4281-8554-b8e0b4a1439a,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,cdisa,1,d28c3be1-7e2e-4c4a-916d-e4c1f4695c9c,,False,False,True,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,Categoria,1,891f8be4-a64a-472e-a8af-a4282e48e55a,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,Estado,1,10c86ec4-e68a-4c2c-aaed-77cc96487992,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,Institución,1,969bbc26-6ecc-4d26-b281-dd374a919624,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,NORTE,1,798e0773-6452-4a87-a0fc-32eba5ce3692,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,ESTE,1,1cd897ca-ef55-4bfc-860d-57bd278c3f27,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,Departamento,1,f9737be8-2491-41e7-9485-97eb7edf14ac,,False,False,True,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,Provincia,1,60764bd3-7e04-4787-ba5a-0dbc4247cded,,False,False,True,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,Distrito,1,c87d3a39-7d1c-4006-9d6c-6c135426d574,,False,False,True,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,Red,1,6a5f6ced-fdce-4f4c-8c24-1fc6be4f92e0,,False,False,True,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,Codigo_UE,1,5653976b-1f86-4012-8bd5-2db255b70f56,,False,False,True,False,True,True,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,nom_ejecutora,1,e042cfd6-53b0-481c-9508-6ab177a4d41b,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,micro_red,1,ff1dfbec-aa18-4c92-8f57-727775e6f3ca,,False,False,True,True,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,tipo_ipress_2,1,1530079b-091b-4530-a730-f114bf3f2c44,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,Niveles,1,29ff7139-161d-43ba-9f18-7ecca971d081,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,ue_2,1,f144a02d-2e63-413d-941b-e32d431294b5,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,ue,1,23713b36-2bb4-4b70-ada5-a32db9f88af9,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,Dirección,1,cc3c71c0-f3e3-4a4b-bead-2e2baeefafe1,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,ubiprov,1,3e57dd0c-da17-4c02-9a5b-f07b17fe30ce,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,SECTORPLIEGO,1,e3087984-6893-46dc-af75-c4cd957dcc04,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,PLIEGO,1,17dd8e8a-d2c1-42a3-a264-fad46b059e76,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,PLIEGO_NOMBRE,1,006ad03b-9ae5-4e2a-bb3d-d6664c654092,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,SECTOR,1,fc9c925c-9506-4daf-b719-efff836857f7,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,SECTOR_NOMBRE,1,ac0293a3-0cf7-4dfd-91ae-200b707307c0,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+CATALOGO_IPRESS_AEMS,diresa_1,1,91adaeb0-1b6e-4686-8cad-9042d2a9cbc0,,False,False,True,False,False,False,2026-05-16T14:50:56.238801
+medicame,CODIGO_MED,1,8bea891e-fd02-4271-9d69-3c27403f9a88,,False,True,False,False,True,True,2026-05-16T14:50:56.238801
+medicame,MEDICAMENT,1,eeaf6238-de1d-4cb8-8c48-96d8396787bb,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+medicame,PRESENTACI,1,531722bf-012b-4545-930b-fdb49301d9d3,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+medicame,CONCENTRAC,1,cacea3ea-9413-405d-bf35-a4ed2b5d0151,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+medicame,TIPO,1,d50ecb50-679d-4c68-ae82-4d71bf043313,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+medicame,PETITORIO,1,9fde0e14-f54c-400e-afbc-e1bc8c6c06af,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+medicame,FF,1,8a0fed98-0bc9-4dd3-89f8-0cca2e29d236,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+medicame,ESTRATEGIC,1,d5ee9d5a-a6dd-42bb-8326-f5d336a4c6f7,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+medicame,CODIGO_SIG,1,27731abe-ec73-4079-a7ed-bd06c4ba784b,,False,False,False,False,True,True,2026-05-16T14:50:56.238801
+medicame,ESTADO,1,bcfff77b-01be-4c70-a53e-85e4b07a7696,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+medicame,Cod_nombre,1,fd627f69-31ea-4ef9-b00c-935978fb0821,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+medicame,Cod_nombre2,1,361d9f01-60bb-40c3-af8a-1179c0519cee,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+medicame,separador1.1,1,4c930872-e458-422d-a44d-9727330ca222,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+medicame,ATC01,1,e9a78558-06ec-4bc1-852c-74d1dc3acbe2,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+medicame,ATC02,1,606188b9-6128-4592-b4cc-741d8055ac81,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+medicame,ATC03,1,5774144b-1a6a-47ce-a336-af131c827efa,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+medicame,ATC04,1,ee148937-8add-4549-9920-1b953163b4b3,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+medicame,ATC05,1,74a5be3f-7536-42b7-81e9-f943cac18721,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+medicame,petitorio_0,1,74c04a69-731c-48a4-93e6-ccb28743b9a3,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+medicame,existe_stock,4,e37af299-5d6a-47ca-ad15-1e4a90d15f8c,0,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+Tb_listado_atc,CODIGO_MED,1,2039f980-70c9-4d35-b123-046f11ac827d,,False,True,False,False,True,True,2026-05-16T14:50:56.238801
+Tb_listado_atc,Agrupacion Sugerida,1,35bd9321-ef1f-4fc8-9c75-450f55a83bb1,,False,True,False,False,True,True,2026-05-16T14:50:56.238801
+Tb_listado_atc,TIPO,1,b91cf67a-1f28-45c2-8c50-a22762c5a0c1,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+Tb_listado_atc,ATC_1_Niv,1,7283da22-9e12-408a-9d1e-971998f2af02,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+Tb_listado_atc,Anatomico_Grupo,1,0b2eb074-52e6-4a6d-939a-2e1522c2b347,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+Tb_listado_atc,ATC_2_Niv,1,61a28cf9-fe56-4c85-a347-3b68fba3c30c,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+Tb_listado_atc,Terapeutico_Subgrupo,1,28e25b60-ec16-4703-a1a8-fcf3ba897292,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+Tb_listado_atc,ATC_3_Niv,1,f79b2456-27db-4110-9ffd-027aaf4f0960,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+Tb_listado_atc,Farmacologico_Subgrupo,1,bf148459-4eb8-4d8d-a3cd-c8ebf99b81b9,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+Tb_listado_atc,ATC_4_Niv,1,503d166d-fdab-4ebd-a1d0-e3f3fb742cba,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+Tb_listado_atc,Quimico_Subgrupo,1,786d0a5c-0494-42d4-952a-526279fa9eaf,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+Tb_listado_atc,ATC_5_Niv,1,fbfaaa00-05dd-48b5-a5df-3b09193f4158,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+Tb_listado_atc,Sustancia_Quimica_Subgrupo,1,786df091-62f6-4d2b-a9fa-5815b70aaf7a,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+Tb_listado_atc,ATC001,1,0bcfe4c9-9806-4fcb-91f7-2861782490c3,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+Tb_listado_atc,ATC002,1,77a7e926-c1e7-4d4d-8c75-90b2b3603527,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+Tb_listado_atc,ATC003,1,8efb8aa4-3627-4437-8d79-f2a99fda6760,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+Tb_listado_atc,ATC004,1,a74fc256-a85c-4ef6-b660-b4feeaee42c9,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+Tb_listado_atc,ATC005,1,958465a6-f6ff-4f12-b566-8ef0ec4eb372,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+Tb_listado_atc,Factor_Conversion_Uso,3,dab88bb5-913b-470c-b8f7-f244c07d3b78,,False,True,False,False,False,False,2026-05-16T14:50:56.238801
+Switch_1,Switch_1,4,5211a7ee-dc0d-42f7-b8cf-be76d57a632a,0,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+Switch_1,Valor Switch_1,4,48b7fc81-a446-496b-af13-1d310e927a1f,0,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+Switch_21,Switch_21,4,dd6609c1-4f09-4c6e-899e-6077e3761052,0,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+Switch_21,Valor Switch_21,4,f46ebbe9-704a-457f-954b-aeb3f00603d7,0,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+Switch_22,Switch_22,4,1d91d588-1cc7-4786-932e-a7d4fa671570,0,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+Switch_22,Valor Switch_22,4,c7534f99-6430-4432-95cf-ce79c57f7f47,0,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+Switch_3,Switch_3,4,8f681b4a-8631-49ed-b9bb-761dbb8c11cf,0,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+Switch_3,Valor Switch_3,4,ecea8213-3daf-44b6-8eae-219e81780deb,0,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+Switch_4,Switch_4,4,d7c42c2a-3edf-4c9a-8b61-742cbe7aaa8f,0,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+Switch_4,Valor Switch_4,4,1e9eb7ca-ccb3-45d8-bbf4-8a878b05b0ba,0,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+Lista_diario,CODIGO_MED,1,58cda82f-d8a5-4ba6-9bf6-309b3df8aca7,,False,True,False,False,True,True,2026-05-16T14:50:56.238801
+Lista_diario,SUBDIVISION,1,2fbbcd6c-e15a-41ac-b435-19a956204500,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+Lista_diario,PPR,1,42fcff96-48d5-4ec6-80b7-8082dcf46b13,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+Lista_diario,Status,1,2f8b293d-c48c-4083-9827-23ff7e9095d8,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+metricas,metricas,1,3ef6e9f6-9400-49f9-84d7-e65f5d58382c,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+metricas,metricas Campos,1,e3abfd27-47a6-42ff-8a1e-daf12e1eee36,,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+metricas,metricas Orden,4,82293220-e26b-47d5-8422-9f69ede64373,0,False,False,False,False,False,False,2026-05-16T14:50:56.238801
+Periodo_variable,Periodo_variable,1,e4f43c53-58ae-4c9e-88f4-3029589f111d,,True,False,False,False,False,False,2026-05-16T14:50:56.238801
+Periodo_variable,Periodo_variable Campos,1,96104ef0-53a2-45e6-97e9-99b3be8975cb,,True,False,False,False,False,False,2026-05-16T14:50:56.238801
+Periodo_variable,Periodo_variable Orden,4,df89ab7e-492b-4848-b26d-148c59d00edb,0,True,False,False,False,False,False,2026-05-16T14:50:56.238801

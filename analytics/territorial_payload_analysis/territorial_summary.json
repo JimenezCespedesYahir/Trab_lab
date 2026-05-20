@@ -1,0 +1,11 @@
+{
+    "payloads": 1,
+    "territorial_payloads": 1,
+    "payloads_with_lcc": 0,
+    "payloads_with_sullana": 0,
+    "payloads_with_piura": 0,
+    "total_literals": 17,
+    "total_entities": 11,
+    "total_properties": 26,
+    "total_where": 1
+}

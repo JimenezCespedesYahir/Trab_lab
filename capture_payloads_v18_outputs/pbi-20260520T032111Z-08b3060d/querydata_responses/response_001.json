@@ -1,0 +1,118 @@
+{
+  "meta": {
+    "timestamp": "2026-05-20T03:21:19.584Z",
+    "session_id": "pbi-20260520T032111Z-08b3060d",
+    "filters_applied": {},
+    "active_action": {},
+    "correlation_id": "pbi-20260520T032111Z-08b3060d-querydata-0003",
+    "request_key": "request@3ebb867c1c152ca62d2bc0f99066e7a6",
+    "request_counter": 3,
+    "response_counter": 1,
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event_counter": 8,
+    "elapsed_ms": 610.0,
+    "correlation_status": "matched",
+    "request_payload_sha256": "8cb4dbfeb27e731311411d7837c439be1386b0c5a50f554d8fb44cffe8d68607",
+    "response_payload_sha256": "22d394439c098c1db38f34d43648afa61c13eb0db620651f7bd13ec6c3b945cd"
+  },
+  "payload": {
+    "jobIds": [
+      "75bab4c4-0597-4447-90ef-e1e0151ab7a4"
+    ],
+    "results": [
+      {
+        "jobId": "75bab4c4-0597-4447-90ef-e1e0151ab7a4",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T02:23:48.322Z",
+            "rootActivityId": "787363e5-2805-4529-a2e7-48c74d2ed38d",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 2,
+                  "Value": "M0",
+                  "Name": "data_historica_dispo12_consumo.num_reg"
+                }
+              ],
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "1fefc888-c882-44be-9f7c-8cff74b80b7a",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T02:23:48.3220383Z",
+                  "End": "2026-05-20T02:23:48.4001711Z"
+                },
+                {
+                  "Id": "7c42ced0-47a7-433e-bb4f-2b2c23739a7a",
+                  "ParentId": "1fefc888-c882-44be-9f7c-8cff74b80b7a",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T02:23:48.3220383Z",
+                  "End": "2026-05-20T02:23:48.4001711Z",
+                  "Metrics": {
+                    "RowCount": 1
+                  }
+                },
+                {
+                  "Id": "8216B5DF-B21E-4E70-919F-2EAE8C43DB00",
+                  "ParentId": "7c42ced0-47a7-433e-bb4f-2b2c23739a7a",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T02:23:48.37Z",
+                  "End": "2026-05-20T02:23:48.397Z"
+                },
+                {
+                  "Id": "1FD0B18D-3694-49E6-B250-1353A7502A08",
+                  "ParentId": "8216B5DF-B21E-4E70-919F-2EAE8C43DB00",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T02:23:48.397Z",
+                  "End": "2026-05-20T02:23:48.397Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "M0",
+                              "T": 1
+                            }
+                          ],
+                          "M0": "Núm. de registros declarados 6.700"
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true,
+                  "Msg": [
+                    {
+                      "Code": "IgnoredDataReductionAlgorithm",
+                      "Severity": "Warning",
+                      "Message": "A data reduction algorithm was specified but the corresponding grouping does not exist. The data reduction will be ignored for primary, secondary, intersection and scoped."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

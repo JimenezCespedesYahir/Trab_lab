@@ -1,0 +1,150 @@
+{
+  "meta": {
+    "timestamp": "2026-05-20T03:22:17.988Z",
+    "session_id": "pbi-20260520T032111Z-08b3060d",
+    "filters_applied": {
+      "MACROREGION": "NORTE",
+      "INSTITUCION": "GOBIERNO REGIONAL"
+    },
+    "active_action": {
+      "action": "apply_filter",
+      "label": "Unidad ejecutora",
+      "target": "SALUD LUCIANO CASTILLO COLONNA",
+      "search": "LUCIANO",
+      "attempt": 1,
+      "phase": "select_option"
+    },
+    "correlation_id": "pbi-20260520T032111Z-08b3060d-querydata-0026",
+    "request_key": "request@db61bb489704d11f630a7d89b41476cc",
+    "request_counter": 26,
+    "response_counter": 26,
+    "url": "https://wabi-paas-1-scus-api.analysis.windows.net/public/reports/querydata?synchronous=true",
+    "status": 200,
+    "event_counter": 58,
+    "elapsed_ms": 625.0,
+    "correlation_status": "matched",
+    "request_payload_sha256": "eface6a9c03ebf6b820cfbce64bc590f40a4f9c4e9c9ac50a7d457e99115e8da",
+    "response_payload_sha256": "3719e41e958d2afcf7246e9b94ee8536e03baaa35c2e5278d8e6f830396b754c"
+  },
+  "payload": {
+    "jobIds": [
+      "1a6cca31-eae0-4c6d-873d-e8f06e373492"
+    ],
+    "results": [
+      {
+        "jobId": "1a6cca31-eae0-4c6d-873d-e8f06e373492",
+        "result": {
+          "data": {
+            "timestamp": "2026-05-20T02:57:46.336Z",
+            "rootActivityId": "caef9de2-c053-437a-ab0b-253ad8c6e019",
+            "descriptor": {
+              "Select": [
+                {
+                  "Kind": 2,
+                  "Value": "M0",
+                  "Format": "#,0",
+                  "Name": "data_historica_dispo12_consumo.m_consumo_vta"
+                },
+                {
+                  "Kind": 2,
+                  "Value": "M1",
+                  "Format": "#,0",
+                  "Name": "data_historica_dispo12_consumo.m_consumo_sis"
+                },
+                {
+                  "Kind": 2,
+                  "Value": "M2",
+                  "Format": "#,0",
+                  "Name": "data_historica_dispo12_consumo.m_consumo_intersan"
+                }
+              ],
+              "Version": 2
+            },
+            "metrics": {
+              "Version": "1.0.0",
+              "Events": [
+                {
+                  "Id": "7885e83d-54c1-42a6-8c90-4fdad02caba8",
+                  "Name": "Execute Semantic Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T02:57:46.3516909Z",
+                  "End": "2026-05-20T02:57:46.9298633Z"
+                },
+                {
+                  "Id": "45ff4225-aa2c-4088-99d3-387fdacabae7",
+                  "ParentId": "7885e83d-54c1-42a6-8c90-4fdad02caba8",
+                  "Name": "Execute DAX Query",
+                  "Component": "DSE",
+                  "Start": "2026-05-20T02:57:46.3516909Z",
+                  "End": "2026-05-20T02:57:46.9298633Z",
+                  "Metrics": {
+                    "RowCount": 1
+                  }
+                },
+                {
+                  "Id": "22802B57-C9EB-4F6C-9E55-FEE1FD9B7D9E",
+                  "ParentId": "45ff4225-aa2c-4088-99d3-387fdacabae7",
+                  "Name": "Execute Query",
+                  "Component": "AS",
+                  "Start": "2026-05-20T02:57:46.397Z",
+                  "End": "2026-05-20T02:57:46.74Z"
+                },
+                {
+                  "Id": "EE55450A-FEDB-409B-A64B-F211F84BE274",
+                  "ParentId": "22802B57-C9EB-4F6C-9E55-FEE1FD9B7D9E",
+                  "Name": "Serialize Rowset",
+                  "Component": "AS",
+                  "Start": "2026-05-20T02:57:46.74Z",
+                  "End": "2026-05-20T02:57:46.74Z"
+                }
+              ]
+            },
+            "fromCache": false,
+            "dsr": {
+              "Version": 2,
+              "MinorVersion": 1,
+              "DS": [
+                {
+                  "N": "DS0",
+                  "PH": [
+                    {
+                      "DM0": [
+                        {
+                          "S": [
+                            {
+                              "N": "M0",
+                              "T": 4
+                            },
+                            {
+                              "N": "M1",
+                              "T": 4
+                            },
+                            {
+                              "N": "M2",
+                              "T": 4
+                            }
+                          ],
+                          "C": [],
+                          "Ø": 7
+                        }
+                      ]
+                    }
+                  ],
+                  "IC": true,
+                  "HAD": true,
+                  "Msg": [
+                    {
+                      "Code": "IgnoredOrderBy",
+                      "Severity": "Warning",
+                      "Message": "The order by at index 0 is ignored. An order by needs to be a projected column or a measure and groups need to be present in the query."
+                    }
+                  ]
+                }
+              ]
+            }
+          }
+        }
+      }
+    ]
+  }
+}

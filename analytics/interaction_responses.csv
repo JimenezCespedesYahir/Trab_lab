@@ -1,0 +1,2543 @@
+﻿timestamp,url,status,content_type,body_preview
+2026-05-16T06:24:53.081108,https://www.minsa.gob.pe/reunis/?op=3&niv=5,200,text/html,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.01 Transitional//EN"" ""http://www.w3.org/TR/html4/loose.dtd"">
+<html>
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"">
+<meta name=""viewport"" content=""width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"">
+ 
+      
+
+
+<style>
+ 
+ 
+ 
+.btn_01{ background:#1e5271; }
+.btn_02{ color:#1e5271; border:solid 1px  #1e5271;}
+.btn_02:hover{ color:#1e5271; border:solid 1px  #1e5271; }
+
+.bgc-5{ background:#bababa;}
+.n_bor{ border-top: 5px solid #1e5271;}
+.norma .n_btn{ color:#1e5271;}
+	
+.secc-cubo1 .content ul li{  color: #1e5271;}	
+.secc-cubo1 .content ul li a{ color:#1e5271;  }	
+.bor-line2{ border-color: #1e5271;  }
+	   
+	   	
+    	h4{  color:#1e5271 ;}
+	    h5{  color:#1e5271 ;}
+	
+	
+.btn_tc1{ background:#1d367d; border:solid 1px #1d367d;}
+.btn_tc2{ background:#ed3d3d; border:solid 1px #ed3d3d;}
+.btn_tc3{ background:#00a8ff; border:solid 1px #00a8ff;}
+.btn_tc4{ background:#1e5271; border:solid 1px #1e5271;}
+
+
+</style>
+	
+
+ 
+
+<!-- ============================================================================================= -->
+<!-- ============================================================================================= -->
+
+ 
+<meta name=""description"" content=""El REUNIS se constituye como un recurso integral para la gestión de la información y de los datos en el ámbito de la salud pública..Ministerio de Salud"" />
+<meta name=""author"" content=""Ministerio de Salud"">
+<meta name=""copyright"" content=""Ministerio de Salud"">  
+<meta name=""distribution"" content=""global""/>
+<meta name=""robots"" content=""ndex,follow"" />
+<meta name=""google-site-verification"" content=""Ministerio de Salud"" />
+ 
+
+<link rel=""icon"" href=""img/favicon/icono_logo16x16.png"" sizes=""16x16"" type=""image/png"">
+<link rel=""icon"" href=""img/favicon/icono_logo.ico"" sizes=""32x32 48x48"" type=""image/vnd.microsoft.icon"">
+<link rel=""icon"" href=""img/favicon/icono_logo.icns"" s"
+2026-05-16T06:24:53.180802,https://www.minsa.gob.pe/reunis/css/menu3.css,200,text/css,"
+
+.fd_01, .fd_02 { position: relative; display: block;}
+.fd_02 { display: table;background-color: #f0f; height: auto;  background-image:url(""../img/com1_banner03.jpg"");}
+.boton_com{position: relative; display: table; width: 80%; margin: 30px 10%;}
+ 
+.com1_btnx img{        opacity: 1;    filter: grayscale(0%);  }
+.com1_btnx img:hover { opacity: 0.9;  filter: grayscale(100%);}	
+	
+
+
+
+	.b1_menu_con {position: absolute; display: table; width: 100%; height: 30px; top: -16px; right: 150px;}
+	.b1_menu_con2 {position: absolute; display: table; width: 100%; height: 30px; top: -16px; right: 0px;}
+
+	.b1_menu {position: relative; float: right; display: block; right: 0px;  height: 34px; background: #36ac8b; text-align: center; padding: 9px 20px; margin: 0px 5px; 
+	color: #fff; text-decoration: none; border-radius: 7px; font-size: 14px;}	
+	.b1_menu:hover{ background: #0073a0; color: #fff;}
+ 
+.pintado {background: #0073a0!important;}
+ 
+
+.titulo_salud{ font-size:40px; padding:20px  ;  font-weight: bolder; color: #1f3b8b;}
+.txt_norma_salud{ font-size:20px; line-height: 130%; text-decoration: none; color: #838383; text-align: justify;}	
+.salud_link1 { color: #555; text-decoration: none!important; font-size: 20px; text-align: left;}
+.salud_link2 { position: relative; color: #1f3b8b; text-decoration: none!important; font-size: 18px; text-align: left; font-weight:600; margin-top: 120px;}
+.txt1_salud{ font-size: 50px; line-height: 100%; color: #1f3b8b; font-weight: 600; padding: 20px 100px 20px 20px; text-align: left;}
+.txt2_salud{ font-size: 20px; line-height: 150%; color: #555;  text-align: left;   padding: 0px 100px 20px 20px; }
+
+
+
+"
+2026-05-16T06:24:53.180802,https://www.minsa.gob.pe/reunis/css/estilos.css,200,text/css,"@charset ""utf-8"";
+/* CSS Document */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{margin:0;padding:0;text-decoration:none; font-size:100%; line-height:110%; font-family: 'Poppins', sans-serif;
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+*:hover{
+	-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+
+
+body{background:#fff; }
+
+
+.cabecera{position:relative; display:table; width:1600px; height:100px; max-height:100px; background: #fff; margin: 0 auto 20px auto;}
+.logo_001{ position:relative; display:table; width:30%;  float:left; padding:20px 0 0px 40px; text-align:left; }
+.img_logo_m{ position:relative; display:table; height:120px; width:auto; margin:0 10px;} 
+.img_logo_b{ position:relative; display:table; height:110px; width:auto; margin:0 0px; padding:0 0 20px 0px;} 
+.img_logo_s{ position:relative; display:table; height:80px; width:auto; margin:0 0px; padding:0px 0 40px 0px;} 
+
+.img_logo{ position:relative; display:table; height:100px; width:auto; margin:0 10px;} 
+.logo_002{ position:relative; display:table; width:70%; text-align:right; padding:20px 0;  }
+.logo_001 .img_logo{ float: left;} 
+.logo_002 .img_logo{ float: right;} 
+
+
+
+.titulo_p1{ color:#fff; padding-right:20px; padding-top:15px; font-size:30px;  font-weight:700; }
+
+.contenido{ position:relative;  width:auto; padding:20px 0px;  }
+.contenido .txt_simple { font-size:100%; line-height:150%; font-weight:700; }
+
+.div_1,.div_2,.div_25,.div_3,.div_33,.div_4,.div_5,.div_6,.div_7,.div_75,.div_8,.div_9,.div_10 { position:relative; display:table; float:left;  text-align:justify;   height:auto !important;}
+."
+2026-05-16T06:24:53.193616,https://www.minsa.gob.pe/reunis/css/bootstrap.min.css,200,text/css,"@charset ""UTF-8"";/*!
+ * Bootstrap v5.0.0-beta2 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */:root{--bs-blue:#0d6efd;--bs-indigo:#6610f2;--bs-purple:#6f42c1;--bs-pink:#d63384;--bs-red:#dc3545;--bs-orange:#fd7e14;--bs-yellow:#ffc107;--bs-green:#198754;--bs-teal:#20c997;--bs-cyan:#0dcaf0;--bs-white:#fff;--bs-gray:#6c757d;--bs-gray-dark:#343a40;--bs-primary:#0d6efd;--bs-secondary:#6c757d;--bs-success:#198754;--bs-info:#0dcaf0;--bs-warning:#ffc107;--bs-danger:#dc3545;--bs-light:#f8f9fa;--bs-dark:#212529;--bs-font-sans-serif:system-ui,-apple-system,""Segoe UI"",Roboto,""Helvetica Neue"",Arial,""Noto Sans"",""Liberation Sans"",sans-serif,""Apple Color Emoji"",""Segoe UI Emoji"",""Segoe UI Symbol"",""Noto Color Emoji"";--bs-font-monospace:SFMono-Regular,Menlo,Monaco,Consolas,""Liberation Mono"",""Courier New"",monospace;--bs-gradient:linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0))}*,::after,::before{box-sizing:border-box}@media (prefers-reduced-motion:no-preference){:root{scroll-behavior:smooth}}
+
+body{
+	margin:0;
+	font-family:var(--bs-font-sans-serif);
+	font-size:1rem;
+	font-weight:400;
+	line-height:1.5;
+	color:#212529;
+	background-color:#fff;
+	-webkit-text-size-adjust:100%;
+	-webkit-tap-highlight-color:transparent}[tabindex=""-1""]:focus:not(:focus-visible){outline:0!important}
+
+hr{margin:1rem 0;
+	color:inherit;
+	background-color:currentColor;
+	border:0;
+	opacity:.25}
+
+hr:not([size]){height:1px}
+
+
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{margin-top:20px;margin-bottom:10px;font-weight:700;line-height:1.2; text-align: center;}
+
+
+.h1,h1{font-size:calc(1.375rem + 1.5vw); color: #afafaf; }
+@media (min-width:1200px){.h1,h1{font-size:35px}}
+
+.h2,h2{font-size:calc(1.325rem + .9vw); color: #0075aa; }
+@media (min-width:1200px){.h2,h2{font-size:35px}}
+
+.h3,h3{font-size:calc(1.3rem + .6vw); color: #00"
+2026-05-16T06:24:53.193616,https://www.minsa.gob.pe/reunis/css/owl.custom.css,200,text/css,"/* Owl Carousel Bootstrap Custom CSS */
+
+/* Header Navigation */
+#top-nav{
+	border-bottom: 1px solid #e1e6dd;
+	background: #FFF;
+	-webkit-transform: translateZ(0)
+
+}
+#top-nav.navbar{
+	margin-bottom: 0px;
+
+}
+#top-nav.navbar .nav{
+	margin: 8px 0px;
+}
+	
+#top-nav.navbar .nav > li > a {
+	padding: 6px 12px;
+	margin: 0px;
+	text-transform: uppercase;
+	font-weight: 400;
+
+	-webkit-transition: background-color 200ms ease;
+	-moz-transition: background-color 200ms ease;
+	-o-transition: background-color 200ms ease;
+	transition: background-color 200ms ease;
+}
+#top-nav.navbar .nav > li > a.download{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#top-nav.navbar .nav > li > a.download-on{
+	background-color: #ff8a3c;
+	color: #ffffff;
+}
+#top-nav.navbar .nav > li > a.download-on:hover{
+	color: #ffffff;
+	background-color: #ff7920;
+}
+.btn-navbar span.icon-bar{
+	margin-top: 0px;
+}
+
+/* Header  */
+
+ 
+#header .btn-success {
+	padding: 15px 30px;
+	margin-bottom: 5px;
+}
+#header .logo{
+	display: block;
+	margin-top:60px;
+	float: right
+}
+img.arrow-down{
+	margin: 0 auto;
+	display: block;
+} 
+
+pre.pre-show{
+	margin: 40px 0px;
+
+}
+.tab-content pre.pre-show{
+	margin: 0px 0px 0px 0px;
+}
+.nav-tabs{
+	margin-top: 20px;
+	margin-bottom: 0px;
+	
+}
+.tab-content{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	-webkit-border-radius: 0px 0px 4px 4px;
+	-moz-border-radius: 0px 0px 4px 4px;
+	border-radius: 0px 0px 4px 4px;
+	
+}
+/* Content */
+.table th, .table td {
+padding: 8px 12px;
+}
+
+/* Footer */
+
+#footer{
+	padding: 20px 0px;
+	background: #f3f3f3;
+	text-align: center
+}
+.twitter-share-button{
+	top: 4px;
+	position: relative;
+}
+
+/* Demo Slides */
+
+#owl-example .item{
+	padding: 30px 0px;
+	margin: 10px;
+	color: #FFF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-align: center;
+}
+#owl-example .item i"
+2026-05-16T06:24:53.193616,https://www.minsa.gob.pe/reunis/css/slider/animate.min.css,200,text/css,"@charset ""UTF-8"";
+
+/*!
+ * animate.css -http://daneden.me/animate
+ * Version - 3.5.1
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2016 Daniel Eden
+ */
+
+.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}.animated.hinge{-webkit-animation-duration:2s;animation-duration:2s}.animated.bounceIn,.animated.bounceOut,.animated.flipOutX,.animated.flipOutY{-webkit-animation-duration:.75s;animation-duration:.75s}@-webkit-keyframes bounce{0%,20%,53%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translateZ(0);transform:translateZ(0)}40%,43%{-webkit-transform:translate3d(0,-30px,0);transform:translate3d(0,-30px,0)}40%,43%,70%{-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}70%{-webkit-transform:translate3d(0,-15px,0);transform:translate3d(0,-15px,0)}90%{-webkit-transform:translate3d(0,-4px,0);transform:translate3d(0,-4px,0)}}@keyframes bounce{0%,20%,53%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translateZ(0);transform:translateZ(0)}40%,43%{-webkit-transform:translate3d(0,-30px,0);transform:translate3d(0,-30px,0)}40%,43%,70%{-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}70%{-webkit-transform:translate3d(0,-15px,0);transform:translate3d(0,-15px,0)}90%{-webkit-transform:translate3d(0,-4px,0);transform:translate3d(0,-4px,0)}}.bounce{-webkit-animation-name:bounce;animation-name:bounce;-webkit-transform-origin:center bottom;transform-origin:center bottom}@-webkit-keyframes flash{0%,50%,to{opacity:1}25%,75%{opacity:0}}@keyframes fl"
+2026-05-16T06:24:53.193616,https://www.minsa.gob.pe/reunis/css/slider/slider4.css,200,text/css," 
+.menu_bar {
+	display:none;
+}
+ 
+header {
+	width: 100%;  
+}
+ 
+header nav {
+	background-color:#4676a8;	  
+	z-index:9;
+	max-width: 1600px;
+	width:100%;
+	margin:15px auto; 
+	padding:0px; 
+}
+
+.cajx{ position: absolute; display: table; width:55%; height: 100%;  z-index: 0; top: 0px;  left: 0px; background-image: url('../../img/fdo_slide.png'); background-repeat: repeat; text-align: left;}
+
+.cajx2{ position: absolute; display: table; width:55%; height: 100%;  z-index: 0; top: 0px;  left: 0px;   text-align: left;}
+.caja1{ }
+.caja2{  }
+.caja3{ }
+
+.con_tex { position: relative;text-align: left; margin:60px 0px; padding:0px; width: 75%; margin-left: 50px;}
+.con_tex .t1{ position: relative; display: table; font-size: 50px; line-height: 100%; color: #ffffff; font-weight: 600; border-left: solid 7px #fff; padding-left:15px; }
+
+.con_tex .t2{ position: relative; display: table; font-size: 19px; line-height: 130%; color: #ffffff;font-weight: 300; padding:35px 0 20px 25px; text-align: justify;}
+
+.con_tex .t3{ position: relative; display: table; font-size: 20px; line-height: 100%; color: #ffffff; padding:45px 0 0 25px; font-weight: bold;}
+
+.con_tex .t4{ position: relative; display: table; font-size: 40px; line-height: 100%; color: #ffffff; font-weight: 600; border-left: solid 7px #fff; padding-left:15px; }
+
+.con_tex a{ position: relative; display: table;  background: #0075aa; color: #fff; margin:50px 0 0 25px; padding: 10px 25px; text-decoration: none; font-size: 120%; content: "" ""}
+
+
+ 
+ 
+.navbar-dark .navbar-nav .nia1:focus,.navbar-dark .navbar-nav .nia1:hover,.mgm1{ background: #01567c; border: none; border-radius:0px;}
+.navbar-dark .navbar-nav .nia2:focus,.navbar-dark .navbar-nav .nia2:hover,.mgm2{ background: #00aaa4; border: none; border-radius:0px;}
+.navbar-dark .navbar-nav .nia3:focus,.navbar-dark .navbar-nav .nia3:hover,.mgm3{ background: #90d1db; border: none; border-radius:0px;}
+.navbar-dark .navbar-nav .nia4:focus,.navbar-dark .nav"
+2026-05-16T06:24:53.193616,https://www.minsa.gob.pe/reunis/css/icomoon/fuente-imagen.css,200,text/css,"/*!
+ *  Font Awesome v4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */ 
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.eot');
+  src: url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+       url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.woff2') format('woff2'),
+       url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.woff') format('woff'),
+       url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.ttf') format('truetype'),
+       url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+Embed code 250f8590fa
+*/
+
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?278oy8');
+  src:  url('fonts/icomoon.eot?278oy8#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?278oy8') format('truetype'),
+    url('fonts/icomoon.woff?278oy8') format('woff'),
+    url('fonts/icomoon.svg?278oy8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^=""icon-""], [class*="" icon-""] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: ""\e900"";
+}
+.icon-home2:before {
+  content: ""\e901"";
+}
+.icon-home3:before {
+  content: ""\e902"";
+}
+.icon-office:before {
+  content: ""\e903"";
+}
+.icon-newsp"
+2026-05-16T06:24:53.228530,https://www.minsa.gob.pe/reunis/img/logo-reunis.jpg,200,image/jpeg,
+2026-05-16T06:24:53.229528,https://www.minsa.gob.pe/reunis/img/logo-minsa.jpg,200,image/jpeg,
+2026-05-16T06:24:53.231542,https://www.minsa.gob.pe/reunis/css/owl.carousel.css,200,text/css,"/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.24
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ""."";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+/* CSS3 Transitions */
+
+.owl-origin {
+	-webkit-perspective: 1200px;
+	-webkit-perspective-origin-x : 50%;
+	-webkit-perspective-origin-y : 50%;
+	-moz-perspective : 1200px;
+	-moz-perspective-origin-x : 50%;
+	-moz-perspective-origin-y : 50%;
+	perspective : 1200px;
+}
+/* fade */
+.owl-fade-out {
+  z-index: 10;
+  -webkit-animation: fadeOut .7s both ease;
+  -moz-animation: fadeOut .7s both ease;
+  animation: fadeOut .7s both ease;
+}
+.owl-fade-in {
+  -webkit-animation: fadeIn .7s both ease;
+  -moz-animation: fadeIn .7s both ease;"
+2026-05-16T06:24:53.233520,https://www.minsa.gob.pe/reunis/js/bootstrap.bundle.min.js,200,application/javascript,"/*!
+  * Bootstrap v5.0.0-beta2 (https://getbootstrap.com/)
+  * Copyright 2011-2021 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+  */
+!function(t,e){""object""==typeof exports&&""undefined""!=typeof module?module.exports=e():""function""==typeof define&&define.amd?define(e):(t=""undefined""!=typeof globalThis?globalThis:t||self).bootstrap=e()}(this,(function(){""use strict"";function t(t,e){for(var n=0;n<e.length;n++){var i=e[n];i.enumerable=i.enumerable||!1,i.configurable=!0,""value""in i&&(i.writable=!0),Object.defineProperty(t,i.key,i)}}function e(e,n,i){return n&&t(e.prototype,n),i&&t(e,i),e}function n(){return(n=Object.assign||function(t){for(var e=1;e<arguments.length;e++){var n=arguments[e];for(var i in n)Object.prototype.hasOwnProperty.call(n,i)&&(t[i]=n[i])}return t}).apply(this,arguments)}function i(t,e){var n,i;t.prototype=Object.create(e.prototype),t.prototype.constructor=t,n=t,i=e,(Object.setPrototypeOf||function(t,e){return t.__proto__=e,t})(n,i)}var o,r,s=function(t){do{t+=Math.floor(1e6*Math.random())}while(document.getElementById(t));return t},a=function(t){var e=t.getAttribute(""data-bs-target"");if(!e||""#""===e){var n=t.getAttribute(""href"");if(!n||!n.includes(""#"")&&!n.startsWith("".""))return null;n.includes(""#"")&&!n.startsWith(""#"")&&(n=""#""+n.split(""#"")[1]),e=n&&""#""!==n?n.trim():null}return e},l=function(t){var e=a(t);return e&&document.querySelector(e)?e:null},c=function(t){var e=a(t);return e?document.querySelector(e):null},u=function(t){if(!t)return 0;var e=window.getComputedStyle(t),n=e.transitionDuration,i=e.transitionDelay,o=Number.parseFloat(n),r=Number.parseFloat(i);return o||r?(n=n.split("","")[0],i=i.split("","")[0],1e3*(Number.parseFloat(n)+Number.parseFloat(i))):0},f=function(t){t.dispatchEvent(new Event(""transitionend""))},d=function(t){return(t[0]||t).nodeType},h=function(t,e){var n=!1,i=e+5;t.addEventListener(""transitionend"",(function e(){n=!"
+2026-05-16T06:24:53.256254,https://www.minsa.gob.pe/reunis/css/owl.theme.css,200,text/css,"/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.24
+*/
+
+.owl-theme .owl-controls{
+	margin-top: 30px;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 5px;
+	padding: 3px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #869791;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #869791;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(AjaxLoader.gif) no-repeat center center
+}
+
+.carousel  {
+width: 1600px; margin: 0px auto;
+}
+"
+2026-05-16T06:24:53.406609,https://www.minsa.gob.pe/reunis/img/slide09-minsa.jpg,200,image/jpeg,
+2026-05-16T06:24:53.430612,https://www.minsa.gob.pe/reunis/img/slide06-minsa.jpg,200,image/jpeg,
+2026-05-16T06:24:53.545762,https://www.minsa.gob.pe/reunis/img/slide02-minsa.jpg,200,image/jpeg,
+2026-05-16T06:24:53.668368,"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",200,text/css; charset=utf-8,"/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v24/pxiAyp8kv8JHgFVrJJLmE0tDMPKzSQ.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v24/pxiAyp8kv8JHgFVrJJLmE0tMMPKzSQ.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v24/pxiAyp8kv8JHgFVrJJLmE0tCMPI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLmv1pVFteOcEg.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLmv1pVGdeOcEg.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7F"
+2026-05-16T06:24:53.672850,https://www.minsa.gob.pe/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js,200,application/javascript,"!function(){""use strict"";function e(e){try{if(""undefined""==typeof console)return;""error""in console?console.error(e):console.log(e)}catch(e){}}function t(e){return d.innerHTML='<a href=""'+e.replace(/""/g,""&quot;"")+'""></a>',d.childNodes[0].getAttribute(""href"")||""""}function r(e,t){var r=e.substr(t,2);return parseInt(r,16)}function n(n,c){for(var o="""",a=r(n,c),i=c+2;i<n.length;i+=2){var l=r(n,i)^a;o+=String.fromCharCode(l)}try{o=decodeURIComponent(escape(o))}catch(u){e(u)}return t(o)}function c(t){for(var r=t.querySelectorAll(""a""),c=0;c<r.length;c++)try{var o=r[c],a=o.href.indexOf(l);a>-1&&(o.href=""mailto:""+n(o.href,a+l.length))}catch(i){e(i)}}function o(t){for(var r=t.querySelectorAll(u),c=0;c<r.length;c++)try{var o=r[c],a=o.parentNode,i=o.getAttribute(f);if(i){var l=n(i,0),d=document.createTextNode(l);a.replaceChild(d,o)}}catch(h){e(h)}}function a(t){for(var r=t.querySelectorAll(""template""),n=0;n<r.length;n++)try{i(r[n].content)}catch(c){e(c)}}function i(t){try{c(t),o(t),a(t)}catch(r){e(r)}}var l=""/cdn-cgi/l/email-protection#"",u="".__cf_email__"",f=""data-cfemail"",d=document.createElement(""div"");i(document),function(){var e=document.currentScript||document.scripts[document.scripts.length-1];e.parentNode.removeChild(e)}()}();
+"
+2026-05-16T06:24:53.732134,https://www.minsa.gob.pe/reunis/js/owl.carousel.min.js,200,application/javascript,"/*
+ *	jQuery OwlCarousel v1.31
+ *  
+ *	Copyright (c) 2013 Bartosz Wojciechowski
+ *	http://www.owlgraphic.com/owlcarousel
+ *
+ *	Licensed under MIT
+ *
+ */
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('7(B 3i.3E!==""9""){3i.3E=9(e){9 t(){}t.5v=e;q 5c t}}(9(e,t,n,r){b i={1J:9(t,n){b r=d;r.$k=e(n);r.6=e.3K({},e.3A.2c.6,r.$k.w(),t);r.29=t;r.3U()},3U:9(){b t=d;7(B t.6.2M===""9""){t.6.2M.P(d,[t.$k])}7(B t.6.2I===""2F""){b n=t.6.2I;9 r(e){7(B t.6.3F===""9""){t.6.3F.P(d,[e])}m{b n="""";1C(b r 2f e[""h""]){n+=e[""h""][r][""1K""]}t.$k.2h(n)}t.2Y()}e.5G(n,r)}m{t.2Y()}},2Y:9(e){b t=d;t.$k.w(""h-4p"",t.$k.2s(""2t"")).w(""h-4K"",t.$k.2s(""J""));t.$k.A({2z:0});t.2A=t.6.v;t.4L();t.5R=0;t.1M;t.1P()},1P:9(){b e=d;7(e.$k.1S().S===0){q c}e.1O();e.3H();e.$X=e.$k.1S();e.G=e.$X.S;e.4M();e.$I=e.$k.16("".h-1K"");e.$L=e.$k.16("".h-1h"");e.2H=""Y"";e.15=0;e.1W=[0];e.p=0;e.4I();e.4G()},4G:9(){b e=d;e.2V();e.31();e.4D();e.35();e.4C();e.4A();e.2x();e.4z();7(e.6.2w!==c){e.4w(e.6.2w)}7(e.6.Q===j){e.6.Q=5i}e.1e();e.$k.16("".h-1h"").A(""4v"",""4r"");7(!e.$k.2p("":33"")){e.34()}m{e.$k.A(""2z"",1)}e.56=c;e.2o();7(B e.6.39===""9""){e.6.39.P(d,[e.$k])}},2o:9(){b e=d;7(e.6.1I===j){e.1I()}7(e.6.1A===j){e.1A()}e.4n();7(B e.6.3n===""9""){e.6.3n.P(d,[e.$k])}},3o:9(){b e=d;7(B e.6.3p===""9""){e.6.3p.P(d,[e.$k])}e.34();e.2V();e.31();e.4m();e.35();e.2o();7(B e.6.3t===""9""){e.6.3t.P(d,[e.$k])}},4i:9(e){b t=d;19(9(){t.3o()},0)},34:9(){b e=d;7(e.$k.2p("":33"")===c){e.$k.A({2z:0});18(e.1r);18(e.1M)}m{q c}e.1M=4g(9(){7(e.$k.2p("":33"")){e.4i();e.$k.4f({2z:1},2J);18(e.1M)}},5O)},4M:9(){b e=d;e.$X.5N(\'<M J=""h-1h"">\').3G(\'<M J=""h-1K""></M>\');e.$k.16("".h-1h"").3G(\'<M J=""h-1h-4d"">\');e.1U=e.$k.16("".h-1h-4d"");e.$k.A(""4v"",""4r"")},1O:9(){b e=d;b t=e.$k.1V(e.6.1O);b n=e.$k.1V(e.6.28);7(!t){e."
+2026-05-16T06:24:53.733133,https://www.minsa.gob.pe/reunis/js/owl.carousel-propiedades.js,200,application/javascript,"
+$(document).ready(function($) {
+$(""#owl-example"").owlCarousel(
+{
+    // Most important owl features
+    items : 3,
+    itemsCustom : false,
+    itemsDesktop : [1199,4],
+    itemsDesktopSmall : [980,3],
+    itemsTablet: [768,2],
+    itemsTabletSmall: false,
+    itemsMobile : [479,1],
+    singleItem : false,
+    itemsScaleUp : false,
+ 
+    //Basic Speeds
+    slideSpeed : 200,
+    paginationSpeed : 800,
+    rewindSpeed : 1000,
+ 
+    //Autoplay
+    autoPlay : true,
+    stopOnHover : false,
+ 
+    // Navigation
+    navigation : false,
+    navigationText : [""Anterior"",""Siguiente""],
+    rewindNav : true,
+    scrollPerPage : false,
+ 
+    //Pagination
+    pagination : true,
+    paginationNumbers: false,
+ 
+    // Responsive 
+    responsive: true,
+    responsiveRefreshRate : 200,
+    responsiveBaseWidth: window,
+ 
+    // CSS Styles
+    baseClass : ""owl-carousel"",
+    theme : ""owl-theme"",
+ 
+    //Lazy load
+    lazyLoad : false,
+    lazyFollow : true,
+    lazyEffect : ""fade"",
+ 
+    //Auto height
+    autoHeight : false,
+ 
+    //JSON 
+    jsonPath : false, 
+    jsonSuccess : false,
+ 
+    //Mouse Events
+    dragBeforeAnimFinish : true,
+    mouseDrag : true,
+    touchDrag : true,
+ 
+    //Transitions
+    transitionStyle : false,
+ 
+    // Other
+    addClassActive : false,
+ 
+    //Callbacks
+    beforeUpdate : false,
+    afterUpdate : false,
+    beforeInit: false, 
+    afterInit: false, 
+    beforeMove: false, 
+    afterMove: false,
+    afterAction: false,
+    startDragging : false,
+    afterLazyLoad : false
+
+		}
+);
+});"
+2026-05-16T06:24:53.750196,https://www.minsa.gob.pe/reunis/js/menu.js,200,application/javascript,"$(document).ready(main);
+ 
+var contador = 1;
+ 
+function main () {
+	$('.menu_bar').click(function(){
+		if (contador == 1) {
+			$('nav').animate({
+				left: '0'
+			});
+			contador = 0;
+		} else {
+			contador = 1;
+			$('nav').animate({
+				left: '-100%'
+			});
+		}
+	});
+ 
+	// Mostramos y ocultamos submenus
+	$('.submenu').click(function(){
+		$(this).children('.children').slideToggle();
+	});
+}
+
+
+
+
+ 
+<!-- TEMAS COLOR WEB
+	function carga(tipo){
+		location.href='index.asp?tipo='+ tipo;
+	}
+//-->
+ "
+2026-05-16T06:24:53.750196,https://www.minsa.gob.pe/reunis/img/slide03-minsa.jpg,200,image/jpeg,
+2026-05-16T06:24:53.750196,https://www.minsa.gob.pe/reunis/js/slider/slider.js,200,application/javascript,"/* Demo Scripts for Bootstrap Carousel and Animate.css article
+* on SitePoint by Maria Antonietta Perna
+*/
+(function ($) {
+  //Function to animate slider captions
+  function doAnimations(elems) {
+    //Cache the animationend event in a variable
+    var animEndEv = ""webkitAnimationEnd animationend"";
+
+    elems.each(function () {
+      var $this = $(this),
+      $animationType = $this.data(""animation"");
+      $this.addClass($animationType).one(animEndEv, function () {
+        $this.removeClass($animationType);
+      });
+    });
+  }
+
+  //Variables on page load
+  var $myCarousel = $(""#carouselExampleIndicators""),
+  $firstAnimatingElems = $myCarousel.
+  find("".carousel-item:first"").
+  find(""[data-animation ^= 'animated']"");
+
+  //Initialize carousel
+  $myCarousel.carousel();
+
+  //Animate captions in first slide on page load
+  doAnimations($firstAnimatingElems);
+
+  //Other slides to be animated on carousel slide event
+  $myCarousel.on(""slide.bs.carousel"", function (e) {
+    var $animatingElems = $(e.relatedTarget).find(
+    ""[data-animation ^= 'animated']"");
+
+    doAnimations($animatingElems);
+  });
+})(jQuery);
+//# sourceURL=pen.js
+ 
+ 
+"
+2026-05-16T06:24:53.752204,https://www.minsa.gob.pe/reunis/js/slider/jquery.min.js,200,application/javascript,"/*! jQuery v3.2.1 | (c) JS Foundation and other contributors | jquery.org/license */
+!function(a,b){""use strict"";""object""==typeof module&&""object""==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw new Error(""jQuery requires a window with a document"");return b(a)}:b(a)}(""undefined""!=typeof window?window:this,function(a,b){""use strict"";var c=[],d=a.document,e=Object.getPrototypeOf,f=c.slice,g=c.concat,h=c.push,i=c.indexOf,j={},k=j.toString,l=j.hasOwnProperty,m=l.toString,n=m.call(Object),o={};function p(a,b){b=b||d;var c=b.createElement(""script"");c.text=a,b.head.appendChild(c).parentNode.removeChild(c)}var q=""3.2.1"",r=function(a,b){return new r.fn.init(a,b)},s=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,t=/^-ms-/,u=/-([a-z])/g,v=function(a,b){return b.toUpperCase()};r.fn=r.prototype={jquery:q,constructor:r,length:0,toArray:function(){return f.call(this)},get:function(a){return null==a?f.call(this):a<0?this[a+this.length]:this[a]},pushStack:function(a){var b=r.merge(this.constructor(),a);return b.prevObject=this,b},each:function(a){return r.each(this,a)},map:function(a){return this.pushStack(r.map(this,function(b,c){return a.call(b,c,b)}))},slice:function(){return this.pushStack(f.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},eq:function(a){var b=this.length,c=+a+(a<0?b:0);return this.pushStack(c>=0&&c<b?[this[c]]:[])},end:function(){return this.prevObject||this.constructor()},push:h,sort:c.sort,splice:c.splice},r.extend=r.fn.extend=function(){var a,b,c,d,e,f,g=arguments[0]||{},h=1,i=arguments.length,j=!1;for(""boolean""==typeof g&&(j=g,g=arguments[h]||{},h++),""object""==typeof g||r.isFunction(g)||(g={}),h===i&&(g=this,h--);h<i;h++)if(null!=(a=arguments[h]))for(b in a)c=g[b],d=a[b],g!==d&&(j&&d&&(r.isPlainObject(d)||(e=Array.isArray(d)))?(e?(e=!1,f=c&&Array.isArray(c)?c:[]):f=c&&r.isPlainObject(c)?c:{},g[b]=r.extend(j,f,d)):void 0!==d&&(g[b]=d));return g},r.extend({expando:""jQuery""+(q+Math."
+2026-05-16T06:24:53.752204,https://www.minsa.gob.pe/reunis/js/jquery-1.9.1.min.js,200,application/javascript,"/*! jQuery v1.9.1 | (c) 2005, 2012 jQuery Foundation, Inc. | jquery.org/license
+//@ sourceMappingURL=jquery.min.map
+*/(function(e,t){var n,r,i=typeof t,o=e.document,a=e.location,s=e.jQuery,u=e.$,l={},c=[],p=""1.9.1"",f=c.concat,d=c.push,h=c.slice,g=c.indexOf,m=l.toString,y=l.hasOwnProperty,v=p.trim,b=function(e,t){return new b.fn.init(e,t,r)},x=/[+-]?(?:\d*\.|)\d+(?:[eE][+-]?\d+|)/.source,w=/\S+/g,T=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,N=/^(?:(<[\w\W]+>)[^>]*|#([\w-]*))$/,C=/^<(\w+)\s*\/?>(?:<\/\1>|)$/,k=/^[\],:{}\s]*$/,E=/(?:^|:|,)(?:\s*\[)+/g,S=/\\(?:[""\\\/bfnrt]|u[\da-fA-F]{4})/g,A=/""[^""\\\r\n]*""|true|false|null|-?(?:\d+\.|)\d+(?:[eE][+-]?\d+|)/g,j=/^-ms-/,D=/-([\da-z])/gi,L=function(e,t){return t.toUpperCase()},H=function(e){(o.addEventListener||""load""===e.type||""complete""===o.readyState)&&(q(),b.ready())},q=function(){o.addEventListener?(o.removeEventListener(""DOMContentLoaded"",H,!1),e.removeEventListener(""load"",H,!1)):(o.detachEvent(""onreadystatechange"",H),e.detachEvent(""onload"",H))};b.fn=b.prototype={jquery:p,constructor:b,init:function(e,n,r){var i,a;if(!e)return this;if(""string""==typeof e){if(i=""<""===e.charAt(0)&&"">""===e.charAt(e.length-1)&&e.length>=3?[null,e,null]:N.exec(e),!i||!i[1]&&n)return!n||n.jquery?(n||r).find(e):this.constructor(n).find(e);if(i[1]){if(n=n instanceof b?n[0]:n,b.merge(this,b.parseHTML(i[1],n&&n.nodeType?n.ownerDocument||n:o,!0)),C.test(i[1])&&b.isPlainObject(n))for(i in n)b.isFunction(this[i])?this[i](n[i]):this.attr(i,n[i]);return this}if(a=o.getElementById(i[2]),a&&a.parentNode){if(a.id!==i[2])return r.find(e);this.length=1,this[0]=a}return this.context=o,this.selector=e,this}return e.nodeType?(this.context=this[0]=e,this.length=1,this):b.isFunction(e)?r.ready(e):(e.selector!==t&&(this.selector=e.selector,this.context=e.context),b.makeArray(e,this))},selector:"""",length:0,size:function(){return this.length},toArray:function(){return h.call(this)},get:function(e){return null==e?this.toArray():0>e?this[this.length+e]:this[e]},pushStack"
+2026-05-16T06:24:53.777860,https://www.minsa.gob.pe/reunis/img/icon_3-5.png,200,image/png,
+2026-05-16T06:24:53.778870,https://www.minsa.gob.pe/reunis/img/scroll.png,200,image/png,
+2026-05-16T06:24:53.778870,https://www.minsa.gob.pe/reunis/img/logo-reunis.png,200,image/png,
+2026-05-16T06:24:53.779896,https://www.minsa.gob.pe/reunis/img/icon_home.png,200,image/png,
+2026-05-16T06:24:53.780889,https://www.minsa.gob.pe/reunis/img/btn_face.png,200,image/png,
+2026-05-16T06:24:53.780889,https://www.minsa.gob.pe/reunis/img/menu01.jpg,200,image/jpeg,
+2026-05-16T06:24:53.780889,https://www.minsa.gob.pe/reunis/img/btn_you.png,200,image/png,
+2026-05-16T06:24:53.781888,https://www.minsa.gob.pe/reunis/img/btn_x.png,200,image/png,
+2026-05-16T06:24:53.781888,https://www.minsa.gob.pe/reunis/img/btn_inst.png,200,image/png,
+2026-05-16T06:24:53.836720,https://www.minsa.gob.pe/reunis/js/tytabs.jquery.min.js,200,application/javascript,"/*
+ * jQuery plugin ""tytabs"" by Tyler ( Gregory Jacob )
+ * http://blog.carefordesign.com
+ *
+ * Copyright 2010, Gregory Jacob
+ * Data : 31 decembre 2010
+ */
+(function($){$.fn.tytabs=function(options){var defaults={prefixtabs:""tab"",prefixcontent:""content"",classcontent:""tabscontent"",tabinit:""1"",catchget:""tab"",fadespeed:""normal""},opts=$.extend({},defaults,options);return this.each(function(){var obj=$(this);opts.classcontent="".""+opts.classcontent;opts.prefixcontent=""#""+opts.prefixcontent;function showTab(id){$(opts.classcontent,obj).stop(true,true);var contentvisible=$(opts.classcontent+"":visible"",obj);if(contentvisible.length>0){contentvisible.fadeOut(opts.fadespeed,function(){fadeincontent(id)})}else{fadeincontent(id)}$(""#""+opts.prefixtabs+opts.tabinit).removeAttr(""class"");$(""#""+opts.prefixtabs+id).attr(""class"",""current"");opts.tabinit=id}function fadeincontent(id){$(opts.prefixcontent+id,obj).fadeIn(opts.fadespeed)}$(""ul.tabs li"",obj).click(function(){showTab($(this).attr(""id"").replace(opts.prefixtabs,""""));return false});var tab=getvars(opts.catchget);showTab(((tab&&$(opts.prefixcontent+tab).length==1)?tab:($(opts.prefixcontent+opts.tabinit).length==1)?opts.tabinit:""1""))})};function getvars(q,s){s=(s)?s:window.location.search;var re=new RegExp(""&""+q+""=([^&]*)"",""i"");return(s=s.replace(/^\?/,""&"").match(re))?s=s[1]:s=""""}})(jQuery);"
+2026-05-16T06:24:54.004549,https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2,200,font/woff2,
+2026-05-16T06:24:54.007715,https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJfecg.woff2,200,font/woff2,
+2026-05-16T06:24:54.052356,https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2,200,font/woff2,
+2026-05-16T06:24:54.128460,https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js,200,text/javascript; charset=UTF-8,"/*! jQuery v3.7.1 | (c) OpenJS Foundation and other contributors | jquery.org/license */
+!function(e,t){""use strict"";""object""==typeof module&&""object""==typeof module.exports?module.exports=e.document?t(e,!0):function(e){if(!e.document)throw new Error(""jQuery requires a window with a document"");return t(e)}:t(e)}(""undefined""!=typeof window?window:this,function(ie,e){""use strict"";var oe=[],r=Object.getPrototypeOf,ae=oe.slice,g=oe.flat?function(e){return oe.flat.call(e)}:function(e){return oe.concat.apply([],e)},s=oe.push,se=oe.indexOf,n={},i=n.toString,ue=n.hasOwnProperty,o=ue.toString,a=o.call(Object),le={},v=function(e){return""function""==typeof e&&""number""!=typeof e.nodeType&&""function""!=typeof e.item},y=function(e){return null!=e&&e===e.window},C=ie.document,u={type:!0,src:!0,nonce:!0,noModule:!0};function m(e,t,n){var r,i,o=(n=n||C).createElement(""script"");if(o.text=e,t)for(r in u)(i=t[r]||t.getAttribute&&t.getAttribute(r))&&o.setAttribute(r,i);n.head.appendChild(o).parentNode.removeChild(o)}function x(e){return null==e?e+"""":""object""==typeof e||""function""==typeof e?n[i.call(e)]||""object"":typeof e}var t=""3.7.1"",l=/HTML$/i,ce=function(e,t){return new ce.fn.init(e,t)};function c(e){var t=!!e&&""length""in e&&e.length,n=x(e);return!v(e)&&!y(e)&&(""array""===n||0===t||""number""==typeof t&&0<t&&t-1 in e)}function fe(e,t){return e.nodeName&&e.nodeName.toLowerCase()===t.toLowerCase()}ce.fn=ce.prototype={jquery:t,constructor:ce,length:0,toArray:function(){return ae.call(this)},get:function(e){return null==e?ae.call(this):e<0?this[e+this.length]:this[e]},pushStack:function(e){var t=ce.merge(this.constructor(),e);return t.prevObject=this,t},each:function(e){return ce.each(this,e)},map:function(n){return this.pushStack(ce.map(this,function(e,t){return n.call(e,t,e)}))},slice:function(){return this.pushStack(ae.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},even:function(){return this.pushStack(ce.grep(this,function(e,t){return(t+1)%"
+2026-05-16T06:24:54.272856,https://www.googletagmanager.com/gtag/js?id=G-F3MSER51W2,200,application/javascript; charset=UTF-8,"
+// Copyright 2012 Google Inc. All rights reserved.
+ 
+(function(){
+
+var data = {
+""resource"": {
+  ""version"":""3"",
+  
+  ""macros"":[{""function"":""__e""},{""function"":""__c"",""vtp_value"":""google.com.pe""},{""function"":""__c"",""vtp_value"":0}],
+  ""tags"":[{""function"":""__ogt_1p_data_v2"",""priority"":12,""vtp_isAutoEnabled"":true,""vtp_isManualEnabled"":true,""vtp_manualPhoneEnabled"":false,""vtp_manualAddressEnabled"":false,""vtp_autoCollectExclusionSelectors"":[""list"",[""map"",""exclusionSelector"",""""]],""vtp_emailType"":""CSS_SELECTOR"",""vtp_manualEmailEnabled"":true,""vtp_emailValue"":""meninodocairo@gmail.com"",""vtp_isEnabled"":true,""vtp_cityType"":""CSS_SELECTOR"",""vtp_firstNameType"":""CSS_SELECTOR"",""vtp_countryType"":""CSS_SELECTOR"",""vtp_cityValue"":"""",""vtp_regionType"":""CSS_SELECTOR"",""vtp_autoEmailEnabled"":true,""vtp_postalCodeValue"":"""",""vtp_lastNameValue"":"""",""vtp_phoneType"":""CSS_SELECTOR"",""vtp_phoneValue"":"""",""vtp_streetType"":""CSS_SELECTOR"",""vtp_autoPhoneEnabled"":false,""vtp_postalCodeType"":""CSS_SELECTOR"",""vtp_firstNameValue"":"""",""vtp_streetValue"":"""",""vtp_lastNameType"":""CSS_SELECTOR"",""vtp_autoAddressEnabled"":false,""vtp_regionValue"":"""",""vtp_countryValue"":"""",""vtp_isAutoCollectPiiEnabledFlag"":false,""tag_id"":10},{""function"":""__ogt_ga_send"",""priority"":12,""vtp_value"":true,""tag_id"":12},{""function"":""__ogt_referral_exclusion"",""priority"":12,""vtp_includeConditions"":[""list"",""minsa\\.gob\\.pe""],""tag_id"":13},{""function"":""__ogt_session_timeout"",""priority"":12,""vtp_sessionMinutes"":30,""vtp_sessionHours"":0,""tag_id"":14},{""function"":""__ccd_ga_first"",""priority"":11,""vtp_instanceDestinationId"":""G-F3MSER51W2"",""tag_id"":26},{""function"":""__set_product_settings"",""priority"":10,""vtp_instanceDestinationId"":""G-F3MSER51W2"",""vtp_foreignTldMacroResult"":[""macro"",1],""vtp_isChinaVipRegionMacroResult"":[""macro"",2],""tag_id"":25},{""function"":""__ccd_ga_regscope"",""priority"":9,""vtp_settingsTable"":[""list"",[""map"",""redactFieldGroup"",""DEVICE_AND_GEO"",""disallowAllRegions"",false,""disallowedRegions"",""""],[""map"",""redactFieldGroup"",""GOOGLE_SIGNALS"",""disallowAllRegions"","
+2026-05-16T06:25:09.292571,https://www.minsa.gob.pe/reunis/img/favicon/icono_logo196x196.png,200,image/png,
+2026-05-16T06:25:09.292571,https://www.minsa.gob.pe/reunis/img/favicon/icono_logo.svg,200,image/svg+xml,
+2026-05-16T06:25:09.294590,https://www.google-analytics.com/g/collect?v=2&tid=G-F3MSER51W2&gtm=45je65d0v9103479923za200zd9103479923&_p=1778912693613&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EA&are=1&cid=668519446.1778912694&frm=0&ir=1&pscdl=noapi&rcb=12&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=es-es&_s=1&tag_exp=0~115616985~115938465~115938468&sid=1778912694&sct=1&seg=0&dl=https%3A%2F%2Fwww.minsa.gob.pe%2Freunis%2F%3Fop%3D3%26niv%3D5&dt=MINSA%20%7C%20REUNIS%20-%20Repositorio%20%C3%9Anico%20Nacional%20de%20Informaci%C3%B3n%20en%20Salud&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1705,204,text/plain,
+2026-05-16T06:25:16.546572,https://www.minsa.gob.pe/reunis/img/favicon/icono_logo196x196.png,200,image/png,
+2026-05-16T06:25:19.553753,https://www.minsa.gob.pe/reunis/img/favicon/icono_logo.svg,200,image/svg+xml,
+2026-05-16T06:25:19.925019,https://www.minsa.gob.pe/reunis/img/logo-reunis.jpg,200,image/jpeg,
+2026-05-16T06:25:19.925975,https://www.minsa.gob.pe/reunis/img/logo-minsa.jpg,200,image/jpeg,
+2026-05-16T06:25:19.925975,https://www.minsa.gob.pe/reunis/img/slide09-minsa.jpg,200,image/jpeg,
+2026-05-16T06:25:19.926983,https://www.minsa.gob.pe/reunis/img/slide06-minsa.jpg,200,image/jpeg,
+2026-05-16T06:25:19.926983,https://www.minsa.gob.pe/reunis/img/slide02-minsa.jpg,200,image/jpeg,
+2026-05-16T06:25:19.926983,https://www.minsa.gob.pe/reunis/img/slide03-minsa.jpg,200,image/jpeg,
+2026-05-16T06:25:19.927986,https://www.minsa.gob.pe/reunis/img/logo-reunis.png,200,image/png,
+2026-05-16T06:25:19.927986,https://www.minsa.gob.pe/reunis/img/scroll.png,200,image/png,
+2026-05-16T06:25:22.937953,https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJfecg.woff2,200,font/woff2,
+2026-05-16T06:25:22.937953,https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2,200,font/woff2,
+2026-05-16T06:25:22.937953,https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2,200,font/woff2,
+2026-05-16T06:25:22.945200,https://www.minsa.gob.pe/reunis/img/menu01.jpg,200,image/jpeg,
+2026-05-16T06:25:22.945200,https://www.minsa.gob.pe/reunis/img/btn_face.png,200,image/png,
+2026-05-16T06:25:22.945200,https://www.minsa.gob.pe/reunis/img/btn_x.png,200,image/png,
+2026-05-16T06:25:22.945200,https://www.minsa.gob.pe/reunis/img/btn_inst.png,200,image/png,
+2026-05-16T06:25:22.945200,https://www.minsa.gob.pe/reunis/img/btn_you.png,200,image/png,
+2026-05-16T06:25:22.945200,https://www.minsa.gob.pe/reunis/css/estilos.css,200,text/css,"@charset ""utf-8"";
+/* CSS Document */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{margin:0;padding:0;text-decoration:none; font-size:100%; line-height:110%; font-family: 'Poppins', sans-serif;
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+*:hover{
+	-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+
+
+body{background:#fff; }
+
+
+.cabecera{position:relative; display:table; width:1600px; height:100px; max-height:100px; background: #fff; margin: 0 auto 20px auto;}
+.logo_001{ position:relative; display:table; width:30%;  float:left; padding:20px 0 0px 40px; text-align:left; }
+.img_logo_m{ position:relative; display:table; height:120px; width:auto; margin:0 10px;} 
+.img_logo_b{ position:relative; display:table; height:110px; width:auto; margin:0 0px; padding:0 0 20px 0px;} 
+.img_logo_s{ position:relative; display:table; height:80px; width:auto; margin:0 0px; padding:0px 0 40px 0px;} 
+
+.img_logo{ position:relative; display:table; height:100px; width:auto; margin:0 10px;} 
+.logo_002{ position:relative; display:table; width:70%; text-align:right; padding:20px 0;  }
+.logo_001 .img_logo{ float: left;} 
+.logo_002 .img_logo{ float: right;} 
+
+
+
+.titulo_p1{ color:#fff; padding-right:20px; padding-top:15px; font-size:30px;  font-weight:700; }
+
+.contenido{ position:relative;  width:auto; padding:20px 0px;  }
+.contenido .txt_simple { font-size:100%; line-height:150%; font-weight:700; }
+
+.div_1,.div_2,.div_25,.div_3,.div_33,.div_4,.div_5,.div_6,.div_7,.div_75,.div_8,.div_9,.div_10 { position:relative; display:table; float:left;  text-align:justify;   height:auto !important;}
+."
+2026-05-16T06:25:22.945200,https://www.minsa.gob.pe/reunis/css/menu3.css,200,text/css,"
+
+.fd_01, .fd_02 { position: relative; display: block;}
+.fd_02 { display: table;background-color: #f0f; height: auto;  background-image:url(""../img/com1_banner03.jpg"");}
+.boton_com{position: relative; display: table; width: 80%; margin: 30px 10%;}
+ 
+.com1_btnx img{        opacity: 1;    filter: grayscale(0%);  }
+.com1_btnx img:hover { opacity: 0.9;  filter: grayscale(100%);}	
+	
+
+
+
+	.b1_menu_con {position: absolute; display: table; width: 100%; height: 30px; top: -16px; right: 150px;}
+	.b1_menu_con2 {position: absolute; display: table; width: 100%; height: 30px; top: -16px; right: 0px;}
+
+	.b1_menu {position: relative; float: right; display: block; right: 0px;  height: 34px; background: #36ac8b; text-align: center; padding: 9px 20px; margin: 0px 5px; 
+	color: #fff; text-decoration: none; border-radius: 7px; font-size: 14px;}	
+	.b1_menu:hover{ background: #0073a0; color: #fff;}
+ 
+.pintado {background: #0073a0!important;}
+ 
+
+.titulo_salud{ font-size:40px; padding:20px  ;  font-weight: bolder; color: #1f3b8b;}
+.txt_norma_salud{ font-size:20px; line-height: 130%; text-decoration: none; color: #838383; text-align: justify;}	
+.salud_link1 { color: #555; text-decoration: none!important; font-size: 20px; text-align: left;}
+.salud_link2 { position: relative; color: #1f3b8b; text-decoration: none!important; font-size: 18px; text-align: left; font-weight:600; margin-top: 120px;}
+.txt1_salud{ font-size: 50px; line-height: 100%; color: #1f3b8b; font-weight: 600; padding: 20px 100px 20px 20px; text-align: left;}
+.txt2_salud{ font-size: 20px; line-height: 150%; color: #555;  text-align: left;   padding: 0px 100px 20px 20px; }
+
+
+
+"
+2026-05-16T06:25:22.945200,https://www.minsa.gob.pe/reunis/css/bootstrap.min.css,200,text/css,"@charset ""UTF-8"";/*!
+ * Bootstrap v5.0.0-beta2 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */:root{--bs-blue:#0d6efd;--bs-indigo:#6610f2;--bs-purple:#6f42c1;--bs-pink:#d63384;--bs-red:#dc3545;--bs-orange:#fd7e14;--bs-yellow:#ffc107;--bs-green:#198754;--bs-teal:#20c997;--bs-cyan:#0dcaf0;--bs-white:#fff;--bs-gray:#6c757d;--bs-gray-dark:#343a40;--bs-primary:#0d6efd;--bs-secondary:#6c757d;--bs-success:#198754;--bs-info:#0dcaf0;--bs-warning:#ffc107;--bs-danger:#dc3545;--bs-light:#f8f9fa;--bs-dark:#212529;--bs-font-sans-serif:system-ui,-apple-system,""Segoe UI"",Roboto,""Helvetica Neue"",Arial,""Noto Sans"",""Liberation Sans"",sans-serif,""Apple Color Emoji"",""Segoe UI Emoji"",""Segoe UI Symbol"",""Noto Color Emoji"";--bs-font-monospace:SFMono-Regular,Menlo,Monaco,Consolas,""Liberation Mono"",""Courier New"",monospace;--bs-gradient:linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0))}*,::after,::before{box-sizing:border-box}@media (prefers-reduced-motion:no-preference){:root{scroll-behavior:smooth}}
+
+body{
+	margin:0;
+	font-family:var(--bs-font-sans-serif);
+	font-size:1rem;
+	font-weight:400;
+	line-height:1.5;
+	color:#212529;
+	background-color:#fff;
+	-webkit-text-size-adjust:100%;
+	-webkit-tap-highlight-color:transparent}[tabindex=""-1""]:focus:not(:focus-visible){outline:0!important}
+
+hr{margin:1rem 0;
+	color:inherit;
+	background-color:currentColor;
+	border:0;
+	opacity:.25}
+
+hr:not([size]){height:1px}
+
+
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{margin-top:20px;margin-bottom:10px;font-weight:700;line-height:1.2; text-align: center;}
+
+
+.h1,h1{font-size:calc(1.375rem + 1.5vw); color: #afafaf; }
+@media (min-width:1200px){.h1,h1{font-size:35px}}
+
+.h2,h2{font-size:calc(1.325rem + .9vw); color: #0075aa; }
+@media (min-width:1200px){.h2,h2{font-size:35px}}
+
+.h3,h3{font-size:calc(1.3rem + .6vw); color: #00"
+2026-05-16T06:25:22.945200,https://www.minsa.gob.pe/reunis/js/bootstrap.bundle.min.js,200,application/javascript,"/*!
+  * Bootstrap v5.0.0-beta2 (https://getbootstrap.com/)
+  * Copyright 2011-2021 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+  */
+!function(t,e){""object""==typeof exports&&""undefined""!=typeof module?module.exports=e():""function""==typeof define&&define.amd?define(e):(t=""undefined""!=typeof globalThis?globalThis:t||self).bootstrap=e()}(this,(function(){""use strict"";function t(t,e){for(var n=0;n<e.length;n++){var i=e[n];i.enumerable=i.enumerable||!1,i.configurable=!0,""value""in i&&(i.writable=!0),Object.defineProperty(t,i.key,i)}}function e(e,n,i){return n&&t(e.prototype,n),i&&t(e,i),e}function n(){return(n=Object.assign||function(t){for(var e=1;e<arguments.length;e++){var n=arguments[e];for(var i in n)Object.prototype.hasOwnProperty.call(n,i)&&(t[i]=n[i])}return t}).apply(this,arguments)}function i(t,e){var n,i;t.prototype=Object.create(e.prototype),t.prototype.constructor=t,n=t,i=e,(Object.setPrototypeOf||function(t,e){return t.__proto__=e,t})(n,i)}var o,r,s=function(t){do{t+=Math.floor(1e6*Math.random())}while(document.getElementById(t));return t},a=function(t){var e=t.getAttribute(""data-bs-target"");if(!e||""#""===e){var n=t.getAttribute(""href"");if(!n||!n.includes(""#"")&&!n.startsWith("".""))return null;n.includes(""#"")&&!n.startsWith(""#"")&&(n=""#""+n.split(""#"")[1]),e=n&&""#""!==n?n.trim():null}return e},l=function(t){var e=a(t);return e&&document.querySelector(e)?e:null},c=function(t){var e=a(t);return e?document.querySelector(e):null},u=function(t){if(!t)return 0;var e=window.getComputedStyle(t),n=e.transitionDuration,i=e.transitionDelay,o=Number.parseFloat(n),r=Number.parseFloat(i);return o||r?(n=n.split("","")[0],i=i.split("","")[0],1e3*(Number.parseFloat(n)+Number.parseFloat(i))):0},f=function(t){t.dispatchEvent(new Event(""transitionend""))},d=function(t){return(t[0]||t).nodeType},h=function(t,e){var n=!1,i=e+5;t.addEventListener(""transitionend"",(function e(){n=!"
+2026-05-16T06:25:22.945200,https://www.minsa.gob.pe/reunis/css/slider/animate.min.css,200,text/css,"@charset ""UTF-8"";
+
+/*!
+ * animate.css -http://daneden.me/animate
+ * Version - 3.5.1
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2016 Daniel Eden
+ */
+
+.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}.animated.hinge{-webkit-animation-duration:2s;animation-duration:2s}.animated.bounceIn,.animated.bounceOut,.animated.flipOutX,.animated.flipOutY{-webkit-animation-duration:.75s;animation-duration:.75s}@-webkit-keyframes bounce{0%,20%,53%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translateZ(0);transform:translateZ(0)}40%,43%{-webkit-transform:translate3d(0,-30px,0);transform:translate3d(0,-30px,0)}40%,43%,70%{-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}70%{-webkit-transform:translate3d(0,-15px,0);transform:translate3d(0,-15px,0)}90%{-webkit-transform:translate3d(0,-4px,0);transform:translate3d(0,-4px,0)}}@keyframes bounce{0%,20%,53%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translateZ(0);transform:translateZ(0)}40%,43%{-webkit-transform:translate3d(0,-30px,0);transform:translate3d(0,-30px,0)}40%,43%,70%{-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}70%{-webkit-transform:translate3d(0,-15px,0);transform:translate3d(0,-15px,0)}90%{-webkit-transform:translate3d(0,-4px,0);transform:translate3d(0,-4px,0)}}.bounce{-webkit-animation-name:bounce;animation-name:bounce;-webkit-transform-origin:center bottom;transform-origin:center bottom}@-webkit-keyframes flash{0%,50%,to{opacity:1}25%,75%{opacity:0}}@keyframes fl"
+2026-05-16T06:25:22.945200,https://www.minsa.gob.pe/reunis/css/slider/slider4.css,200,text/css," 
+.menu_bar {
+	display:none;
+}
+ 
+header {
+	width: 100%;  
+}
+ 
+header nav {
+	background-color:#4676a8;	  
+	z-index:9;
+	max-width: 1600px;
+	width:100%;
+	margin:15px auto; 
+	padding:0px; 
+}
+
+.cajx{ position: absolute; display: table; width:55%; height: 100%;  z-index: 0; top: 0px;  left: 0px; background-image: url('../../img/fdo_slide.png'); background-repeat: repeat; text-align: left;}
+
+.cajx2{ position: absolute; display: table; width:55%; height: 100%;  z-index: 0; top: 0px;  left: 0px;   text-align: left;}
+.caja1{ }
+.caja2{  }
+.caja3{ }
+
+.con_tex { position: relative;text-align: left; margin:60px 0px; padding:0px; width: 75%; margin-left: 50px;}
+.con_tex .t1{ position: relative; display: table; font-size: 50px; line-height: 100%; color: #ffffff; font-weight: 600; border-left: solid 7px #fff; padding-left:15px; }
+
+.con_tex .t2{ position: relative; display: table; font-size: 19px; line-height: 130%; color: #ffffff;font-weight: 300; padding:35px 0 20px 25px; text-align: justify;}
+
+.con_tex .t3{ position: relative; display: table; font-size: 20px; line-height: 100%; color: #ffffff; padding:45px 0 0 25px; font-weight: bold;}
+
+.con_tex .t4{ position: relative; display: table; font-size: 40px; line-height: 100%; color: #ffffff; font-weight: 600; border-left: solid 7px #fff; padding-left:15px; }
+
+.con_tex a{ position: relative; display: table;  background: #0075aa; color: #fff; margin:50px 0 0 25px; padding: 10px 25px; text-decoration: none; font-size: 120%; content: "" ""}
+
+
+ 
+ 
+.navbar-dark .navbar-nav .nia1:focus,.navbar-dark .navbar-nav .nia1:hover,.mgm1{ background: #01567c; border: none; border-radius:0px;}
+.navbar-dark .navbar-nav .nia2:focus,.navbar-dark .navbar-nav .nia2:hover,.mgm2{ background: #00aaa4; border: none; border-radius:0px;}
+.navbar-dark .navbar-nav .nia3:focus,.navbar-dark .navbar-nav .nia3:hover,.mgm3{ background: #90d1db; border: none; border-radius:0px;}
+.navbar-dark .navbar-nav .nia4:focus,.navbar-dark .nav"
+2026-05-16T06:25:22.945200,https://www.minsa.gob.pe/reunis/?op=5,200,text/html,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.01 Transitional//EN"" ""http://www.w3.org/TR/html4/loose.dtd"">
+<html>
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"">
+<meta name=""viewport"" content=""width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"">
+ 
+      
+
+
+<style>
+ 
+ 
+ 
+.btn_01{ background:#1e5271; }
+.btn_02{ color:#1e5271; border:solid 1px  #1e5271;}
+.btn_02:hover{ color:#1e5271; border:solid 1px  #1e5271; }
+
+.bgc-5{ background:#bababa;}
+.n_bor{ border-top: 5px solid #1e5271;}
+.norma .n_btn{ color:#1e5271;}
+	
+.secc-cubo1 .content ul li{  color: #1e5271;}	
+.secc-cubo1 .content ul li a{ color:#1e5271;  }	
+.bor-line2{ border-color: #1e5271;  }
+	   
+	   	
+    	h4{  color:#1e5271 ;}
+	    h5{  color:#1e5271 ;}
+	
+	
+.btn_tc1{ background:#1d367d; border:solid 1px #1d367d;}
+.btn_tc2{ background:#ed3d3d; border:solid 1px #ed3d3d;}
+.btn_tc3{ background:#00a8ff; border:solid 1px #00a8ff;}
+.btn_tc4{ background:#1e5271; border:solid 1px #1e5271;}
+
+
+</style>
+	
+
+ 
+
+<!-- ============================================================================================= -->
+<!-- ============================================================================================= -->
+
+ 
+<meta name=""description"" content=""El REUNIS se constituye como un recurso integral para la gestión de la información y de los datos en el ámbito de la salud pública..Ministerio de Salud"" />
+<meta name=""author"" content=""Ministerio de Salud"">
+<meta name=""copyright"" content=""Ministerio de Salud"">  
+<meta name=""distribution"" content=""global""/>
+<meta name=""robots"" content=""ndex,follow"" />
+<meta name=""google-site-verification"" content=""Ministerio de Salud"" />
+ 
+
+<link rel=""icon"" href=""img/favicon/icono_logo16x16.png"" sizes=""16x16"" type=""image/png"">
+<link rel=""icon"" href=""img/favicon/icono_logo.ico"" sizes=""32x32 48x48"" type=""image/vnd.microsoft.icon"">
+<link rel=""icon"" href=""img/favicon/icono_logo.icns"" s"
+2026-05-16T06:25:22.945200,https://www.minsa.gob.pe/reunis/css/icomoon/fuente-imagen.css,200,text/css,"/*!
+ *  Font Awesome v4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */ 
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.eot');
+  src: url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+       url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.woff2') format('woff2'),
+       url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.woff') format('woff'),
+       url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.ttf') format('truetype'),
+       url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+Embed code 250f8590fa
+*/
+
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?278oy8');
+  src:  url('fonts/icomoon.eot?278oy8#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?278oy8') format('truetype'),
+    url('fonts/icomoon.woff?278oy8') format('woff'),
+    url('fonts/icomoon.svg?278oy8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^=""icon-""], [class*="" icon-""] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: ""\e900"";
+}
+.icon-home2:before {
+  content: ""\e901"";
+}
+.icon-home3:before {
+  content: ""\e902"";
+}
+.icon-office:before {
+  content: ""\e903"";
+}
+.icon-newsp"
+2026-05-16T06:25:22.945200,https://www.minsa.gob.pe/reunis/css/owl.custom.css,200,text/css,"/* Owl Carousel Bootstrap Custom CSS */
+
+/* Header Navigation */
+#top-nav{
+	border-bottom: 1px solid #e1e6dd;
+	background: #FFF;
+	-webkit-transform: translateZ(0)
+
+}
+#top-nav.navbar{
+	margin-bottom: 0px;
+
+}
+#top-nav.navbar .nav{
+	margin: 8px 0px;
+}
+	
+#top-nav.navbar .nav > li > a {
+	padding: 6px 12px;
+	margin: 0px;
+	text-transform: uppercase;
+	font-weight: 400;
+
+	-webkit-transition: background-color 200ms ease;
+	-moz-transition: background-color 200ms ease;
+	-o-transition: background-color 200ms ease;
+	transition: background-color 200ms ease;
+}
+#top-nav.navbar .nav > li > a.download{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#top-nav.navbar .nav > li > a.download-on{
+	background-color: #ff8a3c;
+	color: #ffffff;
+}
+#top-nav.navbar .nav > li > a.download-on:hover{
+	color: #ffffff;
+	background-color: #ff7920;
+}
+.btn-navbar span.icon-bar{
+	margin-top: 0px;
+}
+
+/* Header  */
+
+ 
+#header .btn-success {
+	padding: 15px 30px;
+	margin-bottom: 5px;
+}
+#header .logo{
+	display: block;
+	margin-top:60px;
+	float: right
+}
+img.arrow-down{
+	margin: 0 auto;
+	display: block;
+} 
+
+pre.pre-show{
+	margin: 40px 0px;
+
+}
+.tab-content pre.pre-show{
+	margin: 0px 0px 0px 0px;
+}
+.nav-tabs{
+	margin-top: 20px;
+	margin-bottom: 0px;
+	
+}
+.tab-content{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	-webkit-border-radius: 0px 0px 4px 4px;
+	-moz-border-radius: 0px 0px 4px 4px;
+	border-radius: 0px 0px 4px 4px;
+	
+}
+/* Content */
+.table th, .table td {
+padding: 8px 12px;
+}
+
+/* Footer */
+
+#footer{
+	padding: 20px 0px;
+	background: #f3f3f3;
+	text-align: center
+}
+.twitter-share-button{
+	top: 4px;
+	position: relative;
+}
+
+/* Demo Slides */
+
+#owl-example .item{
+	padding: 30px 0px;
+	margin: 10px;
+	color: #FFF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-align: center;
+}
+#owl-example .item i"
+2026-05-16T06:25:22.945200,https://www.minsa.gob.pe/reunis/css/owl.carousel.css,200,text/css,"/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.24
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ""."";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+/* CSS3 Transitions */
+
+.owl-origin {
+	-webkit-perspective: 1200px;
+	-webkit-perspective-origin-x : 50%;
+	-webkit-perspective-origin-y : 50%;
+	-moz-perspective : 1200px;
+	-moz-perspective-origin-x : 50%;
+	-moz-perspective-origin-y : 50%;
+	perspective : 1200px;
+}
+/* fade */
+.owl-fade-out {
+  z-index: 10;
+  -webkit-animation: fadeOut .7s both ease;
+  -moz-animation: fadeOut .7s both ease;
+  animation: fadeOut .7s both ease;
+}
+.owl-fade-in {
+  -webkit-animation: fadeIn .7s both ease;
+  -moz-animation: fadeIn .7s both ease;"
+2026-05-16T06:25:22.945200,https://www.minsa.gob.pe/reunis/css/owl.theme.css,200,text/css,"/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.24
+*/
+
+.owl-theme .owl-controls{
+	margin-top: 30px;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 5px;
+	padding: 3px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #869791;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #869791;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(AjaxLoader.gif) no-repeat center center
+}
+
+.carousel  {
+width: 1600px; margin: 0px auto;
+}
+"
+2026-05-16T06:25:22.961389,https://www.googletagmanager.com/gtag/js?id=G-F3MSER51W2,200,application/javascript; charset=UTF-8,"
+// Copyright 2012 Google Inc. All rights reserved.
+ 
+(function(){
+
+var data = {
+""resource"": {
+  ""version"":""3"",
+  
+  ""macros"":[{""function"":""__e""},{""function"":""__c"",""vtp_value"":""google.com.pe""},{""function"":""__c"",""vtp_value"":0}],
+  ""tags"":[{""function"":""__ogt_1p_data_v2"",""priority"":12,""vtp_isAutoEnabled"":true,""vtp_isManualEnabled"":true,""vtp_manualPhoneEnabled"":false,""vtp_manualAddressEnabled"":false,""vtp_autoCollectExclusionSelectors"":[""list"",[""map"",""exclusionSelector"",""""]],""vtp_emailType"":""CSS_SELECTOR"",""vtp_manualEmailEnabled"":true,""vtp_emailValue"":""meninodocairo@gmail.com"",""vtp_isEnabled"":true,""vtp_cityType"":""CSS_SELECTOR"",""vtp_firstNameType"":""CSS_SELECTOR"",""vtp_countryType"":""CSS_SELECTOR"",""vtp_cityValue"":"""",""vtp_regionType"":""CSS_SELECTOR"",""vtp_autoEmailEnabled"":true,""vtp_postalCodeValue"":"""",""vtp_lastNameValue"":"""",""vtp_phoneType"":""CSS_SELECTOR"",""vtp_phoneValue"":"""",""vtp_streetType"":""CSS_SELECTOR"",""vtp_autoPhoneEnabled"":false,""vtp_postalCodeType"":""CSS_SELECTOR"",""vtp_firstNameValue"":"""",""vtp_streetValue"":"""",""vtp_lastNameType"":""CSS_SELECTOR"",""vtp_autoAddressEnabled"":false,""vtp_regionValue"":"""",""vtp_countryValue"":"""",""vtp_isAutoCollectPiiEnabledFlag"":false,""tag_id"":10},{""function"":""__ogt_ga_send"",""priority"":12,""vtp_value"":true,""tag_id"":12},{""function"":""__ogt_referral_exclusion"",""priority"":12,""vtp_includeConditions"":[""list"",""minsa\\.gob\\.pe""],""tag_id"":13},{""function"":""__ogt_session_timeout"",""priority"":12,""vtp_sessionMinutes"":30,""vtp_sessionHours"":0,""tag_id"":14},{""function"":""__ccd_ga_first"",""priority"":11,""vtp_instanceDestinationId"":""G-F3MSER51W2"",""tag_id"":26},{""function"":""__set_product_settings"",""priority"":10,""vtp_instanceDestinationId"":""G-F3MSER51W2"",""vtp_foreignTldMacroResult"":[""macro"",1],""vtp_isChinaVipRegionMacroResult"":[""macro"",2],""tag_id"":25},{""function"":""__ccd_ga_regscope"",""priority"":9,""vtp_settingsTable"":[""list"",[""map"",""redactFieldGroup"",""DEVICE_AND_GEO"",""disallowAllRegions"",false,""disallowedRegions"",""""],[""map"",""redactFieldGroup"",""GOOGLE_SIGNALS"",""disallowAllRegions"","
+2026-05-16T06:25:22.961389,https://www.minsa.gob.pe/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js,200,application/javascript,"!function(){""use strict"";function e(e){try{if(""undefined""==typeof console)return;""error""in console?console.error(e):console.log(e)}catch(e){}}function t(e){return d.innerHTML='<a href=""'+e.replace(/""/g,""&quot;"")+'""></a>',d.childNodes[0].getAttribute(""href"")||""""}function r(e,t){var r=e.substr(t,2);return parseInt(r,16)}function n(n,c){for(var o="""",a=r(n,c),i=c+2;i<n.length;i+=2){var l=r(n,i)^a;o+=String.fromCharCode(l)}try{o=decodeURIComponent(escape(o))}catch(u){e(u)}return t(o)}function c(t){for(var r=t.querySelectorAll(""a""),c=0;c<r.length;c++)try{var o=r[c],a=o.href.indexOf(l);a>-1&&(o.href=""mailto:""+n(o.href,a+l.length))}catch(i){e(i)}}function o(t){for(var r=t.querySelectorAll(u),c=0;c<r.length;c++)try{var o=r[c],a=o.parentNode,i=o.getAttribute(f);if(i){var l=n(i,0),d=document.createTextNode(l);a.replaceChild(d,o)}}catch(h){e(h)}}function a(t){for(var r=t.querySelectorAll(""template""),n=0;n<r.length;n++)try{i(r[n].content)}catch(c){e(c)}}function i(t){try{c(t),o(t),a(t)}catch(r){e(r)}}var l=""/cdn-cgi/l/email-protection#"",u="".__cf_email__"",f=""data-cfemail"",d=document.createElement(""div"");i(document),function(){var e=document.currentScript||document.scripts[document.scripts.length-1];e.parentNode.removeChild(e)}()}();
+"
+2026-05-16T06:25:22.961389,https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js,200,text/javascript; charset=UTF-8,"/*! jQuery v3.7.1 | (c) OpenJS Foundation and other contributors | jquery.org/license */
+!function(e,t){""use strict"";""object""==typeof module&&""object""==typeof module.exports?module.exports=e.document?t(e,!0):function(e){if(!e.document)throw new Error(""jQuery requires a window with a document"");return t(e)}:t(e)}(""undefined""!=typeof window?window:this,function(ie,e){""use strict"";var oe=[],r=Object.getPrototypeOf,ae=oe.slice,g=oe.flat?function(e){return oe.flat.call(e)}:function(e){return oe.concat.apply([],e)},s=oe.push,se=oe.indexOf,n={},i=n.toString,ue=n.hasOwnProperty,o=ue.toString,a=o.call(Object),le={},v=function(e){return""function""==typeof e&&""number""!=typeof e.nodeType&&""function""!=typeof e.item},y=function(e){return null!=e&&e===e.window},C=ie.document,u={type:!0,src:!0,nonce:!0,noModule:!0};function m(e,t,n){var r,i,o=(n=n||C).createElement(""script"");if(o.text=e,t)for(r in u)(i=t[r]||t.getAttribute&&t.getAttribute(r))&&o.setAttribute(r,i);n.head.appendChild(o).parentNode.removeChild(o)}function x(e){return null==e?e+"""":""object""==typeof e||""function""==typeof e?n[i.call(e)]||""object"":typeof e}var t=""3.7.1"",l=/HTML$/i,ce=function(e,t){return new ce.fn.init(e,t)};function c(e){var t=!!e&&""length""in e&&e.length,n=x(e);return!v(e)&&!y(e)&&(""array""===n||0===t||""number""==typeof t&&0<t&&t-1 in e)}function fe(e,t){return e.nodeName&&e.nodeName.toLowerCase()===t.toLowerCase()}ce.fn=ce.prototype={jquery:t,constructor:ce,length:0,toArray:function(){return ae.call(this)},get:function(e){return null==e?ae.call(this):e<0?this[e+this.length]:this[e]},pushStack:function(e){var t=ce.merge(this.constructor(),e);return t.prevObject=this,t},each:function(e){return ce.each(this,e)},map:function(n){return this.pushStack(ce.map(this,function(e,t){return n.call(e,t,e)}))},slice:function(){return this.pushStack(ae.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},even:function(){return this.pushStack(ce.grep(this,function(e,t){return(t+1)%"
+2026-05-16T06:25:22.961389,https://www.minsa.gob.pe/reunis/js/jquery-1.9.1.min.js,200,application/javascript,"/*! jQuery v1.9.1 | (c) 2005, 2012 jQuery Foundation, Inc. | jquery.org/license
+//@ sourceMappingURL=jquery.min.map
+*/(function(e,t){var n,r,i=typeof t,o=e.document,a=e.location,s=e.jQuery,u=e.$,l={},c=[],p=""1.9.1"",f=c.concat,d=c.push,h=c.slice,g=c.indexOf,m=l.toString,y=l.hasOwnProperty,v=p.trim,b=function(e,t){return new b.fn.init(e,t,r)},x=/[+-]?(?:\d*\.|)\d+(?:[eE][+-]?\d+|)/.source,w=/\S+/g,T=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,N=/^(?:(<[\w\W]+>)[^>]*|#([\w-]*))$/,C=/^<(\w+)\s*\/?>(?:<\/\1>|)$/,k=/^[\],:{}\s]*$/,E=/(?:^|:|,)(?:\s*\[)+/g,S=/\\(?:[""\\\/bfnrt]|u[\da-fA-F]{4})/g,A=/""[^""\\\r\n]*""|true|false|null|-?(?:\d+\.|)\d+(?:[eE][+-]?\d+|)/g,j=/^-ms-/,D=/-([\da-z])/gi,L=function(e,t){return t.toUpperCase()},H=function(e){(o.addEventListener||""load""===e.type||""complete""===o.readyState)&&(q(),b.ready())},q=function(){o.addEventListener?(o.removeEventListener(""DOMContentLoaded"",H,!1),e.removeEventListener(""load"",H,!1)):(o.detachEvent(""onreadystatechange"",H),e.detachEvent(""onload"",H))};b.fn=b.prototype={jquery:p,constructor:b,init:function(e,n,r){var i,a;if(!e)return this;if(""string""==typeof e){if(i=""<""===e.charAt(0)&&"">""===e.charAt(e.length-1)&&e.length>=3?[null,e,null]:N.exec(e),!i||!i[1]&&n)return!n||n.jquery?(n||r).find(e):this.constructor(n).find(e);if(i[1]){if(n=n instanceof b?n[0]:n,b.merge(this,b.parseHTML(i[1],n&&n.nodeType?n.ownerDocument||n:o,!0)),C.test(i[1])&&b.isPlainObject(n))for(i in n)b.isFunction(this[i])?this[i](n[i]):this.attr(i,n[i]);return this}if(a=o.getElementById(i[2]),a&&a.parentNode){if(a.id!==i[2])return r.find(e);this.length=1,this[0]=a}return this.context=o,this.selector=e,this}return e.nodeType?(this.context=this[0]=e,this.length=1,this):b.isFunction(e)?r.ready(e):(e.selector!==t&&(this.selector=e.selector,this.context=e.context),b.makeArray(e,this))},selector:"""",length:0,size:function(){return this.length},toArray:function(){return h.call(this)},get:function(e){return null==e?this.toArray():0>e?this[this.length+e]:this[e]},pushStack"
+2026-05-16T06:25:22.961389,https://www.minsa.gob.pe/reunis/js/owl.carousel.min.js,200,application/javascript,"/*
+ *	jQuery OwlCarousel v1.31
+ *  
+ *	Copyright (c) 2013 Bartosz Wojciechowski
+ *	http://www.owlgraphic.com/owlcarousel
+ *
+ *	Licensed under MIT
+ *
+ */
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('7(B 3i.3E!==""9""){3i.3E=9(e){9 t(){}t.5v=e;q 5c t}}(9(e,t,n,r){b i={1J:9(t,n){b r=d;r.$k=e(n);r.6=e.3K({},e.3A.2c.6,r.$k.w(),t);r.29=t;r.3U()},3U:9(){b t=d;7(B t.6.2M===""9""){t.6.2M.P(d,[t.$k])}7(B t.6.2I===""2F""){b n=t.6.2I;9 r(e){7(B t.6.3F===""9""){t.6.3F.P(d,[e])}m{b n="""";1C(b r 2f e[""h""]){n+=e[""h""][r][""1K""]}t.$k.2h(n)}t.2Y()}e.5G(n,r)}m{t.2Y()}},2Y:9(e){b t=d;t.$k.w(""h-4p"",t.$k.2s(""2t"")).w(""h-4K"",t.$k.2s(""J""));t.$k.A({2z:0});t.2A=t.6.v;t.4L();t.5R=0;t.1M;t.1P()},1P:9(){b e=d;7(e.$k.1S().S===0){q c}e.1O();e.3H();e.$X=e.$k.1S();e.G=e.$X.S;e.4M();e.$I=e.$k.16("".h-1K"");e.$L=e.$k.16("".h-1h"");e.2H=""Y"";e.15=0;e.1W=[0];e.p=0;e.4I();e.4G()},4G:9(){b e=d;e.2V();e.31();e.4D();e.35();e.4C();e.4A();e.2x();e.4z();7(e.6.2w!==c){e.4w(e.6.2w)}7(e.6.Q===j){e.6.Q=5i}e.1e();e.$k.16("".h-1h"").A(""4v"",""4r"");7(!e.$k.2p("":33"")){e.34()}m{e.$k.A(""2z"",1)}e.56=c;e.2o();7(B e.6.39===""9""){e.6.39.P(d,[e.$k])}},2o:9(){b e=d;7(e.6.1I===j){e.1I()}7(e.6.1A===j){e.1A()}e.4n();7(B e.6.3n===""9""){e.6.3n.P(d,[e.$k])}},3o:9(){b e=d;7(B e.6.3p===""9""){e.6.3p.P(d,[e.$k])}e.34();e.2V();e.31();e.4m();e.35();e.2o();7(B e.6.3t===""9""){e.6.3t.P(d,[e.$k])}},4i:9(e){b t=d;19(9(){t.3o()},0)},34:9(){b e=d;7(e.$k.2p("":33"")===c){e.$k.A({2z:0});18(e.1r);18(e.1M)}m{q c}e.1M=4g(9(){7(e.$k.2p("":33"")){e.4i();e.$k.4f({2z:1},2J);18(e.1M)}},5O)},4M:9(){b e=d;e.$X.5N(\'<M J=""h-1h"">\').3G(\'<M J=""h-1K""></M>\');e.$k.16("".h-1h"").3G(\'<M J=""h-1h-4d"">\');e.1U=e.$k.16("".h-1h-4d"");e.$k.A(""4v"",""4r"")},1O:9(){b e=d;b t=e.$k.1V(e.6.1O);b n=e.$k.1V(e.6.28);7(!t){e."
+2026-05-16T06:25:22.961389,https://www.minsa.gob.pe/reunis/js/owl.carousel-propiedades.js,200,application/javascript,"
+$(document).ready(function($) {
+$(""#owl-example"").owlCarousel(
+{
+    // Most important owl features
+    items : 3,
+    itemsCustom : false,
+    itemsDesktop : [1199,4],
+    itemsDesktopSmall : [980,3],
+    itemsTablet: [768,2],
+    itemsTabletSmall: false,
+    itemsMobile : [479,1],
+    singleItem : false,
+    itemsScaleUp : false,
+ 
+    //Basic Speeds
+    slideSpeed : 200,
+    paginationSpeed : 800,
+    rewindSpeed : 1000,
+ 
+    //Autoplay
+    autoPlay : true,
+    stopOnHover : false,
+ 
+    // Navigation
+    navigation : false,
+    navigationText : [""Anterior"",""Siguiente""],
+    rewindNav : true,
+    scrollPerPage : false,
+ 
+    //Pagination
+    pagination : true,
+    paginationNumbers: false,
+ 
+    // Responsive 
+    responsive: true,
+    responsiveRefreshRate : 200,
+    responsiveBaseWidth: window,
+ 
+    // CSS Styles
+    baseClass : ""owl-carousel"",
+    theme : ""owl-theme"",
+ 
+    //Lazy load
+    lazyLoad : false,
+    lazyFollow : true,
+    lazyEffect : ""fade"",
+ 
+    //Auto height
+    autoHeight : false,
+ 
+    //JSON 
+    jsonPath : false, 
+    jsonSuccess : false,
+ 
+    //Mouse Events
+    dragBeforeAnimFinish : true,
+    mouseDrag : true,
+    touchDrag : true,
+ 
+    //Transitions
+    transitionStyle : false,
+ 
+    // Other
+    addClassActive : false,
+ 
+    //Callbacks
+    beforeUpdate : false,
+    afterUpdate : false,
+    beforeInit: false, 
+    afterInit: false, 
+    beforeMove: false, 
+    afterMove: false,
+    afterAction: false,
+    startDragging : false,
+    afterLazyLoad : false
+
+		}
+);
+});"
+2026-05-16T06:25:22.961389,https://www.minsa.gob.pe/reunis/js/slider/jquery.min.js,200,application/javascript,"/*! jQuery v3.2.1 | (c) JS Foundation and other contributors | jquery.org/license */
+!function(a,b){""use strict"";""object""==typeof module&&""object""==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw new Error(""jQuery requires a window with a document"");return b(a)}:b(a)}(""undefined""!=typeof window?window:this,function(a,b){""use strict"";var c=[],d=a.document,e=Object.getPrototypeOf,f=c.slice,g=c.concat,h=c.push,i=c.indexOf,j={},k=j.toString,l=j.hasOwnProperty,m=l.toString,n=m.call(Object),o={};function p(a,b){b=b||d;var c=b.createElement(""script"");c.text=a,b.head.appendChild(c).parentNode.removeChild(c)}var q=""3.2.1"",r=function(a,b){return new r.fn.init(a,b)},s=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,t=/^-ms-/,u=/-([a-z])/g,v=function(a,b){return b.toUpperCase()};r.fn=r.prototype={jquery:q,constructor:r,length:0,toArray:function(){return f.call(this)},get:function(a){return null==a?f.call(this):a<0?this[a+this.length]:this[a]},pushStack:function(a){var b=r.merge(this.constructor(),a);return b.prevObject=this,b},each:function(a){return r.each(this,a)},map:function(a){return this.pushStack(r.map(this,function(b,c){return a.call(b,c,b)}))},slice:function(){return this.pushStack(f.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},eq:function(a){var b=this.length,c=+a+(a<0?b:0);return this.pushStack(c>=0&&c<b?[this[c]]:[])},end:function(){return this.prevObject||this.constructor()},push:h,sort:c.sort,splice:c.splice},r.extend=r.fn.extend=function(){var a,b,c,d,e,f,g=arguments[0]||{},h=1,i=arguments.length,j=!1;for(""boolean""==typeof g&&(j=g,g=arguments[h]||{},h++),""object""==typeof g||r.isFunction(g)||(g={}),h===i&&(g=this,h--);h<i;h++)if(null!=(a=arguments[h]))for(b in a)c=g[b],d=a[b],g!==d&&(j&&d&&(r.isPlainObject(d)||(e=Array.isArray(d)))?(e?(e=!1,f=c&&Array.isArray(c)?c:[]):f=c&&r.isPlainObject(c)?c:{},g[b]=r.extend(j,f,d)):void 0!==d&&(g[b]=d));return g},r.extend({expando:""jQuery""+(q+Math."
+2026-05-16T06:25:22.961389,https://www.minsa.gob.pe/reunis/js/slider/slider.js,200,application/javascript,"/* Demo Scripts for Bootstrap Carousel and Animate.css article
+* on SitePoint by Maria Antonietta Perna
+*/
+(function ($) {
+  //Function to animate slider captions
+  function doAnimations(elems) {
+    //Cache the animationend event in a variable
+    var animEndEv = ""webkitAnimationEnd animationend"";
+
+    elems.each(function () {
+      var $this = $(this),
+      $animationType = $this.data(""animation"");
+      $this.addClass($animationType).one(animEndEv, function () {
+        $this.removeClass($animationType);
+      });
+    });
+  }
+
+  //Variables on page load
+  var $myCarousel = $(""#carouselExampleIndicators""),
+  $firstAnimatingElems = $myCarousel.
+  find("".carousel-item:first"").
+  find(""[data-animation ^= 'animated']"");
+
+  //Initialize carousel
+  $myCarousel.carousel();
+
+  //Animate captions in first slide on page load
+  doAnimations($firstAnimatingElems);
+
+  //Other slides to be animated on carousel slide event
+  $myCarousel.on(""slide.bs.carousel"", function (e) {
+    var $animatingElems = $(e.relatedTarget).find(
+    ""[data-animation ^= 'animated']"");
+
+    doAnimations($animatingElems);
+  });
+})(jQuery);
+//# sourceURL=pen.js
+ 
+ 
+"
+2026-05-16T06:25:22.961389,https://www.minsa.gob.pe/reunis/js/menu.js,200,application/javascript,"$(document).ready(main);
+ 
+var contador = 1;
+ 
+function main () {
+	$('.menu_bar').click(function(){
+		if (contador == 1) {
+			$('nav').animate({
+				left: '0'
+			});
+			contador = 0;
+		} else {
+			contador = 1;
+			$('nav').animate({
+				left: '-100%'
+			});
+		}
+	});
+ 
+	// Mostramos y ocultamos submenus
+	$('.submenu').click(function(){
+		$(this).children('.children').slideToggle();
+	});
+}
+
+
+
+
+ 
+<!-- TEMAS COLOR WEB
+	function carga(tipo){
+		location.href='index.asp?tipo='+ tipo;
+	}
+//-->
+ "
+2026-05-16T06:25:22.961389,https://www.minsa.gob.pe/reunis/js/tytabs.jquery.min.js,200,application/javascript,"/*
+ * jQuery plugin ""tytabs"" by Tyler ( Gregory Jacob )
+ * http://blog.carefordesign.com
+ *
+ * Copyright 2010, Gregory Jacob
+ * Data : 31 decembre 2010
+ */
+(function($){$.fn.tytabs=function(options){var defaults={prefixtabs:""tab"",prefixcontent:""content"",classcontent:""tabscontent"",tabinit:""1"",catchget:""tab"",fadespeed:""normal""},opts=$.extend({},defaults,options);return this.each(function(){var obj=$(this);opts.classcontent="".""+opts.classcontent;opts.prefixcontent=""#""+opts.prefixcontent;function showTab(id){$(opts.classcontent,obj).stop(true,true);var contentvisible=$(opts.classcontent+"":visible"",obj);if(contentvisible.length>0){contentvisible.fadeOut(opts.fadespeed,function(){fadeincontent(id)})}else{fadeincontent(id)}$(""#""+opts.prefixtabs+opts.tabinit).removeAttr(""class"");$(""#""+opts.prefixtabs+id).attr(""class"",""current"");opts.tabinit=id}function fadeincontent(id){$(opts.prefixcontent+id,obj).fadeIn(opts.fadespeed)}$(""ul.tabs li"",obj).click(function(){showTab($(this).attr(""id"").replace(opts.prefixtabs,""""));return false});var tab=getvars(opts.catchget);showTab(((tab&&$(opts.prefixcontent+tab).length==1)?tab:($(opts.prefixcontent+opts.tabinit).length==1)?opts.tabinit:""1""))})};function getvars(q,s){s=(s)?s:window.location.search;var re=new RegExp(""&""+q+""=([^&]*)"",""i"");return(s=s.replace(/^\?/,""&"").match(re))?s=s[1]:s=""""}})(jQuery);"
+2026-05-16T06:25:22.961389,https://www.minsa.gob.pe/reunis/img/icono_menu02.png,200,image/png,
+2026-05-16T06:25:22.961389,https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2,200,font/woff2,
+2026-05-16T06:25:22.961389,https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2,200,font/woff2,
+2026-05-16T06:25:22.968637,https://www.minsa.gob.pe/reunis/img/icono_menu01.png,200,image/png,
+2026-05-16T06:25:22.968637,https://www.minsa.gob.pe/reunis/img/flecha01.png,200,image/png,
+2026-05-16T06:25:22.968637,https://www.minsa.gob.pe/reunis/img/icono_menu03.png,200,image/png,
+2026-05-16T06:25:22.968637,https://www.minsa.gob.pe/reunis/img/icono_menu04.png,200,image/png,
+2026-05-16T06:25:22.970657,https://www.minsa.gob.pe/reunis/img/flecha02.png,200,image/png,
+2026-05-16T06:25:22.970657,https://www.minsa.gob.pe/reunis/img/btn_hover.png,200,image/png,
+2026-05-16T06:25:22.970657,https://www.minsa.gob.pe/reunis/img/favicon/icono_logo196x196.png,200,image/png,
+2026-05-16T06:25:22.972672,https://www.minsa.gob.pe/reunis/img/favicon/icono_logo.svg,200,image/svg+xml,
+2026-05-16T06:25:22.972672,"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",200,text/css; charset=utf-8,"/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v24/pxiAyp8kv8JHgFVrJJLmE0tDMPKzSQ.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v24/pxiAyp8kv8JHgFVrJJLmE0tMMPKzSQ.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v24/pxiAyp8kv8JHgFVrJJLmE0tCMPI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLmv1pVFteOcEg.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLmv1pVGdeOcEg.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7F"
+2026-05-16T06:25:26.297331,https://www.minsa.gob.pe/reunis/img/fdo_slide.png,200,image/png,
+2026-05-16T06:25:26.297331,https://www.google-analytics.com/g/collect?v=2&tid=G-F3MSER51W2&gtm=45je65d0v9103479923za200zd9103479923&_p=1778912719909&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAAQ&are=1&cid=668519446.1778912694&frm=0&ir=1&pscdl=noapi&rcb=14&sr=1280x720&uaa=x86&uab=64&uafvl=Chromium%3B147.0.7727.15%7CNot.A%252FBrand%3B8.0.0.0&uam=&uamb=0&uap=Windows&uapv=19.0.0&uaw=0&ul=es-es&_s=1&tag_exp=0~115938466~115938469~118012009&sid=1778912694&sct=1&seg=1&dl=https%3A%2F%2Fwww.minsa.gob.pe%2Freunis%2F%3Fop%3D5&dr=https%3A%2F%2Fwww.minsa.gob.pe%2Freunis%2F%3Fop%3D3%26niv%3D5&dt=MINSA%20%7C%20REUNIS%20-%20Repositorio%20%C3%9Anico%20Nacional%20de%20Informaci%C3%B3n%20en%20Salud&en=page_view&_ee=1&tfd=5244,204,text/plain,
+2026-05-16T06:25:26.805696,https://www.minsa.gob.pe/reunis/img/logo-reunis.jpg,200,image/jpeg,
+2026-05-16T06:25:26.805696,https://www.minsa.gob.pe/reunis/img/logo-minsa.jpg,200,image/jpeg,
+2026-05-16T06:25:26.805696,https://www.minsa.gob.pe/reunis/img/slide09-minsa.jpg,200,image/jpeg,
+2026-05-16T06:25:26.806695,https://www.minsa.gob.pe/reunis/img/slide06-minsa.jpg,200,image/jpeg,
+2026-05-16T06:25:26.807713,https://www.minsa.gob.pe/reunis/img/slide02-minsa.jpg,200,image/jpeg,
+2026-05-16T06:25:26.807713,https://www.minsa.gob.pe/reunis/img/slide03-minsa.jpg,200,image/jpeg,
+2026-05-16T06:25:26.807713,https://www.minsa.gob.pe/reunis/img/icono_menu01.png,200,image/png,
+2026-05-16T06:25:26.807713,https://www.minsa.gob.pe/reunis/img/icono_menu02.png,200,image/png,
+2026-05-16T06:25:26.808696,https://www.minsa.gob.pe/reunis/img/icono_menu03.png,200,image/png,
+2026-05-16T06:25:26.808696,https://www.minsa.gob.pe/reunis/img/icono_menu04.png,200,image/png,
+2026-05-16T06:25:26.808696,https://www.minsa.gob.pe/reunis/img/flecha01.png,200,image/png,
+2026-05-16T06:25:26.808696,https://www.minsa.gob.pe/reunis/img/flecha02.png,200,image/png,
+2026-05-16T06:25:26.808696,https://www.minsa.gob.pe/reunis/img/logo-reunis.png,200,image/png,
+2026-05-16T06:25:26.809697,https://www.minsa.gob.pe/reunis/img/scroll.png,200,image/png,
+2026-05-16T06:25:29.821867,https://www.minsa.gob.pe/reunis/css/estilos.css,200,text/css,"@charset ""utf-8"";
+/* CSS Document */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{margin:0;padding:0;text-decoration:none; font-size:100%; line-height:110%; font-family: 'Poppins', sans-serif;
+
+-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+*:hover{
+	-webkit-transition: all 0.5s ease;
+-moz-transition: all 0.5s ease;
+-ms-transition: all 0.5s ease;
+-o-transition: all 0.5s ease;
+transition: all 0.5s ease;
+}
+
+
+
+body{background:#fff; }
+
+
+.cabecera{position:relative; display:table; width:1600px; height:100px; max-height:100px; background: #fff; margin: 0 auto 20px auto;}
+.logo_001{ position:relative; display:table; width:30%;  float:left; padding:20px 0 0px 40px; text-align:left; }
+.img_logo_m{ position:relative; display:table; height:120px; width:auto; margin:0 10px;} 
+.img_logo_b{ position:relative; display:table; height:110px; width:auto; margin:0 0px; padding:0 0 20px 0px;} 
+.img_logo_s{ position:relative; display:table; height:80px; width:auto; margin:0 0px; padding:0px 0 40px 0px;} 
+
+.img_logo{ position:relative; display:table; height:100px; width:auto; margin:0 10px;} 
+.logo_002{ position:relative; display:table; width:70%; text-align:right; padding:20px 0;  }
+.logo_001 .img_logo{ float: left;} 
+.logo_002 .img_logo{ float: right;} 
+
+
+
+.titulo_p1{ color:#fff; padding-right:20px; padding-top:15px; font-size:30px;  font-weight:700; }
+
+.contenido{ position:relative;  width:auto; padding:20px 0px;  }
+.contenido .txt_simple { font-size:100%; line-height:150%; font-weight:700; }
+
+.div_1,.div_2,.div_25,.div_3,.div_33,.div_4,.div_5,.div_6,.div_7,.div_75,.div_8,.div_9,.div_10 { position:relative; display:table; float:left;  text-align:justify;   height:auto !important;}
+."
+2026-05-16T06:25:29.821867,https://www.minsa.gob.pe/reunis/css/menu3.css,200,text/css,"
+
+.fd_01, .fd_02 { position: relative; display: block;}
+.fd_02 { display: table;background-color: #f0f; height: auto;  background-image:url(""../img/com1_banner03.jpg"");}
+.boton_com{position: relative; display: table; width: 80%; margin: 30px 10%;}
+ 
+.com1_btnx img{        opacity: 1;    filter: grayscale(0%);  }
+.com1_btnx img:hover { opacity: 0.9;  filter: grayscale(100%);}	
+	
+
+
+
+	.b1_menu_con {position: absolute; display: table; width: 100%; height: 30px; top: -16px; right: 150px;}
+	.b1_menu_con2 {position: absolute; display: table; width: 100%; height: 30px; top: -16px; right: 0px;}
+
+	.b1_menu {position: relative; float: right; display: block; right: 0px;  height: 34px; background: #36ac8b; text-align: center; padding: 9px 20px; margin: 0px 5px; 
+	color: #fff; text-decoration: none; border-radius: 7px; font-size: 14px;}	
+	.b1_menu:hover{ background: #0073a0; color: #fff;}
+ 
+.pintado {background: #0073a0!important;}
+ 
+
+.titulo_salud{ font-size:40px; padding:20px  ;  font-weight: bolder; color: #1f3b8b;}
+.txt_norma_salud{ font-size:20px; line-height: 130%; text-decoration: none; color: #838383; text-align: justify;}	
+.salud_link1 { color: #555; text-decoration: none!important; font-size: 20px; text-align: left;}
+.salud_link2 { position: relative; color: #1f3b8b; text-decoration: none!important; font-size: 18px; text-align: left; font-weight:600; margin-top: 120px;}
+.txt1_salud{ font-size: 50px; line-height: 100%; color: #1f3b8b; font-weight: 600; padding: 20px 100px 20px 20px; text-align: left;}
+.txt2_salud{ font-size: 20px; line-height: 150%; color: #555;  text-align: left;   padding: 0px 100px 20px 20px; }
+
+
+
+"
+2026-05-16T06:25:29.821867,https://www.minsa.gob.pe/reunis/css/bootstrap.min.css,200,text/css,"@charset ""UTF-8"";/*!
+ * Bootstrap v5.0.0-beta2 (https://getbootstrap.com/)
+ * Copyright 2011-2021 The Bootstrap Authors
+ * Copyright 2011-2021 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+ */:root{--bs-blue:#0d6efd;--bs-indigo:#6610f2;--bs-purple:#6f42c1;--bs-pink:#d63384;--bs-red:#dc3545;--bs-orange:#fd7e14;--bs-yellow:#ffc107;--bs-green:#198754;--bs-teal:#20c997;--bs-cyan:#0dcaf0;--bs-white:#fff;--bs-gray:#6c757d;--bs-gray-dark:#343a40;--bs-primary:#0d6efd;--bs-secondary:#6c757d;--bs-success:#198754;--bs-info:#0dcaf0;--bs-warning:#ffc107;--bs-danger:#dc3545;--bs-light:#f8f9fa;--bs-dark:#212529;--bs-font-sans-serif:system-ui,-apple-system,""Segoe UI"",Roboto,""Helvetica Neue"",Arial,""Noto Sans"",""Liberation Sans"",sans-serif,""Apple Color Emoji"",""Segoe UI Emoji"",""Segoe UI Symbol"",""Noto Color Emoji"";--bs-font-monospace:SFMono-Regular,Menlo,Monaco,Consolas,""Liberation Mono"",""Courier New"",monospace;--bs-gradient:linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0))}*,::after,::before{box-sizing:border-box}@media (prefers-reduced-motion:no-preference){:root{scroll-behavior:smooth}}
+
+body{
+	margin:0;
+	font-family:var(--bs-font-sans-serif);
+	font-size:1rem;
+	font-weight:400;
+	line-height:1.5;
+	color:#212529;
+	background-color:#fff;
+	-webkit-text-size-adjust:100%;
+	-webkit-tap-highlight-color:transparent}[tabindex=""-1""]:focus:not(:focus-visible){outline:0!important}
+
+hr{margin:1rem 0;
+	color:inherit;
+	background-color:currentColor;
+	border:0;
+	opacity:.25}
+
+hr:not([size]){height:1px}
+
+
+.h1,.h2,.h3,.h4,.h5,.h6,h1,h2,h3,h4,h5,h6{margin-top:20px;margin-bottom:10px;font-weight:700;line-height:1.2; text-align: center;}
+
+
+.h1,h1{font-size:calc(1.375rem + 1.5vw); color: #afafaf; }
+@media (min-width:1200px){.h1,h1{font-size:35px}}
+
+.h2,h2{font-size:calc(1.325rem + .9vw); color: #0075aa; }
+@media (min-width:1200px){.h2,h2{font-size:35px}}
+
+.h3,h3{font-size:calc(1.3rem + .6vw); color: #00"
+2026-05-16T06:25:29.821867,https://www.minsa.gob.pe/reunis/js/bootstrap.bundle.min.js,200,application/javascript,"/*!
+  * Bootstrap v5.0.0-beta2 (https://getbootstrap.com/)
+  * Copyright 2011-2021 The Bootstrap Authors (https://github.com/twbs/bootstrap/graphs/contributors)
+  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
+  */
+!function(t,e){""object""==typeof exports&&""undefined""!=typeof module?module.exports=e():""function""==typeof define&&define.amd?define(e):(t=""undefined""!=typeof globalThis?globalThis:t||self).bootstrap=e()}(this,(function(){""use strict"";function t(t,e){for(var n=0;n<e.length;n++){var i=e[n];i.enumerable=i.enumerable||!1,i.configurable=!0,""value""in i&&(i.writable=!0),Object.defineProperty(t,i.key,i)}}function e(e,n,i){return n&&t(e.prototype,n),i&&t(e,i),e}function n(){return(n=Object.assign||function(t){for(var e=1;e<arguments.length;e++){var n=arguments[e];for(var i in n)Object.prototype.hasOwnProperty.call(n,i)&&(t[i]=n[i])}return t}).apply(this,arguments)}function i(t,e){var n,i;t.prototype=Object.create(e.prototype),t.prototype.constructor=t,n=t,i=e,(Object.setPrototypeOf||function(t,e){return t.__proto__=e,t})(n,i)}var o,r,s=function(t){do{t+=Math.floor(1e6*Math.random())}while(document.getElementById(t));return t},a=function(t){var e=t.getAttribute(""data-bs-target"");if(!e||""#""===e){var n=t.getAttribute(""href"");if(!n||!n.includes(""#"")&&!n.startsWith("".""))return null;n.includes(""#"")&&!n.startsWith(""#"")&&(n=""#""+n.split(""#"")[1]),e=n&&""#""!==n?n.trim():null}return e},l=function(t){var e=a(t);return e&&document.querySelector(e)?e:null},c=function(t){var e=a(t);return e?document.querySelector(e):null},u=function(t){if(!t)return 0;var e=window.getComputedStyle(t),n=e.transitionDuration,i=e.transitionDelay,o=Number.parseFloat(n),r=Number.parseFloat(i);return o||r?(n=n.split("","")[0],i=i.split("","")[0],1e3*(Number.parseFloat(n)+Number.parseFloat(i))):0},f=function(t){t.dispatchEvent(new Event(""transitionend""))},d=function(t){return(t[0]||t).nodeType},h=function(t,e){var n=!1,i=e+5;t.addEventListener(""transitionend"",(function e(){n=!"
+2026-05-16T06:25:29.821867,https://www.minsa.gob.pe/reunis/css/slider/animate.min.css,200,text/css,"@charset ""UTF-8"";
+
+/*!
+ * animate.css -http://daneden.me/animate
+ * Version - 3.5.1
+ * Licensed under the MIT license - http://opensource.org/licenses/MIT
+ *
+ * Copyright (c) 2016 Daniel Eden
+ */
+
+.animated{-webkit-animation-duration:1s;animation-duration:1s;-webkit-animation-fill-mode:both;animation-fill-mode:both}.animated.infinite{-webkit-animation-iteration-count:infinite;animation-iteration-count:infinite}.animated.hinge{-webkit-animation-duration:2s;animation-duration:2s}.animated.bounceIn,.animated.bounceOut,.animated.flipOutX,.animated.flipOutY{-webkit-animation-duration:.75s;animation-duration:.75s}@-webkit-keyframes bounce{0%,20%,53%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translateZ(0);transform:translateZ(0)}40%,43%{-webkit-transform:translate3d(0,-30px,0);transform:translate3d(0,-30px,0)}40%,43%,70%{-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}70%{-webkit-transform:translate3d(0,-15px,0);transform:translate3d(0,-15px,0)}90%{-webkit-transform:translate3d(0,-4px,0);transform:translate3d(0,-4px,0)}}@keyframes bounce{0%,20%,53%,80%,to{-webkit-animation-timing-function:cubic-bezier(.215,.61,.355,1);animation-timing-function:cubic-bezier(.215,.61,.355,1);-webkit-transform:translateZ(0);transform:translateZ(0)}40%,43%{-webkit-transform:translate3d(0,-30px,0);transform:translate3d(0,-30px,0)}40%,43%,70%{-webkit-animation-timing-function:cubic-bezier(.755,.05,.855,.06);animation-timing-function:cubic-bezier(.755,.05,.855,.06)}70%{-webkit-transform:translate3d(0,-15px,0);transform:translate3d(0,-15px,0)}90%{-webkit-transform:translate3d(0,-4px,0);transform:translate3d(0,-4px,0)}}.bounce{-webkit-animation-name:bounce;animation-name:bounce;-webkit-transform-origin:center bottom;transform-origin:center bottom}@-webkit-keyframes flash{0%,50%,to{opacity:1}25%,75%{opacity:0}}@keyframes fl"
+2026-05-16T06:25:29.834114,https://www.minsa.gob.pe/reunis/css/slider/slider4.css,200,text/css," 
+.menu_bar {
+	display:none;
+}
+ 
+header {
+	width: 100%;  
+}
+ 
+header nav {
+	background-color:#4676a8;	  
+	z-index:9;
+	max-width: 1600px;
+	width:100%;
+	margin:15px auto; 
+	padding:0px; 
+}
+
+.cajx{ position: absolute; display: table; width:55%; height: 100%;  z-index: 0; top: 0px;  left: 0px; background-image: url('../../img/fdo_slide.png'); background-repeat: repeat; text-align: left;}
+
+.cajx2{ position: absolute; display: table; width:55%; height: 100%;  z-index: 0; top: 0px;  left: 0px;   text-align: left;}
+.caja1{ }
+.caja2{  }
+.caja3{ }
+
+.con_tex { position: relative;text-align: left; margin:60px 0px; padding:0px; width: 75%; margin-left: 50px;}
+.con_tex .t1{ position: relative; display: table; font-size: 50px; line-height: 100%; color: #ffffff; font-weight: 600; border-left: solid 7px #fff; padding-left:15px; }
+
+.con_tex .t2{ position: relative; display: table; font-size: 19px; line-height: 130%; color: #ffffff;font-weight: 300; padding:35px 0 20px 25px; text-align: justify;}
+
+.con_tex .t3{ position: relative; display: table; font-size: 20px; line-height: 100%; color: #ffffff; padding:45px 0 0 25px; font-weight: bold;}
+
+.con_tex .t4{ position: relative; display: table; font-size: 40px; line-height: 100%; color: #ffffff; font-weight: 600; border-left: solid 7px #fff; padding-left:15px; }
+
+.con_tex a{ position: relative; display: table;  background: #0075aa; color: #fff; margin:50px 0 0 25px; padding: 10px 25px; text-decoration: none; font-size: 120%; content: "" ""}
+
+
+ 
+ 
+.navbar-dark .navbar-nav .nia1:focus,.navbar-dark .navbar-nav .nia1:hover,.mgm1{ background: #01567c; border: none; border-radius:0px;}
+.navbar-dark .navbar-nav .nia2:focus,.navbar-dark .navbar-nav .nia2:hover,.mgm2{ background: #00aaa4; border: none; border-radius:0px;}
+.navbar-dark .navbar-nav .nia3:focus,.navbar-dark .navbar-nav .nia3:hover,.mgm3{ background: #90d1db; border: none; border-radius:0px;}
+.navbar-dark .navbar-nav .nia4:focus,.navbar-dark .nav"
+2026-05-16T06:25:29.834114,https://www.minsa.gob.pe/reunis/css/icomoon/fuente-imagen.css,200,text/css,"/*!
+ *  Font Awesome v4.7.0 by @davegandy - http://fontawesome.io - @fontawesome
+ *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
+ */ 
+/* FONT PATH
+ * -------------------------- */
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.eot');
+  src: url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.eot?#iefix') format('embedded-opentype'),
+       url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.woff2') format('woff2'),
+       url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.woff') format('woff'),
+       url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.ttf') format('truetype'),
+       url('//use.fontawesome.com/releases/v4.7.0/fonts/fontawesome-webfont.svg#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+/*
+Embed code 250f8590fa
+*/
+
+
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?278oy8');
+  src:  url('fonts/icomoon.eot?278oy8#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?278oy8') format('truetype'),
+    url('fonts/icomoon.woff?278oy8') format('woff'),
+    url('fonts/icomoon.svg?278oy8#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^=""icon-""], [class*="" icon-""] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-home:before {
+  content: ""\e900"";
+}
+.icon-home2:before {
+  content: ""\e901"";
+}
+.icon-home3:before {
+  content: ""\e902"";
+}
+.icon-office:before {
+  content: ""\e903"";
+}
+.icon-newsp"
+2026-05-16T06:25:29.836405,https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLDz8Z1xlFQ.woff2,200,font/woff2,
+2026-05-16T06:25:29.836405,https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrJJfecg.woff2,200,font/woff2,
+2026-05-16T06:25:29.837915,https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9Z1xlFQ.woff2,200,font/woff2,
+2026-05-16T06:25:29.837915,https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6Z1xlFQ.woff2,200,font/woff2,
+2026-05-16T06:25:29.837915,https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7Z1xlFQ.woff2,200,font/woff2,
+2026-05-16T06:25:29.837915,https://www.minsa.gob.pe/reunis/img/menu01.jpg,200,image/jpeg,
+2026-05-16T06:25:29.840562,https://www.minsa.gob.pe/reunis/img/btn_face.png,200,image/png,
+2026-05-16T06:25:29.840562,https://www.minsa.gob.pe/reunis/img/btn_x.png,200,image/png,
+2026-05-16T06:25:29.840562,https://www.minsa.gob.pe/reunis/img/btn_inst.png,200,image/png,
+2026-05-16T06:25:29.840562,https://www.minsa.gob.pe/reunis/img/btn_you.png,200,image/png,
+2026-05-16T06:25:29.840562,https://www.minsa.gob.pe/reunis/css/owl.custom.css,200,text/css,"/* Owl Carousel Bootstrap Custom CSS */
+
+/* Header Navigation */
+#top-nav{
+	border-bottom: 1px solid #e1e6dd;
+	background: #FFF;
+	-webkit-transform: translateZ(0)
+
+}
+#top-nav.navbar{
+	margin-bottom: 0px;
+
+}
+#top-nav.navbar .nav{
+	margin: 8px 0px;
+}
+	
+#top-nav.navbar .nav > li > a {
+	padding: 6px 12px;
+	margin: 0px;
+	text-transform: uppercase;
+	font-weight: 400;
+
+	-webkit-transition: background-color 200ms ease;
+	-moz-transition: background-color 200ms ease;
+	-o-transition: background-color 200ms ease;
+	transition: background-color 200ms ease;
+}
+#top-nav.navbar .nav > li > a.download{
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+#top-nav.navbar .nav > li > a.download-on{
+	background-color: #ff8a3c;
+	color: #ffffff;
+}
+#top-nav.navbar .nav > li > a.download-on:hover{
+	color: #ffffff;
+	background-color: #ff7920;
+}
+.btn-navbar span.icon-bar{
+	margin-top: 0px;
+}
+
+/* Header  */
+
+ 
+#header .btn-success {
+	padding: 15px 30px;
+	margin-bottom: 5px;
+}
+#header .logo{
+	display: block;
+	margin-top:60px;
+	float: right
+}
+img.arrow-down{
+	margin: 0 auto;
+	display: block;
+} 
+
+pre.pre-show{
+	margin: 40px 0px;
+
+}
+.tab-content pre.pre-show{
+	margin: 0px 0px 0px 0px;
+}
+.nav-tabs{
+	margin-top: 20px;
+	margin-bottom: 0px;
+	
+}
+.tab-content{
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	border-bottom: 1px solid #ddd;
+	-webkit-border-radius: 0px 0px 4px 4px;
+	-moz-border-radius: 0px 0px 4px 4px;
+	border-radius: 0px 0px 4px 4px;
+	
+}
+/* Content */
+.table th, .table td {
+padding: 8px 12px;
+}
+
+/* Footer */
+
+#footer{
+	padding: 20px 0px;
+	background: #f3f3f3;
+	text-align: center
+}
+.twitter-share-button{
+	top: 4px;
+	position: relative;
+}
+
+/* Demo Slides */
+
+#owl-example .item{
+	padding: 30px 0px;
+	margin: 10px;
+	color: #FFF;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	text-align: center;
+}
+#owl-example .item i"
+2026-05-16T06:25:29.840562,https://www.minsa.gob.pe/reunis/img/favicon/icono_logo196x196.png,200,image/png,
+2026-05-16T06:25:29.840562,https://www.minsa.gob.pe/reunis/img/favicon/icono_logo.svg,200,image/svg+xml,
+2026-05-16T06:25:29.840562,https://www.minsa.gob.pe/reunis/img/btn_hover.png,200,image/png,
+2026-05-16T06:25:29.844623,https://www.minsa.gob.pe/reunis/?op=6,200,text/html,"<!DOCTYPE HTML PUBLIC ""-//W3C//DTD HTML 4.01 Transitional//EN"" ""http://www.w3.org/TR/html4/loose.dtd"">
+<html>
+<head>
+<meta http-equiv=""Content-Type"" content=""text/html; charset=utf-8"">
+<meta name=""viewport"" content=""width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"">
+ 
+      
+
+
+<style>
+ 
+ 
+ 
+.btn_01{ background:#1e5271; }
+.btn_02{ color:#1e5271; border:solid 1px  #1e5271;}
+.btn_02:hover{ color:#1e5271; border:solid 1px  #1e5271; }
+
+.bgc-5{ background:#bababa;}
+.n_bor{ border-top: 5px solid #1e5271;}
+.norma .n_btn{ color:#1e5271;}
+	
+.secc-cubo1 .content ul li{  color: #1e5271;}	
+.secc-cubo1 .content ul li a{ color:#1e5271;  }	
+.bor-line2{ border-color: #1e5271;  }
+	   
+	   	
+    	h4{  color:#1e5271 ;}
+	    h5{  color:#1e5271 ;}
+	
+	
+.btn_tc1{ background:#1d367d; border:solid 1px #1d367d;}
+.btn_tc2{ background:#ed3d3d; border:solid 1px #ed3d3d;}
+.btn_tc3{ background:#00a8ff; border:solid 1px #00a8ff;}
+.btn_tc4{ background:#1e5271; border:solid 1px #1e5271;}
+
+
+</style>
+	
+
+ 
+
+<!-- ============================================================================================= -->
+<!-- ============================================================================================= -->
+
+ 
+<meta name=""description"" content=""El REUNIS se constituye como un recurso integral para la gestión de la información y de los datos en el ámbito de la salud pública..Ministerio de Salud"" />
+<meta name=""author"" content=""Ministerio de Salud"">
+<meta name=""copyright"" content=""Ministerio de Salud"">  
+<meta name=""distribution"" content=""global""/>
+<meta name=""robots"" content=""ndex,follow"" />
+<meta name=""google-site-verification"" content=""Ministerio de Salud"" />
+ 
+
+<link rel=""icon"" href=""img/favicon/icono_logo16x16.png"" sizes=""16x16"" type=""image/png"">
+<link rel=""icon"" href=""img/favicon/icono_logo.ico"" sizes=""32x32 48x48"" type=""image/vnd.microsoft.icon"">
+<link rel=""icon"" href=""img/favicon/icono_logo.icns"" s"
+2026-05-16T06:25:29.844623,https://www.minsa.gob.pe/reunis/css/owl.carousel.css,200,text/css,"/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.24
+ */
+
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+	content: ""."";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+/* display none until init */
+.owl-carousel{
+	display: none;
+	position: relative;
+	width: 100%;
+	-ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper{
+	display: none;
+	position: relative;
+	-webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer{
+	overflow: hidden;
+	position: relative;
+	width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight{
+	-webkit-transition: height 500ms ease-in-out;
+	-moz-transition: height 500ms ease-in-out;
+	-ms-transition: height 500ms ease-in-out;
+	-o-transition: height 500ms ease-in-out;
+	transition: height 500ms ease-in-out;
+}
+	
+.owl-carousel .owl-item{
+	float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div{
+	cursor: pointer;
+}
+.owl-controls {
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+/* mouse grab icon */
+.grabbing { 
+    cursor:url(grabbing.png) 8 8, move;
+}
+
+/* fix */
+.owl-carousel  .owl-wrapper,
+.owl-carousel  .owl-item{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility:    hidden;
+	-ms-backface-visibility:     hidden;
+  -webkit-transform: translate3d(0,0,0);
+  -moz-transform: translate3d(0,0,0);
+  -ms-transform: translate3d(0,0,0);
+}
+
+/* CSS3 Transitions */
+
+.owl-origin {
+	-webkit-perspective: 1200px;
+	-webkit-perspective-origin-x : 50%;
+	-webkit-perspective-origin-y : 50%;
+	-moz-perspective : 1200px;
+	-moz-perspective-origin-x : 50%;
+	-moz-perspective-origin-y : 50%;
+	perspective : 1200px;
+}
+/* fade */
+.owl-fade-out {
+  z-index: 10;
+  -webkit-animation: fadeOut .7s both ease;
+  -moz-animation: fadeOut .7s both ease;
+  animation: fadeOut .7s both ease;
+}
+.owl-fade-in {
+  -webkit-animation: fadeIn .7s both ease;
+  -moz-animation: fadeIn .7s both ease;"
+2026-05-16T06:25:29.844623,https://www.minsa.gob.pe/reunis/css/owl.theme.css,200,text/css,"/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.24
+*/
+
+.owl-theme .owl-controls{
+	margin-top: 30px;
+	text-align: center;
+}
+
+/* Styling Next and Prev buttons */
+
+.owl-theme .owl-controls .owl-buttons div{
+	color: #FFF;
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+	margin: 5px;
+	padding: 3px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	background: #869791;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+	text-decoration: none;
+}
+
+/* Styling Pagination*/
+
+.owl-theme .owl-controls .owl-page{
+	display: inline-block;
+	zoom: 1;
+	*display: inline;/*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page span{
+	display: block;
+	width: 12px;
+	height: 12px;
+	margin: 5px 7px;
+	filter: Alpha(Opacity=50);/*IE7 fix*/
+	opacity: 0.5;
+	-webkit-border-radius: 20px;
+	-moz-border-radius: 20px;
+	border-radius: 20px;
+	background: #869791;
+}
+
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span{
+	filter: Alpha(Opacity=100);/*IE7 fix*/
+	opacity: 1;
+}
+
+/* If PaginationNumbers is true */
+
+.owl-theme .owl-controls .owl-page span.owl-numbers{
+	height: auto;
+	width: auto;
+	color: #FFF;
+	padding: 2px 10px;
+	font-size: 12px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+
+/* preloading images */
+.owl-item.loading{
+	min-height: 150px;
+	background: url(AjaxLoader.gif) no-repeat center center
+}
+
+.carousel  {
+width: 1600px; margin: 0px auto;
+}
+"
+2026-05-16T06:25:29.847437,https://www.googletagmanager.com/gtag/js?id=G-F3MSER51W2,200,application/javascript; charset=UTF-8,"
+// Copyright 2012 Google Inc. All rights reserved.
+ 
+(function(){
+
+var data = {
+""resource"": {
+  ""version"":""3"",
+  
+  ""macros"":[{""function"":""__e""},{""function"":""__c"",""vtp_value"":""google.com.pe""},{""function"":""__c"",""vtp_value"":0}],
+  ""tags"":[{""function"":""__ogt_1p_data_v2"",""priority"":12,""vtp_isAutoEnabled"":true,""vtp_isManualEnabled"":true,""vtp_manualPhoneEnabled"":false,""vtp_manualAddressEnabled"":false,""vtp_autoCollectExclusionSelectors"":[""list"",[""map"",""exclusionSelector"",""""]],""vtp_emailType"":""CSS_SELECTOR"",""vtp_manualEmailEnabled"":true,""vtp_emailValue"":""meninodocairo@gmail.com"",""vtp_isEnabled"":true,""vtp_cityType"":""CSS_SELECTOR"",""vtp_firstNameType"":""CSS_SELECTOR"",""vtp_countryType"":""CSS_SELECTOR"",""vtp_cityValue"":"""",""vtp_regionType"":""CSS_SELECTOR"",""vtp_autoEmailEnabled"":true,""vtp_postalCodeValue"":"""",""vtp_lastNameValue"":"""",""vtp_phoneType"":""CSS_SELECTOR"",""vtp_phoneValue"":"""",""vtp_streetType"":""CSS_SELECTOR"",""vtp_autoPhoneEnabled"":false,""vtp_postalCodeType"":""CSS_SELECTOR"",""vtp_firstNameValue"":"""",""vtp_streetValue"":"""",""vtp_lastNameType"":""CSS_SELECTOR"",""vtp_autoAddressEnabled"":false,""vtp_regionValue"":"""",""vtp_countryValue"":"""",""vtp_isAutoCollectPiiEnabledFlag"":false,""tag_id"":10},{""function"":""__ogt_ga_send"",""priority"":12,""vtp_value"":true,""tag_id"":12},{""function"":""__ogt_referral_exclusion"",""priority"":12,""vtp_includeConditions"":[""list"",""minsa\\.gob\\.pe""],""tag_id"":13},{""function"":""__ogt_session_timeout"",""priority"":12,""vtp_sessionMinutes"":30,""vtp_sessionHours"":0,""tag_id"":14},{""function"":""__ccd_ga_first"",""priority"":11,""vtp_instanceDestinationId"":""G-F3MSER51W2"",""tag_id"":26},{""function"":""__set_product_settings"",""priority"":10,""vtp_instanceDestinationId"":""G-F3MSER51W2"",""vtp_foreignTldMacroResult"":[""macro"",1],""vtp_isChinaVipRegionMacroResult"":[""macro"",2],""tag_id"":25},{""function"":""__ccd_ga_regscope"",""priority"":9,""vtp_settingsTable"":[""list"",[""map"",""redactFieldGroup"",""DEVICE_AND_GEO"",""disallowAllRegions"",false,""disallowedRegions"",""""],[""map"",""redactFieldGroup"",""GOOGLE_SIGNALS"",""disallowAllRegions"","
+2026-05-16T06:25:29.850349,https://www.minsa.gob.pe/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js,200,application/javascript,"!function(){""use strict"";function e(e){try{if(""undefined""==typeof console)return;""error""in console?console.error(e):console.log(e)}catch(e){}}function t(e){return d.innerHTML='<a href=""'+e.replace(/""/g,""&quot;"")+'""></a>',d.childNodes[0].getAttribute(""href"")||""""}function r(e,t){var r=e.substr(t,2);return parseInt(r,16)}function n(n,c){for(var o="""",a=r(n,c),i=c+2;i<n.length;i+=2){var l=r(n,i)^a;o+=String.fromCharCode(l)}try{o=decodeURIComponent(escape(o))}catch(u){e(u)}return t(o)}function c(t){for(var r=t.querySelectorAll(""a""),c=0;c<r.length;c++)try{var o=r[c],a=o.href.indexOf(l);a>-1&&(o.href=""mailto:""+n(o.href,a+l.length))}catch(i){e(i)}}function o(t){for(var r=t.querySelectorAll(u),c=0;c<r.length;c++)try{var o=r[c],a=o.parentNode,i=o.getAttribute(f);if(i){var l=n(i,0),d=document.createTextNode(l);a.replaceChild(d,o)}}catch(h){e(h)}}function a(t){for(var r=t.querySelectorAll(""template""),n=0;n<r.length;n++)try{i(r[n].content)}catch(c){e(c)}}function i(t){try{c(t),o(t),a(t)}catch(r){e(r)}}var l=""/cdn-cgi/l/email-protection#"",u="".__cf_email__"",f=""data-cfemail"",d=document.createElement(""div"");i(document),function(){var e=document.currentScript||document.scripts[document.scripts.length-1];e.parentNode.removeChild(e)}()}();
+"
+2026-05-16T06:25:29.850349,https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js,200,text/javascript; charset=UTF-8,"/*! jQuery v3.7.1 | (c) OpenJS Foundation and other contributors | jquery.org/license */
+!function(e,t){""use strict"";""object""==typeof module&&""object""==typeof module.exports?module.exports=e.document?t(e,!0):function(e){if(!e.document)throw new Error(""jQuery requires a window with a document"");return t(e)}:t(e)}(""undefined""!=typeof window?window:this,function(ie,e){""use strict"";var oe=[],r=Object.getPrototypeOf,ae=oe.slice,g=oe.flat?function(e){return oe.flat.call(e)}:function(e){return oe.concat.apply([],e)},s=oe.push,se=oe.indexOf,n={},i=n.toString,ue=n.hasOwnProperty,o=ue.toString,a=o.call(Object),le={},v=function(e){return""function""==typeof e&&""number""!=typeof e.nodeType&&""function""!=typeof e.item},y=function(e){return null!=e&&e===e.window},C=ie.document,u={type:!0,src:!0,nonce:!0,noModule:!0};function m(e,t,n){var r,i,o=(n=n||C).createElement(""script"");if(o.text=e,t)for(r in u)(i=t[r]||t.getAttribute&&t.getAttribute(r))&&o.setAttribute(r,i);n.head.appendChild(o).parentNode.removeChild(o)}function x(e){return null==e?e+"""":""object""==typeof e||""function""==typeof e?n[i.call(e)]||""object"":typeof e}var t=""3.7.1"",l=/HTML$/i,ce=function(e,t){return new ce.fn.init(e,t)};function c(e){var t=!!e&&""length""in e&&e.length,n=x(e);return!v(e)&&!y(e)&&(""array""===n||0===t||""number""==typeof t&&0<t&&t-1 in e)}function fe(e,t){return e.nodeName&&e.nodeName.toLowerCase()===t.toLowerCase()}ce.fn=ce.prototype={jquery:t,constructor:ce,length:0,toArray:function(){return ae.call(this)},get:function(e){return null==e?ae.call(this):e<0?this[e+this.length]:this[e]},pushStack:function(e){var t=ce.merge(this.constructor(),e);return t.prevObject=this,t},each:function(e){return ce.each(this,e)},map:function(n){return this.pushStack(ce.map(this,function(e,t){return n.call(e,t,e)}))},slice:function(){return this.pushStack(ae.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},even:function(){return this.pushStack(ce.grep(this,function(e,t){return(t+1)%"
+2026-05-16T06:25:29.850349,https://www.minsa.gob.pe/reunis/js/jquery-1.9.1.min.js,200,application/javascript,"/*! jQuery v1.9.1 | (c) 2005, 2012 jQuery Foundation, Inc. | jquery.org/license
+//@ sourceMappingURL=jquery.min.map
+*/(function(e,t){var n,r,i=typeof t,o=e.document,a=e.location,s=e.jQuery,u=e.$,l={},c=[],p=""1.9.1"",f=c.concat,d=c.push,h=c.slice,g=c.indexOf,m=l.toString,y=l.hasOwnProperty,v=p.trim,b=function(e,t){return new b.fn.init(e,t,r)},x=/[+-]?(?:\d*\.|)\d+(?:[eE][+-]?\d+|)/.source,w=/\S+/g,T=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,N=/^(?:(<[\w\W]+>)[^>]*|#([\w-]*))$/,C=/^<(\w+)\s*\/?>(?:<\/\1>|)$/,k=/^[\],:{}\s]*$/,E=/(?:^|:|,)(?:\s*\[)+/g,S=/\\(?:[""\\\/bfnrt]|u[\da-fA-F]{4})/g,A=/""[^""\\\r\n]*""|true|false|null|-?(?:\d+\.|)\d+(?:[eE][+-]?\d+|)/g,j=/^-ms-/,D=/-([\da-z])/gi,L=function(e,t){return t.toUpperCase()},H=function(e){(o.addEventListener||""load""===e.type||""complete""===o.readyState)&&(q(),b.ready())},q=function(){o.addEventListener?(o.removeEventListener(""DOMContentLoaded"",H,!1),e.removeEventListener(""load"",H,!1)):(o.detachEvent(""onreadystatechange"",H),e.detachEvent(""onload"",H))};b.fn=b.prototype={jquery:p,constructor:b,init:function(e,n,r){var i,a;if(!e)return this;if(""string""==typeof e){if(i=""<""===e.charAt(0)&&"">""===e.charAt(e.length-1)&&e.length>=3?[null,e,null]:N.exec(e),!i||!i[1]&&n)return!n||n.jquery?(n||r).find(e):this.constructor(n).find(e);if(i[1]){if(n=n instanceof b?n[0]:n,b.merge(this,b.parseHTML(i[1],n&&n.nodeType?n.ownerDocument||n:o,!0)),C.test(i[1])&&b.isPlainObject(n))for(i in n)b.isFunction(this[i])?this[i](n[i]):this.attr(i,n[i]);return this}if(a=o.getElementById(i[2]),a&&a.parentNode){if(a.id!==i[2])return r.find(e);this.length=1,this[0]=a}return this.context=o,this.selector=e,this}return e.nodeType?(this.context=this[0]=e,this.length=1,this):b.isFunction(e)?r.ready(e):(e.selector!==t&&(this.selector=e.selector,this.context=e.context),b.makeArray(e,this))},selector:"""",length:0,size:function(){return this.length},toArray:function(){return h.call(this)},get:function(e){return null==e?this.toArray():0>e?this[this.length+e]:this[e]},pushStack"
+2026-05-16T06:25:29.850349,https://www.minsa.gob.pe/reunis/js/owl.carousel.min.js,200,application/javascript,"/*
+ *	jQuery OwlCarousel v1.31
+ *  
+ *	Copyright (c) 2013 Bartosz Wojciechowski
+ *	http://www.owlgraphic.com/owlcarousel
+ *
+ *	Licensed under MIT
+ *
+ */
+eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\b'+e(c)+'\\b','g'),k[c]);return p}('7(B 3i.3E!==""9""){3i.3E=9(e){9 t(){}t.5v=e;q 5c t}}(9(e,t,n,r){b i={1J:9(t,n){b r=d;r.$k=e(n);r.6=e.3K({},e.3A.2c.6,r.$k.w(),t);r.29=t;r.3U()},3U:9(){b t=d;7(B t.6.2M===""9""){t.6.2M.P(d,[t.$k])}7(B t.6.2I===""2F""){b n=t.6.2I;9 r(e){7(B t.6.3F===""9""){t.6.3F.P(d,[e])}m{b n="""";1C(b r 2f e[""h""]){n+=e[""h""][r][""1K""]}t.$k.2h(n)}t.2Y()}e.5G(n,r)}m{t.2Y()}},2Y:9(e){b t=d;t.$k.w(""h-4p"",t.$k.2s(""2t"")).w(""h-4K"",t.$k.2s(""J""));t.$k.A({2z:0});t.2A=t.6.v;t.4L();t.5R=0;t.1M;t.1P()},1P:9(){b e=d;7(e.$k.1S().S===0){q c}e.1O();e.3H();e.$X=e.$k.1S();e.G=e.$X.S;e.4M();e.$I=e.$k.16("".h-1K"");e.$L=e.$k.16("".h-1h"");e.2H=""Y"";e.15=0;e.1W=[0];e.p=0;e.4I();e.4G()},4G:9(){b e=d;e.2V();e.31();e.4D();e.35();e.4C();e.4A();e.2x();e.4z();7(e.6.2w!==c){e.4w(e.6.2w)}7(e.6.Q===j){e.6.Q=5i}e.1e();e.$k.16("".h-1h"").A(""4v"",""4r"");7(!e.$k.2p("":33"")){e.34()}m{e.$k.A(""2z"",1)}e.56=c;e.2o();7(B e.6.39===""9""){e.6.39.P(d,[e.$k])}},2o:9(){b e=d;7(e.6.1I===j){e.1I()}7(e.6.1A===j){e.1A()}e.4n();7(B e.6.3n===""9""){e.6.3n.P(d,[e.$k])}},3o:9(){b e=d;7(B e.6.3p===""9""){e.6.3p.P(d,[e.$k])}e.34();e.2V();e.31();e.4m();e.35();e.2o();7(B e.6.3t===""9""){e.6.3t.P(d,[e.$k])}},4i:9(e){b t=d;19(9(){t.3o()},0)},34:9(){b e=d;7(e.$k.2p("":33"")===c){e.$k.A({2z:0});18(e.1r);18(e.1M)}m{q c}e.1M=4g(9(){7(e.$k.2p("":33"")){e.4i();e.$k.4f({2z:1},2J);18(e.1M)}},5O)},4M:9(){b e=d;e.$X.5N(\'<M J=""h-1h"">\').3G(\'<M J=""h-1K""></M>\');e.$k.16("".h-1h"").3G(\'<M J=""h-1h-4d"">\');e.1U=e.$k.16("".h-1h-4d"");e.$k.A(""4v"",""4r"")},1O:9(){b e=d;b t=e.$k.1V(e.6.1O);b n=e.$k.1V(e.6.28);7(!t){e."
+2026-05-16T06:25:29.850349,https://www.minsa.gob.pe/reunis/js/owl.carousel-propiedades.js,200,application/javascript,"
+$(document).ready(function($) {
+$(""#owl-example"").owlCarousel(
+{
+    // Most important owl features
+    items : 3,
+    itemsCustom : false,
+    itemsDesktop : [1199,4],
+    itemsDesktopSmall : [980,3],
+    itemsTablet: [768,2],
+    itemsTabletSmall: false,
+    itemsMobile : [479,1],
+    singleItem : false,
+    itemsScaleUp : false,
+ 
+    //Basic Speeds
+    slideSpeed : 200,
+    paginationSpeed : 800,
+    rewindSpeed : 1000,
+ 
+    //Autoplay
+    autoPlay : true,
+    stopOnHover : false,
+ 
+    // Navigation
+    navigation : false,
+    navigationText : [""Anterior"",""Siguiente""],
+    rewindNav : true,
+    scrollPerPage : false,
+ 
+    //Pagination
+    pagination : true,
+    paginationNumbers: false,
+ 
+    // Responsive 
+    responsive: true,
+    responsiveRefreshRate : 200,
+    responsiveBaseWidth: window,
+ 
+    // CSS Styles
+    baseClass : ""owl-carousel"",
+    theme : ""owl-theme"",
+ 
+    //Lazy load
+    lazyLoad : false,
+    lazyFollow : true,
+    lazyEffect : ""fade"",
+ 
+    //Auto height
+    autoHeight : false,
+ 
+    //JSON 
+    jsonPath : false, 
+    jsonSuccess : false,
+ 
+    //Mouse Events
+    dragBeforeAnimFinish : true,
+    mouseDrag : true,
+    touchDrag : true,
+ 
+    //Transitions
+    transitionStyle : false,
+ 
+    // Other
+    addClassActive : false,
+ 
+    //Callbacks
+    beforeUpdate : false,
+    afterUpdate : false,
+    beforeInit: false, 
+    afterInit: false, 
+    beforeMove: false, 
+    afterMove: false,
+    afterAction: false,
+    startDragging : false,
+    afterLazyLoad : false
+
+		}
+);
+});"
+2026-05-16T06:25:29.850349,https://www.minsa.gob.pe/reunis/js/slider/jquery.min.js,200,application/javascript,"/*! jQuery v3.2.1 | (c) JS Foundation and other contributors | jquery.org/license */
+!function(a,b){""use strict"";""object""==typeof module&&""object""==typeof module.exports?module.exports=a.document?b(a,!0):function(a){if(!a.document)throw new Error(""jQuery requires a window with a document"");return b(a)}:b(a)}(""undefined""!=typeof window?window:this,function(a,b){""use strict"";var c=[],d=a.document,e=Object.getPrototypeOf,f=c.slice,g=c.concat,h=c.push,i=c.indexOf,j={},k=j.toString,l=j.hasOwnProperty,m=l.toString,n=m.call(Object),o={};function p(a,b){b=b||d;var c=b.createElement(""script"");c.text=a,b.head.appendChild(c).parentNode.removeChild(c)}var q=""3.2.1"",r=function(a,b){return new r.fn.init(a,b)},s=/^[\s\uFEFF\xA0]+|[\s\uFEFF\xA0]+$/g,t=/^-ms-/,u=/-([a-z])/g,v=function(a,b){return b.toUpperCase()};r.fn=r.prototype={jquery:q,constructor:r,length:0,toArray:function(){return f.call(this)},get:function(a){return null==a?f.call(this):a<0?this[a+this.length]:this[a]},pushStack:function(a){var b=r.merge(this.constructor(),a);return b.prevObject=this,b},each:function(a){return r.each(this,a)},map:function(a){return this.pushStack(r.map(this,function(b,c){return a.call(b,c,b)}))},slice:function(){return this.pushStack(f.apply(this,arguments))},first:function(){return this.eq(0)},last:function(){return this.eq(-1)},eq:function(a){var b=this.length,c=+a+(a<0?b:0);return this.pushStack(c>=0&&c<b?[this[c]]:[])},end:function(){return this.prevObject||this.constructor()},push:h,sort:c.sort,splice:c.splice},r.extend=r.fn.extend=function(){var a,b,c,d,e,f,g=arguments[0]||{},h=1,i=arguments.length,j=!1;for(""boolean""==typeof g&&(j=g,g=arguments[h]||{},h++),""object""==typeof g||r.isFunction(g)||(g={}),h===i&&(g=this,h--);h<i;h++)if(null!=(a=arguments[h]))for(b in a)c=g[b],d=a[b],g!==d&&(j&&d&&(r.isPlainObject(d)||(e=Array.isArray(d)))?(e?(e=!1,f=c&&Array.isArray(c)?c:[]):f=c&&r.isPlainObject(c)?c:{},g[b]=r.extend(j,f,d)):void 0!==d&&(g[b]=d));return g},r.extend({expando:""jQuery""+(q+Math."
+2026-05-16T06:25:29.850349,https://www.minsa.gob.pe/reunis/js/slider/slider.js,200,application/javascript,"/* Demo Scripts for Bootstrap Carousel and Animate.css article
+* on SitePoint by Maria Antonietta Perna
+*/
+(function ($) {
+  //Function to animate slider captions
+  function doAnimations(elems) {
+    //Cache the animationend event in a variable
+    var animEndEv = ""webkitAnimationEnd animationend"";
+
+    elems.each(function () {
+      var $this = $(this),
+      $animationType = $this.data(""animation"");
+      $this.addClass($animationType).one(animEndEv, function () {
+        $this.removeClass($animationType);
+      });
+    });
+  }
+
+  //Variables on page load
+  var $myCarousel = $(""#carouselExampleIndicators""),
+  $firstAnimatingElems = $myCarousel.
+  find("".carousel-item:first"").
+  find(""[data-animation ^= 'animated']"");
+
+  //Initialize carousel
+  $myCarousel.carousel();
+
+  //Animate captions in first slide on page load
+  doAnimations($firstAnimatingElems);
+
+  //Other slides to be animated on carousel slide event
+  $myCarousel.on(""slide.bs.carousel"", function (e) {
+    var $animatingElems = $(e.relatedTarget).find(
+    ""[data-animation ^= 'animated']"");
+
+    doAnimations($animatingElems);
+  });
+})(jQuery);
+//# sourceURL=pen.js
+ 
+ 
+"
+2026-05-16T06:25:29.850349,https://www.minsa.gob.pe/reunis/js/menu.js,200,application/javascript,"$(document).ready(main);
+ 
+var contador = 1;
+ 
+function main () {
+	$('.menu_bar').click(function(){
+		if (contador == 1) {
+			$('nav').animate({
+				left: '0'
+			});
+			contador = 0;
+		} else {
+			contador = 1;
+			$('nav').animate({
+				left: '-100%'
+			});
+		}
+	});
+ 
+	// Mostramos y ocultamos submenus
+	$('.submenu').click(function(){
+		$(this).children('.children').slideToggle();
+	});
+}
+
+
+
+
+ 
+<!-- TEMAS COLOR WEB
+	function carga(tipo){
+		location.href='index.asp?tipo='+ tipo;
+	}
+//-->
+ "
+2026-05-16T06:25:29.850349,https://www.minsa.gob.pe/reunis/js/tytabs.jquery.min.js,200,application/javascript,"/*
+ * jQuery plugin ""tytabs"" by Tyler ( Gregory Jacob )
+ * http://blog.carefordesign.com
+ *
+ * Copyright 2010, Gregory Jacob
+ * Data : 31 decembre 2010
+ */
+(function($){$.fn.tytabs=function(options){var defaults={prefixtabs:""tab"",prefixcontent:""content"",classcontent:""tabscontent"",tabinit:""1"",catchget:""tab"",fadespeed:""normal""},opts=$.extend({},defaults,options);return this.each(function(){var obj=$(this);opts.classcontent="".""+opts.classcontent;opts.prefixcontent=""#""+opts.prefixcontent;function showTab(id){$(opts.classcontent,obj).stop(true,true);var contentvisible=$(opts.classcontent+"":visible"",obj);if(contentvisible.length>0){contentvisible.fadeOut(opts.fadespeed,function(){fadeincontent(id)})}else{fadeincontent(id)}$(""#""+opts.prefixtabs+opts.tabinit).removeAttr(""class"");$(""#""+opts.prefixtabs+id).attr(""class"",""current"");opts.tabinit=id}function fadeincontent(id){$(opts.prefixcontent+id,obj).fadeIn(opts.fadespeed)}$(""ul.tabs li"",obj).click(function(){showTab($(this).attr(""id"").replace(opts.prefixtabs,""""));return false});var tab=getvars(opts.catchget);showTab(((tab&&$(opts.prefixcontent+tab).length==1)?tab:($(opts.prefixcontent+opts.tabinit).length==1)?opts.tabinit:""1""))})};function getvars(q,s){s=(s)?s:window.location.search;var re=new RegExp(""&""+q+""=([^&]*)"",""i"");return(s=s.replace(/^\?/,""&"").match(re))?s=s[1]:s=""""}})(jQuery);"
+2026-05-16T06:25:29.850349,"https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap",200,text/css; charset=utf-8,"/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v24/pxiAyp8kv8JHgFVrJJLmE0tDMPKzSQ.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v24/pxiAyp8kv8JHgFVrJJLmE0tMMPKzSQ.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 100;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v24/pxiAyp8kv8JHgFVrJJLmE0tCMPI.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* devanagari */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLmv1pVFteOcEg.woff2) format('woff2');
+  unicode-range: U+0900-097F, U+1CD0-1CF9, U+200C-200D, U+20A8, U+20B9, U+20F0, U+25CC, U+A830-A839, U+A8E0-A8FF, U+11B00-11B09;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Poppins';
+  font-style: italic;
+  font-weight: 200;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v24/pxiDyp8kv8JHgFVrJJLmv1pVGdeOcEg.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C0, U+2113, U+2C60-2C7F, U+A720-A7F"

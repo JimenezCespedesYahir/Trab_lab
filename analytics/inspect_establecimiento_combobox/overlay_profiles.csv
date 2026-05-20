@@ -1,0 +1,13 @@
+﻿selector,text,role,aria_label,class
+[role='listbox'],,listbox,Área de trazado,setFocusRing
+[role='listbox'],,listbox,CENTRO,series
+[role='listbox'],,listbox,FARMACIA INSTITUCIONAL,series
+[role='listbox'],,listbox,HOSPITAL,series
+[role='listbox'],,listbox,INSTITUTO,series
+[role='listbox'],,listbox,PUESTO,series
+[role='listbox'],"CENTRO
+FARMACIA INST…
+HOSPITAL
+INSTITUTO
+PUESTO",listbox,Leyenda,legend-item-container flex-order-third flex-justify-context-start flex-column flex-align-items-start
+.slicer-dropdown-menu,Todas,combobox,"DESCRIP, codpre_",slicer-dropdown-menu

@@ -1,0 +1,10 @@
+﻿entity_name,semantic_role,fact_score,dimension_score,total_properties,numeric_fields,temporal_fields_count,product_fields_count,eess_fields_count,jurisdiction_fields_count,consumption_fields_count,temporal_fields,product_fields,eess_fields,jurisdiction_fields,consumption_fields,timestamp
+data_historica_dispo12_consumo,FACT,32.2,1.5,39,26,3,2,0,0,22,mesano; anno; stock_fin_ult_periodo,codigo_pre; codigo_med,,,stock; M01_tot; precio; M01_vta; M01_sis; M01_int; m_substock_I_selector; m_substock_II_selector; m_normostock_selector; m_sobrestock_selector; m_consumo; m_consumo_vta; m_consumo_sis; m_consumo_intersan; m_consumo_demas; m_precio; stock_fin_ult_periodo; n_stock; n_consumo; n_prom_precio; m_consumo_donacion; n_stock2,2026-05-16T14:48:06.570842
+medicame,FACT,1.2,0.0,20,1,0,1,0,0,1,,CODIGO_MED,,,existe_stock,2026-05-16T14:48:06.572850
+Switch_1,FACT,0.4,0.0,2,2,0,0,0,0,0,,,,,,2026-05-16T14:48:06.572850
+Switch_21,FACT,0.4,0.0,2,2,0,0,0,0,0,,,,,,2026-05-16T14:48:06.579461
+Switch_22,FACT,0.4,0.0,2,2,0,0,0,0,0,,,,,,2026-05-16T14:48:06.579461
+Switch_4,FACT,0.4,0.0,2,2,0,0,0,0,0,,,,,,2026-05-16T14:48:06.581839
+Switch_3,FACT,0.4,0.0,2,2,0,0,0,0,0,,,,,,2026-05-16T14:48:06.579461
+Tb_listado_atc,FACT,0.2,0.0,19,1,0,1,0,0,0,,CODIGO_MED,,,,2026-05-16T14:48:06.572850
+metricas,FACT,0.2,0.0,3,1,0,0,0,0,0,,,,,,2026-05-16T14:48:06.583849
