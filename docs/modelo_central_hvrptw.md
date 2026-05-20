@@ -41,8 +41,8 @@ La Dirección Sub Regional de Salud Luciano Castillo Colonna (DSRSLCC) es la ent
 | Tipo | Cantidad | Nivel de Complejidad | Demanda Relativa |
 |---|---|---|---|
 | Centro de Salud (CS) | 34 | Mayor (I-3, I-4) | Alta |
-| Puesto de Salud (PS) | 43 | Menor (I-1, I-2) | Baja-Media |
-| Otros establecimientos | 4 | Variable | Variable |
+| Puesto de Salud (PS) | 44 | Menor (I-1, I-2) | Baja-Media |
+| Otros establecimientos | 3 | Variable | Variable |
 | **Total** | **81** | — | — |
 
 ### 1.4 Flota Vehicular Heterogénea
