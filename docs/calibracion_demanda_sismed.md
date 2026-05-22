@@ -18,17 +18,25 @@ Se identificaron las siguientes tablas relevantes en el modelo PowerBI DSRSLCC:
 
 | Dataset | Registros | Contenido | Limitación |
 |---|---|---|---|
-| `sismed_sample_metotrexato.csv` | 314 | Consumo/stock de METOTREXATO 2.5mg | **Solo 1 producto** |
-| `sismed_model_structure.csv` | 42 campos | Estructura completa del modelo | Solo metadatos, no datos |
+| `sismed_sample_metotrexato.csv` | 314 | Consumo/stock de METOTREXATO 2.5mg | Solo 1 producto |
+| `sismed_consumo_12meds.csv` | 500 | **12 medicamentos × CENTRO/PUESTO × 61 periodos** | Solo 12 de ~200+ meds |
+| `sismed_top200_medicamentos.csv` | 200 | **Top 200 medicamentos por consumo total** | Agregado, sin detalle temporal |
+| `sismed_model_structure.csv` | 42 campos | Estructura completa del modelo | Solo metadatos |
 
-### 1.3 Hallazgo Crítico
+### 1.3 Extracción Realizada (Mayo 2026)
 
-**Los datos SISMED completos NO han sido extraídos del PowerBI.** El repositorio contiene:
-- La estructura del modelo semántico (tablas, campos, tipos)
-- Queries de consulta (payloads PowerBI)
-- **Solo 1 producto de muestra** (METOTREXATO 2.5mg TABLETA, código 04764)
+Se extrajeron datos de los payloads PowerBI capturados (v17):
 
-La extracción de datos SISMED por establecimiento requiere una operación adicional contra el PowerBI DSRSLCC que aún no se ha realizado.
+1. **Top 200 medicamentos**: Consumo total de 136,073,295 items en 61 periodos. Top 3: Oxígeno medicinal (41.5M), Losartán (6.8M), Preservativos (5.9M).
+
+2. **12 medicamentos detallados**: Consumo mensual por categoría (CENTRO/PUESTO) con 6 medidas: consumo_total, precio_unitario, consumo_venta, consumo_sis, consumo_intersanitario, stock.
+
+3. **Hallazgo clave — Ratio CENTRO/PUESTO**: De la muestra de 12 medicamentos: CENTRO = 69.8% del consumo, PUESTO = 30.2%. CV temporal: CENTRO=0.42, PUESTO=0.45.
+
+### 1.4 Limitaciones Persistentes
+
+- **No hay datos por establecimiento individual**: SISMED PowerBI solo expone datos por categoría (CENTRO vs PUESTO), no por IPRESS individual.
+- **Conversión items → kg**: No se dispone de tabla de pesos unitarios por presentación farmacéutica. Se usa escenario medio de 10g/item.
 
 ---
 

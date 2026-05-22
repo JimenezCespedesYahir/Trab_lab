@@ -21,7 +21,7 @@
 | Depósito | 1 |
 | Tipos de vehículo | 4 |
 | Vehículos totales | 16 |
-| Demanda total | 26,700 kg |
+| Demanda total | 16,142 kg (SISMED-calibrado) |
 | Capacidad total | 50,000 kg |
 | Arcos (matriz de distancia) | 82 × 82 = 6,724 |
 | Ventanas de tiempo | 08:00-16:00 (homogéneas) |
@@ -30,28 +30,28 @@
 
 ## 2. Resultados Baseline
 
-### 2.1 KPIs Principales
+### 2.1 KPIs Principales (SISMED-calibrado)
 
 | KPI | Valor | Unidad |
 |---|---|---|
-| **Rutas generadas** | 9 | rutas |
-| Vehículos utilizados | 9 / 16 | unidades |
+| **Rutas generadas** | 10 | rutas |
+| Vehículos utilizados | 10 / 16 | unidades |
 | **Nodos servidos** | **81 / 81** | nodos (100%) |
 | Nodos no servidos | 0 | — |
-| **Distancia total** | 1,961.8 | km |
-| Costo variable | S/ 4,360.68 | soles |
-| Costo fijo | S/ 1,160.00 | soles |
-| **Costo total** | **S/ 5,520.68** | soles |
-| Carga total | 26,700 | kg |
-| **Utilización promedio** | **71.8%** | — |
-| Distancia media/ruta | 218.0 | km |
-| Nodos promedio/ruta | 9.0 | — |
+| **Distancia total** | 2,019.6 | km |
+| Costo variable | S/ 4,058.77 | soles |
+| Costo fijo | S/ 1,030.00 | soles |
+| **Costo total** | **S/ 5,088.77** | soles |
+| Carga total | 16,142 | kg |
+| **Utilización promedio** | **76.5%** | — |
+| Distancia media/ruta | 202.0 | km |
+| Nodos promedio/ruta | 8.1 | — |
 
 ### 2.2 Detalle por Ruta
 
 | Ruta | Vehículo | Nodos | Distancia (km) | Carga (kg) | Utilización |
 |---|---|---|---|---|---|
-| 1 | FUSO Canter 6T | 13 | 103.5 | 4,400 | 73% |
+| 1 | FUSO Canter 6T | 17 | 98.7 | 3,190 | 53% |
 | 2 | FUSO Canter 6T | 12 | 195.6 | 3,900 | 65% |
 | 3 | FUSO Canter 6T | 11 | 224.5 | 3,200 | 53% |
 | 4 | FUSO Canter 6T | 11 | 56.6 | 4,300 | 72% |
