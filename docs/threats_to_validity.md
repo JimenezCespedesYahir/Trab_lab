@@ -1,111 +1,175 @@
 # Amenazas a la Validez — HVRPTW Estocástico DSRSLCC
 
-## 1. Validez Interna
+## 1. Limitaciones de ALTA Prioridad
 
-### 1.1 Factor de Conversión item→kg
+### 1.1 Demanda SISMED Agregada por Categoría
 
-| Amenaza | Severidad | Mitigación |
-|---|---|---|
-| El peso por item (10g) es una estimación | **ALTA** | Análisis de sensibilidad con 4 factores (5g, 10g, 20g, 50g). Hallazgo principal (capacity-driven risk) es robusto bajo todos los factores. |
-| El mix de productos varía por establecimiento | MEDIA | No hay datos para diferenciar. Se documenta como limitación. |
+**Descripción**: Los datos SISMED disponibles proporcionan consumo a nivel de categoría de establecimiento (CENTRO DE SALUD vs PUESTO DE SALUD), no por establecimiento individual (IPRESS). La demanda se asigna uniformemente dentro de cada categoría.
 
-### 1.2 Distribuciones Asumidas
+**Impacto potencial**: Establecimientos de la misma categoría pueden tener demandas significativamente diferentes por factores como: población asignada, perfil epidemiológico local, capacidad instalada, personal disponible.
 
-| Amenaza | Severidad | Mitigación |
-|---|---|---|
-| Normal truncada puede no representar demanda real | MEDIA | CV de SISMED (0.42) es dato real. Distribución es aproximación operacional estándar. |
-| LogNormal puede no representar tiempos reales | BAJA | Impacto de tiempos es marginal (<0.3%); error en distribución no altera conclusiones. |
-| No se ajustaron distribuciones a datos históricos | MEDIA | No existen datos históricos de entrega. Se documenta explícitamente. |
+**Severidad**: **ALTA** — afecta directamente la distribución de demanda entre nodos y por tanto las asignaciones de ruta.
 
-### 1.3 Independencia de Escenarios
+**Mitigación**:
+- Se utilizan los ratios CENTRO/PUESTO reales de SISMED (2.31:1)
+- El CV por categoría (CS=0.42, PS=0.45) refleja la variabilidad real observada en los datos
+- La demanda se denomina "estimación operacional por tipología", no "demanda medida"
+- Para obtener datos por IPRESS se requiere acceso al sistema de despacho de almacén DSRSLCC (no disponible vía PowerBI)
 
-| Amenaza | Severidad | Mitigación |
-|---|---|---|
-| Correlación entre demandas de nodos cercanos | MEDIA | Efecto probable pero difícil de cuantificar sin datos. Documentado. |
-| Correlación entre tiempos de arcos (clima/vías) | BAJA | Impacto de tiempos es marginal; correlación no altera conclusiones. |
+**Efecto en hallazgos**: El hallazgo principal (capacity-driven risk) depende del total de demanda por ruta, no de la distribución individual. La asignación uniforme puede subestimar la heterogeneidad real, pero no cambia la estructura del problema.
 
 ---
 
-## 2. Validez Externa
+### 1.2 Ausencia de Datos IPRESS-Level Exactos
 
-### 2.1 Generalización
+**Descripción**: No se dispone de datos de consumo ni despacho por establecimiento individual. Los 81 nodos reciben demanda estimada basada en su categoría.
 
-| Amenaza | Severidad | Mitigación |
-|---|---|---|
-| Resultados específicos a DSRSLCC | MEDIA | Framework es generalizable; parámetros son específicos. Documentado. |
-| Flota específica (Hilux como cuello de botella) | BAJA | Hallazgo es que la heterogeneidad de flota crea fragilidad; generalizable a otras redes. |
-| Datos SISMED peruanos | BAJA | Metodología CPMA es estándar SISMED; aplicable a otras DIRESA/DIRIS. |
+**Impacto potencial**: Un Centro de Salud con categoría I-4 y 15 camas tiene demanda muy diferente a uno con categoría I-3 y 5 camas. Esta heterogeneidad no se captura.
 
-### 2.2 Representatividad
+**Severidad**: **ALTA** — la calibración individual por nodo es necesaria para planificación operacional real.
 
-| Amenaza | Severidad | Mitigación |
-|---|---|---|
-| 81 nodos (subset de 207 totales) | MEDIA | Se seleccionaron nodos ACTIVOS con geocodificación MEDIUM/HIGH. |
-| 12 de ~200 medicamentos para ratio categoría | MEDIA | Los 12 incluyen medicamentos de alto y bajo consumo. |
-| 61 periodos incluyen proyecciones futuras | BAJA | El CV calculado es sobre todo el rango; sesgo esperado bajo. |
+**Mitigación**:
+- Se documenta explícitamente como limitación
+- El framework está diseñado para incorporar datos individuales cuando estén disponibles
+- Los resultados se presentan como análisis de sensibilidad, no como predicciones exactas
 
 ---
 
-## 3. Validez de Constructo
+### 1.3 Conversión item→kg Aproximada
 
-### 3.1 Medición de Demanda
+**Descripción**: SISMED registra consumo en items (unidades farmacéuticas). La conversión a kg usa un factor estimado de 10g/item, no verificado con datos de peso real.
 
-| Amenaza | Severidad | Mitigación |
-|---|---|---|
-| "Demanda calibrada" no es demanda medida | **ALTA** | Terminología corregida. Se usa "estimación operacional" en contextos rigurosos. |
-| Demanda asignada uniformemente por categoría | MEDIA | Es la mejor aproximación sin datos por IPRESS. |
-| cold_chain_demand = 0 para todos | BAJA | No hay datos SISMED para activar. Arquitectura preparada. |
+**Impacto potencial**: El factor real puede variar de 3-50g dependiendo del mix de productos. Esto afecta la demanda total y por tanto las violaciones de capacidad.
 
-### 3.2 Medición de Riesgo
+**Severidad**: **ALTA** — directamente vinculado al hallazgo principal.
 
-| Amenaza | Severidad | Mitigación |
-|---|---|---|
-| Penalizaciones (TW: S/50, cap: S/10/kg) son arbitrarias | MEDIA | Son parámetros del modelo, no datos. Se documentan como supuestos. |
-| Reliability es binaria (todo-o-nada por ruta) | BAJA | Es la definición estándar en VRP estocástico. |
-| CVaR calculado post-hoc, no integrado en optimización | BAJA | Se documenta que es evaluación, no optimización risk-averse. |
+**Mitigación**:
+- Análisis de sensibilidad con 4 factores (5g, 10g, 20g, 50g)
+- El hallazgo capacity-driven risk es robusto en los 4 escenarios
+- El rango 5-15g es farmacéuticamente plausible para despacho con empaque
+- Para verificación definitiva se requiere datos de peso de despacho del almacén DSRSLCC
 
 ---
 
-## 4. Validez Estadística
+## 2. Limitaciones de MEDIA Prioridad
 
-### 4.1 Convergencia
+### 2.1 Independencia Estadística entre Demandas
 
-| Amenaza | Severidad | Mitigación |
-|---|---|---|
-| 100 escenarios insuficientes para CVaR | BAJA | Se verificó convergencia con 100/500/1000/2000. Se recomienda ≥1000. |
-| Semilla fija puede sesgar resultados | BAJA | Se usaron semillas múltiples (42, 123) con resultados consistentes. |
-| Distribución no Normal (skewness=0.88) | BAJA | Se usa CVaR (no requiere normalidad) y IC basado en CLT (válido para n≥100). |
+**Descripción**: Se asume que la demanda de cada nodo es independiente. En realidad, brotes epidémicos, campañas de vacunación o desabastecimiento regional pueden correlacionar demandas.
 
-### 4.2 Tamaño de Muestra
+**Severidad**: MEDIA — la correlación positiva incrementaría el riesgo conjunto (peor caso simultáneo), haciendo que el análisis actual potencialmente subestime el riesgo.
 
-| Amenaza | Severidad | Mitigación |
-|---|---|---|
-| 200 escenarios para experimentos de capacidad | BAJA | CI 95% relativo ~5%, adecuado para comparaciones relativas. |
-| 12 combinaciones de sensibilidad × 100 | BAJA | Diseño factorial completo. |
+**Mitigación**: El impacto está acotado porque la reliability ya es extremadamente baja (6%). Correlación empeoraría un resultado que ya es desfavorable.
+
+### 2.2 Independencia entre Tiempos de Viaje
+
+**Descripción**: Los tiempos de viaje se generan independientemente por arco. Las condiciones climáticas o viales afectan múltiples arcos simultáneamente.
+
+**Severidad**: MEDIA-BAJA — dado que tiempos explican solo 5% del incremento de costo, la correlación temporal tiene impacto limitado en los resultados agregados.
+
+### 2.3 Distribuciones No Ajustadas a Datos Históricos
+
+**Descripción**: La Normal truncada (demanda) y LogNormal (tiempos) son distribuciones estándar en la literatura, pero no se ajustaron a series temporales de datos reales de entrega o viaje.
+
+**Severidad**: MEDIA — son aproximaciones operacionales funcionales, no distribuciones calibradas empíricamente.
+
+**Mitigación**: Los parámetros (CV) sí provienen de datos reales (SISMED para demanda, literatura para tiempos OSRM).
+
+### 2.4 Penalizaciones Arbitrarias
+
+**Descripción**: Las penalizaciones por violación (TW: S/50 por evento, capacidad: S/10 por kg excedente) son parámetros del modelo, no datos observados.
+
+**Severidad**: MEDIA — afectan la magnitud del gap pero no la dirección del hallazgo.
+
+**Mitigación**: Se evaluaron implícitamente en sensibilidad. El hallazgo (cap > TW) depende de las tasas de violación, no de los montos de penalización.
+
+### 2.5 Representatividad de la Muestra de Nodos
+
+**Descripción**: 81 de 207 establecimientos totales, seleccionados por estado ACTIVO y geocodificación MEDIUM/HIGH.
+
+**Severidad**: MEDIA — los 126 excluidos podrían alterar la estructura de rutas.
+
+**Mitigación**: Se seleccionaron por criterios objetivos (estado, calidad de geocodificación), no por conveniencia. El framework escala a más nodos.
+
+### 2.6 Simplificación de Tiempos de Servicio
+
+**Descripción**: Tiempos de servicio fijos (30 min CS, 15 min PS) no reflejan variabilidad operacional (carga/descarga, verificación, documentación).
+
+**Severidad**: MEDIA-BAJA — afecta cumplimiento de ventanas pero tiempos son el factor minoritario de riesgo.
+
+### 2.7 Ventanas de Tiempo Homogéneas
+
+**Descripción**: Todos los nodos tienen ventana 08:00-16:00. En la práctica, algunos establecimientos pueden tener horarios diferentes.
+
+**Severidad**: MEDIA-BAJA — la homogeneidad proporciona slack generoso que reduce impacto.
 
 ---
 
-## 5. Resumen de Severidad
+## 3. Limitaciones de BAJA Prioridad
+
+### 3.1 Solver Heurístico (No Óptimo Global)
+
+**Descripción**: OR-Tools usa GLS (Guided Local Search), que no garantiza optimalidad global.
+
+**Severidad**: BAJA — el baseline es una solución "buena" suficiente para evaluación estocástica. La optimalidad exacta del baseline no altera el hallazgo de fragilidad.
+
+### 3.2 Cadena de Frío No Activada
+
+**Descripción**: cold_chain_demand = 0 para todos los nodos. Solo Ducato tiene refrigeración.
+
+**Severidad**: BAJA — la arquitectura está preparada. La activación requiere datos SISMED de medicamentos termosensibles.
+
+### 3.3 Sin Estacionalidad
+
+**Descripción**: El modelo usa demanda promedio mensual, sin patrones estacionales.
+
+**Severidad**: BAJA — el CV de SISMED captura parte de la variabilidad estacional implícitamente.
+
+### 3.4 Evaluación Post-Optimización (Sin Recourse)
+
+**Descripción**: Los escenarios Monte Carlo evalúan las rutas fijas del baseline; no hay re-optimización por escenario (no hay recourse).
+
+**Severidad**: BAJA — esto sobreestima el impacto de la incertidumbre (en la práctica se re-planifica). El hallazgo de fragilidad sigue siendo válido como cota superior de riesgo.
+
+### 3.5 Semilla Fija
+
+**Descripción**: Se usa semilla 42 para reproducibilidad. Diferentes semillas podrían dar resultados ligeramente diferentes.
+
+**Severidad**: BAJA — se verificó con semillas múltiples; resultados consistentes. La convergencia a 2000 escenarios minimiza efecto de semilla.
+
+### 3.6 Sin Paralelización Computacional
+
+**Descripción**: La evaluación de escenarios es secuencial.
+
+**Severidad**: BAJA — afecta solo el runtime (~30 min), no la calidad de resultados.
+
+---
+
+## 4. Resumen de Severidad
 
 | Categoría | Alta | Media | Baja |
 |---|---|---|---|
-| Validez interna | 1 (conversión item→kg) | 3 | 1 |
-| Validez externa | 0 | 2 | 2 |
-| Validez de constructo | 1 (demanda no medida) | 2 | 2 |
-| Validez estadística | 0 | 0 | 4 |
-| **Total** | **2** | **7** | **9** |
-
-### 5.1 Amenazas de Alta Severidad
-
-1. **Factor de conversión item→kg no verificado**: Mitigado con análisis de sensibilidad que demuestra robustez del hallazgo principal.
-
-2. **Demanda no medida por IPRESS**: Mitigado con terminología correcta y documentación explícita. No hay fuente de datos que resuelva esto sin acceso al sistema de despacho de almacén DSRSLCC.
-
-### 5.2 Evaluación Global
-
-Las amenazas de alta severidad están **mitigadas pero no eliminadas**. Los hallazgos principales (capacity-driven risk, fragilidad de Hilux, gap det/estoc del 61%) son robustos bajo los análisis de sensibilidad realizados. Las conclusiones cuantitativas exactas (reliability=6%, CVaR=S/ 14,021) deben interpretarse como **órdenes de magnitud**, no como estimaciones precisas.
+| Datos | 3 (SISMED agregada, IPRESS, conversión) | 3 (independencia demanda, distribuciones, muestra) | 2 (estacionalidad, cadena frío) |
+| Modelo | 0 | 3 (penalizaciones, servicios, ventanas) | 3 (solver, recourse, semilla) |
+| Computacional | 0 | 0 | 1 (paralelización) |
+| **Total** | **3** | **6** | **6** |
 
 ---
 
-*Amenazas a la validez — HVRPTW estocástico DSRSLCC*
-*Última actualización: Mayo 2026*
+## 5. Evaluación de Impacto en Hallazgos
+
+### 5.1 ¿Las limitaciones invalidan los hallazgos principales?
+
+| Hallazgo | Limitaciones que podrían afectarlo | ¿Invalidado? |
+|---|---|---|
+| Capacity-driven risk | Conversión item→kg | NO — robusto bajo 4 factores |
+| Hilux como cuello de botella | IPRESS-level exacto | NO — es estructural (capacidad 1T) |
+| Gap det/estoc 61% | Todas las de datos | PARCIAL — la magnitud es sensible, la dirección no |
+| Reliability 6% | Penalizaciones, distribuciones | PARCIAL — el valor exacto es estimado, el colapso es robusto |
+| Tiempo marginal vs capacidad | Ventanas homogéneas | PARCIAL — con ventanas restrictivas podría cambiar |
+
+### 5.2 Conclusión sobre Validez
+
+Las amenazas de alta severidad están **mitigadas pero no eliminadas**. Los hallazgos cualitativos (dirección, estructura) son robustos. Los hallazgos cuantitativos (valores exactos de reliability, CVaR, gap) deben interpretarse como **órdenes de magnitud**, no como estimaciones precisas.
+
+La investigación es **científicamente defendible** bajo las mitigaciones documentadas, siempre que las limitaciones se presenten con honestidad y las conclusiones se cualifiquen apropiadamente.
