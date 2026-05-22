@@ -1,0 +1,43 @@
+tabla,campo,tipo_dato,descripcion
+data_historica_dispo12_consumo,codigo_pre,STRING,Código del establecimiento de salud (IPRESS)
+data_historica_dispo12_consumo,codigo_med,STRING,Código del medicamento
+data_historica_dispo12_consumo,mesano,STRING,Periodo YYYYMM
+data_historica_dispo12_consumo,tipsum,STRING,"Tipo de suministro (D=Demanda, S=Stock)"
+data_historica_dispo12_consumo,stock,INTEGER,Stock al cierre del periodo
+data_historica_dispo12_consumo,M01_tot,INTEGER,Movimiento total del mes
+data_historica_dispo12_consumo,M01_vta,INTEGER,Movimiento por venta
+data_historica_dispo12_consumo,M01_sis,INTEGER,Movimiento SIS (Seguro Integral de Salud)
+data_historica_dispo12_consumo,M01_int,INTEGER,Movimiento intersanitario
+data_historica_dispo12_consumo,M01_don,INTEGER,Movimiento por donación
+data_historica_dispo12_consumo,precio,DECIMAL,Precio unitario
+data_historica_dispo12_consumo,anno,STRING,Año
+data_historica_dispo12_consumo,cc_items,INTEGER,Items de cadena de frío
+data_historica_dispo12_consumo,m_consumo,INTEGER,Consumo total agregado
+data_historica_dispo12_consumo,m_consumo_vta,INTEGER,Consumo por venta
+data_historica_dispo12_consumo,m_consumo_sis,INTEGER,Consumo SIS
+data_historica_dispo12_consumo,m_consumo_intersan,INTEGER,Consumo intersanitario
+data_historica_dispo12_consumo,m_consumo_donacion,INTEGER,Consumo por donación
+data_historica_dispo12_consumo,m_consumo_demas,INTEGER,Consumo demás canales
+data_historica_dispo12_consumo,m_precio,DECIMAL,Precio promedio
+data_historica_dispo12_consumo,stock_fin_ult_periodo,INTEGER,Stock fin último periodo
+data_historica_dispo12_consumo,indicador,INTEGER,Indicador de disponibilidad
+data_historica_dispo12_consumo,indicador_n2,INTEGER,Indicador nivel 2
+data_historica_dispo12_consumo,n_stock,INTEGER,Stock normalizado
+data_historica_dispo12_consumo,n_consumo,INTEGER,Consumo normalizado
+data_historica_dispo12_consumo,n_prom_precio,DECIMAL,Precio promedio normalizado (S/)
+CATALOGO_IPRESS_AEMS,codpre_,STRING,Código del establecimiento (join key)
+CATALOGO_IPRESS_AEMS,DESCRIP,STRING,Nombre del establecimiento
+CATALOGO_IPRESS_AEMS,Categoria,STRING,Categoría del establecimiento
+CATALOGO_IPRESS_AEMS,Red,STRING,Red de salud
+CATALOGO_IPRESS_AEMS,micro_red,STRING,Micro red
+CATALOGO_IPRESS_AEMS,Niveles,STRING,Nivel de atención
+CATALOGO_IPRESS_AEMS,Provincia,STRING,Provincia
+CATALOGO_IPRESS_AEMS,Distrito,STRING,Distrito
+medicame,CODIGO_MED,STRING,Código del medicamento (join key)
+medicame,MEDICAMENT,STRING,Nombre del medicamento
+medicame,PRESENTACI,STRING,Presentación
+medicame,CONCENTRAC,STRING,Concentración
+medicame,TIPO,STRING,Tipo (medicamento/dispositivo)
+medicame,FF,STRING,Forma farmacéutica
+medicame,ESTRATEGIC,STRING,Estratégico (Sí/No)
+medicame,existe_stock,INTEGER,Tiene stock (0/1)
