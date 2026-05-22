@@ -615,6 +615,28 @@ FASE F: SimHeuristic / Metaheuristic
 
 ---
 
+## Estado de Validación Científica
+
+Ver reporte detallado: [`docs/validacion_datasets_hvrptw.md`](validacion_datasets_hvrptw.md)
+
+### Hallazgos Principales
+
+| # | Hallazgo | Severidad | Estado |
+|---|---|---|---|
+| H1 | Demandas placeholder (no calibradas SISMED) | ALTA | Pendiente extracción SISMED |
+| H2 | 7 grupos coordenadas duplicadas (16 nodos) | MEDIA | Offset geográfico aplicado |
+| H3 | Ventanas de tiempo homogéneas | BAJA | Aceptable para Fase A |
+| H4 | Cadena de frío inactiva | BAJA | Arquitectura lista |
+| H5 | Cantidades de flota no confirmadas | MEDIA | Requiere datos DSRSLCC |
+| H6 | 14 nodos a >100 km del depósito | INFO | Documentado |
+
+### Conectividad Validada
+- Grafo: **conexo** (81/81 nodos alcanzables desde depósito vía BFS bidireccional)
+- 820 arcos bidireccionales, grado medio = 12.5
+
+---
+
 *Documento generado como parte del proyecto de investigación HVRPTW aplicado a logística farmacéutica pública DSRSLCC.*
 *Datasets consolidados en directorio `analytics/`.*
+*Reporte de validación: `docs/validacion_datasets_hvrptw.md`*
 *Última actualización: Mayo 2026.*
