@@ -45,10 +45,10 @@ jobs:
           import csv, os, sys
 
           datasets = {
-              'analytics/nodes_hvrptw.csv': {'min_rows': 80, 'required_cols': ['node_id','latitude','longitude','demand_kg','categoria']},
-              'analytics/arcs_with_variability.csv': {'min_rows': 800, 'required_cols': ['origin','destination','distance_km','travel_time_min']},
+              'analytics/nodes_hvrptw.csv': {'min_rows': 80, 'required_cols': ['node_id','latitude','longitude','demand_mean','categoria']},
+              'analytics/arcs_with_variability.csv': {'min_rows': 800, 'required_cols': ['origin_id','destination_id','distance_km','duration_min']},
               'analytics/vehicles_hvrptw.csv': {'min_rows': 4, 'required_cols': ['vehicle_id','capacity_kg','cost_per_km']},
-              'analytics/demand_calibrated.csv': {'min_rows': 80, 'required_cols': ['node_id','demand_kg']},
+              'analytics/demand_calibrated.csv': {'min_rows': 80, 'required_cols': ['node_id','demand_mean_kg']},
           }
 
           errors = []
@@ -86,8 +86,8 @@ jobs:
           # Build adjacency
           adj = defaultdict(set)
           for a in arcs:
-              adj[a['origin']].add(a['destination'])
-              adj[a['destination']].add(a['origin'])
+              adj[a['origin_id']].add(a['destination_id'])
+              adj[a['destination_id']].add(a['origin_id'])
 
           # Load nodes
           with open('analytics/nodes_hvrptw.csv', encoding='utf-8') as f:

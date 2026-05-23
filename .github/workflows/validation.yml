@@ -77,7 +77,7 @@ jobs:
           # Demand
           with open('analytics/demand_calibrated.csv') as f:
               demand = list(csv.DictReader(f))
-          total_dem = sum(float(d['demand_kg']) for d in demand)
+          total_dem = sum(float(d['demand_mean_kg']) for d in demand)
           checks.append(('Total demand', 10000 < total_dem < 50000, f'{total_dem:.0f} kg'))
 
           # Results

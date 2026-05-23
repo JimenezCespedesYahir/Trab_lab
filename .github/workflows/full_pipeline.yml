@@ -94,8 +94,8 @@ jobs:
 
           adj = defaultdict(set)
           for a in arcs:
-              adj[a['origin']].add(a['destination'])
-              adj[a['destination']].add(a['origin'])
+              adj[a['origin_id']].add(a['destination_id'])
+              adj[a['destination_id']].add(a['origin_id'])
 
           visited = set()
           queue = ['DEPOT_DSRSLCC']
