@@ -1,0 +1,5 @@
+Factor,Demanda Total (kg),E[Costo] (S/),Reliability (%),Cap Violation (%),TW Violation (%),CVaR 5% (S/),Dominante
+5g,"8,084","4,972",55.0,45.0,0.0,"6,767",CAPACIDAD
+10g,"16,168","8,150",6.5,93.5,10.0,"13,404",CAPACIDAD
+20g,"32,337","12,232",8.5,90.0,6.5,"29,396",CAPACIDAD
+50g,"80,842","31,583",0.5,99.5,0.0,"69,628",CAPACIDAD
