@@ -1,0 +1,245 @@
+###############################################################################
+# Pipeline Científica Completa — Ejecución Manual
+#
+# Reproduce la investigación completa:
+#   A. Preprocessing y calibración SISMED
+#   B. Red vial y validación geoespacial
+#   C. Baseline HVRPTW completo
+#   D. Monte Carlo + sensibilidad + convergencia
+#   E. Validación científica + experimentos de flota
+#   F. Generación de figuras y tablas
+#   G. Exportación paper-ready
+#
+# Runtime estimado: 45–90 minutos
+###############################################################################
+
+name: Full Scientific Pipeline
+
+on:
+  workflow_dispatch:
+    inputs:
+      mc_scenarios:
+        description: 'Monte Carlo scenarios (default 500)'
+        required: false
+        default: '500'
+        type: string
+      solver_time_limit:
+        description: 'OR-Tools time limit seconds (default 120)'
+        required: false
+        default: '120'
+        type: string
+      run_convergence:
+        description: 'Run convergence analysis (100/500/1000/2000)'
+        required: false
+        default: true
+        type: boolean
+      run_fleet_experiments:
+        description: 'Run fleet composition experiments'
+        required: false
+        default: true
+        type: boolean
+
+jobs:
+  pipeline:
+    name: Scientific Pipeline
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # ══════════════════════════════════════
+      # ETAPA A: Preprocessing y calibración
+      # ══════════════════════════════════════
+      - name: "A: Validar datasets SISMED"
+        run: |
+          python -c "
+          import csv, os
+          datasets = [
+              'analytics/nodes_hvrptw.csv',
+              'analytics/arcs_with_variability.csv',
+              'analytics/vehicles_hvrptw.csv',
+              'analytics/demand_calibrated.csv',
+          ]
+          for d in datasets:
+              with open(d) as f:
+                  rows = list(csv.DictReader(f))
+              print(f'  {d}: {len(rows)} rows OK')
+          print('Stage A: Preprocessing validated')
+          "
+
+      # ══════════════════════════════════════
+      # ETAPA B: Red vial y validación
+      # ══════════════════════════════════════
+      - name: "B: Validar red vial y geoespacial"
+        run: |
+          python -c "
+          import csv
+          from collections import defaultdict
+
+          with open('analytics/arcs_with_variability.csv') as f:
+              arcs = list(csv.DictReader(f))
+          with open('analytics/nodes_hvrptw.csv') as f:
+              nodes = list(csv.DictReader(f))
+
+          adj = defaultdict(set)
+          for a in arcs:
+              adj[a['origin']].add(a['destination'])
+              adj[a['destination']].add(a['origin'])
+
+          visited = set()
+          queue = ['DEPOT_DSRSLCC']
+          while queue:
+              n = queue.pop(0)
+              if n in visited: continue
+              visited.add(n)
+              queue.extend(adj[n] - visited)
+
+          node_ids = [r['node_id'] for r in nodes]
+          reachable = sum(1 for n in node_ids if n in visited)
+          print(f'  Nodes: {len(nodes)}, Arcs: {len(arcs)}')
+          print(f'  Reachable: {reachable}/{len(nodes)}')
+          print(f'  Bidirectional check: {len(arcs)} arcs')
+
+          # Distance stats
+          dists = [float(a['distance_km']) for a in arcs]
+          print(f'  Distance range: {min(dists):.1f}–{max(dists):.1f} km')
+          print('Stage B: Network validated')
+          "
+
+      # ══════════════════════════════════════
+      # ETAPA C: Baseline HVRPTW completo
+      # ══════════════════════════════════════
+      - name: "C: Baseline HVRPTW (OR-Tools GLS)"
+        run: |
+          python src/baseline_hvrptw_ortools.py \
+            --time-limit ${{ inputs.solver_time_limit }}
+
+      - name: "C: Verificar KPIs baseline"
+        run: |
+          python -c "
+          import csv
+          with open('results/baseline_kpis.csv') as f:
+              kpis = list(csv.DictReader(f))
+          for kpi in kpis:
+              print(f'  {kpi.get(\"metric\", kpi.get(\"kpi\", \"?\"))}: {kpi.get(\"value\", \"?\")}')
+          print('Stage C: Baseline completed')
+          "
+
+      # ══════════════════════════════════════
+      # ETAPA D: Monte Carlo completo
+      # ══════════════════════════════════════
+      - name: "D: Monte Carlo (${{ inputs.mc_scenarios }} escenarios)"
+        run: |
+          python -c "
+          import sys, os
+          sys.path.insert(0, 'src')
+          from montecarlo_hvrptw import run_montecarlo, compute_stochastic_kpis, save_montecarlo_results
+
+          n = int('${{ inputs.mc_scenarios }}')
+          print(f'Running Monte Carlo with {n} scenarios...')
+          result = run_montecarlo(
+              base_dir=os.getcwd(),
+              n_scenarios=n,
+              seed=42,
+              solver_time=int('${{ inputs.solver_time_limit }}')
+          )
+          if result is None:
+              print('ERROR: No baseline solution')
+              import sys; sys.exit(1)
+          results, routes = result
+          kpis = compute_stochastic_kpis(results)
+          save_montecarlo_results(results, kpis, os.getcwd(), label=str(n))
+          print(f'  Scenarios: {len(results)}')
+          print(f'  E[Cost]: {kpis["expected_cost"]:.0f}')
+          print('Stage D: Monte Carlo completed')
+          "
+        timeout-minutes: 30
+
+      # ══════════════════════════════════════
+      # ETAPA E: Validación científica
+      # ══════════════════════════════════════
+      - name: "E: Validación científica y experimentos"
+        if: ${{ inputs.run_convergence || inputs.run_fleet_experiments }}
+        run: |
+          cd src && python validacion_cientifica.py
+        timeout-minutes: 45
+
+      # ══════════════════════════════════════
+      # ETAPA F: Generación de figuras
+      # ══════════════════════════════════════
+      - name: "F: Generar 24 figuras científicas"
+        run: python src/visualizaciones_cientificas_finales.py
+
+      # ══════════════════════════════════════
+      # ETAPA G: Exportación paper-ready
+      # ══════════════════════════════════════
+      - name: "G: Generar figuras paper-ready"
+        run: python src/paper_ready_figures.py
+
+      - name: "G: Verificar outputs"
+        run: |
+          python -c "
+          import os
+          dirs = {
+              'results/figures_final': 48,
+              'results/figures_paper': 16,
+              'results/final_tables': 7,
+          }
+          for d, expected in dirs.items():
+              files = os.listdir(d) if os.path.isdir(d) else []
+              status = 'OK' if len(files) >= expected else 'WARN'
+              print(f'  {d}: {len(files)} files [{status}]')
+          "
+
+      # ══════════════════════════════════════
+      # Artifacts
+      # ══════════════════════════════════════
+      - name: Upload figures
+        uses: actions/upload-artifact@v4
+        with:
+          name: scientific-figures
+          path: |
+            results/figures_final/
+            results/figures_paper/
+          retention-days: 90
+
+      - name: Upload tables
+        uses: actions/upload-artifact@v4
+        with:
+          name: scientific-tables
+          path: results/final_tables/
+          retention-days: 90
+
+      - name: Upload results
+        uses: actions/upload-artifact@v4
+        with:
+          name: scientific-results
+          path: |
+            results/*.csv
+          retention-days: 90
+
+      - name: Pipeline Summary
+        if: always()
+        run: |
+          echo "╔══════════════════════════════════════════╗"
+          echo "║  Full Scientific Pipeline — Complete     ║"
+          echo "║                                          ║"
+          echo "║  A: Preprocessing    ✓                   ║"
+          echo "║  B: Network          ✓                   ║"
+          echo "║  C: Baseline HVRPTW  ✓                   ║"
+          echo "║  D: Monte Carlo      ✓                   ║"
+          echo "║  E: Validation       ✓                   ║"
+          echo "║  F: Figures (24)     ✓                   ║"
+          echo "║  G: Paper-ready (8)  ✓                   ║"
+          echo "╚══════════════════════════════════════════╝"

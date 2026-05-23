@@ -164,7 +164,7 @@ def load_data(base_dir):
     }
 
 
-def create_model(data):
+def create_model(data, time_limit=120):
     """Create and solve the HVRPTW model using OR-Tools."""
     manager = pywrapcp.RoutingIndexManager(
         data['num_locations'],
@@ -266,7 +266,7 @@ def create_model(data):
     search_parameters.local_search_metaheuristic = (
         routing_enums_pb2.LocalSearchMetaheuristic.GUIDED_LOCAL_SEARCH
     )
-    search_parameters.time_limit.FromSeconds(120)
+    search_parameters.time_limit.FromSeconds(time_limit)
     search_parameters.log_search = True
 
     return manager, routing, search_parameters
@@ -431,6 +431,12 @@ def save_results(result, base_dir):
 
 def main():
     """Main execution."""
+    import argparse
+    parser = argparse.ArgumentParser(description='Baseline HVRPTW OR-Tools')
+    parser.add_argument('--time-limit', type=int, default=120, help='Solver time limit in seconds')
+    args = parser.parse_args()
+    time_limit = args.time_limit
+
     base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
     print("=" * 60)
@@ -452,11 +458,11 @@ def main():
     # Create and solve model
     print("\n[2/4] Creando modelo OR-Tools...")
     t1 = time.time()
-    manager, routing, search_parameters = create_model(data)
+    manager, routing, search_parameters = create_model(data, time_limit=time_limit)
     t_model = time.time() - t1
     print(f"  Modelo creado en {t_model:.2f}s")
 
-    print("\n[3/4] Resolviendo (límite: 120s)...")
+    print(f"\n[3/4] Resolviendo (límite: {time_limit}s)...")
     t2 = time.time()
     solution = routing.SolveWithParameters(search_parameters)
     t_solve = time.time() - t2

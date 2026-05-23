@@ -1,0 +1,20 @@
+# HVRPTW Estocástico DSRSLCC — Dependencies
+# Python 3.12+
+#
+# Install: pip install -r requirements.txt
+
+# Core scientific
+numpy>=1.26
+scipy>=1.12
+
+# Optimization
+ortools>=9.8
+
+# Visualization
+matplotlib>=3.8
+
+# Data
+pandas>=2.1
+
+# Image quality checks (CI)
+Pillow>=10.0
