@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Galería Científica — HVRPTW Estocástico DSRSLCC</title>
+<style>
+  :root {
+    --bg: #fafbfc;
+    --card-bg: #fff;
+    --accent: #2C3E50;
+    --blue: #2980B9;
+    --green: #27AE60;
+    --red: #C0392B;
+    --orange: #E67E22;
+    --purple: #8E44AD;
+    --border: #dfe6e9;
+    --text: #2d3436;
+    --text-secondary: #636e72;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Georgia', 'Times New Roman', serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+  }
+  header {
+    background: var(--accent);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  header h1 { font-size: 1.6rem; margin-bottom: 0.3rem; }
+  header p { font-size: 0.95rem; opacity: 0.85; }
+  nav {
+    background: #34495E;
+    padding: 0.8rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+  }
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.4rem 1rem;
+    border-radius: 4px;
+    font-size: 0.85rem;
+    transition: background 0.2s;
+  }
+  nav a:hover { background: rgba(255,255,255,0.15); }
+  nav a.active { background: var(--blue); }
+  .container { max-width: 1400px; margin: 0 auto; padding: 1.5rem; }
+  .section-title {
+    font-size: 1.3rem;
+    color: var(--accent);
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 0.5rem;
+    margin: 2rem 0 1rem;
+  }
+  .section-subtitle {
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(420px, 1fr));
+    gap: 1.5rem;
+  }
+  .card {
+    background: var(--card-bg);
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s;
+  }
+  .card:hover { box-shadow: 0 4px 20px rgba(0,0,0,0.1); }
+  .card img {
+    width: 100%;
+    height: auto;
+    cursor: zoom-in;
+    display: block;
+    border-bottom: 1px solid var(--border);
+  }
+  .card-body { padding: 1rem; }
+  .card-body h3 {
+    font-size: 1rem;
+    color: var(--accent);
+    margin-bottom: 0.4rem;
+  }
+  .card-body .caption {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-bottom: 0.5rem;
+  }
+  .card-body .tags { display: flex; flex-wrap: wrap; gap: 0.3rem; }
+  .tag {
+    font-size: 0.7rem;
+    padding: 0.15rem 0.5rem;
+    border-radius: 12px;
+    font-weight: bold;
+  }
+  .tag-key { background: #FADBD8; color: var(--red); }
+  .tag-paper { background: #D5F5E3; color: var(--green); }
+  .tag-thesis { background: #D6EAF8; color: var(--blue); }
+  .tag-defense { background: #F5EEF8; color: var(--purple); }
+  .tag-support { background: #FEF9E7; color: var(--orange); }
+  .impact {
+    display: inline-block;
+    margin-left: 0.5rem;
+    font-size: 0.8rem;
+  }
+  /* Modal for zoom */
+  .modal {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.85);
+    z-index: 1000;
+    cursor: zoom-out;
+    justify-content: center;
+    align-items: center;
+  }
+  .modal.active { display: flex; }
+  .modal img {
+    max-width: 95vw;
+    max-height: 95vh;
+    object-fit: contain;
+    border-radius: 4px;
+  }
+  .modal .close-btn {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
+    z-index: 1001;
+  }
+  /* Rankings */
+  .ranking { margin: 1.5rem 0; }
+  .ranking table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+  }
+  .ranking th {
+    background: var(--accent);
+    color: white;
+    padding: 0.6rem;
+    text-align: left;
+  }
+  .ranking td {
+    padding: 0.5rem 0.6rem;
+    border-bottom: 1px solid var(--border);
+  }
+  .ranking tr:hover { background: #f1f2f6; }
+  .highlight-row { background: #D5F5E3 !important; }
+  footer {
+    text-align: center;
+    padding: 2rem;
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+    border-top: 1px solid var(--border);
+    margin-top: 3rem;
+  }
+  @media (max-width: 768px) {
+    .grid { grid-template-columns: 1fr; }
+    nav { flex-direction: column; align-items: center; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Galería Científica — HVRPTW Estocástico DSRSLCC</h1>
+  <p>Fragilidad Operacional de Flota bajo Incertidumbre Dual | 24 Figuras · 7 Tablas · 300 DPI</p>
+</header>
+
+<nav>
+  <a href="#maps" class="active">A. Mapas</a>
+  <a href="#montecarlo">B. Monte Carlo</a>
+  <a href="#fragility">C. Fragilidad</a>
+  <a href="#results">D. Resultados</a>
+  <a href="#rankings">Rankings</a>
+  <a href="#storyboard">Storyboard</a>
+</nav>
+
+<!-- MODAL -->
+<div class="modal" id="modal" onclick="closeModal()">
+  <span class="close-btn">&times;</span>
+  <img id="modal-img" src="" alt="Zoom">
+</div>
+
+<div class="container">
+
+<!-- A. MAPAS -->
+<h2 class="section-title" id="maps">A. Mapas y Red Logística</h2>
+<p class="section-subtitle">Red HVRPTW: 81 IPRESS, 820 arcos OSRM, depósito Sullana (-4.9066, -80.7284)</p>
+<div class="grid">
+
+  <div class="card">
+    <img src="../figures_final/A1_red_general_hvrptw.png" alt="A1" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>A1 — Red General HVRPTW <span class="impact">★★★</span></h3>
+      <p class="caption">81 IPRESS (26 CS + 55 PS), 820 arcos bidireccionales, 10 rutas baseline. Grafo conexo verificado por BFS.</p>
+      <div class="tags">
+        <span class="tag tag-thesis">Tesis Cap.3</span>
+        <span class="tag tag-paper">Paper §II</span>
+        <span class="tag tag-defense">Sustentación</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="../figures_final/A2_mapa_vehiculos.png" alt="A2" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>A2 — Asignación por Vehículo <span class="impact">★★★★</span></h3>
+      <p class="caption">Hilux (rojo): 5 rutas extensas. FUSO (azul): 1 ruta costera. NLR (verde): 4 rutas mixtas. El solver asigna el vehículo más barato a las rutas más largas.</p>
+      <div class="tags">
+        <span class="tag tag-thesis">Tesis Cap.4</span>
+        <span class="tag tag-paper">Paper §IV</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="../figures_final/A3_cadena_frio.png" alt="A3" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>A3 — Cadena de Frío <span class="impact">★★</span></h3>
+      <p class="caption">Arquitectura preparada. cold_chain_demand=0. 2 Ducato refrigeradas disponibles. Requiere SISMED individual para activación.</p>
+      <div class="tags">
+        <span class="tag tag-support">Apéndice</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="../figures_final/A4_fragilidad_operacional.png" alt="A4" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>A4 — Fragilidad Operacional <span class="impact">★★★★</span></h3>
+      <p class="caption">Rutas Hilux en rojo (util >95%) con grosor máximo. FUSO/NLR en verde (42–73%). Fragilidad concentrada en rutas remotas.</p>
+      <div class="tags">
+        <span class="tag tag-thesis">Tesis Cap.4</span>
+        <span class="tag tag-thesis">Discusión</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="../figures_final/A5_congestion_tiempos.png" alt="A5" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>A5 — Congestión y Tiempos <span class="impact">★★★</span></h3>
+      <p class="caption">CV temporal uniforme (0.2). Grosor ∝ duración. El tiempo NO es restricción activa — las ventanas de 8h absorben variabilidad.</p>
+      <div class="tags">
+        <span class="tag tag-thesis">Tesis Cap.4</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- B. MONTE CARLO -->
+<h2 class="section-title" id="montecarlo">B. Visualizaciones Monte Carlo</h2>
+<p class="section-subtitle">500–2000 escenarios MC. Incertidumbre dual: demanda Normal truncada (CV=0.42/0.45) + tiempos LogNormal (CV=0.2)</p>
+<div class="grid">
+
+  <div class="card">
+    <img src="../figures_final/B6_distribucion_costos.png" alt="B6" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>B6 — Distribución de Costos <span class="impact">★★★★★</span></h3>
+      <p class="caption">Gap +61%: det S/5,089 → estoc S/8,213. Skewness=0.88 (cola derecha pesada). VaR 5%=S/12,789. Distribución no-Normal justifica CVaR.</p>
+      <div class="tags">
+        <span class="tag tag-key">CLAVE</span>
+        <span class="tag tag-paper">Paper §IV</span>
+        <span class="tag tag-defense">Sustentación</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="../figures_final/B7_convergencia_montecarlo.png" alt="B7" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>B7 — Convergencia MC <span class="impact">★★★★</span></h3>
+      <p class="caption">IC 95% relativo: 10.2% (n=100) → 2.5% (n=2000). CVaR estable desde n=500. Convergencia confirmada ≥1000.</p>
+      <div class="tags">
+        <span class="tag tag-paper">Paper §III</span>
+        <span class="tag tag-thesis">Tesis Cap.4</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="../figures_final/B8_distribucion_reliability.png" alt="B8" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>B8 — Reliability y Violaciones <span class="impact">★★★★</span></h3>
+      <p class="caption">Solo 6.2% de escenarios factibles. Violaciones de capacidad dominan (93.5%) sobre TW (9.6%).</p>
+      <div class="tags">
+        <span class="tag tag-thesis">Tesis Cap.4</span>
+        <span class="tag tag-paper">Paper §IV</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="../figures_final/B9_violaciones_capacidad.png" alt="B9" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>B9 — Violaciones de Capacidad <span class="impact">★★★</span></h3>
+      <p class="caption">Exceso medio: ~305 kg, mediana ~200 kg. Buffer 500 kg eliminaría ~80% violaciones. CDF + histograma.</p>
+      <div class="tags">
+        <span class="tag tag-thesis">Tesis Cap.4</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="../figures_final/B10_boxplots_kpis.png" alt="B10" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>B10 — Boxplots KPIs <span class="impact">★★★</span></h3>
+      <p class="caption">Costo, carga, utilización, violaciones bajo 500 escenarios. Outliers hasta S/17,809. Utilización baja varianza (CV=5.3%).</p>
+      <div class="tags">
+        <span class="tag tag-support">Soporte</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="../figures_final/B11_heatmap_sensibilidad.png" alt="B11" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>B11 — Heatmap Sensibilidad <span class="impact">★★★★★</span></h3>
+      <p class="caption">CV demanda → costo +48%. CV tiempo → costo <1%. Columnas uniformes = evidencia definitiva de dominancia de capacidad.</p>
+      <div class="tags">
+        <span class="tag tag-key">CLAVE</span>
+        <span class="tag tag-paper">Paper §IV</span>
+        <span class="tag tag-thesis">Tesis Cap.4</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="../figures_final/B12_var_cvar_curvas.png" alt="B12" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>B12 — Curvas VaR y CVaR <span class="impact">★★★★</span></h3>
+      <p class="caption">α=5%: VaR=S/12,789, CVaR=S/14,149 (2.78× determinista). Brecha CVaR-VaR 15–20% = cola pesada.</p>
+      <div class="tags">
+        <span class="tag tag-paper">Paper §IV</span>
+        <span class="tag tag-thesis">Tesis Cap.4</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- C. FRAGILIDAD -->
+<h2 class="section-title" id="fragility">C. Fragilidad de Flota</h2>
+<p class="section-subtitle">Análisis de composición vehicular. Hallazgo central: Hilux ratio slack/variabilidad = 0.11</p>
+<div class="grid">
+
+  <div class="card" style="border: 3px solid var(--red);">
+    <img src="../figures_final/C13_slack_variabilidad.png" alt="C13" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>C13 — Slack/Variabilidad <span class="impact">★★★★★ CENTRAL</span></h3>
+      <p class="caption"><strong>FIGURA CENTRAL.</strong> Hilux ratio=0.11 (40× peor que tiempo 4.38). Mérica diagnóstica original: compara dimensiones heterogéneas en escala unificada. Explica POR QUÉ capacidad domina.</p>
+      <div class="tags">
+        <span class="tag tag-key">CENTRAL</span>
+        <span class="tag tag-paper">Paper Fig.5</span>
+        <span class="tag tag-defense">Sustentación</span>
+        <span class="tag tag-thesis">Discusión</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="../figures_final/C14_utilizacion_vehiculos.png" alt="C14" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>C14 — Utilización por Vehículo <span class="impact">★★★</span></h3>
+      <p class="caption">Distribución bimodal: Hilux 95.4–96.4% vs NLR 42–73% vs FUSO 53%. Umbrales 85% y 95%.</p>
+      <div class="tags">
+        <span class="tag tag-thesis">Tesis Cap.4</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="border: 2px solid var(--green);">
+    <img src="../figures_final/C15_con_sin_hilux.png" alt="C15" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>C15 — Con/Sin Hilux <span class="impact">★★★★★</span></h3>
+      <p class="caption">Reliability: 6.5% → 95.5% (+NLR) / 98.0% (+FUSO). Costo: +6% / +14%. Cap viol: 93.5% → 3.5% / 0%. Composición > cantidad.</p>
+      <div class="tags">
+        <span class="tag tag-key">CLAVE</span>
+        <span class="tag tag-paper">Paper §IV</span>
+        <span class="tag tag-defense">Sustentación</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="../figures_final/C16_matriz_robustez.png" alt="C16" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>C16 — Matriz de Robustez <span class="impact">★★★★</span></h3>
+      <p class="caption">Scatter costo vs reliability (10 configs). Sin-Hilux dominan. Tamaño ∝ cap violations. Target 85% reliability.</p>
+      <div class="tags">
+        <span class="tag tag-paper">Paper §IV</span>
+        <span class="tag tag-thesis">Tesis Cap.4</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="../figures_final/C17_violaciones_por_vehiculo.png" alt="C17" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>C17 — Violaciones por Vehículo <span class="impact">★★★</span></h3>
+      <p class="caption">FUSO slack 2,810 kg. Hilux slack 46 kg. Hilux: 50% de rutas, 5% de slack.</p>
+      <div class="tags">
+        <span class="tag tag-thesis">Tesis Cap.4</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card" style="border: 2px solid var(--orange);">
+    <img src="../figures_final/C18_cuello_botella.png" alt="C18" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>C18 — Cuello de Botella <span class="impact">★★★★★</span></h3>
+      <p class="caption">Cadena causal: solver min costo/km → asigna Hilux → util >95% → σ > slack → reliability colapsa. Explicación completa del mecanismo.</p>
+      <div class="tags">
+        <span class="tag tag-key">CLAVE</span>
+        <span class="tag tag-paper">Paper §V</span>
+        <span class="tag tag-defense">Sustentación</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- D. RESULTADOS -->
+<h2 class="section-title" id="results">D. Resultados HVRPTW</h2>
+<p class="section-subtitle">Baseline determinista OR-Tools GLS: 10 rutas, S/ 5,089, 81/81 nodos, 120s runtime</p>
+<div class="grid">
+
+  <div class="card">
+    <img src="../figures_final/D19_kpi_dashboard.png" alt="D19" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>D19 — KPI Dashboard <span class="impact">★★★</span></h3>
+      <p class="caption">8 KPIs: det S/5,089, estoc S/8,160, reliability 5.9%, CVaR S/14,021, 10 rutas, 81 nodos, 1,962 km, util 71.8%.</p>
+      <div class="tags">
+        <span class="tag tag-defense">Sustentación</span>
+        <span class="tag tag-thesis">Tesis Cap.4</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="../figures_final/D20_gantt_rutas.png" alt="D20" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>D20 — Gantt de Rutas <span class="impact">★★★</span></h3>
+      <p class="caption">10 rutas, ventana 08:00–16:00. Servicio (opaco) + tránsito (translúcido). Todas completan antes de 16:00. Slack temporal ~3.5h.</p>
+      <div class="tags">
+        <span class="tag tag-thesis">Tesis Cap.4</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="../figures_final/D21_carga_por_ruta.png" alt="D21" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>D21 — Carga vs Capacidad <span class="impact">★★★</span></h3>
+      <p class="caption">FUSO: 2,810 kg ociosos. Hilux: 46 kg. Barras emparejadas carga/capacidad con % utilización.</p>
+      <div class="tags">
+        <span class="tag tag-thesis">Tesis Cap.4</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="../figures_final/D22_distancia_por_vehiculo.png" alt="D22" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>D22 — Distancia por Ruta <span class="impact">★★★</span></h3>
+      <p class="caption">Hilux promedio 207 km (máx 309 km). FUSO 99 km. El solver asigna Hilux a rutas lejanas por costo/km.</p>
+      <div class="tags">
+        <span class="tag tag-thesis">Tesis Cap.4</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="../figures_final/D23_tiempo_por_ruta.png" alt="D23" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>D23 — Tiempo por Ruta <span class="impact">★★</span></h3>
+      <p class="caption">Stacked servicio + tránsito. Ninguna ruta excede 8h. Ratio tránsito/servicio varía costa vs sierra.</p>
+      <div class="tags">
+        <span class="tag tag-support">Soporte</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="card">
+    <img src="../figures_final/D24_utilizacion_espacial.png" alt="D24" onclick="openModal(this)">
+    <div class="card-body">
+      <h3>D24 — Utilización Espacial <span class="impact">★★★</span></h3>
+      <p class="caption">(a) Heatmap de demanda geográfica. (b) Asignación vehicular. El solver no correlaciona capacidad con demanda local.</p>
+      <div class="tags">
+        <span class="tag tag-thesis">Discusión</span>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- RANKINGS -->
+<h2 class="section-title" id="rankings">Rankings de Impacto Científico</h2>
+
+<div class="ranking">
+<h3>Top 5 — Mayor Impacto Científico</h3>
+<table>
+  <tr><th>#</th><th>Figura</th><th>Justificación</th></tr>
+  <tr class="highlight-row"><td><strong>1</strong></td><td><strong>C13 — Slack/Variabilidad</strong></td><td>Figura central. Métrica diagnóstica original. Hilux ratio 0.11 (40× peor que tiempo).</td></tr>
+  <tr><td>2</td><td>B6 — Distribución Costos</td><td>Gap +61%. Skewness 0.88 justifica CVaR. Primera prueba de insuficiencia determinista.</td></tr>
+  <tr><td>3</td><td>B11 — Heatmap Sensibilidad</td><td>Evidencia definitiva: demanda explica >95% de variabilidad. Columnas uniformes.</td></tr>
+  <tr><td>4</td><td>C15 — Con/Sin Hilux</td><td>Reliability 6.5% → 98%. Recomendación operacional concreta y cuantificada.</td></tr>
+  <tr><td>5</td><td>C18 — Cuello de Botella</td><td>Cadena causal completa. Base de la discusión científica.</td></tr>
+</table>
+</div>
+
+<div class="ranking">
+<h3>Top 5 — Sustentación Oral</h3>
+<table>
+  <tr><th>#</th><th>Figura</th><th>Mensaje en exposición</th></tr>
+  <tr><td>1</td><td>A1 — Red General</td><td>"Datos reales: 81 IPRESS, 820 arcos OSRM"</td></tr>
+  <tr><td>2</td><td>B6 — Distribución</td><td>"El determinista subestima 61% el costo real"</td></tr>
+  <tr class="highlight-row"><td><strong>3</strong></td><td><strong>C13 — Slack/Var</strong></td><td><strong>"Hilux ratio 0.11 — 40× más frágil que tiempo"</strong></td></tr>
+  <tr><td>4</td><td>C15 — Con/Sin Hilux</td><td>"Reemplazar Hilux: reliability 6% → 98%, +6% costo"</td></tr>
+  <tr><td>5</td><td>D19 — Dashboard</td><td>"Cobertura 100% ≠ robustez (reliability 5.9%)"</td></tr>
+</table>
+</div>
+
+<div class="ranking">
+<h3>Top 8 — Paper Q1</h3>
+<table>
+  <tr><th># Paper</th><th>Código</th><th>Rol</th></tr>
+  <tr><td>Fig. 1</td><td>A1</td><td>Contexto geográfico</td></tr>
+  <tr><td>Fig. 2</td><td>B6</td><td>Distribución — gap determinista-estocástico</td></tr>
+  <tr><td>Fig. 3</td><td>B7</td><td>Validación convergencia MC</td></tr>
+  <tr><td>Fig. 4</td><td>B11</td><td>Sensibilidad cruzada — dominancia</td></tr>
+  <tr class="highlight-row"><td><strong>Fig. 5</strong></td><td><strong>C13</strong></td><td><strong>Slack/variabilidad — hallazgo central</strong></td></tr>
+  <tr><td>Fig. 6</td><td>C15</td><td>Impacto composición de flota</td></tr>
+  <tr><td>Fig. 7</td><td>C16</td><td>Frontera Pareto costo-robustez</td></tr>
+  <tr><td>Fig. 8</td><td>C18</td><td>Cadena causal</td></tr>
+</table>
+</div>
+
+<div class="ranking">
+<h3>Figuras Débiles / Para Apéndice</h3>
+<table>
+  <tr><th>Figura</th><th>Razón</th><th>Recomendación</th></tr>
+  <tr><td>A3 — Cadena Frío</td><td>cold_chain_demand=0 en todos los nodos</td><td>Apéndice / Limitaciones</td></tr>
+  <tr><td>D23 — Tiempo/Ruta</td><td>Redundante con D20 (Gantt)</td><td>Solo tesis, no paper</td></tr>
+  <tr><td>B10 — Boxplots</td><td>Repite información de B6 y B9</td><td>Apéndice</td></tr>
+  <tr><td>D22 — Distancia</td><td>Parcialmente redundante con A2</td><td>Solo tesis</td></tr>
+</table>
+</div>
+
+<!-- STORYBOARD -->
+<h2 class="section-title" id="storyboard">Storyboard para Sustentación</h2>
+<p class="section-subtitle">Orden óptimo de presentación (15–20 min)</p>
+
+<div class="ranking">
+<table>
+  <tr><th>#</th><th>Fase</th><th>Figura</th><th>Tiempo</th><th>Mensaje</th></tr>
+  <tr><td>1</td><td>Problema</td><td>A1</td><td>2 min</td><td>"La DSRSLCC distribuye medicamentos a 81 IPRESS en red costa-sierra de 300+ km"</td></tr>
+  <tr><td>2</td><td>Modelo</td><td>A2</td><td>1 min</td><td>"HVRPTW con flota heterogénea: FUSO, NLR, Ducato, Hilux"</td></tr>
+  <tr><td>3</td><td>Baseline</td><td>D19</td><td>1.5 min</td><td>"Solver determinista: 10 rutas, S/5,089, 100% cobertura"</td></tr>
+  <tr style="background:#FADBD8"><td>4</td><td>Incertidumbre</td><td>B6</td><td>2 min</td><td>"Bajo incertidumbre real: costo +61%, reliability 6%"</td></tr>
+  <tr><td>5</td><td>Validación</td><td>B7</td><td>1.5 min</td><td>"2000 escenarios MC, convergencia confirmada (IC 2.5%)"</td></tr>
+  <tr class="highlight-row"><td><strong>6</strong></td><td><strong>Diagnóstico</strong></td><td><strong>C13</strong></td><td><strong>3 min</strong></td><td><strong>"Hilux ratio 0.11 — 40× peor que tiempo"</strong></td></tr>
+  <tr><td>7</td><td>Dominancia</td><td>B11</td><td>2 min</td><td>"Demanda explica >95% del riesgo. Tiempo <1%"</td></tr>
+  <tr style="background:#D5F5E3"><td>8</td><td>Solución</td><td>C15</td><td>2 min</td><td>"Reemplazar Hilux: reliability 6% → 96%, costo +6%"</td></tr>
+  <tr><td>9</td><td>Robustez</td><td>C16</td><td>1.5 min</td><td>"Sin-Hilux domina frontera Pareto"</td></tr>
+  <tr><td>10</td><td>Causalidad</td><td>C18</td><td>2 min</td><td>"Cadena causal: min costo → sobreasigna Hilux → colapso"</td></tr>
+  <tr><td>11</td><td>Conclusión</td><td>D19</td><td>1 min</td><td>"La optimización determinista induce fragilidad en flotas heterogéneas"</td></tr>
+</table>
+</div>
+
+</div>
+
+<footer>
+  <p>HVRPTW Estocástico — DSRSLCC Sullana | 24 Figuras Científicas | 300 DPI PNG + SVG</p>
+  <p>Generado con <code>src/visualizaciones_cientificas_finales.py</code> — Reproducible</p>
+</footer>
+
+<script>
+function openModal(img) {
+  const modal = document.getElementById('modal');
+  const modalImg = document.getElementById('modal-img');
+  modalImg.src = img.src;
+  modal.classList.add('active');
+}
+function closeModal() {
+  document.getElementById('modal').classList.remove('active');
+}
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeModal();
+});
+</script>
+</body>
+</html>

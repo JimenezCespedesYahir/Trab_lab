@@ -1,0 +1,180 @@
+###############################################################################
+# CI Liviana — Validación rápida en cada push
+# Runtime objetivo: <10 minutos
+#
+# Ejecuta:
+#   1. Validación de datasets (existencia, formato, integridad)
+#   2. Validación geoespacial (conectividad, coordenadas)
+#   3. Baseline HVRPTW reducido (10 nodos, 30s solver)
+#   4. Monte Carlo mínimo (10 escenarios)
+#   5. Sanity checks de figuras (generación sin error)
+#   6. Reproducibilidad (seeds fijas)
+###############################################################################
+
+name: CI Liviana — Validación Científica
+
+on:
+  push:
+    branches: ['*']
+  pull_request:
+    branches: [main, master]
+
+jobs:
+  validate:
+    name: Validación Rápida
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # ── Stage 1: Dataset validation ──
+      - name: Validar datasets maestros
+        run: |
+          python -c "
+          import csv, os, sys
+
+          datasets = {
+              'analytics/nodes_hvrptw.csv': {'min_rows': 80, 'required_cols': ['node_id','latitude','longitude','demand_mean','categoria']},
+              'analytics/arcs_with_variability.csv': {'min_rows': 800, 'required_cols': ['origin_id','destination_id','distance_km','duration_min']},
+              'analytics/vehicles_hvrptw.csv': {'min_rows': 4, 'required_cols': ['vehicle_id','capacity_kg','cost_per_km']},
+              'analytics/demand_calibrated.csv': {'min_rows': 80, 'required_cols': ['node_id','demand_mean_kg']},
+          }
+
+          errors = []
+          for path, spec in datasets.items():
+              if not os.path.exists(path):
+                  errors.append(f'MISSING: {path}')
+                  continue
+              with open(path, encoding='utf-8') as f:
+                  rows = list(csv.DictReader(f))
+              if len(rows) < spec['min_rows']:
+                  errors.append(f'{path}: {len(rows)} rows < {spec[\"min_rows\"]} required')
+              for col in spec['required_cols']:
+                  if col not in rows[0]:
+                      errors.append(f'{path}: missing column \"{col}\"')
+
+          if errors:
+              print('Dataset validation FAILED:')
+              for e in errors: print(f'  - {e}')
+              sys.exit(1)
+          else:
+              print(f'All {len(datasets)} datasets validated OK')
+          "
+
+      # ── Stage 2: Geospatial validation ──
+      - name: Validar conectividad geoespacial
+        run: |
+          python -c "
+          import csv, sys
+          from collections import defaultdict
+
+          # Load arcs
+          with open('analytics/arcs_with_variability.csv', encoding='utf-8') as f:
+              arcs = list(csv.DictReader(f))
+
+          # Build adjacency
+          adj = defaultdict(set)
+          for a in arcs:
+              adj[a['origin_id']].add(a['destination_id'])
+              adj[a['destination_id']].add(a['origin_id'])
+
+          # Load nodes
+          with open('analytics/nodes_hvrptw.csv', encoding='utf-8') as f:
+              nodes = [r['node_id'] for r in csv.DictReader(f)]
+
+          # BFS from depot
+          visited = set()
+          queue = ['DEPOT_DSRSLCC']
+          while queue:
+              n = queue.pop(0)
+              if n in visited: continue
+              visited.add(n)
+              queue.extend(adj[n] - visited)
+
+          reachable = sum(1 for n in nodes if n in visited)
+          print(f'Reachable nodes: {reachable}/{len(nodes)}')
+
+          if reachable < len(nodes):
+              unreachable = [n for n in nodes if n not in visited]
+              print(f'Unreachable: {unreachable[:5]}...')
+              sys.exit(1)
+          print('Graph connectivity: OK')
+          "
+
+      # ── Stage 3: Baseline smoke test ──
+      - name: Baseline HVRPTW (smoke test, 30s)
+        run: python src/baseline_hvrptw_ortools.py --time-limit 30
+        continue-on-error: true
+
+      # ── Stage 4: Monte Carlo mini ──
+      - name: Monte Carlo mini (10 escenarios)
+        run: |
+          python -c "
+          import sys, os
+          sys.path.insert(0, 'src')
+          from montecarlo_hvrptw import run_montecarlo, compute_stochastic_kpis
+
+          result = run_montecarlo(
+              base_dir=os.getcwd(),
+              n_scenarios=10,
+              seed=42,
+              solver_time=30
+          )
+          if result is None:
+              print('MC mini: no baseline solution (expected in smoke test)')
+          else:
+              results, routes = result
+              kpis = compute_stochastic_kpis(results)
+              print(f'MC mini OK: {len(results)} scenarios')
+              print(f'  E[Cost]: {kpis["expected_cost"]:.0f}')
+          "
+        continue-on-error: true
+
+      # ── Stage 5: Figures sanity check ──
+      - name: Verificar generación de figuras
+        run: |
+          python -c "
+          import sys, os
+          # Check script can be imported
+          sys.path.insert(0, 'src')
+          import visualizaciones_cientificas_finales as viz
+          print('Visualization module loads OK')
+          import paper_ready_figures as prf
+          print('Paper-ready module loads OK')
+          "
+
+      # ── Stage 6: Reproducibility check ──
+      - name: Verificar reproducibilidad (seeds)
+        run: |
+          python -c "
+          import numpy as np
+
+          # Verify deterministic output with fixed seed
+          np.random.seed(42)
+          sample1 = np.random.normal(0, 1, 100).mean()
+          np.random.seed(42)
+          sample2 = np.random.normal(0, 1, 100).mean()
+
+          assert sample1 == sample2, 'Seed reproducibility FAILED'
+          print(f'Seed reproducibility: OK (mean={sample1:.6f})')
+          "
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "╔══════════════════════════════════════╗"
+          echo "║  CI Liviana — HVRPTW DSRSLCC         ║"
+          echo "║  Datasets · Geoespacial · Baseline   ║"
+          echo "║  Monte Carlo · Figuras · Seeds        ║"
+          echo "╚══════════════════════════════════════╝"

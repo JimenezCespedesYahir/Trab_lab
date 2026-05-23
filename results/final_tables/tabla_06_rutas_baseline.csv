@@ -1,0 +1,11 @@
+Ruta,Vehículo,Capacidad (kg),Carga (kg),Utilización (%),Distancia (km),Paradas,Slack (kg)
+1,FUSO Canter 6T,6000,3190,53.2,98.7,17,2810
+2,NLR 3.5 TON,3500,2544,72.7,182.8,12,956
+3,NLR 3.5 TON,3500,1484,42.4,267.1,8,2016
+4,NLR 3.5 TON,3500,1802,51.5,242.4,7,1698
+5,NLR 3.5 TON,3500,2342,66.9,194.0,11,1158
+6,Toyota Hilux,1000,954,95.4,237.2,5,46
+7,Toyota Hilux,1000,964,96.4,309.4,6,36
+8,Toyota Hilux,1000,954,95.4,150.7,5,46
+9,Toyota Hilux,1000,954,95.4,41.6,5,46
+10,Toyota Hilux,1000,954,95.4,295.8,5,46

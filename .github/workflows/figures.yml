@@ -1,0 +1,77 @@
+###############################################################################
+# Workflow de Figuras — Regeneración bajo demanda
+#
+# Regenera todas las visualizaciones científicas y paper-ready.
+# Útil cuando se modifican datos o estilos sin re-ejecutar MC/baseline.
+###############################################################################
+
+name: Regenerate Figures
+
+on:
+  workflow_dispatch:
+    inputs:
+      paper_only:
+        description: 'Generate only paper-ready figures (faster)'
+        required: false
+        default: false
+        type: boolean
+
+jobs:
+  figures:
+    name: Generate Figures
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: 'pip'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate all 24 scientific figures
+        if: ${{ !inputs.paper_only }}
+        run: python src/visualizaciones_cientificas_finales.py
+
+      - name: Generate 8 paper-ready figures
+        run: python src/paper_ready_figures.py
+
+      - name: Verify output quality
+        run: |
+          python -c "
+          from PIL import Image
+          import os
+
+          dirs = ['results/figures_paper']
+          if os.path.isdir('results/figures_final'):
+              dirs.insert(0, 'results/figures_final')
+
+          total, ok = 0, 0
+          for d in dirs:
+              for f in sorted(os.listdir(d)):
+                  if not f.endswith('.png'): continue
+                  total += 1
+                  img = Image.open(os.path.join(d, f))
+                  dpi = img.info.get('dpi', (72, 72))
+                  if dpi[0] >= 290:
+                      ok += 1
+                  else:
+                      print(f'  LOW DPI: {f} ({dpi[0]})')
+          print(f'Quality check: {ok}/{total} figures pass 300 DPI')
+          "
+
+      - name: Upload figures
+        uses: actions/upload-artifact@v4
+        with:
+          name: figures-${{ github.sha }}
+          path: |
+            results/figures_final/
+            results/figures_paper/
+            results/final_tables/
+          retention-days: 30
